@@ -1,0 +1,40 @@
+{
+    "ezyprocureApp": {
+        "cart" : {
+            "home": {
+                "title": "Troli",
+                "createLabel": "Mencipta Troli",
+                "createOrEditLabel": "Mencipta atau Menyunting Troli",
+                "search": "Pencarian Troli"
+            },
+            "created": "Troli baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Troli telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Troli telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Troli {{ id }}?"
+            },
+            "detail": {
+                "title": "Troli"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "deliveryDate": "Tarikh penghantaran",
+            "specialRequest": "Permintaan istimewa",
+            "quantity": "Kuantiti",
+            "price": "Harga",
+            "buyerUser": "Pengguna Pembeli",
+            "items": "Barang",
+            "buyerBusiness": "Perniagaan pembeli",
+            "duplicatePR": {
+                "title": "Duplication of PR_MS",
+                "inPendingPO": "Duplicated in pending PO for Req. Number(s) '{{ no }}'_MS",
+                "inApproval": "Duplicated in pending Approvals for Approval Request Number(s) '{{ no }}'_MS",
+                "message": "A similar PR had been raised before, Do you want to confirm the order?_MS"
+            },
+            "confirmOrder": {
+                "title": "Confirm Order_MS",
+                "message" : "Are you sure to confirm the order?_MS"
+            }
+        }
+    }
+}

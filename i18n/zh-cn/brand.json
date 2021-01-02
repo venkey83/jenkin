@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brand" : {
+            "home": {
+                "title": "Brands_CH",
+                "createLabel": "创建新 Brand_CH",
+                "createOrEditLabel": "创建或编辑 Brand_CH"
+            },
+            "created": "Brand {{ param }} 创建成功_CH",
+            "updated": "Brand {{ param }} 更新成功_CH",
+            "deleted": "Brand {{ param }} 删除成功_CH",
+            "delete": {
+                "question": "你确定要删除 Brand {{ id }} 吗？_CH"
+            },
+            "detail": {
+                "title": "Brand_CH"
+            },
+            "acraNumber": "Acra Number_CH",
+            "businessServiceRate": "Business Service Rate_CH",
+            "deletionToken": "Deletion Token_CH",
+            "createdDate": "Created Date_CH",
+            "modifiedDate": "Modified Date_CH",
+            "buyer": "Buyer_CH",
+            "contactPersonName": "Contact Person Name_CH",
+            "contactPersonDesignation": "Contact Person Designation_CH",
+            "phone": "Phone_CH",
+            "tax": "TAX_CH",
+            "gstRegNo": "GST/VAT Reg No_CH",
+            "name": "Name_CH"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "buyerBusiness": {
+    "address": "Adresse",
+    "billingAddress": "Adresse de facturation",
+    "billingPostalCode": "Code postal de facturation",
+    "brandName": "Marque",
+    "businessOutletCode": "Code de sortie d'entreprise",
+    "businessOutletLogo": "Logo Business Outlet",
+    "businessOutletName": "Nom du point de vente",
+    "buyer": "Acheteur",
+    "city": "Ville",
+    "companyRegistrationNumber": "Numéro d'entreprise",
+    "contactPersonDesignation": "Désignation de la personne-ressource",
+    "contactPersonName": "nom de contacte d'une personne",
+    "country": "Pays",
+    "created": "Une nouvelle entreprise acheteur est créée avec l'identifiant {{param}}",
+    "createdDate": "Date de création",
+    "defaultPurchaseOrderType": "Type de bon de commande par défaut",
+    "delete": {
+      "question": "Voulez-vous vraiment supprimer l'acheteur {{id}}?"
+    },
+    "deleted": "Une entreprise acheteuse est supprimée avec un identifiant {{ param }}",
+    "departmentCode": "Code départemental",
+    "detail": {
+      "title": "Acheteur Affaires"
+    },
+    "email": "Email",
+    "home": {
+      "createLabel": "Créer une nouvelle entreprise d'acheteurs",
+      "createOrEditLabel": "Créer ou modifier une entreprise acheteur",
+      "search": "Rechercher une entreprise acheteur",
+      "title": "Entreprises acheteuses"
+    },
+    "locationNumber": "Numéro d'emplacement",
+    "mobileNumber": "Numéro de portable",
+    "modifiedDate": "Date modifiée",
+    "organizationNumber": "Numéro d'organisation",
+    "phoneNumber": "Numéro de téléphone",
+    "postalCode": "code postal",
+    "shippingAddress": "Adresse de livraison",
+    "shippingPostalCode": "Code postal d'expédition",
+    "updated": "Une entreprise acheteuse est mise à jour avec l'identifiant {{param}}"
+  }
+}

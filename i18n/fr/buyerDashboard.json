@@ -1,0 +1,24 @@
+{
+  "ezyprocureApp": {
+    "buyerDashboard": {
+      "adhocPo": "Adhoc PO",
+      "adhocPoForm": "Formulaire de commande ad hoc",
+      "cancelPORequest": "Annuler la demande de bon de commande",
+      "debitNotes": "Notes de débit",
+      "epdApprovals": "Approbations EPD",
+      "home": {
+        "businessSummary": "Résumé de l'activité",
+        "dashboard": "Tableau de bord",
+        "pendingApprovals": "Approbations en attente"
+      },
+      "paymentApprovals": "Approbations de paiement",
+      "pendingInvoicesForPayment": "Factures en attente de paiement",
+      "priceUpdates": "Mises à jour des prix",
+      "receivingMyOrder": "Réception de ma commande",
+      "supplierUnableToMeetDemands": "Le fournisseur n'est pas en mesure de répondre aux demandes",
+      "uploadSalesOrder": "Télécharger la commande client!",
+      "uploadYourOrder": "Téléchargez votre commande!",
+      "waitingSupplierReply": "Réponse du fournisseur en attente"
+    }
+  }
+}

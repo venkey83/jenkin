@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "goodsReturnNotice" : {
+            "home": {
+                "title": "Goods Return Notices",
+                "createLabel": "Create a new Goods Return Notice",
+                "createOrEditLabel": "Create or edit a Goods Return Notice",
+                "search": "Search for Goods Return Notice"
+            },
+            "created": "A new Goods Return Notice is created with identifier {{ param }}",
+            "updated": "A Goods Return Notice is updated with identifier {{ param }}",
+            "deleted": "A Goods Return Notice is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Goods Return Notice {{ id }}?"
+            },
+            "detail": {
+                "title": "Goods Return Notice"
+            },
+            "buyerRemark": "Buyer Remark",
+            "rejectedQuantity": "Rejected Quantity",
+            "debitNoteAmount": "Debit Note Amount",
+            "debitNoteStatus": "Debit Note Status",
+            "debitNoteNumber": "Debit Note Number",
+            "goodsReturnDate": "Goods Return Date",
+            "goodsReturnNumber": "Goods Return Number",
+            "creditNoteAmount": "Credit Note Amount",
+            "creditNoteWeight": "Credit Note Weight",
+            "creditNoteQuantity": "Credit Note Quantity",
+            "creditNoteRejectReason": "Credit Note Reject Reason",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "hardcopyInvoiceNumber": "Hardcopy Invoice Number"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PriceUpdateStatus" : {
+            "null": "",
+            "PENDING": "อยู่ระหว่างดำเนินการ",
+            "ACCEPTED": "ยอมรับ",
+            "REJECTED": "ปฏิเสธ",
+            "SUPPLIER_PRICE_UPDATE": "การปรับปรุงราคาของผู้จัดจำหน่าย"
+        }
+    }
+}

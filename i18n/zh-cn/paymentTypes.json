@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "paymentTypes" : {
+            "null": "",
+            "BANK_TRANSFER": "银行转帐",
+            "PAYPAL": "Paypal贝宝",
+            "CHEQUE": "支票",
+            "OTHER_PAYMENT": "其他付款方式"
+        }
+    }
+}

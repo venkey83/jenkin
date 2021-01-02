@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "orderTemplate": {
+      "buyerBusiness": "Käufergeschäft",
+      "company": "Unternehmen",
+      "created": "Eine neue Bestellvorlage wird mit dem Bezeichner {{param}} erstellt.",
+      "createdBy": "Erstellt von",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Bestellvorlage {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Bestellvorlage wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Bestellvorlage"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Bestellvorlage",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Auftragsvorlage",
+        "title": "Vorlagen bestellen"
+      },
+      "modifiedBy": "Angepasst von",
+      "modifiedDate": "Änderungsdatum",
+      "name": "Name",
+      "purchaseOrderType": "Bestellungsart",
+      "updated": "Eine Bestellvorlage wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

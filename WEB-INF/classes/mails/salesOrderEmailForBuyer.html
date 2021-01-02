@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title  th:text="#{email.salesOrderEmailForBuyer.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.salesOrderEmailForBuyer.greeting(${user.firstName},${user.lastName})}">
+</p>
+<p th:text="#{email.salesOrderEmailForBuyer.text(${purchaseOrderNumber})}"></p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+    "ezyprocureApp": {
+        "itemBuyerMapping" : {
+            "home": {
+                "title": "商品/商家配對",
+                "createLabel": "新增商品/商家配對",
+                "createOrEditLabel": "編輯商品/商家配對",
+                "search": "查詢商品/商家配對"
+            },
+            "created": "新增商品/商家配對編碼 {{ param }}",
+            "updated": "更新商品/商家配對編碼 {{ param }}",
+            "deleted": "刪除商品/商家配對編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商品/商家配對？"
+            },
+            "detail": {
+                "title": "商品/商家配對"
+            },
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "buyerLimited": "商家限額",
+            "maximumAllocation": "限額數量",
+            "price": "價格",
+            "supplierId": "供應商ID",
+            "buyerItemCode": "商家商品代碼",
+            "buyerUom": "Buyer UOM_TW",
+            "inventoryUOM": "Inventory UOM_TW",
+            "buyerItemName": "商家商品名稱",
+            "items": "商品",
+            "buyer": "商家",
+            "buyerItemGroup": "商家商品類別",
+            "addNewMaping": "新增配對",
+            "mappedItems": "已配對商品",
+            "parentItem": "Parent Item_TW",
+            "barcode": "Barcode_TW"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.priceUpdate.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.activation.greeting(${user.firstName},${user.lastName})}"> </p>
+<p th:text="#{email.priceUpdate.content.alert(${companyName})}"></p>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;">
+        <td th:text="#{email.priceUpdate.item}" style="width:140px"> </td>
+        <td th:text="#{email.priceUpdate.itemCode}" style="width:140px"> </td>
+        <td th:text="#{email.priceUpdate.startDate}" style="width: 200px;"> </td>
+        <td th:text="#{email.priceUpdate.endDate}" style="width: 200px;"> </td>
+    </tr>
+    <tr th:each="priceUpdate : ${priceUpdates}">
+        <td th:text="${priceUpdate.items.itemName}"></td>
+        <td th:text="${priceUpdate.items.itemCode}"></td>
+        <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(priceUpdate.effectiveStartDate)}"></td>
+        <td th:text="${priceUpdate.effectiveEndDate!=null?T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(priceUpdate.effectiveEndDate):'N/A'}"></td>
+    </tr>
+</table>
+<p th:text="#{email.priceUpdate.content.alert.footer1}"></p><br/>
+<p th:text="#{email.priceUpdate.content.alert.footer2}"></p>
+<p th:text="#{email.priceUpdate.content.alert.footer3}"></p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

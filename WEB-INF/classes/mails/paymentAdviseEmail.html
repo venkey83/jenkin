@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title  th:text="#{email.paymentAdviseEmail.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.paymentAdviseEmail.greeting(${user.firstName},${user.lastName})}">
+</p>
+<p th:text="#{email.paymentAdviseEmail.text(${referenceNumber},${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(date)})}"></p>
+<div th:if="${paymentAdviseDTO!=null}">
+    <p th:text="#{email.paymentAdviseEmail.companyName(${paymentAdviseDTO.companyName})}"></p>
+    <p th:text="#{email.paymentAdviseEmail.companyAddress(${paymentAdviseDTO.companyAddress})}"></p>
+    <p th:text="#{email.paymentAdviseEmail.companyPostalCode(${paymentAdviseDTO.companyPostalCode})}"></p>
+    <p th:text="#{email.paymentAdviseEmail.currency(${paymentAdviseDTO.currency})}"></p>
+    <p th:text="#{email.paymentAdviseEmail.paymentAdviseDetails}"></p>
+    <table th:if="${!paymentAdviseDTO.paymentAdviseDetails.isEmpty()}">
+        <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+            <td th:text="#{email.paymentAdviseEmail.invoiceNo}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.poNo}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.supplier}" style="width:150px" />
+            <td th:text="#{email.paymentAdviseEmail.outlet}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.invoiceAmount}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.bsfTotal}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.EPD}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.amountPayable}" style="width:100px" />
+        </tr>
+        <tr th:each="advise:${paymentAdviseDTO.paymentAdviseDetails}" style="text-align:center">
+            <td th:text="${advise.invoiceNo}"/>
+            <td th:text="${advise.poNo}"/>
+            <td th:text="${advise.supplier}"/>
+            <td th:text="${advise.outlet}"/>
+            <td th:text="${advise.invoiceAmount}"/>
+            <td th:text="${advise.bsfTotal}"/>
+            <td th:text="${advise.EPD}"/>
+            <td th:text="${advise.amountPayable}"/>
+        </tr>
+    </table>
+    <table th:if="${!paymentAdviseDTO.adminFeeDetails.isEmpty()}">
+        <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+            <td th:text="#{email.paymentAdviseEmail.brandName}" style="width:200px" />
+            <td th:text="#{email.paymentAdviseEmail.supplierName}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.supplierTotalInvoiceAmount}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.adminFee}" style="width:100px" />
+            <td th:text="#{email.paymentAdviseEmail.description}" style="width:100px" />
+        </tr>
+        <tr th:each="adminFeeDetail:${paymentAdviseDTO.adminFeeDetails}" style="text-align:center">
+            <td th:text="${adminFeeDetail.brandName}"/>
+            <td th:text="${adminFeeDetail.supplierName}"/>
+            <td th:text="${adminFeeDetail.supplierTotalInvoiceAmount}"/>
+            <td th:text="${adminFeeDetail.adminFee}"/>
+            <td th:text="${adminFeeDetail.description}"/>
+        </tr>
+    </table>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

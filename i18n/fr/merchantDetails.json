@@ -1,0 +1,34 @@
+{
+  "ezyprocureApp": {
+    "merchantDetails": {
+      "brand": "Marque",
+      "countryCurrency": "countryCurrency",
+      "created": "Un nouveau détail du marchand est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les détails du marchand {{id}}?"
+      },
+      "deleted": "Un commerçant est supprimé avec l'identifiant {{param}}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Détails du marchand"
+      },
+      "gateWayType": "Type de porte",
+      "home": {
+        "createLabel": "Créer un nouveau marchand Détails",
+        "createOrEditLabel": "Créer ou modifier les détails d'un marchand",
+        "search": "Rechercher les détails du marchand",
+        "title": "Détails du marchand"
+      },
+      "merchantId": "Identifiant du marchand",
+      "modifiedDate": "Date modifiée",
+      "password": "Mot de passe",
+      "requestedUrl": "URL demandée",
+      "securityId": "Identifiant de sécurité",
+      "supplierId": "ID du fournisseur",
+      "transactionId": "TransactionId Id",
+      "updated": "Un commerçant est mis à jour avec l'identifiant {{param}}",
+      "userId": "Identifiant d'utilisateur"
+    }
+  }
+}

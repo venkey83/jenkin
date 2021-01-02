@@ -1,0 +1,36 @@
+{
+    "ezyprocureApp": {
+        "auditlogTransactionTypes" : {
+           "EXPORT_TO_XERO":"EXPORT TO XERO_CH",
+           "TAX_INVOICE":"TAX INVOICE_CH",
+           "PURCHASE_REQUEST":"PURCHASE REQUEST_CH",
+           "PURCHASE_ORDER":"PURCHASE ORDER_CH",
+           "PURCHASE_REQUEST_FOR_APPROVAL":"PURCHASE REQUEST FOR APPROVAL_CH",
+           "CREDIT_NOTE":"CREDIT NOTE_CH",
+           "SALES_ORDER":"SALES ORDER_CH",
+           "E_INVOICE":"E INVOICE_CH",
+           "GOOD_RECIEPT_NOTE":"GOOD RECIEPT NOTE_CH",
+           "ORDER_TEMPLATE" : "ORDER TEMPLATE_CH",
+           "GRN":"GRN_CH",
+           "E_AUTHORIZATION_REQUEST":"E_AUTHORIZATION_REQUEST_CH",
+           "INVOICE":"INVOICE_CH",
+           "OCR_GRN_EDIT":"OCR GRN EDIT_CH",
+           "OCR_ACCEPTANCE":"OCR Acceptance_CH",
+           "PROCESS_ORDER":"PROCESS ORDER_CH",
+           "ADHOC_SUPPLIER_MAPPING":"ADHOC SUPPLIER MAPPING_CH",
+           "EXPORT_TRANSACTION_DETAILS":"EXPORT TRANSACTION DETAILS_CH",
+           "SIP_INVOICE_APPROVAL_REQUEST": "SIP INVOICE APPROVAL REQUEST_CH",
+           "SIP_INVOICE": "SIP INVOICE_CH",
+           "PURCHASE_JURNAL": "PURCHASE JURNAL_CH",
+           "SALES_JURNAL": "SALES JURNAL_CH",
+           "MILLION_EXPORT": "MILLION EXPORT_CH",
+           "AP_EXPORT": "AP EXPORT_CH",
+           "OCI_EXPORT": "OCI EXPORT_CH",
+           "ITEM_BUSINESS_MAPPING":"Item Business Mapping_CH",
+           "PAYMENT": "Payment_CH",
+           "MANAGE_CARDS":"MANAGE CARDS_CH",
+           "EXTERNAL_PAYMENT_FILE_UPLOAD":"External Payment_CH"
+        }
+    }
+}
+

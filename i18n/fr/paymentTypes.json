@@ -1,0 +1,11 @@
+{
+  "ezyprocureApp": {
+    "paymentTypes": {
+      "BANK_TRANSFER": "VIREMENT",
+      "CHEQUE": "VÉRIFIER",
+      "OTHER_PAYMENT": "AUTRE PAIEMENT",
+      "PAYPAL": "PAY PAL",
+      "null": ""
+    }
+  }
+}

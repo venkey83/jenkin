@@ -1,0 +1,35 @@
+{
+  "ezyprocureApp": {
+    "goodsReturnNotice": {
+      "buyerRemark": "Remarque de l'acheteur",
+      "created": "Un nouvel avis de retour de marchandise est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "creditNoteAmount": "Montant de la note de crédit",
+      "creditNoteQuantity": "Quantité de note de crédit",
+      "creditNoteRejectReason": "Motif de rejet de la note de crédit",
+      "creditNoteWeight": "Poids de la note de crédit",
+      "debitNoteAmount": "Montant de la note de débit",
+      "debitNoteNumber": "Numéro de note de débit",
+      "debitNoteStatus": "État de la note de débit",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer l'avis de retour de marchandise {{id}}?"
+      },
+      "deleted": "Un avis de retour de marchandise est supprimé avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Avis de retour de marchandise"
+      },
+      "goodsReturnDate": "Date de retour des marchandises",
+      "goodsReturnNumber": "Numéro de retour de marchandise",
+      "hardcopyInvoiceNumber": "Numéro de facture sur papier",
+      "home": {
+        "createLabel": "Créer un nouvel avis de retour de marchandise",
+        "createOrEditLabel": "Créer ou modifier un avis de retour de marchandise",
+        "search": "Recherche d'avis de retour de marchandises",
+        "title": "Avis de retour de marchandise"
+      },
+      "modifiedDate": "Date modifiée",
+      "rejectedQuantity": "Quantité rejetée",
+      "updated": "Un avis de retour de marchandise est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

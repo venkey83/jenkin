@@ -1,0 +1,26 @@
+
+{
+    "ezyprocureApp": {
+        "orderTemplateUserMapping" : {
+            "home": {
+                "title": "Pemetaan Template Pesanan Pengguna",
+                "createLabel": "Buat Pemetaan Template Pesanan Pengguna baru",
+                "createOrEditLabel": "Buat atau Edit Pemetaan Template Pesanan Pengguna"
+            },
+            "created": "Pemetaan Template Pesanan Pengguna yang baru dibuat dengan identifier {{ param }}",
+            "updated": "Pemetaan Template Pesanan Pengguna diperbarui dengan identifier {{ param }}",
+            "deleted": "Pemetaan Template Pesanan Pengguna dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pemetaan Template Pesanan Pengguna {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Template Pesanan Pengguna"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "deafultStatus": "Status Default",
+            "buyerUser": "Pengguna Pembeli",
+            "orderTemplate": "Template Pesanan"
+        }
+    }
+}

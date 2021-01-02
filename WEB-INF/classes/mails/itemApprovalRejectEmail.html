@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.approval.reject}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.creditNoteReject.greeting(${user.firstName},${user.lastName})}">
+</p>
+<p th:text="#{email.approval.reject.text(${approvalNumber},${firstName},${lastName})}"></p>
+<div th:if="${itemApprovalRejectList.size()>0}">
+    <table>
+        <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+            <td th:text ="#{email.approval.businessOutlet}" style="width:200px"/>
+            <td th:text="#{email.approval.itemCode}" style="width:100px" />
+            <td th:text="#{email.approval.itemName}" style="width:100px" />
+            <td th:text="#{email.approval.price}" style="width:100px" />
+            <td th:text="#{email.approval.quantity}" style="width:100px" />
+            <td th:text="#{email.approval.totalAmount}" style="width:100px" />
+            <td th:text="#{email.approval.supplier}" style="width:100px" />
+            <td th:text ="#{email.approval.remark}" style="width:200px"/>
+            <td th:text="#{email.approval.deliveryDate}" style="width:100px" />
+        </tr>
+        <tr th:each="item:${itemApprovalRejectList}" style="text-align:center">
+            <td th:text="${item.buyerBusiness.businessOutletName}"/>
+            <td th:text="${item.items.itemCode}"/>
+            <td th:text="${item.items.itemName}"/>
+            <td th:text="${#numbers.formatDecimal(item.price, 0, 3)}"/>
+            <td th:text="${item.quantity}"/>
+            <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).calculatePoAmount(null,item.quantity,item.items.uom.moqPrice,item.items.moq,item.price,2)}"/>
+            <td th:text="${item.items.supplier.companyName}"/>
+            <td th:text="${item.prRemark}"/>
+            <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(item.deliveryDate)}"/>
+        </tr>
+    </table>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

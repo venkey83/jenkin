@@ -1,0 +1,27 @@
+{
+    "reset": {
+        "request": {
+            "title": "Menetapkan semula kata laluan anda",
+            "form": {
+                "button": "Menetapkan semula kata laluan"
+            },
+            "messages": {
+                "info": "Masukkan alamat e-mel yang anda gunakan untuk mendaftar",
+                "success": "Semak e-mel anda untuk mendapatkan butiran mengenai bagaimana untuk menetapkan semula kata laluan anda.",
+                "notfound": "<strong>Alamat e-mel tidak didaftarkan!</strong> Sila semak dan cuba lagi"
+            }
+        },
+        "finish" : {
+            "title": "Menetapkan semula kata laluan",
+            "form": {
+                "button": "Mengesahkan kata laluan baru"
+            },
+            "messages": {
+                "info": "Pilih kata laluan baru",
+                "success": "<strong>Kata laluan anda telah ditetapkan semula.</strong>",
+                "keymissing": "Hilang Kunci reset.",
+                "error": "Kata laluan anda tidak boleh diset semula. Ingat permintaan kata laluan hanya sah selama 24 jam."
+            }
+        }
+    }
+}

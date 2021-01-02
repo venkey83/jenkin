@@ -1,0 +1,31 @@
+{
+    "ezyprocureApp": {
+        "buyerAdhocPo" : {
+            "home": {
+                "title": "特别採購訂單",
+                "createLabel": "新增特别採購訂單",
+                "createOrEditLabel": "編輯特别採購訂單",
+                "search": "查詢特别採購訂單"
+            },
+            "created": "新增特别採購訂單編碼 {{ param }}",
+            "updated": "更新特别採購訂單編碼 {{ param }}",
+            "deleted": "刪除特别採購訂單編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除特别採購訂單？"
+            },
+            "detail": {
+                "title": "特别採購訂單"
+            },
+            "supplierEmail": "供應商電子信箱",
+            "deliveryDate": "送貨日期",
+            "orderNumber": "訂單編號",
+            "currency": "交易金額",
+            "deliveryAddress": "送貨地址",
+            "phoneNumber": "電話號碼",
+            "createdDate": "新增日期",
+            "modifiedDate": "修改日期",
+            "buyerAdhocItems": "特别採購商品",
+            "buyer": "商家"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "epdApprovalRequest" : {
+            "home": {
+                "title": "EPD Approval Requests",
+                "createLabel": "Epd Approval Request を追加",
+                "createOrEditLabel": "Epd Approval Requestを追加または編集",
+                "search": "Search for Epd Approval Request"
+            },
+            "created": "A new Epd Approval Request is created with identifier {{ param }}",
+            "updated": "A Epd Approval Request is updated with identifier {{ param }}",
+            "deleted": "A Epd Approval Request is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Epd Approval Request {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "EPD Approval Request"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "epdApprovalSequenceNumber": "EPD Approval Sequence Number",
+            "earlyPaymentDiscountRate": "Early Payment Discount Rate",
+            "epdApprovalStatus": "EPD Approval Status",
+            "buyerResponse": "Buyer Response",
+            "deletionToken": "Deletion Token",
+            "creditTerms": "Credit Terms",
+            "brand": "Brand",
+            "supplier": "Supplier",
+            "requestedSupplierUser": "Requested Supplier User",
+            "acceptedBuyerUser": "Accepted Buyer User"
+        }
+    }
+}

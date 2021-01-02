@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "epdApprovalRequest": {
+      "acceptedBuyerUser": "Akzeptierter Käufer-Benutzer",
+      "brand": "Marke",
+      "buyerResponse": "Käufer Antwort",
+      "created": "Eine neue Epd-Genehmigungsanforderung wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "creditTerms": "Kreditbedingungen",
+      "delete": {
+        "question": "Möchten Sie die Epd-Genehmigungsanforderung {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Epd-Genehmigungsanfrage wird mit der ID {{param}} gelöscht.",
+      "deletionToken": "Löschtoken",
+      "detail": {
+        "title": "EPD-Genehmigungsanfrage"
+      },
+      "earlyPaymentDiscountRate": "Skontosatz bei vorzeitiger Zahlung",
+      "epdApprovalSequenceNumber": "EPD-Zulassungssequenznummer",
+      "epdApprovalStatus": "EPD-Genehmigungsstatus",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Epd-Genehmigungsanfrage",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Epd-Genehmigungsanfrage",
+        "search": "Suchen Sie nach Epd Approval Request",
+        "title": "EPD-Genehmigungsanträge"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "requestedSupplierUser": "Angeforderter Lieferant Benutzer",
+      "supplier": "Lieferant",
+      "updated": "Eine Epd-Genehmigungsanfrage wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

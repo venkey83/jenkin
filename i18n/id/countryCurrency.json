@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "countryCurrency" : {
+            "home": {
+                "title": "Mata Uang Negara",
+                "createLabel": "Buat Mata Uang Negara baru",
+                "createOrEditLabel": "Buat atau Edit Mata Uang Negara"
+            },
+            "created": "Mata Uang Negara baru dibuat dengan Identifier {{ param }}",
+            "updated": "Mata Uang Negara diperbarui dengan Identifier {{ param }}",
+            "deleted": "Mata Uang Negara dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Mata Uang Negara {{ id }}?"
+            },
+            "detail": {
+                "title": "Mata Uang Negara"
+            },
+            "currency": "Mata Uang",
+            "currencyCode": "Kode Mata Uang",
+            "country": "Negara",
+            "countryCode": "Kode Negara",
+            "deletionToken": "Token Penghapusan",
+            "createdDate": "Tanggal Dibuat",
+            "modifiedDate": "Tanggal Diubah"
+        }
+    }
+}

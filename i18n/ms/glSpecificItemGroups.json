@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "glSpecificItemGroups" : {
+            "home": {
+                "title": "GL Kumpulan Perkara Khusus",
+                "createLabel": "Mencipta GL Kumpulan Perkara Khusus",
+                "createOrEditLabel": "Mencipta atau Menyunting GL Kumpulan Perkara Khusus",
+                "search": "Pencarian GL Kumpulan Perkara Khusus"
+            },
+            "created": "GL Kumpulan Perkara Khusus baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "GL Kumpulan Perkara Khusus telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "GL Kumpulan Perkara Khusus telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus GL Kumpulan Perkara Khusus {{ id }}?"
+            },
+            "detail": {
+                "title": "GL Kumpulan Perkara Khusus"
+            },
+            "name": "Nama",
+            "description": "Penerangan",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "buyer": "Pembeli"
+        }
+    }
+}

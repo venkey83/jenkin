@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "goodsReturnNotice" : {
+            "home": {
+                "title": "Notis Pemulangan Barangan",
+                "createLabel": "Mencipta Notis Pemulangan Barangan",
+                "createOrEditLabel": "Mencipta atau Menyunting Notis Pemulangan Barangan",
+                "search": "Pencarian Notis Pemulangan Barangan"
+            },
+            "created": "Notis Pemulangan Barangan baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Notis Pemulangan Barangan telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Notis Pemulangan Barangan telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Notis Pemulangan Barangan {{ id }}?"
+            },
+            "detail": {
+                "title": "Notis Pemulangan Barangan"
+            },
+            "buyerRemark": "Catatan Pembeli",
+            "rejectedQuantity": "Kuantiti Ditolak",
+            "debitNoteAmount": "Jumlah Nota Debit",
+            "debitNoteStatus": "Status Nota Debit",
+            "debitNoteNumber": "Nombor Nota Debit",
+            "goodsReturnDate": "Tarikh Pemulangan Barang",
+            "goodsReturnNumber": "Nombor Pulangan Barang",
+            "creditNoteAmount": "Jumlah Nota Kredit",
+            "creditNoteWeight": "Berat Nota Kredit",
+            "creditNoteQuantity": "Kuantiti Nota Kredit",
+            "creditNoteRejectReason": "Sebab Nota Kredit Tolak",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "hardcopyInvoiceNumber": "Nombor Invois Salinan Kertas"
+        }
+    }
+}

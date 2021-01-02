@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "paymentTerms" : {
+            "home": {
+                "title": "付款方式",
+                "createLabel": "新增付款方式",
+                "createOrEditLabel": "編輯付款方式",
+                "search": "查詢付款方式"
+            },
+            "created": "新增付款方式編碼 {{ param }}",
+            "updated": "更新付款方式編碼 {{ param }}",
+            "deleted": "刪除付款方式編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除付款方式？"
+            },
+            "detail": {
+                "title": "付款方式"
+            },
+            "paymentType": "付款方式",
+            "accountName": "帳戶",
+            "accountNumber": "帳號",
+            "accountType": "類型",
+            "accountBank": "銀行",
+            "bankName": "銀行",
+            "bankCode": "銀行代碼",
+            "branchCode": "分行代碼",
+            "description": "付款說明",
+            "supplier": "供應商",
+            "bank": "銀行"
+        }
+    }
+}

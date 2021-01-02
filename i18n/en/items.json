@@ -1,0 +1,44 @@
+{
+    "ezyprocureApp": {
+        "items" : {
+            "multiplierFactor":"Multiplier Factor",
+            "home": {
+                "title": "Items",
+                "createLabel": "Create a new Items",
+                "createOrEditLabel": "Create or edit a Items",
+                "search": "Search for Items"
+            },
+            "created": "A new Items is created with identifier {{ param }}",
+            "updated": "A Items is updated with identifier {{ param }}",
+            "deleted": "A Items is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Items {{ id }}?"
+            },
+            "detail": {
+                "title": "Items"
+            },
+            "itemCode": "Item Code",
+            "itemName": "Item Name",
+            "itemDescription": "Item Description",
+            "itemKeyword": "Item Keyword",
+            "moq": "MOQ",
+            "quantityForAlternativeUOM": "Quantity For Alternative UOM",
+            "itemSize": "Item Size",
+            "price": "Price",
+            "currency": "Currency",
+            "expirationPeriod": "Expiration Period",
+            "image": "Image",
+            "itemType": "Item Type",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "supplier": "Supplier",
+            "uom": "UOM",
+            "itemGroup": "Item Group",
+            "alternativeUom": "Alternative Uom",
+            "value": "Value",
+            "percentage": "Percentage",
+            "quantity": "Quantity",
+            "labelPrintingEnabled":"Label Printing Enabled"
+        }
+    }
+}

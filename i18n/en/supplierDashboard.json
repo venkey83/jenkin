@@ -1,0 +1,19 @@
+{
+    "ezyprocureApp": {
+        "supplierDashboard" : {
+            "home": {
+              "dashboard": "Dashboard",
+              "transactionSummary": "Transaction Summary"
+            },
+            "processOrder": "Process Order",
+            "requirementPendingPO": "Requirement Pending PO",
+            "invoicePendingProcess": "Invoice Pending Process",
+            "priceApprovalPendingAcceptedView": "Price Approval Pending / Accepted View",
+            "cancelPORequest": "Cancel PO Request",
+            "debitNotes": "Debit Notes",
+            "adhocPo": "Adhoc PO",
+            "generateCreditNote": "Generate Credit Note",
+            "uploadSIPInvoices": "Upload SIP Invoices"
+        }
+    }
+}

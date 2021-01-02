@@ -1,0 +1,17 @@
+{
+    "error": {
+        "401": {
+            "code": "401_ID",
+            "title": "Access Denied_ID",
+            "message": "You are not authorized to access the page.!_ID"
+        },
+        "contact": {
+            "title": "Contact Support_ID",
+            "message": "Please contact your company administrator to continue using the application!_ID"
+        },
+        "kycsupport": {
+            "title": "Contact Support_ID",
+            "message": "Your KYC is not verified, Ezyprocure will contact you for further proceedings_ID"
+        }
+    }
+}

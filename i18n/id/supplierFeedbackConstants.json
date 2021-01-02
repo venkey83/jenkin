@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "SupplierFeedbackConstants" : {
+            "null": "",
+            "QUALITY_DOES_NOT_MATCH": "KUANLITAS TIDAK COCOK",
+            "QUANTITY_DOES_NOT_MATCH": "KUANTITAS TIDAK COCOK",
+            "DELIVERY_DATE_DOES_NOT_MATCH": "TANGGAL PENGIRIMAN TIDAK COCOK",
+            "QUANTITY_AND_DELIVERY_DATE_DOES_NOT_MATCH": "KUANTITAS DAN TANGGAL PENGIRIMAN TIDAK COCOK",
+            "SUPPLIER_ADDED_ITEM": "ITEM YANG DITAMBAHKAN PEMASOK"
+        }
+    }
+}

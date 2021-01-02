@@ -1,0 +1,31 @@
+{
+  "ezyprocureApp": {
+    "invoiceApprovalRequest": {
+      "approvalNeededFrom": "Approbation requise de",
+      "approvalRequestNumber": "Numéro de demande d'approbation",
+      "approvalStatus": "Statut approuvé",
+      "created": "Une nouvelle demande d'approbation de facture est créée avec l'identifiant {{param}}",
+      "createdBy": "Créé par",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la demande d'approbation de facture {{id}}?"
+      },
+      "deleted": "Une demande d'approbation de facture est supprimée avec l'identifiant {{param}}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Demande d'approbation de facture"
+      },
+      "home": {
+        "createLabel": "Créer une nouvelle demande d'approbation de facture",
+        "createOrEditLabel": "Créer ou modifier une demande d'approbation de facture",
+        "notFound": "Aucune demande d'approbation de facture trouvée",
+        "title": "Demandes d'approbation de factures"
+      },
+      "invoice": "Facture d'achat",
+      "modifiedBy": "Modifié par",
+      "modifiedDate": "Date modifiée",
+      "supplier": "Fournisseur",
+      "updated": "Une demande d'approbation de facture est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

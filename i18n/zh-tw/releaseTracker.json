@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "releaseTracker" : {
+            "home": {
+                "title": "Release Trackers",
+                "createLabel": "新增 Release Tracker",
+                "createOrEditLabel": "編輯 Release Tracker"
+            },
+            "created": "新增 Release Tracker編碼 {{ param }}",
+            "updated": "更新 Release Tracker編碼 {{ param }}",
+            "deleted": "刪除 Release Tracker編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除刪除 Release Tracker？"
+            },
+            "detail": {
+                "title": "Release Tracker"
+            },
+            "deviceType": "Device Type",
+            "version": "版本",
+            "createdDate": "建立日期"
+        }
+    }
+}

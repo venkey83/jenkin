@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "notification" : {
+            "home": {
+                "title": "通知",
+                "createLabel": "新增通知",
+                "createOrEditLabel": "編輯通知",
+                "search": "查詢通知"
+            },
+            "created": "新增通知編碼 {{ param }}",
+            "updated": "更新通知編碼 {{ param }}",
+            "deleted": "刪除通知編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除通知？"
+            },
+            "detail": {
+                "title": "通知"
+            },
+            "deviceType": "Device Type",
+            "deviceToken": "Device Token",
+            "badgeCount": "Badge Count",
+            "user": "使用者"
+        }
+    }
+}

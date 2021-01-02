@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "ItemType" : {
+            "null": "",
+            "BUYER": "PEMBELI",
+            "PUBLIC": "PUBLIK",
+            "SUPPLIER": "PEMASOK",
+            "ADHOC_PO": "ADHOC_PO"
+        }
+    }
+}

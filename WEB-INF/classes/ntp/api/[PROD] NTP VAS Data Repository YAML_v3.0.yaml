@@ -1,0 +1,1361 @@
+swagger: '2.0'
+info:
+  title: NTP External APIs (for VAS Providers)
+  description: NTP External APIs (for VAS Providers)
+  version: 3.0.0
+host: 'www.ntp.gov.sg'
+schemes:
+  - https
+basePath: /api/rep/v1
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /vasProvider/folders:
+    post:
+      summary: Create Folder in Data Repository
+      description: |
+        API to create a new folder in the Data Repository
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: folderDetails
+          in: body
+          description: Details of the folder to be created
+          required: true
+          schema:
+            properties:
+              vasId:
+                type: number
+                description: Business Service/VAS id
+              folderName:
+                type: string
+                description: Name of the folder
+              pathLocation:
+                type: string
+                description: Path where the folder will be created
+            required:
+              - vasId
+              - folderName
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  '/vasProvider/folders/{folderId}':
+    put:
+      summary: Update Folder in Data Repository
+      description: >
+        API to update the folder details of a specified folder in the Data Repository
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: folderId
+          in: path
+          description: Id of the folder
+          required: true
+          type: number
+        - name: folderDetails
+          in: body
+          description: Details of the folder to be updated
+          required: true
+          schema:
+            properties:
+              vasId:
+                type: number
+                description: Business Service/VAS id
+              folderId:
+                type: number
+                description: Id of the folder
+              folderName:
+                type: string
+                description: New folder name
+            required:
+              - vasId
+              - folderId
+              - folderName
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  /vasProvider/documents:
+    post:
+      summary: Upload Document to Data Repository
+      description: |
+        API to upload a document to the Data Repository
+      consumes:
+        - multipart/form-data
+      produces:
+        - application/json
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: file
+          in: formData
+          description: Document to be uploaded
+          required: true
+          type: file
+        - name: data
+          in: formData
+          description: >
+            Metadata details in form of json. Below is the JSON schema
+            definition 
+            {
+              "title": "Upload Document Data Request Schema",
+              "type": "object",
+              "properties": {
+                  "businessServiceId": {
+                    "description": "Business Service/VAS id",
+                    "type": "number"
+                  },
+                  "documentTypeId": {
+                    "description": "Id of the document type the file is categorized",
+                    "type": "string"
+                  },
+                  "documentStructure": {
+                    "description": "Format/Standards of the structured document",
+                    "type": "string"
+                  },
+                  "folderId": {
+                    "description": "Id of the folder where document will be uploaded",
+                    "type": "string"
+                  },
+                  "notifyPartnerIndicator": {
+                    "description": "Indicator whether to notify partners to whom an existing version was been shared or not. Indicates the negative when not set",
+                    "type": "boolean"
+                  },
+                  "attributes": {
+                    "description": "Set of metadata attributes for the document and type",
+                    "type": "array",
+                    "items": {
+                      "description": "Attribute object",
+                      "type": "object",
+                      "properties": {
+                        "attributeId": {
+                          "description": "Identifier of the metadata attribute",
+                          "type": "string"
+                        },
+                        "attributeValue": {
+                          "description": "Value for the corresponding attribute",
+                          "type": "string"
+                        }
+                    }
+                  }
+                }
+              }
+            }
+          required: true
+          type: object
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+    get:
+      summary: Download Document from Data Repository
+      description: |
+        API to download a document from the Data Repository
+      consumes:
+        - application/json
+      produces:
+        - application/octet-stream
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: documentId
+          in: query
+          description: Id of the document
+          required: true
+          type: number
+        - name: versionNo
+          in: query
+          description: Version number of the document
+          required: false
+          type: integer
+          format: int32
+        - name: vasId
+          in: query
+          description: Business Service/VAS id
+          required: true
+          type: number
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+            format: binary
+          headers:
+            Content-Type:
+              type: string
+              description: >-
+                Type of document to be downloaded. Defaults to octet-stream if
+                not given.
+              default: application/octet-stream
+            Content-Disposition:
+              type: string
+              description: >-
+                Disposition of the document to be downloaded. This should
+                include character set and filename.
+              default: attachment
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  /vasProvider/objects:
+    delete:
+      summary: Delete Document(s) & Folder(s) in Data Repository
+      description: >
+        API to delete the specified document or folders in the Data Repository 
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: documentAndFolderDetails
+          in: body
+          description: Details of folder and documents that will be deleted
+          required: true
+          schema:
+            type: object
+            properties:
+              vasId:
+                type: number
+                description: Business Service/VAS id
+              documentAndFolderDetails:
+                type: array
+                items:
+                  properties:
+                    objectType:
+                      type: string
+                      description: >-
+                        Indicator whether the object is D for Document and F for
+                        Folder
+                      enum:
+                        - D
+                        - F
+                    objectId:
+                      type: number
+                      description: Id of the document or folder
+                  required:
+                    - objectType
+                    - objectId
+            required:
+              - vasId
+              - documentAndFolderDetails
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+    get:
+      summary: View List of Document(s) & Folder(s) in Data Repository
+      description: >
+        API to retrieve the list of documents and folders in the Data Repository
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the oauth token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: folderId
+          in: query
+          description: >-
+            Id of the folder. If not set then this will default to the root
+            folder of the repository.
+          required: false
+          type: number
+        - name: limit
+          in: query
+          description: Limit used for pagination. If not set this will default by 10.
+          required: false
+          type: integer
+          format: int32
+        - name: offset
+          in: query
+          description: >-
+            Offset used for pagination. If not set this will default by 1 which
+            is the first page.
+          required: false
+          type: integer
+          format: int32
+        - name: key
+          in: query
+          description: The field that will be use to sort the result
+          required: false
+          type: string
+          enum:
+            - docFldrName
+            - docTypeName
+            - docFldrId
+            - lastUpdatedDt
+            - createdByDispName
+        - name: sortType
+          in: query
+          description: Order on how the response data is sorted
+          required: false
+          type: string
+          enum:
+            - ascending
+            - descending
+        - name: vasId
+          in: query
+          description: Business Service/VAS id
+          required: true
+          type: number
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              status:
+                type: string
+                description: Transaction status details
+              errors:
+                type: array
+                items:
+                  properties:
+                    userMessage:
+                      description: Business error message for display at Client
+                      type: string
+                    developerMessage:
+                      description: Error message for Developers
+                      type: string
+                    supportMessage:
+                      description: Internal error message for troubleshooting purposes
+                      type: string
+                    code:
+                      description: Error Code
+                      type: string
+                    moreInfo:
+                      description: Any custom value that might be required
+                      type: string
+              result:
+                type: object
+                properties:
+                  numFound:
+                    type: integer
+                  offset:
+                    type: integer
+                  sort:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                        enum:
+                          - docFldrName
+                          - docTypeName
+                          - docFldrId
+                          - lastUpdatedDt
+                          - createdByDispName
+                      sortType:
+                        type: string
+                        description: Sort the value descending or ascending
+                        enum:
+                          - ascending
+                          - descending
+                    required:
+                      - key
+                      - sortType
+                  record:
+                    type: array
+                    items:
+                      $ref: '#/definitions/ObjectDetails'
+                required:
+                  - numFound
+                  - offset
+                  - sort
+                  - record
+          headers:
+            X-Total-Count:
+              type: integer
+              format: int32
+              description: Total items found in the query
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  /vasProvider/documents/move:
+    put:
+      summary: Move Document in Data Repository
+      description: >
+        API to move a document within the Data Repository
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: documentDetails
+          in: body
+          description: Details of the document to be moved
+          required: true
+          schema:
+            type: object
+            properties:
+              vasId:
+                type: number
+                description: Business Service/VAS id
+              folderId:
+                type: number
+                description: Id of the folder where documents will be moved
+              documentId:
+                type: array
+                items:
+                  type: number
+                  description: Id of the document
+            required:
+              - vasId
+              - documentId
+      tags:
+        - VAS Data Repository
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  /vasProvider/encrypt/documents:
+    post:
+      summary: Upload Encrypted Document to Data Repository
+      description: |
+        API to upload a document to the Data Repository
+      consumes:
+        - multipart/form-data
+      produces:
+        - application/json
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: file
+          in: formData
+          description: Document to be uploaded
+          required: true
+          type: file
+        - name: data
+          in: formData
+          description: >
+            Metadata details in form of json. Below is the JSON schema
+            definition 
+            {
+              "title": "Upload Document Data Request Schema",
+              "type": "object",
+              "properties": {
+                  "businessServiceId": {
+                    "description": "Business Service/VAS id",
+                    "type": "number"
+                  },
+                  "documentTypeId": {
+                    "description": "Id of the document type the file is categorized",
+                    "type": "string"
+                  },
+                  "documentStructure": {
+                    "description": "Format/Standards of the structured document",
+                    "type": "string"
+                  },
+                  "folderId": {
+                    "description": "Id of the folder where document will be uploaded",
+                    "type": "string"
+                  },
+                  "notifyPartnerIndicator": {
+                    "description": "Indicator whether to notify partners to whom an existing version was been shared or not. Indicates the negative when not set",
+                    "type": "boolean"
+                  },
+                  "attributes": {
+                    "description": "Set of metadata attributes for the document and type",
+                    "type": "array",
+                    "items": {
+                      "description": "Attribute object",
+                      "type": "object",
+                      "properties": {
+                        "attributeId": {
+                          "description": "Identifier of the metadata attribute",
+                          "type": "string"
+                        },
+                        "attributeValue": {
+                          "description": "Value for the corresponding attribute",
+                          "type": "string"
+                        }
+                    }
+                  }
+                }
+              }
+            }
+          required: true
+          type: string
+          default: |
+            {        
+              "businessServiceId": "string",      
+              "documentTypeId": "string",
+              "documentStructure": "0",
+              "folderId" : "string", 
+              "attributes": 
+                [{
+                  "attributeName": "string","attributeValue": "string"
+                }]
+            }
+      tags:
+        - Encrypted VAS Upload/Download
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+    get:
+      summary: Download Encrypted Document from Data Repository
+      description: |
+        API to download a document from the Data Repository
+      consumes:
+        - application/json
+      produces:
+        - application/octet-stream
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: documentId
+          in: query
+          description: Id of the document
+          required: true
+          type: number
+        - name: versionNo
+          in: query
+          description: Version number of the document
+          required: false
+          type: integer
+          format: int32
+        - name: vasId
+          in: query
+          description: Business Service/VAS id
+          required: true
+          type: number
+      tags:
+        - Encrypted VAS Upload/Download
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+            format: binary
+          headers:
+            Content-Type:
+              type: string
+              description: >-
+                Type of document to be downloaded. Defaults to octet-stream if
+                not given.
+              default: application/octet-stream
+            Content-Disposition:
+              type: string
+              description: >-
+                Disposition of the document to be downloaded. This should
+                include character set and filename.
+              default: attachment
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+definitions:
+  ObjectDetails:
+    properties:
+      objectType:
+        type: string
+        description: D for document and F for folder
+        enum:
+          - D
+          - F
+      objectName:
+        type: string
+        description: Name of the folder or document
+      documentType:
+        type: string
+        description: Type of the document
+      documentStatus:
+        type: string
+        description: >-
+          Current status of the document
+          * ACT - Active
+        enum:
+          - ACT
+      objectId:
+        type: number
+        description: Id of the folder or document
+      documentStructure:
+        type: string
+        description: Structure of the document
+      documentStructureFlag:
+        type: boolean
+        description: Flag to determine that document is structured or unstructured
+      lastModifiedDate:
+        type: string
+        description: Last modified date and time of the object
+      sharedWithDetails:
+        type: string
+        description: Details of the recipient(s) the document is shared with
+      sharedBy:
+        type: string
+        description: Details of the sender that shared the document
+      documentSize:
+        type: integer
+        description: Size of the document in bytes
+      createdBy:
+        type: string
+        description: Created by
+      createdDate:
+        type: string
+        description: Creation date and time of the object
+      lastModifiedBy:
+        type: string
+        description: Last modified by
+      doNotShareInd:
+        type: boolean
+        description: Indicator if document can be shared
+    required:
+      - objectType
+      - objectName
+      - objectId
+      - lastModifiedDate
+  TransactionMessage:
+    description: Transaction toast
+    type: object
+    properties:
+      status:
+        type: string
+        description: Transaction status details
+      errors:
+        type: array
+        items:
+          properties:
+            userMessage:
+              description: Business error message for display at Client
+              type: string
+            developerMessage:
+              description: Error message for Developers
+              type: string
+            supportMessage:
+              description: Internal error message for troubleshooting purposes
+              type: string
+            code:
+              description: Error Code
+              type: string
+            moreInfo:
+              description: Any custom value that might be required
+              type: string
+      result:
+        type: object
+        properties:
+          transactionMessage:
+            description: Transaction toast message
+            type: string
+    required:
+      - status
+      - errors
+      - result
+  Errors:
+    type: object
+    properties:
+      status:
+        type: string
+        description: Transaction status details
+      errors:
+        type: array
+        items:
+          properties:
+            userMessage:
+              description: Business error message for display at Front End
+              type: string
+            developerMessage:
+              description: Error message for External Developers
+              type: string
+            supportMessage:
+              description: Internal error message for troubleshooting purposes
+              type: string
+            code:
+              description: Error Code
+              type: string
+            moreInfo:
+              description: Any custom value that might be required
+              type: string
+          required:
+            - code
+      result:
+        type: object
+    required:
+      - status
+      - errors
+      - result

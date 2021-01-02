@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.cancelpo.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.cancelpo.greeting(${supplierName})}"> </p>
+<p>
+    <span th:text="(${buyerName})" style="font-weight: bold;"> </span>
+    <span th:text="#{email.cancelpo.text}"> </span>
+
+</p>
+<p>
+    <span th:text="#{email.cancelpo.ponumber}"> </span>
+    <span th:text="(${purchaseOrderNumber})"> </span>
+</p>
+<p>
+    <span th:text="#{email.cancelpo.reason}"> </span>
+    <span th:text="(${cancelPoReason})"> </span>
+</p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

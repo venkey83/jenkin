@@ -1,0 +1,18 @@
+{
+    "ezyprocureApp": {
+        "OcrInvoiceStatus" : {
+            "null": "",
+            "ACCEPTED": "Accepted",
+            "ADDED": "Added",
+            "AMOUNT_MATCH": "Amount Match",
+            "AMOUNT_MISMATCH": "Amount Mismatch",
+            "INVALID_IMAGE": "Invalid Image",
+            "NO_INVOICE_UPLOADED": "No Invoice Uploaded",
+            "OCR_ERROR": "Invalid Image",
+            "REJECTED": "Rejected",
+            "PROCESSING": "Processing",
+            "INVALID_INVOICE_FILE": "Invalid invoice file",
+            "PENDING": "Pending_JA"
+        }
+    }
+}

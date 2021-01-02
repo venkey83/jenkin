@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "SupplierFeedbackConstants" : {
+            "null": "",
+            "QUALITY_DOES_NOT_MATCH": "QUALITY DOES NOT MATCH",
+            "QUANTITY_DOES_NOT_MATCH": "QUANTITY DOES NOT MATCH",
+            "DELIVERY_DATE_DOES_NOT_MATCH": "DELIVERY DATE DOES NOT MATCH",
+            "QUANTITY_AND_DELIVERY_DATE_DOES_NOT_MATCH": "QUANTITY AND DELIVERY DATE DOES NOT MATCH",
+            "SUPPLIER_ADDED_ITEM": "SUPPLIER ADDED ITEM"
+        }
+    }
+}

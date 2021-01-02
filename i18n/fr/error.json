@@ -1,0 +1,17 @@
+{
+  "error": {
+    "401": {
+      "code": "401",
+      "message": "Vous n'êtes pas autorisé à accéder à la page.!",
+      "title": "Accès refusé"
+    },
+    "contact": {
+        "title": "Contact Support_FR",
+        "message": "Please contact your company administrator to continue using the application!_FR"
+    },
+    "kycsupport": {
+        "title": "Contact Support_FR",
+        "message": "Your KYC is not verified, Ezyprocure will contact you for further proceedings_FR"
+    }
+  }
+}

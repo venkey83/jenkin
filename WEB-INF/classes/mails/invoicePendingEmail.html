@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.invoicePending.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.invoicePending.greeting(${supplier.firstName},${supplier.lastName})}"></p>
+<p th:text="#{email.invoicePending.content(${companyName},${content})}"></p>
+<p th:text="${url}"></p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

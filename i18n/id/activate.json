@@ -1,0 +1,9 @@
+{
+    "activate": {
+        "title": "Pengaktifan",
+        "messages": {
+            "success": "<strong>Pengguna Anda telah diaktifkan.</strong> Silahkan <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">masuk</a>.",
+            "error": "<strong>Pengguna Anda tidak dapat diaktifkan.</strong> Silakan gunakan formulir pendaftaran untuk mendaftar."
+        }
+    }
+}

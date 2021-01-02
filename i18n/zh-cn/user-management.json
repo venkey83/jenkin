@@ -1,0 +1,36 @@
+{
+    "userManagement": {
+        "home": {
+            "title": "用户",
+            "createLabel": "创建一个新用户",
+            "createOrEditLabel": "创建或编辑用户"
+        },
+        "created": "一个标识为 {{param}} 的新用户被创建了",
+        "updated": "一个标识为 {{param}} 的新用户被更新了",
+        "deleted": "一个标识为 {{param}} 的新用户被删除了",
+        "delete": {
+            "question": "你确定要删除标识为 {{ login }} 的用户么?"
+        },
+        "detail": {
+            "title": "用户"
+        },
+        "userType": "用户类别",
+        "login": "登录",
+        "name": "名称",
+        "username": "用户名",
+        "firstName": "名",
+        "lastName": "姓",
+        "role": "角色",
+        "email": "电子邮件",
+        "activated": "被激活的",
+        "deactivated": "已停用的",
+        "profiles": "档案",
+        "langKey": "语言",
+        "createdBy": "创建者",
+        "createdDate": "创建日期",
+        "lastModifiedBy": "修改者",
+        "lastModifiedDate": "修改日期",
+        "employeeId":"Employee id_CH",
+        "contactName": "Contact Name_ZH-CN"
+    }
+}

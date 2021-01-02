@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "pickingListItemMapping" : {
+            "home": {
+                "title": "Picking List Item Mappings",
+                "createLabel": "Create a new Picking List Item Mapping",
+                "createOrEditLabel": "Create or edit a Picking List Item Mapping",
+                "search": "Search for Picking List Item Mapping"
+            },
+            "created": "A new Picking List Item Mapping is created with identifier {{ param }}",
+            "updated": "A Picking List Item Mapping is updated with identifier {{ param }}",
+            "deleted": "A Picking List Item Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Picking List Item Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Picking List Item Mapping"
+            },
+            "position": "Position",
+            "items": "Items",
+            "pickingList": "Picking List"
+        }
+    }
+}

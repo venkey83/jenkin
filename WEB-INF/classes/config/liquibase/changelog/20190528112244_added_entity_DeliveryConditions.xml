@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql"/>
+
+    <!--
+        Added the entity DeliveryConditions.
+    -->
+    <changeSet id="20190528112244-1" author="jhipster">
+        <createTable tableName="delivery_conditions">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+
+            <column name="custom_identifier" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="delivery_charge" type="decimal(10,2)">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="order_time_for_friday" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="order_time_for_saturday" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="minimum_order_for_free_delivery" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="below_minimum_purchase_condition" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="order_time_for_today" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="no_delivery_on_holidays" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="no_delivery_on_saturday" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="no_delivery_on_sunday" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="no_delivery_on_monday" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="no_same_day_delivery" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="lead_time" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="deletion_token" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="supplier_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+
+    </changeSet>
+    <changeSet id="201906061533-2" author="jhipster">
+        <addColumn tableName="delivery_conditions">
+            <column name="created_date" type="datetime" defaultValueDate="now()"><constraints nullable="false" /></column>
+        </addColumn>
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+</databaseChangeLog>

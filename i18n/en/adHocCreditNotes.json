@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "adHocCreditNotes" : {
+            "home": {
+                "title": "Ad Hoc Credit Notes",
+                "createLabel": "Create a new Ad Hoc Credit Notes",
+                "createOrEditLabel": "Create or edit a Ad Hoc Credit Notes",
+                "search": "Search for Ad Hoc Credit Notes"
+            },
+            "created": "A new Ad Hoc Credit Notes is created with identifier {{ param }}",
+            "updated": "A Ad Hoc Credit Notes is updated with identifier {{ param }}",
+            "deleted": "A Ad Hoc Credit Notes is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Ad Hoc Credit Notes {{ id }}?"
+            },
+            "detail": {
+                "title": "Ad Hoc Credit Notes"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "quantity": "Quantity",
+            "weight": "Weight",
+            "amount": "Amount"
+        }
+    }
+}

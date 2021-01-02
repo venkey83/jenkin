@@ -1,0 +1,40 @@
+{
+    "ezyprocureApp": {
+        "cart" : {
+            "home": {
+                "title": "รถเข็น",
+                "createLabel": "สร้างรถเข็นใหม่",
+                "createOrEditLabel": "สร้างหรือแก้ไขรถเข็น",
+                "search": "ค้นหารถเข็น"
+            },
+            "created": "รถเข็นใหม่ได้ถูกสร้างขึ้นด้วยค่าที่ระบุ {{ param }}",
+            "updated": "รถเข็นได้ถูกบันทึกด้วยค่าที่ระบุ {{ param }}",
+            "deleted": "รถเข็นได้ถูกลบด้วยค่าที่ระบุ {{ param }}",
+            "delete": {
+                "question": "คุณต้องการลบรถเข็นใช่หรือไม่ {{ id }}?"
+            },
+            "detail": {
+                "title": "รถเข็น"
+            },
+            "createdDate": "วันที่สร้าง",
+            "modifiedDate": "วันที่แก้ไข",
+            "deliveryDate": "วันที่จัดส่งสินค้า",
+            "specialRequest": "คำขอพิเศษ",
+            "quantity": "จำนวน",
+            "price": "ราคา",
+            "buyerUser": "ผู้ใช้ที่เป็นผู้จัดซื้อ",
+            "items": "รายการ",
+            "buyerBusiness": "ธุรกิจของผู้จัดซื้อ",
+            "duplicatePR": {
+                "title": "Duplication of PR_TH",
+                "inPendingPO": "Duplicated in pending PO for Req. Number(s) '{{ no }}'_TH",
+                "inApproval": "Duplicated in pending Approvals for Approval Request Number(s) '{{ no }}'_TH",
+                "message": "A similar PR had been raised before, Do you want to confirm the order?_TH"
+            },
+            "confirmOrder": {
+                "title": "Confirm Order_TH",
+                "message" : "Are you sure to confirm the order?_TH"
+            }
+        }
+    }
+}

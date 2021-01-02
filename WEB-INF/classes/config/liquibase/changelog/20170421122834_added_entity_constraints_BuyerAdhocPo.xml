@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity BuyerAdhocPo.
+    -->
+    <changeSet id="20170421122834-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="buyer_adhoc_items_id"
+                                 baseTableName="buyer_adhoc_po"
+                                 constraintName="fk_buyer_adhoc_po_buyer_adhoc_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_adhoc_items"/>
+
+        <addForeignKeyConstraint baseColumnNames="buyer_id"
+                                 baseTableName="buyer_adhoc_po"
+                                 constraintName="fk_buyer_adhoc_po_buyer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer"/>
+
+    </changeSet>
+</databaseChangeLog>

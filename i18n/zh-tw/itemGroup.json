@@ -1,0 +1,34 @@
+{
+    "ezyprocureApp": {
+        "itemGroup" : {
+            "home": {
+                "title": "商品類別",
+                "tableTitle": "商品類別",
+                "createLabel": "新增商品類別",
+                "createOrEditLabel": "編輯商品類別",
+                "search": "查詢商品類別"
+            },
+            "created": "新增商品類別編碼 {{ param }}",
+            "updated": "更新商品類別編碼 {{ param }}",
+            "deleted": "刪除商品類別編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商品類別？"
+            },
+            "detail": {
+                "title": "商品類別"
+            },
+            "forms": {
+              "title": {
+                "add": "新增商品類別",
+                "edit": "修改商品類別"
+              }
+            },
+            "name": "名稱",
+            "itemGroupName": "商品類別",
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "description": "內容",
+            "mainItemGroup": "商品目錄"
+        }
+    }
+}

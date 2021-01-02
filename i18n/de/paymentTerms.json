@@ -1,0 +1,32 @@
+{
+  "ezyprocureApp": {
+    "paymentTerms": {
+      "accountBank": "Kontobank",
+      "accountName": "Kontobezeichnung",
+      "accountNumber": "Kontonummer",
+      "accountType": "Konto Typ",
+      "bank": "Bank",
+      "bankCode": "Bankleitzahl",
+      "bankName": "Bank Name",
+      "branchCode": "Branchencode",
+      "created": "Es werden neue Zahlungsbedingungen mit der ID {{param}} erstellt.",
+      "delete": {
+        "question": "Möchten Sie die Zahlungsbedingungen {{id}} wirklich löschen?"
+      },
+      "deleted": "Zahlungsbedingungen werden mit der Kennung {{param}} gelöscht",
+      "description": "Andere Zahlungsbeschreibung",
+      "detail": {
+        "title": "Zahlungsbedingungen"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie neue Zahlungsbedingungen",
+        "createOrEditLabel": "Zahlungsbedingungen erstellen oder bearbeiten",
+        "search": "Nach Zahlungsbedingungen suchen",
+        "title": "Zahlungsbedingungen"
+      },
+      "paymentType": "Zahlungsart",
+      "supplier": "Lieferant",
+      "updated": "Eine Zahlungsbedingung wird mit der ID {{param}} aktualisiert."
+    }
+  }
+}

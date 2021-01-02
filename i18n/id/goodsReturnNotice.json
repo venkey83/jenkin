@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "goodsReturnNotice" : {
+            "home": {
+                "title": "Pemberitahuan Pengembalian Barang",
+                "createLabel": "Buat Pemberitahuan Pengembalian Barang baru",
+                "createOrEditLabel": "Buat atau edit Pemberitahuan Pengembalian Barang",
+                "search": "Cari Pemberitahuan Pengembalian Barang"
+            },
+            "created": "Pemberitahuan Pengembalian Barang baru dibuat dengan Identifier {{param}}",
+            "updated": "Pemberitahuan Pengembalian Barang diperbarui dengan pengenal {{param}}",
+            "deleted": "Pemberitahuan Pengembalian Barang dihapus dengan pengenal {{param}}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pemberitahuan Pengembalian Barang {{id}}?"
+            },
+            "detail": {
+                "title": "Pemberitahuan Pengembalian Barang"
+            },
+            "buyerRemark": "Kata-kata Pembeli",
+            "rejectedQuantity": "Kuantitas Ditolak",
+            "debitNoteAmount": "Jumlah Catatan Debit",
+            "debitNoteStatus": "Status Catatan Debet",
+            "debitNoteNumber": "Nomor Catatan Debet",
+            "goodsReturnDate": "Tanggal Pengembalian Barang",
+            "goodsReturnNumber": "Nomor Pengembalian Barang",
+            "creditNoteAmount": "Catatan Jumlah Kredit",
+            "creditNoteWeight": "Catatan Berat kredit",
+            "creditNoteQuantity": "Catatan Kuantitas Kredit",
+            "creditNoteRejectReason": "Alasan Penolakan Catatan Kredit",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "hardcopyInvoiceNumber": "Nomor Faktur Hardcopy"
+        }
+    }
+}

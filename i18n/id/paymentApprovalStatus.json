@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PaymentApprovalStatus" : {
+            "null": "",
+            "PENDING": "TERTUNDA",
+            "APPROVED": "DITERIMA",
+            "REJECTED": "DITOLAK",
+            "NA": "NA_ID"
+        }
+    }
+}

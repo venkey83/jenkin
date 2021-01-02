@@ -1,0 +1,30 @@
+
+{
+    "ezyprocureApp": {
+        "transactionExport" : {
+            "home": {
+                "title": "Transaction Exports",
+                "createLabel": "Create a new Transaction Export",
+                "createOrEditLabel": "Create or edit a Transaction Export"
+            },
+            "created": "A new Transaction Export is created with identifier {{ param }}",
+            "updated": "A Transaction Export is updated with identifier {{ param }}",
+            "deleted": "A Transaction Export is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Transaction Export {{ id }}?"
+            },
+            "detail": {
+                "title": "Transaction Export"
+            },
+            "companyType": "Company Type",
+            "deletionToken": "Deletion Token",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyer": "Buyer",
+            "supplier": "Supplier",
+            "purchaseRequest": "Purchase Request",
+            "purchaseOrder": "Purchase Order",
+            "invoice": "Invoice"
+        }
+    }
+}

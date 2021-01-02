@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "purchaseOrderTypes" : {
+            "home": {
+                "title": "Purchase Order Types",
+                "createLabel": "Create a new Purchase Order Types",
+                "createOrEditLabel": "Create or edit a Purchase Order Types",
+                "search": "Search for Purchase Order Types"
+            },
+            "created": "A new Purchase Order Types is created with identifier {{ param }}",
+            "updated": "A Purchase Order Types is updated with identifier {{ param }}",
+            "deleted": "A Purchase Order Types is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Purchase Order Types {{ id }}?"
+            },
+            "detail": {
+                "title": "Purchase Order Types"
+            },
+            "name": "Name",
+            "code": "Code",
+            "description": "Description",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date"
+        }
+    }
+}

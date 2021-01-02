@@ -1,0 +1,17 @@
+{
+    "ezyprocureApp": {
+        "Currency" : {
+            "null": "",
+            "USD": "USD",
+            "SGD": "SGD",
+            "INR": "INR",
+            "THB": "THB",
+            "TWD": "TWD",
+            "MYR": "MYR",
+            "IDR": "IDR",
+            "AUD": "AUD",
+            "CHF": "CHF",
+            "PHP": "PHP"
+        }
+    }
+}

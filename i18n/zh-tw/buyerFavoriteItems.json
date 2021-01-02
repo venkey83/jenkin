@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "buyerFavoriteItems" : {
+            "home": {
+                "title": "收藏商品",
+                "createLabel": "新增收藏商品",
+                "createOrEditLabel": "編輯收藏商品",
+                "search": "查詢收藏商品"
+            },
+            "created": "新增收藏商品編碼 {{ param }}",
+            "updated": "更新收藏商品編碼 {{ param }}",
+            "deleted": "刪除收藏商品編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除收藏商品？"
+            },
+            "detail": {
+                "title": "收藏商品"
+            },
+            "createdDate": "新增日期",
+            "modifiedDate": "修改日期",
+            "buyerUser": "商家使用者",
+            "items": "商品"
+        }
+    }
+}

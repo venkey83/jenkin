@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity TransferItems.
+    -->
+    <changeSet id="20191111055316-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="items_id"
+                                 baseTableName="transfer_items"
+                                 constraintName="fk_transfer_items_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+
+        <addForeignKeyConstraint baseColumnNames="uom_id"
+                                 baseTableName="transfer_items"
+                                 constraintName="fk_transfer_items_uom_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="uom"/>
+
+        <addForeignKeyConstraint baseColumnNames="transfer_request_id"
+                                 baseTableName="transfer_items"
+                                 constraintName="fk_transfer_items_transfer_request_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="transfer_request"/>
+
+    </changeSet>
+</databaseChangeLog>

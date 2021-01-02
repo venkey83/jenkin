@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Stock Transfer Uom.
+    -->
+    <changeSet id="20191111055316-2" author="jhipster" failOnError="false">
+        <dropForeignKeyConstraint baseTableName="transfer_items"
+                                  constraintName="fk_transfer_items_uom_id"></dropForeignKeyConstraint>
+        <dropColumn tableName="transfer_items" columnName="uom_id"></dropColumn>
+        <addColumn tableName="transfer_items">
+            <column name="uom_id" type="bigint" defaultValue="1">
+                <constraints nullable="false"/>
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="201911261050-4" author="jhipster" failOnError="false">
+        <addForeignKeyConstraint baseTableName="transfer_items" baseColumnNames="uom_id"
+                                 constraintName="fk_transfer_items_stock_transfer_uom_id"
+                                 referencedTableName="stock_transfer_uom"
+                                 referencedColumnNames="id"/>
+    </changeSet>
+
+    <changeSet id="201912041030-5" author="jhipster" failOnError="false">
+        <dropForeignKeyConstraint baseTableName="transfer_items" constraintName="fk_transfer_items_stock_transfer_uom_id"/>
+        <dropTable tableName="stock_transfer_uom"/>
+        <dropColumn tableName="transfer_items" columnName="uom_id"/>
+    </changeSet>
+
+</databaseChangeLog>

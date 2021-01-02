@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title  th:text="#{email.kycReportEmail.title(${subject})}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.kycReportEmail.greeting}">
+    Dear
+</p>
+<p th:text="#{email.kycReportEmail.body(${body},${status})}">
+</p>
+<p>
+    <span th:text="#{email.footer}"> </span>
+    <br/>
+    <b><em th:text="#{email.kycReportEmail.sender}"></em></b>
+</p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"/>
+</body>
+</html>

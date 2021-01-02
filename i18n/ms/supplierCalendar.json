@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "supplierCalendar" : {
+            "home": {
+                "title": "Kalendar Pembekal",
+                "tableListHeader": "Senarai Kalendar",
+                "manageSupplierCalendars": "Urus Kalendar - Pembekal",
+                "createLabel": "Mencipta kalendar pembekal baru",
+                "editLabel": "menyunting kalendar pembekal",
+                "search": "Pencarian kalendar pembekal"
+            },
+            "created": "kalendar pembekal baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "kalendar pembekal telah dikemas kini dengan pengecam{{ param }}",
+            "deleted": "kalendar pembekal telah dihapuskan dengan pengecam{{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus kalendar pembekal {{ id }}?"
+            },
+            "detail": {
+                "title": "kalendar pembekal"
+            },
+            "date": "Tarikh",
+            "description": "Penerangan",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "supplier": "Pembekal"
+        }
+    }
+}

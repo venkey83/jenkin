@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "paymentApprovalRequest": {
+      "approvalLevel": "Niveau d'approbation",
+      "approvalNeededFrom": "Approbation requise de",
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Une nouvelle demande d'approbation de paiement est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la demande d'approbation de paiement {{id}}?"
+      },
+      "deleted": "Une demande d'approbation de paiement est supprimée avec l'identifiant {{param}}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Demande d'approbation de paiement"
+      },
+      "home": {
+        "createLabel": "Créer une nouvelle demande d'approbation de paiement",
+        "createOrEditLabel": "Créer ou modifier une demande d'approbation de paiement",
+        "search": "Rechercher une demande d'approbation de paiement",
+        "title": "Demandes d'approbation de paiement"
+      },
+      "modifiedDate": "Date modifiée",
+      "approvedDate": "Approved Date_FR",
+      "payment": "Paiement",
+      "paymentApprovalRequestNumber": "Numéro de demande d'approbation de paiement",
+      "batchPaymentReferenceNumber": "Batch Payment Reference Number_FR",
+      "paymentApprovalStatus": "Statut d'approbation de paiement",
+      "paymentType": "Type de paiement",
+      "updated": "Une demande d'approbation de paiement est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

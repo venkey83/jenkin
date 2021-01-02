@@ -1,0 +1,78 @@
+
+
+{
+    "ezyprocureApp": {
+        "purchaseOrder" : {
+            "home": {
+                "title": "ใบสั่งซื้อ",
+                "createLabel": "สร้างใบสั่งซื้อใหม่",
+                "createOrEditLabel": "สร้างหรือแก้ไขใบสั่งซื้อ",
+                "search": "ค้นหาใบสั่งซื้อ"
+            },
+            "created": "ใบสั่งซื้อใหม่ได้ถูกสร้างด้วยค่าที่ระบุ {{ param }}",
+            "updated": "ใบสั่งซื้อได้ถูกบันทึกด้วยค่าที่ระบุ {{ param }}",
+            "deleted": "ใบสั่งซื้อได้ถูกลบด้วยค่าที่ระบุ {{ param }}",
+            "delete": {
+                "question": "คุณต้องการลบใบสั่งซื้อใช่หรือไม่{{ id }}?"
+            },
+            "detail": {
+                "title": "ข้อมูลใบสั่งซื้อ"
+            },
+            "purchaseOrderInfo": "หมายเลขใบสั่งซื้อ",
+            "purchaseOrderNumber": "หมายเลขใบสั่งซื้อ",
+            "poNumber": "หมายเลขใบสั่งซื้อ",
+            "poStatus": "สถานะใบสั่งซื้อ",
+            "purchaseOrderDate": "วันที่ใบสั่งซื้อ",
+            "goodReceiveDate": "Good Receive Date_TH",
+            "purchaseOrderType": "ประเภทใบสั่งซื้อ",
+            "purchaseOrderStatus": "สถานะใบสั่งซื้อ",
+            "eSignature": "ลายเซ็นอีเลคทรอนิคส์",
+            "responseDate": "วันที่ตอบรับใบกำกับสินค้า",
+            "buyerAction": "ปฏิกิริยาผู้จัดซื้อ",
+            "buyerRejectedQuantity": "จำนวนที่ผู้จัดซื้อตีกลับ",
+            "buyerRemark": "ความคิดเห็นผู้จัดซื้อ",
+            "receivedDate": "วันที่ได้รับ",
+            "invoiceStatus": "สถานะใบกำกับสินค้า",
+            "buyerCancelpoReason": "เหตุผลการยกเลิกใบสั่งซื้อของผู้จัดซื้อ",
+            "supplierRejectCancelpoRemark": "ผู้จัดซื้อปฏิเสธความเห็นของการยกเลิกใบสั่งซื้อ",
+            "rejectedWeight": "น้ำหนักที่ถูกตีกลับ",
+            "cancelPoStatus": "สถานะยกเลิกใบสั่งซื้อ",
+            "goodsReturnStatus": "สถานะส่งคืนสินค้า",
+            "ocrInvoiceStatus": "สถานะใบกำกับสินค้าโอซีอาร์",
+            "ocrInvoiceNumber": "หมายเลขใบกำกับสินค้าโอซีอาร์",
+            "ocrInvoiceAmount": "จำนวนเงินใบกำกับสินค้าโอซีอาร์",
+            "amount": "จำนวนเงิน ",
+            "discount": "Discount",
+            "ocrInvoiceResponseDate": "วันที่ตอบรับใบกำกับสินค้าโอซีอาร์",
+            "ocrInvoiceDate": "วันที่ใบกำกับสินค้าโอซีอาร์",
+            "geoExported": "ส่งออกไฟล์จีโอ",
+            "ocrGst": "ใบกำกับภาษีโอซีอาร์",
+            "ocrResponseReason": "Ocr Response Reason_TH",
+            "ocrResponseComment": "Ocr Response Comment_TH",
+            "buyerAcceptedQuantity": "Buyer Accepted Quantity_TH",
+            "grRemark": "Gr Remark_TH",
+            "processOrder": "ใบสั่งซื้อตามกระบวนการผลิต",
+            "invoice": "ใบกำกับสินค้า",
+            "businessOutlet": "สถานธุรกิจ",
+            "goodsReturnNotice": "ใบสั่งส่งคืนสินค้า",
+            "adHocCreditNotes": "ใบลดหนี้เฉพาะคราว",
+            "prStatus": "สถานะใบขอซื้อ",
+            "purchaseRequestInfo": "ข้อมูลใบขอซื้อ",
+            "prNumber": "หมายเลขคำขอซื้อ",
+            "purchaseOrderSequence": "ลำดับใบสั่งซื้อ",
+            "grBuyerUser": "Gr Buyer User_TH",
+            "grnExported": "Grn Exported_TH",
+            "geoExportTimeStamp":"Geo Export TimeStamp_TH",
+            "geoExportBuyerUserId":"Geo Export Buyer User Id_TH",
+            "accPacExported": "accPacExported_TH",
+            "accPacExportTimeStamp": "accPacExportTimeStamp_TH",
+            "accPacExportBuyerUser": "accPacExportBuyerUser_TH",
+            "myobExported": "myobExported_TH",
+            "myobExportTimeStamp": "myobExportTimeStamp_TH",
+            "myobExportBuyerUser": "myobExportBuyerUser_TH",
+            "ocrAcceptanceStatus": "ocrAcceptanceStatus_TH",
+            "hardCopyInvoiceStatus": "hardCopyInvoiceStatus_TH",
+            "eInvoiceStatus": "eInvoiceStatus_TH"
+        }
+    }
+}

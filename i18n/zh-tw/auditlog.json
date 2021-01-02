@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "auditlog" : {
+            "home": {
+                "title": "審核日誌紀錄",
+                "createLabel": "新增審核日誌紀錄",
+                "createOrEditLabel": "編輯審核日誌紀錄",
+                "search": "查詢審核日誌紀錄"
+            },
+            "created": "新增審核日誌紀錄編碼 {{ param }}",
+            "updated": "更新審核日誌紀錄編碼 {{ param }}",
+            "deleted": "刪除審核日誌紀錄編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除審核日誌紀錄？"
+            },
+            "detail": {
+                "title": "審核日誌紀錄"
+            },
+            "transactionid": "交易編號",
+            "status": "狀態",
+            "createddatetime": "建立日期及時間",
+            "createdby": "管理員",
+            "transactiontype": "交易類型",
+            "User": "使用者"
+        }
+    }
+}

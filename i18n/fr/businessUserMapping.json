@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "businessUserMapping": {
+      "approvalLevel": "Niveau d'approbation",
+      "buyerBusiness": "Acheteur Affaires",
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Un nouveau mappage des utilisateurs professionnels est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le mappage des utilisateurs professionnels {{id}}?"
+      },
+      "deleted": "Une correspondence des utilisateurs professionnels est supprimée avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Cartographie des utilisateurs professionnels"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau mappage d'utilisateurs professionnels",
+        "createOrEditLabel": "Créer ou modifier un mappage d'utilisateurs professionnels",
+        "search": "Recherche de mappage d'utilisateurs professionnels",
+        "title": "Mappages d'utilisateurs professionnels"
+      },
+      "isLastLevel": "Est le dernier niveau",
+      "maximumAmount": "Quantité maximale",
+      "minimumAmount": "Montant minimal",
+      "modifiedDate": "Date modifiée",
+      "updated": "Un mappage d'utilisateurs professionnels est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

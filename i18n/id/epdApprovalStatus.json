@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "EpdApprovalStatus" : {
+            "null": "",
+            "PENDING": "TERTUNDA",
+            "APPROVED": "DITERIMA",
+            "REJECTED": "DITOLAK"
+        }
+    }
+}

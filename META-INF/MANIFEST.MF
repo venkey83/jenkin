@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Implementation-Title: Ezyprocure
+Implementation-Version: 0.0.5
+Archiver-Version: Plexus Archiver
+Built-By: theepshika
+Implementation-Vendor-Id: com.sgebiz.ezyprocure.webapp
+Spring-Boot-Version: 1.4.2.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.sgebiz.ezyprocure.webapp.EzyprocureApp
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_231
+Implementation-URL: http://projects.spring.io/spring-boot/ezyprocure/
+

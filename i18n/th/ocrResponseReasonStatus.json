@@ -1,0 +1,14 @@
+{
+    "ezyprocureApp": {
+        "OcrResponseReasonStatus" : {
+            "null": "",
+            "INVOICE_WITH_CREDIT_NOTE": "INVOICE WITH CREDIT NOTE_TH",
+            "EZYPROCURE_INVOICE": "EZYPROCURE INVOICE_TH",
+            "BLURRED_IMAGE": "BLURRED IMAGE_TH",
+            "GOODS_REJECTED": "GOODS REJECTED_TH",
+            "OTHER": "OTHER_TH",
+            "PENDING":"PENDING_TH",
+            "ADDED":"ADDED_TH"
+        }
+    }
+}

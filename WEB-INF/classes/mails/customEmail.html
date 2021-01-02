@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="(${subject})"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div th:if="${greeting!=null}">
+<p th:text="(${greeting})">
+</p>
+</div>
+<p th:text="(${body})">
+    Dear
+</p>
+<p>
+    <span th:text="#{email.footer}"> </span>
+    <br/>
+    <b><em th:text="(${senderName})"></em></b>
+    <br/>
+    <b th:if="${company!=null}" th:text="(${company})"></b>
+</p>
+</body>
+</html>

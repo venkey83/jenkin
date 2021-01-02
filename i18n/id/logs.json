@@ -1,0 +1,11 @@
+{
+    "logs": {
+        "title": "Log",
+        "nbloggers": "Ada {{ total }} loggers.",
+        "filter": "Filter_ID",
+        "table": {
+            "name": "Nama",
+            "level": "Tingkat"
+        }
+    }
+}

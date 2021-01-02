@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="now" value="sysdate" dbms="oracle"/>
+
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle"/>
+
+    <!--
+        Added the entity PurchaseOrder.
+    -->
+    <changeSet id="20170301070102-1" author="jhipster">
+        <createTable tableName="purchase_order">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="purchase_order_number" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="purchase_order_date" type="timestamp">
+                <constraints nullable="true"/>
+            </column>
+
+            <column name="purchase_order_type" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+
+            <column name="purchase_order_status" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+
+            <column name="e_signature" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+
+            <column name="process_order_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="purchase_order" columnName="purchase_order_date" columnDataType="datetime"/>
+
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-2">
+        <addColumn
+            tableName="purchase_order">
+            <column name="response_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet author="jhipster" id="20170301070102-3">
+        <addColumn
+            tableName="purchase_order">
+            <column name="buyer_action" type="varchar(255)"/>
+        </addColumn>
+        <addColumn
+            tableName="purchase_order">
+            <column name="buyer_rejected_quantity" type="${floatType}"/>
+        </addColumn>
+        <addColumn
+            tableName="purchase_order">
+            <column name="buyer_remark" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-4">
+        <addColumn
+            tableName="purchase_order">
+            <column name="received_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-5">
+        <addColumn tableName="purchase_order">
+            <column name="invoice_status" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-6">
+        <addColumn tableName="purchase_order">
+            <column name="invoice_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-7">
+        <addColumn tableName="purchase_order">
+            <column name="buyer_cancelpo_reason" type="varchar(500)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="supplier_reject_cancelpo_remark" type="varchar(500)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-8">
+        <addColumn tableName="purchase_order">
+            <column name="goods_return_notice_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-9">
+        <addColumn tableName="purchase_order">
+            <column name="rejected_weight" type="${floatType}">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-10">
+        <addColumn tableName="purchase_order">
+            <column name="goods_return_status" type="varchar(500)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="cancel_po_status" type="varchar(500)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-11">
+        <addColumn tableName="purchase_order">
+            <column name="ad_hoc_credit_notes_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-12">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_invoice_status" type="varchar(500)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="export_status" type="bit">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-13">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_invoice_number" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="ocr_invoice_amount" type="double">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-14">
+        <addColumn tableName="purchase_order">
+            <column name="amount" type="double">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-15">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_invoice_response_date" type="timestamp">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-16">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_invoice_date" type="timestamp">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-17">
+        <renameColumn columnDataType="bit"
+                      newColumnName="geo_exported"
+                      oldColumnName="export_status"
+                      tableName="purchase_order"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-19">
+        <addColumn tableName="purchase_order">
+            <column name="purchase_order_sequence_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-20">
+        <addUniqueConstraint columnNames="process_order_id"
+                             constraintName="unique_constraint_on_process_order"
+                             tableName="purchase_order"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-21">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_gst" type="double">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-22">
+        <addDefaultValue columnDataType="bit"
+                         columnName="geo_exported"
+                         defaultValueBoolean="false"
+                         tableName="purchase_order"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-23">
+        <addColumn tableName="purchase_order">
+            <column name="adhoc_status" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161212110650-3">
+        <addColumn
+            tableName="purchase_order">
+            <column name="ax_exported" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161212110650-25">
+        <addColumn
+            tableName="purchase_order">
+            <column name="supplier_id" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161212110650-26">
+        <addColumn tableName="purchase_order">
+            <column name="xero_po_exported" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-24">
+        <createIndex indexName="idx_purchase_order_number"
+                     tableName="purchase_order"
+                     unique="false">
+            <column name="purchase_order_number"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070103-27">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_response_reason" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070107-28">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_response_comment" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070108-29">
+        <addColumn tableName="purchase_order">
+            <column name="buyer_accepted_quantity" type="${floatType}">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070109-33">
+        <addColumn tableName="purchase_order">
+            <column name="gr_remark" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070109-34">
+        <addColumn tableName="purchase_order">
+            <column name="payment_status" type="varchar(25)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070109-35">
+        <addColumn tableName="purchase_order">
+            <column name="gr_buyer_user_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180813201602-36" author="jhipster">
+        <createIndex indexName="idx_purchase_order_date"
+                     tableName="purchase_order"
+                     unique="false">
+            <column name="purchase_order_date"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jhipster" id="201808160121400-36">
+        <addColumn
+            tableName="purchase_order">
+            <column name="grn_exported" type="bit" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170301070102-37">
+        <addColumn
+            tableName="purchase_order">
+            <column name="geo_export_time_stamp" type="timestamp"/>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="geo_export_buyer_user_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20181001070102-38">
+        <addColumn
+            tableName="purchase_order">
+            <column name="ext_po_no" type="varchar(50)"/>
+        </addColumn>
+         <addColumn
+            tableName="purchase_order">
+            <column name="ext_po_line_no" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20181001070102-39">
+        <addColumn
+            tableName="purchase_order">
+            <column name="ext_grn_po_no" type="varchar(50)"/>
+        </addColumn>
+         <addColumn
+            tableName="purchase_order">
+            <column name="ext_grn_po_line_no" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20181001070102-40">
+        <addColumn
+            tableName="purchase_order">
+            <column name="acc_pac_exported" type="bit" defaultValueBoolean="false"/>
+        </addColumn>
+        <addColumn
+            tableName="purchase_order">
+            <column name="acc_pac_export_time_stamp" type="timestamp"/>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="acc_pac_export_buyer_user_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <addColumn
+            tableName="purchase_order">
+            <column name="myob_exported" type="bit" defaultValueBoolean="false"/>
+        </addColumn>
+        <addColumn
+            tableName="purchase_order">
+            <column name="myob_export_time_stamp" type="timestamp"/>
+        </addColumn>
+        <addColumn tableName="purchase_order">
+            <column name="myob_export_buyer_user_id" type="bigint">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet author="jhipster" id="20181001070102-41">
+        <addColumn tableName="purchase_order">
+            <column name="discount" type="decimal(10,2)" defaultValueComputed="0.00">
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20190125132800-42" author="jhipster">
+        <addNotNullConstraint tableName="purchase_order"
+                              columnName="purchase_order_status"
+                              columnDataType="varchar(255)"
+                              constraintName="NNK_purchase_order"/>
+    </changeSet>
+
+    <changeSet id="20190125132800-43" author="jhipster">
+        <addColumn tableName="purchase_order">
+            <column name="ocr_acceptance_status" type="varchar(255)" >
+                <constraints nullable="false" />
+            </column>
+
+            <column name="hard_copy_invoice_status" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="e_invoice_status" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190125132800-44" author="jhipster">
+        <addColumn tableName="purchase_order">
+            <column name="xero_invoice_id" type="varchar(500)"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20191106121002-40">
+        <addColumn
+            tableName="purchase_order">
+            <column name="ext_invoice_no" type="varchar(50)"/>
+        </addColumn>
+        <addColumn
+            tableName="purchase_order">
+            <column name="ext_invoice_line_no" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20200302143100-45" author="jhipster" failOnError="false">
+        <addColumn tableName="purchase_order">
+            <column name="deleted" type="bit" />
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20200408174900-46" failOnError="false">
+        <addColumn
+            tableName="purchase_order">
+            <column name="picking_list_printed" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20201103125000-47" failOnError="false">
+        <addColumn
+            tableName="purchase_order">
+            <column name="adhoc_po_gst_enabled" type="bit"/>
+        </addColumn>
+    </changeSet>
+
+</databaseChangeLog>

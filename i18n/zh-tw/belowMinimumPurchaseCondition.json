@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "BelowMinimumPurchaseCondition" : {
+            "null": "",
+            "PURCHASE_NOT_ACCEPTED": "無法購買",
+            "SELF_COLLECT_ITEMS": "自取商品",
+            "APPLY_DELIVERY_CHARGE": "運費另計"
+        }
+    }
+}

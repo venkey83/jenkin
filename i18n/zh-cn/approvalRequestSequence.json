@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "approvalRequestSequence" : {
+            "home": {
+                "title": "Approval Request Sequences_CH",
+                "createLabel": "Create a new Approval Request Sequence_CH",
+                "createOrEditLabel": "Create or edit a Approval Request Sequence_CH",
+                "search": "Search for Approval Request Sequence_CH"
+            },
+            "created": "A new Approval Request Sequence is created with identifier {{ param }}_CH",
+            "updated": "A Approval Request Sequence is updated with identifier {{ param }}_CH",
+            "deleted": "A Approval Request Sequence is deleted with identifier {{ param }}_CH",
+            "delete": {
+                "question": "Are you sure you want to delete Approval Request Sequence {{ id }}?_CH"
+            },
+            "detail": {
+                "title": "Approval Request Sequence_CH"
+            },
+            "sequenceNumber": "Sequence Number_CH",
+            "createdDate": "Created Date_CH",
+            "modifiedDate": "Modified Date_CH"
+        }
+    }
+}

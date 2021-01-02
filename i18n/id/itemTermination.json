@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "itemTermination" : {
+            "home": {
+                "title": "Penghentian Item",
+                "createLabel": "Buat Pemutusan Item baru",
+                "createOrEditLabel": "Buat atau edit Pemutusan Item",
+                "search": "Cari Pemutusan Barang"
+            },
+            "created": "Pemutusan Item baru dibuat dengan Identifier {{ param }}",
+            "updated": "Pemutusan Barang diperbarui dengan Identifier {{ param }}",
+            "deleted": "Pemutusan Barang dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Penghentian Item {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemutusan Item"
+            },
+            "fromDate": "Tanggal Mulai",
+            "endDate": "Tanggal Selesai",
+            "reasonForTermination": "Alasan Pemutusan",
+            "createdDate": "Tanggal dibuat",
+            "items": "Item_ID",
+            "itemBusinessMapping": "Pemetaan Item Bisnis",
+            "user": "Pengguna"
+        }
+    }
+}

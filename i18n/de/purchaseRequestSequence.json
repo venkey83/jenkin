@@ -1,0 +1,24 @@
+{
+  "ezyprocureApp": {
+    "purchaseRequestSequence": {
+      "created": "Eine neue Bestellanforderungssequenz wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Bestellanforderungssequenz {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Bestellanforderungssequenz wird mit dem Bezeichner {{param}} gelöscht.",
+      "detail": {
+        "title": "Reihenfolge der Kaufanfrage"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Bestellanforderungssequenz",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Bestellanforderungssequenz",
+        "search": "Suchen Sie nach der Bestellanforderungsreihenfolge",
+        "title": "Bestellanforderungssequenzen"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "sequenceNumber": "Sequenznummer",
+      "updated": "Eine Bestellanforderungssequenz wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

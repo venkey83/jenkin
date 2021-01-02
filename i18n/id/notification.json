@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "notification" : {
+            "home": {
+                "title": "Pemberitahuan",
+                "createLabel": "Buat Pemberitahuan baru",
+                "createOrEditLabel": "Buat atau edit Pemberitahuan",
+                "search": "Cari Pemberitahuan"
+            },
+            "created": "Pemberitahuan baru dibuat dengan identifier {{ param }}",
+            "updated": "Pemberitahuan diperbarui dengan identifier {{ param }}",
+            "deleted": "Pemberitahuan dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Yakin ingin menghapus Pemberitahuan {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemberitahuan"
+            },
+            "deviceType": "Jenis perangkat",
+            "deviceToken": "Token Perangkat",
+            "badgeCount": "Jumlah Lambang",
+            "user": "Pengguna"
+        }
+    }
+}

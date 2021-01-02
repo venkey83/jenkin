@@ -1,0 +1,14 @@
+{
+    "ezyprocureApp": {
+        "PaymentModel" : {
+            "null": "",
+            "SUPPLIER_FUNDED": "SUPPLIER FUNDED_JA",
+            "BUYER_FUNDED": "BUYER FUNDED_JA",
+            "BUYER_FUNDED_WITH_REBATES": "BUYER FUNDED WITH REBATES_JA",
+            "BUYER_SUPPLIER_CO_FUNDED": "BUYER SUPPLIER CO FUNDED_JA",
+            "SUPPLIER_INITIATED": "SUPPLIER INITIATED_JA",
+            "SIP_SUPPLIER_FUNDED":"SIP_SUPPLIER_FUNDED_JA",
+            "SIP_BUYER_FUNDED":"SIP_BUYER_FUNDED_JA"
+        }
+    }
+}

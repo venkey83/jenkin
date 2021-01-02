@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="now" value="sysdate" dbms="oracle"/>
+
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle"/>
+
+    <!--
+        Added the entity ItemBuyerMapping.
+    -->
+    <changeSet id="20170124133333-1" author="jhipster">
+        <createTable tableName="item_buyer_mapping">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="deleted" type="bit">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="created_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="modified_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="items_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="buyer_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="item_buyer_mapping" columnName="created_date" columnDataType="datetime"/>
+        <dropDefaultValue tableName="item_buyer_mapping" columnName="modified_date" columnDataType="datetime"/>
+
+    </changeSet>
+    <changeSet author="jhipster" id="20170124133333-2">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="buyer_limited" type="bit"/>
+        </addColumn>
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="maximum_allocation" type="double"/>
+        </addColumn>
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="price" type="double"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170124133333-4">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="supplier_id" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170124133333-5">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="buyer_item_code" type="varchar(255)"/>
+        </addColumn>
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="buyer_item_name" type="varchar(255)"/>
+        </addColumn>
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="buyer_item_group_id" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20191119133333-5">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="buyer_uom" type="varchar(255)">
+            <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="201912021838-6">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="inventory_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet author="jhipster" id="20200623105700-7">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="parent_item" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet author="jhipster" id="20200623105800-8">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="barcode" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20200827150000-9">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="exported_by" type="varchar(255)">
+            <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20200827150000-10">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="exported" type="boolean" defaultValueBoolean="false">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20201014130600-11">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="sub_category_id" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20201014130600-12">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="batch_management" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20201014130600-13">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="reorder_qty" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20201014130600-14">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="reorder_level" type="bigint"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20201029180700-15">
+        <addColumn
+            tableName="item_buyer_mapping">
+            <column name="is_inv_created" type="boolean" defaultValueBoolean="false">
+            </column>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

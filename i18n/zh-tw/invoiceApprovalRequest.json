@@ -1,0 +1,31 @@
+{
+  "ezyprocureApp": {
+    "invoiceApprovalRequest": {
+      "home": {
+        "title": "Invoice Approval Requests",
+        "createLabel": "建立一筆新的 Invoice Approval Request",
+        "createOrEditLabel": "建立或編輯 Invoice Approval Request",
+        "notFound": "No Invoice Approval Requests found"
+      },
+      "created": "新的 Invoice Approval Request 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Invoice Approval Request 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Invoice Approval Request 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Invoice Approval Request {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Invoice Approval Request"
+      },
+      "approvalRequestNumber": "Approval Request Number",
+      "approvalStatus": "Approval Status",
+      "createdDate": "Created Date",
+      "modifiedDate": "Modified Date",
+      "deletionToken": "Deletion Token",
+      "modifiedBy": "Modified By",
+      "approvalNeededFrom": "Approval Needed From",
+      "supplier": "Supplier",
+      "createdBy": "Created By",
+      "invoice": "Invoice"
+    }
+  }
+}

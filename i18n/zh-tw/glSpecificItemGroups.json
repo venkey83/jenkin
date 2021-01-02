@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "glSpecificItemGroups" : {
+            "home": {
+                "title": "總帳特別項目分組",
+                "createLabel": "新增總帳特別項目分組",
+                "createOrEditLabel": "編輯總帳特別項目分組",
+                "search": "查詢總帳特別項目分組"
+            },
+            "created": "新增新總帳特別項目分組編碼 {{ param }}",
+            "updated": "更新新總帳特別項目分組編碼 {{ param }}",
+            "deleted": "刪除新總帳特別項目分組編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除總帳特別項目分組？"
+            },
+            "detail": {
+                "title": "總帳特別項目分組"
+            },
+            "name": "名稱",
+            "description": "內容",
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "buyer": "商家"
+        }
+    }
+}

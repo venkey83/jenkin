@@ -1,0 +1,11 @@
+{
+  "ezyprocureApp": {
+    "orderTemplateItemMapping": {
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Bestellvorlagen-Artikelzuordnung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Bestellvorlagen-Artikelzuordnung",
+        "title": "Bestellvorlagenelementzuordnungen"
+      }
+    }
+  }
+}

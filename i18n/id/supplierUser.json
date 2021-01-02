@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "supplierUser" : {
+            "home": {
+                "title": "Pengguna Pemasok",
+                "createLabel": "Buat Pengguna Pemasok baru",
+                "createOrEditLabel": "Buat atau edit Pengguna Pemasok",
+                "search": "Cari Pengguna Pemasok"
+            },
+            "created": "Pengguna Pemasok baru dibuat dengan identifier {{ param }}",
+            "updated": "Pengguna Pemasok diperbarui dengan identifier {{ param }}",
+            "deleted": "Pengguna Pemasok dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pengguna Pemasok {{ id }}?"
+            },
+            "detail": {
+                "title": "Pengguna Pemasok"
+            },
+            "createdDate": "Tanggal Dibuat",
+            "parentId": "Id Induk",
+            "secondaryEmail": "Email Sekunder",
+            "phoneNumber": "Nomor Telepon",
+            "mobileNumber": "Nomor Ponsel",
+            "user": "Pengguna",
+            "supplier": "Pemasok",
+            "userRoles": "Peran Pengguna"
+        }
+    }
+}

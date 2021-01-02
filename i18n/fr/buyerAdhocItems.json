@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "buyerAdhocItems": {
+      "created": "Un nouvel article ad hoc acheteur est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les articles ad hoc de l'acheteur {{id}}?"
+      },
+      "deleted": "Un acheteur d'articles ad hoc est supprimé avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Articles ad hoc de l'acheteur"
+      },
+      "home": {
+        "createLabel": "Créer un nouvel article ad hoc pour l'acheteur",
+        "createOrEditLabel": "Créer ou modifier des articles ad hoc pour un acheteur",
+        "search": "Rechercher des articles ad hoc pour l'acheteur",
+        "title": "Articles ad hoc de l'acheteur"
+      },
+      "itemDescription": "Description de l'objet",
+      "itemName": "Nom de l'article",
+      "itemType": "Type d'élément",
+      "modifiedDate": "Date modifiée",
+      "quantity": "Quantité",
+      "unitPrice": "Prix unitaire",
+      "updated": "Un article ad hoc pour l'acheteur est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

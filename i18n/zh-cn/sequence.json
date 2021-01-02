@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "sequence" : {
+            "home": {
+                "title": "序列",
+                "createLabel": "创建一个新序列",
+                "createOrEditLabel": "创建或修改序列",
+                "search": "查找序列"
+            },
+            "created": "一个标识为{{ param }}的新的序列被创建了",
+            "updated": "一个标识为{{ param }}的序列被更新了",
+            "deleted": "一个标识为{{ param }}的序列被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }} 的序列么?"
+            },
+            "detail": {
+                "title": "序列"
+            },
+            "invoiceNumber": "发票号",
+            "createdDate": "创建日期",
+            "modifiedDate": "修改日期",
+            "supplier": "供货商"
+        }
+    }
+}

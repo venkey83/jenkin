@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "BuyerActionStatus" : {
+            "null": "",
+            "ACCEPT": "ACCEPT",
+            "REJECT": "REJECT",
+            "PENDING": "PENDING"
+        }
+    }
+}

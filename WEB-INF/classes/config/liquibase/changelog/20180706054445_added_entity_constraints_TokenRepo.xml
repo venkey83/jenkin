@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity TokenRepo.
+    -->
+    <changeSet id="20180706054445-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="brand_id"
+                                 baseTableName="token_repo"
+                                 constraintName="fk_token_repo_brand_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="brand"/>
+
+        <addForeignKeyConstraint baseColumnNames="buyer_user_id"
+                                 baseTableName="token_repo"
+                                 constraintName="fk_token_repo_buyer_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_user"/>
+
+    </changeSet>
+</databaseChangeLog>

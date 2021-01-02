@@ -1,0 +1,13 @@
+{
+    "ezyprocureApp": {
+        "PaymentStatus" : {
+            "null": "",
+            "PENDING_APPROVAL": "KELULUSAN YANG BELUM DISELESAI",
+            "PAID": "TELAH BAYAR",
+            "UNPAID": "BELUM BAYAR",
+            "FAILED": "GAGAL",
+            "VOID": "BATAL",
+            "CANCELLED": "DIBATALKAN"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "register": {
+    "form": {
+      "button": "Registrieren"
+    },
+    "messages": {
+      "error": {
+        "emailexists": "<strong> E-Mail wird bereits verwendet! </ strong> Bitte wählen Sie eine andere aus.",
+        "fail": "<strong> Registrierung fehlgeschlagen! </ strong> Bitte versuchen Sie es später erneut.",
+        "userexists": "<strong> Anmeldename bereits registriert! </ strong> Bitte wählen Sie einen anderen aus."
+      },
+      "success": "<strong> Registrierung gespeichert! </ strong> Bitte überprüfen Sie Ihre E-Mail-Adresse, um eine Bestätigung zu erhalten.",
+      "validate": {
+        "login": {
+          "maxlength": "Ihr Benutzername darf nicht länger als 50 Zeichen sein.",
+          "minlength": "Ihr Benutzername muss mindestens 1 Zeichen lang sein.",
+          "pattern": "Ihr Benutzername darf nur Kleinbuchstaben und Ziffern enthalten.",
+          "required": "Ihr Benutzername ist erforderlich."
+        }
+      }
+    },
+    "title": "Anmeldung",
+    "subscription": {
+        "selectPlan": "Select your plan_DE",
+        "domestic": "Domestic_DE",
+        "crossborder": "Cross Border_DE",
+        "subscribe": "Subscribe_DE",
+        "SUBSCRIPTION_BASED_MONTHLY":"Monthly_DE",
+        "SUBSCRIPTION_BASED_YEARLY":"Yearly_DE",
+        "GRANT":"Grant_DE",
+        "TRANSACTION_BASED":"Per Transaction_DE",
+        "check_mail_for_plan": "A verification mail is sent to the registered email_DE"
+    }
+  }
+}

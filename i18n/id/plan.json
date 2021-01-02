@@ -1,0 +1,35 @@
+{
+	"ezyprocureApp": {
+		"plan": {
+			"home": {
+				"title": "Plans_ID",
+				"createLabel": "Create a new Plan_ID",
+				"createOrEditLabel": "Create or edit a Plan_ID",
+				"notFound": "No Plans found_ID"
+			},
+			"created": "A new Plan is created with identifier {{ param }}_ID",
+			"updated": "A Plan is updated with identifier {{ param }}_ID",
+			"deleted": "A Plan is deleted with identifier {{ param }}_ID",
+			"delete": {
+				"question": "Are you sure you want to delete Plan {{ id }}?_ID"
+			},
+			"detail": {
+				"title": "Plan_ID"
+			},
+			"name": "Name_ID",
+			"desc": "Desc_ID",
+			"type": "Type_ID",
+			"value": "Value_ID",
+			"myplans": {
+				"planType": "Plan Type_ID",
+				"planName": "Plan Name_ID",
+				"validFrom": "Valid From_ID",
+				"validTo": "Valid To_ID",
+				"cost": "Cost_ID",
+				"domestic": "Domestic_ID",
+				"crossborder": "Cross Border_ID"
+			},
+			"outlet_error":"Payment has already been done for the Current billing cycle so please select a New Plan from the plan selection page for the Next billing cycle_ID"
+		}
+	}
+}

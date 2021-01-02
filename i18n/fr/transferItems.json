@@ -1,0 +1,30 @@
+{
+  "ezyprocureApp": {
+    "transferItems": {
+      "created": "Un nouvel élément de transfert est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les éléments de transfert {{id}}?"
+      },
+      "deleted": "Un élément de transfert est supprimé avec l'identifiant {{param}}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Articles à transferer"
+      },
+      "home": {
+        "createLabel": "Créer un nouvel élément de transfert",
+        "createOrEditLabel": "Créer ou modifier un élément de transfert",
+        "notFound": "Aucun élément de transfert trouvé",
+        "title": "Articles à transferer"
+      },
+      "items": "Articles",
+      "modifiedDate": "Date modifiée",
+      "quantity": "Quantité",
+      "receivedQuantity": "Quantité reçue",
+      "remarks": "Remarques",
+      "transferRequest": "Demande de transfert",
+      "uom": "Uom",
+      "updated": "Un élément de transfert est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

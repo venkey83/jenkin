@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="20201010111500-1" author="sgebiz">
+        <createTable tableName="app_sequence_number">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="sequence_type" type="varchar(50)">
+                <constraints nullable="false" />
+            </column>
+            <column name="buyer_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+            <column name="sequence_number" type="bigint">
+                <constraints nullable="false" />
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet id="20201010111500-2" author="sgebiz">
+        <sql>
+            CREATE unique INDEX idx_app_sequence_number_type_buyer ON app_sequence_number (sequence_type,buyer_id)
+        </sql>
+    </changeSet>
+    <changeSet id="20201010111500-3" author="sgebiz">
+        <addForeignKeyConstraint baseTableName="app_sequence_number" baseColumnNames="buyer_id"
+                                 constraintName="fk_app_sequence_number_buyer"
+                                 referencedTableName="buyer" referencedColumnNames="id"/>
+    </changeSet>
+</databaseChangeLog>

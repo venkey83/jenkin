@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity ExternalPayment.
+    -->
+    <changeSet id="20180713095457-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="payment_id"
+                                 baseTableName="external_payment"
+                                 constraintName="fk_external_payment_payment_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="payment"/>
+
+        <addForeignKeyConstraint baseColumnNames="supplier_id"
+                                 baseTableName="external_payment"
+                                 constraintName="fk_external_payment_supplier_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="supplier"/>
+
+    </changeSet>
+    <changeSet id="201808203095457-3" author="jhipsters">
+
+        <addForeignKeyConstraint baseColumnNames="brand_id"
+                                  baseTableName="external_payment"
+                                  constraintName="fk_external_payment_brand_id"
+                                  referencedColumnNames="id"
+                                  referencedTableName="brand"/>
+        
+    </changeSet>
+</databaseChangeLog>

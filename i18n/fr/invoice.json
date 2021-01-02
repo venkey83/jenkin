@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "invoice": {
+      "addedGst": "TVA ajoutée",
+      "created": "Une nouvelle facture est créée avec l'identifiant {{param}}",
+      "debitNoteAmount": "Montant de la note de débit",
+      "debitNoteStatus": "État de la note de débit",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la facture {{id}}?"
+      },
+      "deleted": "Une facture est supprimée avec l'identifiant {{param}}",
+      "deliveryCharge": "Frais de livraison",
+      "detail": {
+        "title": "Facture d'achat"
+      },
+      "discount": "Remise",
+      "grandTotal": "somme finale",
+      "hardcopyInvoiceNumber": "Numéro de facture sur papier",
+      "home": {
+        "createLabel": "Créer une nouvelle facture",
+        "createOrEditLabel": "Créer ou modifier une facture",
+        "search": "Recherche de facture",
+        "title": "Factures"
+      },
+      "invoiceComment": "Commentaire sur la facture",
+      "invoiceDate": "Date de facturation",
+      "invoiceNumber": "Numéro de facture",
+      "invoiceSubTotal": "Sous-total de la facture",
+      "invoiceTotal": "Total de la facture",
+      "updated": "Une facture est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

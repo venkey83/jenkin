@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity ProcessOrder.
+    -->
+    <changeSet id="20170217060140-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="buyer_user_id"
+                                 baseTableName="process_order"
+                                 constraintName="fk_process_order_buyer_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="buyer_business_id"
+                                 baseTableName="process_order"
+                                 constraintName="fk_process_order_buyer_business_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_business"/>
+
+        <addForeignKeyConstraint baseColumnNames="items_id"
+                                 baseTableName="process_order"
+                                 constraintName="fk_process_order_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+
+    </changeSet>
+    <changeSet id="20170217060140-3" author="jhipster">
+    <addForeignKeyConstraint baseColumnNames="gl_code_mappings_id"
+                             baseTableName="process_order"
+                             constraintName="fk_gl_code_mappings_id"
+                             referencedColumnNames="id"
+                             referencedTableName="gl_code_mappings"/>
+
+</changeSet>
+</databaseChangeLog>

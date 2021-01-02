@@ -1,0 +1,32 @@
+{
+  "ezyprocureApp": {
+    "brandSupplierPaymentModelMapping": {
+      "brand": "Marque",
+      "buyerBusinessServiceRate": "Tarif du service aux entreprises acheteur",
+      "created": "Un nouveau mappage de modèle de paiement de fournisseur de marque est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "creditTerms": "Conditions de crédit",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le mappage des modèles de paiement des fournisseurs de marque {{id}}?"
+      },
+      "deleted": "Un modèle de paiement du fournisseur de marque est supprimé avec l'identifiant {{ param }}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Cartographie des modèles de paiement des fournisseurs de marques"
+      },
+      "epdApprovalRequest": "Demande d'approbation EPD",
+      "home": {
+        "createLabel": "Créer une nouvelle cartographie du modèle de paiement des fournisseurs de marque",
+        "createOrEditLabel": "Créer ou modifier un mappage de modèle de paiement fournisseur de marque",
+        "search": "Recherche de la cartographie des modèles de paiement des fournisseurs de marques",
+        "title": "Mappages des modèles de paiement des fournisseurs de marques"
+      },
+      "modifiedDate": "Date modifiée",
+      "paymentModel": "Modèle de paiement",
+      "supplier": "Fournisseur",
+      "supplierBusinessServiceRate": "Tarif des services aux entreprises",
+      "updated": "Un mappage de modèle de paiement fournisseur de marque est mis à jour avec l'identifiant {{param}}",
+      "updatedBy": "Mis à jour par"
+    }
+  }
+}

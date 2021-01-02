@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "VisibilityType" : {
+            "null": "",
+            "ALLOCATED": "ALLOCATED",
+            "ADHOC": "ADHOC",
+            "PUBLIC": "PUBLIC",
+            "ADHOC_OFF_BOARD_SUPPLIER": "ADHOC_OFF_BOARD_SUPPLIER",
+            "CP_SG":"CP_SG"
+        }
+    }
+}

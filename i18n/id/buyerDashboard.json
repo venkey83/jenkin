@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "buyerDashboard" : {
+            "home": {
+                "dashboard": "Dasbor",
+                "businessSummary": "Ringkasan Bisnis",
+                "pendingApprovals": "Menunda Persetujuan"
+            },
+            "waitingSupplierReply": "Menunggu Balasan Pemasok",
+            "priceUpdates": "Pembaruan harga",
+            "epdApprovals": "Persetujuan EPD",
+            "paymentApprovals": "Persetujuan Pembayaran",
+            "supplierUnableToMeetDemands": "Pemasok tidak dapat memenuhi permintaan",
+            "receivingMyOrder": "Menerima pesanan saya",
+            "cancelPORequest":"Batalkan Permintaan PO",
+            "debitNotes": "Catatan debit",
+            "adhocPo":"Adhoc PO",
+            "adhocPoForm":"Bentuk Adhoc PO",
+            "uploadYourOrder":"Unggah Pesanan Anda!",
+            "uploadSalesOrder":"Unggah Pesanan Penjualan!",
+            "pendingInvoicesForPayment": "Faktur Tertunda untuk Pembayaran"
+        }
+    }
+}

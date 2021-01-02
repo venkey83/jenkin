@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "pickingListItemMapping" : {
+            "home": {
+                "title": "Pemetaan Item Daftar Pilih",
+                "createLabel": "Buat Pemetaan Item Daftar Pilih baru",
+                "createOrEditLabel": "Buat atau Edit Pemetaan Item Daftar Pilih",
+                "search": "Cari Pemetaan Item Daftar Pilih"
+            },
+            "created": "Pemetaan Item Daftar Pilih baru dibuat dengan identifier {{ param }}",
+            "updated": "Pemetaan Item Daftar Pilih diperbarui dengan identifier {{ param }}",
+            "deleted": "Pemetaan Item Daftar Pilih dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pemetaan Item Daftar Pilih {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Item Daftar Pilih"
+            },
+            "position": "Posisi",
+            "items": "Item",
+            "pickingList": "Daftar Pilih"
+        }
+    }
+}

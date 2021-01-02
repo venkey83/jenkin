@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "supplierUser" : {
+            "home": {
+                "title": "供應商使用者",
+                "createLabel": "新增供應商使用者",
+                "createOrEditLabel": "編輯供應商使用者",
+                "search": "查詢供應商使用者"
+            },
+            "created": "新增供應商使用者編碼 {{ param }}",
+            "updated": "更新供應商使用者編碼 {{ param }}",
+            "deleted": "刪除供應商使用者編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除供應商使用者？"
+            },
+            "detail": {
+                "title": "供應商使用者"
+            },
+            "createdDate": "建立日期",
+            "parentId": "帳號",
+            "secondaryEmail": "備用電子信箱",
+            "phoneNumber": "室內電話",
+            "mobileNumber": "行動電話",
+            "user": "使用者",
+            "supplier": "供應商",
+            "userRoles": "使用者職位"
+        }
+    }
+}

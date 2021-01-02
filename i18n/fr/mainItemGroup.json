@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "mainItemGroup": {
+      "created": "Un nouveau groupe d'articles principal est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le groupe d'éléments principal {{id}}"
+      },
+      "deleted": "Un groupe de points principaux est supprimé avec l'identifiant {{ param }}",
+      "description": "La description",
+      "detail": {
+        "title": "Groupe d'articles principal"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau groupe d'articles principal",
+        "editLabel": "Modifier le groupe d'articles principal",
+        "search": "Rechercher le groupe d'articles principal",
+        "title": "Groupes d'articles principaux"
+      },
+      "modifiedDate": "Date modifiée",
+      "name": "Nom",
+      "updated": "Un groupe d'articles principal est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

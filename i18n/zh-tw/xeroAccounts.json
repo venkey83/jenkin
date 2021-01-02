@@ -1,0 +1,24 @@
+{
+  "ezyprocureApp": {
+    "xeroAccounts": {
+      "home": {
+        "title": "Xero Accounts",
+        "createLabel": "建立一筆新的 Xero Accounts",
+        "createOrEditLabel": "建立或編輯 Xero Accounts"
+      },
+      "created": "新的 Xero Accounts 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Xero Accounts 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Xero Accounts 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Xero Accounts {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Xero Accounts"
+      },
+      "name": "Name",
+      "code": "Code",
+      "type": "Type",
+      "accountId": "Account Id"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "itemsForApproval" : {
+            "home": {
+                "title": "Item Untuk Persetujuan",
+                "createLabel": "Buat Item Untuk Persetujuan Baru",
+                "createOrEditLabel": "Buat atau edit Item Untuk Persetujuan",
+                "search": "Cari Item Untuk Persetujuan"
+            },
+            "created": "Item Untuk Persetujuan baru dibuat dengan Identifier {{ param }}",
+            "updated": "Item untuk Persetujuan diperbarui dengan Identifier {{ param }}",
+            "deleted": "Item untuk Persetujuan dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Item Untuk Persetujuan {{ id }}?"
+            },
+            "detail": {
+                "title": "Item untuk Persetujuan"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "approvalRequired": "Diperlukan Persetujuan",
+            "price": "Harga",
+            "buyer": "Pembeli",
+            "items": "Item_ID"
+        }
+    }
+}

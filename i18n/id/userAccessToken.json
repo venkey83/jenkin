@@ -1,0 +1,23 @@
+{
+  "ezyprocureApp": {
+    "userAccessToken": {
+      "home": {
+        "title": "Auth Tokens",
+        "createLabel": "Buat Auth Tokens baru",
+        "createOrEditLabel": "Buat atau edit Auth Tokens"
+      },
+      "created": "Auth Tokens dengan id {{ param }} telah dibuat",
+      "updated": "Auth Tokens dengan id {{ param }} telah diperbaharui",
+      "deleted": "Auth Tokens dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Auth Tokens {{ id }}?"
+      },
+      "detail": {
+        "title": "Auth Tokens"
+      },
+      "token": "Token",
+      "createdDate": "Created Date",
+      "user": "User"
+    }
+  }
+}

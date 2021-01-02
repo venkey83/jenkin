@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.acceptprocessorder.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.acceptprocessorder.greeting(${firstName})}"> </p>
+<p th:text="#{email.acceptprocessorder.content(${buyer},${requirementNumber})}"></p>
+<p th:text="${url}"></p>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;">
+        <td th:text="#{email.acceptprocessorder.itemcode}" style="width:140px"> </td>
+        <td th:text="#{email.acceptprocessorder.itemname}" style="width: 200px;"> </td>
+        <td th:text="#{email.acceptprocessorder.price}" style="width: 200px;"> </td>
+        <td th:text="#{email.invoicePending.quantity}" style="width: 200px;"> </td>
+        <td th:text="#{email.offBoardcheckoutemail.deliverydate}" style="width: 200px;"> </td>
+
+    </tr>
+    <tr th:each="item : ${items}">
+        <td th:text="${item.items.itemCode}"></td>
+        <td th:text="${item.items.itemName}"> </td>
+        <td th:text="${item.freeItem} ? #{email.checkoutemail.freeItem} : ${#numbers.formatDecimal(item.price, 0, 2)}"> </td>
+        <td th:text="${item.quantity}"> </td>
+        <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(item.deliveryDate)}"> </td>
+    </tr>
+</table>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

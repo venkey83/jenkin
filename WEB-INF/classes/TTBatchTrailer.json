@@ -1,0 +1,29 @@
+[{
+    "fieldId": "recordtype",
+    "type": "text",
+    "position": 1,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "defaultValue": 9
+},{
+    "fieldId": "totalNumberOfTransactions",
+    "type": "text",
+    "position": 2,
+    "length": 8,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "totalPaymentAmount",
+    "type": "text",
+    "position": 10,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "filler",
+    "type": "text",
+    "position": 25,
+    "length": 1776,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+}]

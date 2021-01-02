@@ -1,0 +1,8 @@
+{
+    "ezyprocureApp": {
+        "GoodsReturnStatus" : {
+            "null": "",
+            "RETURNED": "已退貨"
+        }
+    }
+}

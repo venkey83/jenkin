@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "VisibilityType" : {
+            "null": "",
+            "ALLOCATED": "已配對",
+            "ADHOC": "特別採購",
+            "PUBLIC": "公開",
+            "ADHOC_OFF_BOARD_SUPPLIER": "供應商線下特別採購",
+            "CP_SG":"CP_SG"
+        }
+    }
+}

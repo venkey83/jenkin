@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "BelowMinimumPurchaseCondition" : {
+            "null": "",
+            "PURCHASE_NOT_ACCEPTED": "PEMBELIAN_TIDAK_DITERIMA",
+            "SELF_COLLECT_ITEMS": "ITEM_MENGUMPULKAN_DIRI",
+            "APPLY_DELIVERY_CHARGE": "MENERAPKAN_BIAYA_PENGIRIMAN"
+        }
+    }
+}

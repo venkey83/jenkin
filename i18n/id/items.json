@@ -1,0 +1,44 @@
+{
+    "ezyprocureApp": {
+        "items" : {
+            "multiplierFactor": "Multiplier Factor_ID",
+            "home": {
+                "title": "Item",
+                "createLabel": "Buat Item baru",
+                "createOrEditLabel": "Buat atau edit Item",
+                "search": "Cari Item"
+            },
+            "created": "Item baru dibuat dengan Identifier{{ param }}",
+            "updated": "Item diperbarui dengan Identifier{{ param }}",
+            "deleted": "Item dihapus dengan Identifier{{ param }}",
+            "delete": {
+                "question": "Anda Yakin ingin menghapus Item{{ id }}?"
+            },
+            "detail": {
+                "title": "Item_ID"
+            },
+            "itemCode": "Kode Item",
+            "itemName": "Nama Item",
+            "itemDescription": "Deskripsi Item",
+            "itemKeyword": "Kata Kunci Item",
+            "moq": "MOQ",
+            "quantityForAlternativeUOM": "Jumlah Untuk Alternatif UOM",
+            "itemSize": "Ukuran Item",
+            "price": "Harga",
+            "currency": "Mata uang",
+            "expirationPeriod": "Periode Kadaluarsa",
+            "image": "Gambar",
+            "itemType": "Jenis Item",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "supplier": "Pemasok",
+            "uom": "UOM",
+            "itemGroup": "Kelompok Item",
+            "alternativeUom": "Alternatif Uom",
+            "value": "Nilai",
+            "percentage": "Persentase",
+            "quantity": "Kuantitas",
+            "labelPrintingEnabled":"Pencetakan Label Diaktifkan"
+        }
+    }
+}

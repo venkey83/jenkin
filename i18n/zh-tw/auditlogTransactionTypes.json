@@ -1,0 +1,36 @@
+{
+    "ezyprocureApp": {
+        "auditlogTransactionTypes" : {
+           "EXPORT_TO_XERO":"EXPORT TO XERO_TW",
+           "TAX_INVOICE":"TAX INVOICE_TW",
+           "PURCHASE_REQUEST":"採購需求",
+           "PURCHASE_ORDER":"採購訂單",
+           "PURCHASE_REQUEST_FOR_APPROVAL":"PURCHASE REQUEST FOR APPROVAL_TW",
+           "CREDIT_NOTE":"CREDIT NOTE_TW",
+           "SALES_ORDER":"SALES ORDER_TW",
+           "E_INVOICE":"電子明細",
+           "GOOD_RECIEPT_NOTE":"GOOD RECIEPT NOTE_TW",
+           "ORDER_TEMPLATE" : "ORDER TEMPLATE_TW",
+           "GRN":"GRN_TW",
+           "E_AUTHORIZATION_REQUEST":"E_AUTHORIZATION_REQUEST_TW",
+           "INVOICE":"交易明細",
+           "OCR_GRN_EDIT":"OCR GRN EDIT_TW",
+           "OCR_ACCEPTANCE":"OCR Acceptance_TW",
+           "PROCESS_ORDER":"PROCESS ORDER_TW",
+           "ADHOC_SUPPLIER_MAPPING":"ADHOC SUPPLIER MAPPING_TW",
+           "EXPORT_TRANSACTION_DETAILS":"EXPORT TRANSACTION DETAILS_TW",
+           "SIP_INVOICE_APPROVAL_REQUEST": "SIP INVOICE APPROVAL REQUEST_TW",
+           "SIP_INVOICE": "SIP INVOICE_TW",
+           "PURCHASE_JURNAL": "PURCHASE JURNAL_TW",
+           "SALES_JURNAL": "SALES JURNAL_TW",
+           "MILLION_EXPORT": "MILLION EXPORT_TW",
+           "AP_EXPORT": "AP EXPORT_TW",
+           "OCI_EXPORT": "OCI EXPORT_TW",
+           "ITEM_BUSINESS_MAPPING":"Item Business Mapping_TW",
+           "PAYMENT": "Payment_TW",
+           "MANAGE_CARDS":"MANAGE CARDS_TW",
+           "EXTERNAL_PAYMENT_FILE_UPLOAD":"External Payment_TW"
+        }
+    }
+}
+

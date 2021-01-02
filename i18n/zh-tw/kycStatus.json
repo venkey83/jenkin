@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "kycStatus" : {
+          "null": "",
+          "NA": "—",
+          "SUCCESSFUL": "完成",
+          "EXPIRING": "未到期",
+          "EXPIRED": "過期",
+          "FAILED": "失敗"
+        }
+    }
+}

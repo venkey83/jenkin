@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "invoice" : {
+            "home": {
+                "title": "发票",
+                "createLabel": "创建一个新的发票",
+                "createOrEditLabel": "创建或编辑发票",
+                "search": "查找发票"
+            },
+            "created": "一个标识为 {{ param }} 的新的发票被创建了",
+            "updated": "一个标识为 {{ param }} 的新的发票被更新了",
+            "deleted": "一个标识为 {{ param }} 的新的发票被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }} 的发票么?"
+            },
+            "detail": {
+                "title": "发票"
+            },
+            "invoiceNumber": "发票号",
+            "invoiceDate": "发票日期",
+            "invoiceComment": "发票评论",
+            "deliveryCharge": "送货费",
+            "discount": "折扣",
+            "hardcopyInvoiceNumber": "硬拷贝发票编号",
+            "invoiceSubTotal": "发票金额小计",
+            "invoiceTotal": "发票金额总计",
+            "addedGst": "包含的消费税",
+            "grandTotal": "总计金额",
+            "debitNoteStatus": "借方票据状态",
+            "debitNoteAmount": "借方票据金额"
+        }
+    }
+}

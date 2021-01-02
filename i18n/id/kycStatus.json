@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "kycStatus" : {
+          "null": "",
+          "NA": "NA",
+          "SUCCESSFUL": "BERHASIL",
+          "EXPIRING": "HAMPIR KADALUARSA",
+          "EXPIRED": "TELAH KADALUARSA",
+          "FAILED": "GAGAL"
+        }
+    }
+}

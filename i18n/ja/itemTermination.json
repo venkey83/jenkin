@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "itemTermination" : {
+            "home": {
+                "title": "ItemTerminations",
+                "createLabel": "Item Termination を追加",
+                "createOrEditLabel": "Item Terminationを追加または編集",
+                "search": "Search for Item Termination"
+            },
+            "created": "A new Item Termination is created with identifier {{ param }}",
+            "updated": "A Item Termination is updated with identifier {{ param }}",
+            "deleted": "A Item Termination is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Item Termination {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Item Termination"
+            },
+            "fromDate": "From Date",
+            "endDate": "End Date",
+            "reasonForTermination": "Reason For Termination",
+            "createdDate": "Created Date",
+            "items": "Items",
+            "itemBusinessMapping": "Item Business Mapping",
+            "user": "User"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "DebitNoteStatus" : {
+            "null": "",
+            "ALL": "SEMUA",
+            "DEBIT_NOTE_GENERATED": "NOTA DEBIT YANG DJANA",
+            "CREDIT_NOTE_GENERATED": "NOTA KREDIT YANG DIJANA",
+            "CREDIT_NOTE_PENDING": "NOTA KREDIT YANG BELUM SELESAI",
+            "CREDIT_NOTE_REJECTED": "NOTA KREDIT YANG DITOLAK"
+        }
+    }
+}

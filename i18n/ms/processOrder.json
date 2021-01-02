@@ -1,0 +1,37 @@
+{
+    "ezyprocureApp": {
+        "processOrder" : {
+            "home": {
+                "title": "Proses Pesanan",
+                "createLabel": "Mencipta Proses Pesanan",
+                "createOrEditLabel": "Mencipta atau Menyunting Proses Pesanan",
+                "search": "Pencarian Proses Pesanan"
+            },
+            "created": "Proses Pesanan baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Proses Pesanan telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Proses Pesanan telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Proses Pesanan {{ id }}?"
+            },
+            "detail": {
+                "title": "Proses Pesanan"
+            },
+            "requirementNumber":"Nombor Keperluan",
+            "deliveryDate": "Tarikh Penghantaran",
+            "quantity": "Kuantiti",
+            "specialRequest": "Permintaan Istimewa",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "supplierResponse": "Tindak Balas Pembekal",
+            "supplierFeedback": "Maklum Balas Pembekal",
+            "weight": "Berat",
+            "isFreeItem": "Barang yang Percuma",
+            "price": "Harga",
+            "buyerUser": "Pengguna Pembeli",
+            "buyerBusiness": "Perniagaan Pembeli",
+            "glCodeMappings": "Pemetaan Kod GL",
+            "items": "Barang",
+            "pickingListPrinted":"Senarai Memilih Dicetak"
+        }
+    }
+}

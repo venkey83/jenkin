@@ -1,0 +1,44 @@
+{
+  "ezyprocureApp": {
+    "salesOrder": {
+      "home": {
+        "title": "Pesanan Penjualan",
+        "createLabel": "Buat Pesanan Penjualan baru",
+        "createOrEditLabel": "Buat atau edit Pesanan Penjualan"
+      },
+      "created": "Pesanan Penjualan baru dibuat dengan identifier {{ param }}",
+      "updated": "Pesanan Penjualan diperbarui dengan identifier {{ param }}",
+      "deleted": "Pesanan Penjualan dihapus dengan identifier {{ param }}",
+      "delete": {
+        "question": "Anda yakin ingin menghapus Pesanan Penjualan {{ id }}?"
+      },	
+      "detail": {
+        "title": "Pesanan Penjualan"
+      },
+      "fileName": "Nama File",
+      "poNumber": "Nomor Po",
+      "customerCode": "Kode Pelanggan",
+      "supplierCode": "Kode Pemasok",
+      "shipToCode": "Kode Pengiriman",
+      "createdDate": "Tanggal Dibuat",
+      "poDate": "Tanggal Po",
+      "requiredDate": "Tanggal Wajib",
+      "preparedUser": "Pengguna Disiapkan",
+      "poRemark": "Ulasan Po",
+      "currency": "Mata Uang",
+      "exchangeRate": "Kurs",
+      "gst": "Gst",
+      "deliveryAddress": "Alamat Pengiriman",
+      "subTotal": "Total Sub" ,
+      "gstAmount": "Jumlah Gst",
+      "grandTotal": "Total Keseluruhan",
+      "itemCode": "Kode Item",
+      "uom": "Uom",
+      "unitPrice": "Harga Unit",
+      "deliveryQuantity": "Kuantitas Pengiriman",
+      "poStatus": "Status Po",
+      "logStatus": "Status Log",
+      "sftpConnectionId": "Id Koneksi Sftp"
+    }
+  }
+}

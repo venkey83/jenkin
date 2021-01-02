@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "glCodes" : {
+            "home": {
+                "title": "GL Codes",
+                "createLabel": "Create a new GL Codes",
+                "createOrEditLabel": "Create or edit a GL Codes",
+                "search": "Search for GL Codes"
+            },
+            "created": "A new GL Codes is created with identifier {{ param }}",
+            "updated": "A GL Codes is updated with identifier {{ param }}",
+            "deleted": "A GL Codes is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete GL Codes {{ id }}?"
+            },
+            "detail": {
+                "title": "GL Codes"
+            },
+            "code": "Code",
+            "description": "Description",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyer": "Buyer"
+        }
+    }
+}

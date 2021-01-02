@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "bank" : {
+            "home": {
+                "title": "Banks",
+                "createLabel": "Bank を追加",
+                "createOrEditLabel": "Bankを追加または編集",
+                "search": "Search for Bank"
+            },
+            "created": "A new Bank is created with identifier {{ param }}",
+            "updated": "A Bank is updated with identifier {{ param }}",
+            "deleted": "A Bank is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Bank {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Bank"
+            },
+            "bankCode": "Bank Code",
+            "bankName": "Bank Name",
+            "swiftCode": "Swift Code",
+            "fastParticipatingBank": "Fast Participating Bank",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date"
+        }
+    }
+}

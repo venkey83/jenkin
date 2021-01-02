@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "invoice" : {
+            "home": {
+                "title": "Invoices",
+                "createLabel": "Create a new Invoice",
+                "createOrEditLabel": "Create or edit a Invoice",
+                "search": "Search for Invoice"
+            },
+            "created": "A new Invoice is created with identifier {{ param }}",
+            "updated": "A Invoice is updated with identifier {{ param }}",
+            "deleted": "A Invoice is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Invoice {{ id }}?"
+            },
+            "detail": {
+                "title": "Invoice"
+            },
+            "invoiceNumber": "Invoice Number",
+            "invoiceDate": "Invoice Date",
+            "invoiceComment": "Invoice Comment",
+            "deliveryCharge": "Delivery Charge",
+            "discount": "Discount",
+            "hardcopyInvoiceNumber": "Hardcopy Invoice Number",
+            "invoiceSubTotal": "Invoice Sub Total",
+            "invoiceTotal": "Invoice Total",
+            "addedGst": "Added GST/VAT",
+            "grandTotal": "Grand Total",
+            "debitNoteStatus": "Debit Note Status",
+            "debitNoteAmount": "Debit Note Amount"
+        }
+    }
+}

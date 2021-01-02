@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="now" value="sysdate" dbms="oracle"/>
+
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle"/>
+
+    <!--
+        Added the entity BuyerSupplierMapping.
+    -->
+    <changeSet id="20161219125041-1" author="jhipster">
+        <createTable tableName="buyer_supplier_mapping">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="is_active" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="updator_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="buyer_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="supplier_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
+        </createTable>
+
+    </changeSet>
+    <changeSet author="jhipster" id="20161219125041-2">
+        <addColumn
+            tableName="buyer_supplier_mapping">
+            <column name="supplier_identification_code" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161219125041-3">
+        <addColumn
+            tableName="buyer_supplier_mapping">
+            <column name="buyer_identification_code" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161219125041-4">
+        <addColumn
+            tableName="buyer_supplier_mapping">
+            <column name="is_contracted" type="bit" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161219125041-5">
+        <addColumn
+            tableName="buyer_supplier_mapping">
+            <column name="supplier_email" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161219125041-6">
+        <addColumn tableName="buyer_supplier_mapping">
+            <column name="alternative_email1" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="alternative_email2" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

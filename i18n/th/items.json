@@ -1,0 +1,44 @@
+{
+    "ezyprocureApp": {
+        "items" : {
+            "multiplierFactor": "Multiplier Factor_TH",
+            "home": {
+                "title": "รายการ",
+                "createLabel": "สร้างรายการสินค้าใหม่",
+                "createOrEditLabel": "สร้างหรือแก้ไขรายการสินค้า",
+                "search": "ค้นหารายการ"
+            },
+            "created": "รายการสินค้าใหม่ได้ถูกสร้างด้วยค่าที่ระบุ {{ param }}",
+            "updated": "รายการสินค้าได้ถูกบันทึกด้วยค่าที่ระบุ {{ param }}",
+            "deleted": "รายการสินค้าได้ถูกลบด้วยค่าที่ระบุ {{ param }}",
+            "delete": {
+                "question": "คุณต้องการลบรายการสินค้าใช่หรือไม่ {{ id }}?"
+            },
+            "detail": {
+                "title": "รายการ"
+            },
+            "itemCode": "รหัสรายการ",
+            "itemName": "ชื่อรายการ",
+            "itemDescription": "ชื่อรายการ",
+            "itemKeyword": "ชื่อรายการ",
+            "moq": "เอ็ม โอ คิว(จำนวนการสั่งซื้อขั้นต่ำ)",
+            "quantityForAlternativeUOM": "จำนวนหน่วยวัด ยู โอ เอ็ม(UOM)",
+            "itemSize": "ขนาดสินค้า",
+            "price": "ราคา",
+            "currency": "สกุลเงิน",
+            "expirationPeriod": "ระยะวลาหมดอายุ",
+            "image": "รูปภาพ",
+            "itemType": "ประเภทรายการ",
+            "createdDate": "วันที่สร้าง",
+            "modifiedDate": "วันที่แก้ไข",
+            "supplier": "ผู้จัดจำหน่าย",
+            "uom": "หน่วยวัด(ยูโอเอ็ม)",
+            "itemGroup": "กลุ่มรายการสินค้า",
+            "alternativeUom": "หน่วยวัด ยูโอเอ็ม)ตัวเลือกอื่น",
+            "value": "มูลค่า",
+            "percentage": "เปอร์เซ็นต์",
+            "quantity": "จำนวน",
+            "labelPrintingEnabled":"Label Printing Enabled_TH"
+        }
+    }
+}

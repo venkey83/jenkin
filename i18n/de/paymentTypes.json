@@ -1,0 +1,11 @@
+{
+  "ezyprocureApp": {
+    "paymentTypes": {
+      "BANK_TRANSFER": "BANKÜBERWEISUNG",
+      "CHEQUE": "PRÜFEN",
+      "OTHER_PAYMENT": "SONSTIGE ZAHLUNG",
+      "PAYPAL": "PAYPAL",
+      "null": ""
+    }
+  }
+}

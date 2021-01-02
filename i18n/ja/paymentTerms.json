@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "paymentTerms" : {
+            "home": {
+                "title": "Payment Terms",
+                "createLabel": "Create a new Payment Terms",
+                "createOrEditLabel": "Create or edit a Payment Terms",
+                "search": "Search for Payment Terms"
+            },
+            "created": "A new Payment Terms is created with identifier {{ param }}",
+            "updated": "A Payment Terms is updated with identifier {{ param }}",
+            "deleted": "A Payment Terms is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Payment Terms {{ id }}?"
+            },
+            "detail": {
+                "title": "Payment Terms"
+            },
+            "paymentType": "Payment Type",
+            "accountName": "Account Name",
+            "accountNumber": "Account Number",
+            "accountType": "Account Type",
+            "accountBank": "Account Bank",
+            "bankName": "Bank Name",
+            "bankCode": "Bank Code",
+            "branchCode": "Branch Code",
+            "description": "Other Payment Description",
+            "supplier": "Supplier",
+            "bank": "Bank"
+        }
+    }
+}

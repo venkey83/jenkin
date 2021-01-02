@@ -1,0 +1,23 @@
+{
+  "ezyprocureApp": {
+    "releaseTracker": {
+      "created": "Un nouveau Release Tracker est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer Release Tracker {{id}}?"
+      },
+      "deleted": "Un Release Tracker est supprimé avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Release Tracker"
+      },
+      "deviceType": "Type d'appareil",
+      "home": {
+        "createLabel": "Créer un nouveau suivi des versions",
+        "createOrEditLabel": "Créer ou modifier un suivi des versions",
+        "title": "Suivi des versions"
+      },
+      "updated": "Un Release Tracker est mis à jour avec l'identifiant {{param}}",
+      "version": "Version"
+    }
+  }
+}

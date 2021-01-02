@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "priceUpdates" : {
+      "home": {
+        "title": "Pembaruan Harga",
+        "createLabel": "Buat Pembaruan Harga baru",
+        "createOrEditLabel": "Buat atau edit Pembaruan Harga",
+        "search": "Cari Pembaruan Harga"
+      },
+      "created": "Pembaruan Harga baru dibuat dengan identifier {{ param }}",
+      "updated": "Pembaruan Harga diperbarui dengan identifier {{ param }}",
+      "deleted": "Pembaruan Harga dihapus dengan identifier {{ param }}",
+      "delete": {
+        "question": "Anda yakin ingin menghapus Pembaruan Harga{{ id }}?"
+      },
+      "detail": {
+        "title": "Pembaruan Harga"
+      },
+      "priceUpdateStatus": "Status Pembaruan Harga",
+      "updatedPrice": "Harga Diperbarui",
+      "createdDate": "Tanggal dibuat",
+      "updatedDate": "Tanggal Diperbarui",
+      "remark": "Komentar",
+      "effectiveStartDate": "Tanggal Mulai Efektif",
+      "effectiveEndDate": "Tanggal Berakhir Efektif",
+      "isApprovalRequired": "Apakah Diperlukan Persetujuan",
+      "previousPrice": "Harga Sebelumnya",
+      "buyerRemark": "Komentar pembeli",
+      "items": "Item",
+      "buyer": "Pembeli"
+    }
+  }
+}

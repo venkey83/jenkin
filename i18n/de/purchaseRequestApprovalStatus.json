@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "PurchaseRequestApprovalStatus": {
+      "APPROVED": "GENEHMIGT",
+      "PENDING": "STEHT AUS",
+      "REJECTED": "ABGELEHNT",
+      "null": ""
+    }
+  }
+}

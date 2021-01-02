@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "Log Audit" : {
+            "home": {
+                "title": "Audit Log",
+                "createLabel": "Mencipta Audit Log Baru",
+                "createOrEditLabel": "Mencipta atau Menyunting Audit Log",
+                "search": "Pencarian Audit Log"
+            },
+            "created": "Audit Log baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Audit Log telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Audit Log telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Audit Log {{ id }}?"
+            },
+            "detail": {
+                "title": "Audit Log"
+            },
+            "transactionid": "Transaksiid",
+            "status": "Taraf",
+            "createddatetime": "TarikhdanmasaDicipta",
+            "createdby": "Diciptaoleh",
+            "transactiontype": "Jenis transaksi",
+            "User": "Pengguna"
+        }
+    }
+}

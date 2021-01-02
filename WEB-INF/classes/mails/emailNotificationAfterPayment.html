@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.emailNotificationAfterPayment.title(${brandName})}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.emailNotificationAfterPayment.greeting(${adminUserName})}"> </p>
+<p th:text="#{email.emailNotificationAfterPayment.text(${brandName},${invoiceNumber},${invoiceTotal})}"></p>
+<p>
+    <span th:text="#{email.activation.text2}"> </span>
+    <br/>
+    <b><em th:text="#{email.signature}"></em></b>
+</p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+
+</body>
+</html>
+
+

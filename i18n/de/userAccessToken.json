@@ -1,0 +1,23 @@
+{
+  "ezyprocureApp": {
+    "userAccessToken": {
+      "created": "Es wird ein neues Authentifizierungstoken mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Authentifizierungstoken {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Authentifizierungstoken wird mit dem Bezeichner {{param}} gelöscht.",
+      "detail": {
+        "title": "Auth Tokens"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie ein neues Authentifizierungstoken",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie ein Authentifizierungstoken",
+        "title": "Auth Tokens"
+      },
+      "token": "Zeichen",
+      "updated": "Ein Authentifizierungstoken wird mit dem Bezeichner {{param}} aktualisiert.",
+      "user": "Benutzer"
+    }
+  }
+}

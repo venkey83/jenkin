@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "invoice": {
+      "addedGst": "MwSt hinzugefügt",
+      "created": "Eine neue Rechnung wird mit dem Bezeichner {{param}} erstellt.",
+      "debitNoteAmount": "Lastschriftbetrag",
+      "debitNoteStatus": "Lastschriftstatus",
+      "delete": {
+        "question": "Möchten Sie die Rechnung {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Rechnung wird mit dem Bezeichner {{param}} gelöscht",
+      "deliveryCharge": "Zustellgebühr",
+      "detail": {
+        "title": "Rechnung"
+      },
+      "discount": "Rabatt",
+      "grandTotal": "Gesamtsumme",
+      "hardcopyInvoiceNumber": "Hardcopy-Rechnungsnummer",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Rechnung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Rechnung",
+        "search": "Suche nach Rechnung",
+        "title": "Rechnungen"
+      },
+      "invoiceComment": "Rechnungskommentar",
+      "invoiceDate": "Rechnungsdatum",
+      "invoiceNumber": "Rechnungsnummer",
+      "invoiceSubTotal": "Rechnungszwischensumme",
+      "invoiceTotal": "Rechnungsbetrag",
+      "updated": "Eine Rechnung wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

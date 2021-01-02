@@ -1,0 +1,27 @@
+{
+    "reset": {
+        "request": {
+            "title": "Menyetel Ulang Kata Sandi Anda",
+            "form": {			
+                "button": "Setel Ulang Kata Sandi"
+            },
+            "messages": {
+                "info": "Masukkan alamat email yang Anda gunakan untuk mendaftar",
+                "success": "Periksa email Anda untuk rincian cara mengatur ulang kata sandi Anda.",
+                "notfound": "<strong>Alamat E-Mail tidak terdaftar!</strong> Silakan periksa dan coba lagi"
+            }
+        },
+        "finish" : {
+            "title": "Setel ulang kata sandi",
+            "form": {
+                "button": "Validasi kata sandi baru"
+            },
+            "messages": {
+                "info": "Pilih kata sandi baru",
+                "success": "<strong>Kata sandi Anda telah disetel ulang.</strong>",
+                "keymissing": "Tombol reset tidak ada.",
+                "error": " Kata sandi Anda tidak dapat diatur ulang. Ingat permintaan kata sandi hanya berlaku selama 24 jam."
+            }
+        }
+    }
+}

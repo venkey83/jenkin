@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "kycStatus" : {
+          "null": "",
+          "NA": "NA",
+          "SUCCESSFUL": "BERJAYA",
+          "EXPIRING": "TAMAT TEMPOH",
+          "EXPIRED": "TELAH TAMAT TEMPOH",
+          "FAILED": "GAGAL"
+        }
+    }
+}

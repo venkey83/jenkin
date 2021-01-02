@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "kycStatus" : {
+          "null": "",
+          "NA": "NA",
+          "SUCCESSFUL": "SUCCESSFUL",
+          "EXPIRING": "EXPIRING",
+          "EXPIRED": "EXPIRED",
+          "FAILED": "FAILED"
+        }
+    }
+}

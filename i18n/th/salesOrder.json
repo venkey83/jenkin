@@ -1,0 +1,44 @@
+{
+  "ezyprocureApp": {
+    "salesOrder": {
+      "home": {
+        "title": "Sales Orders",
+        "createLabel": "สร้าง Sales Order",
+        "createOrEditLabel": "สร้างหรือแก้ไข Sales Order"
+      },
+      "created": "Sales Order ถูกสร้างด้วย {{ param }}",
+      "updated": "Sales Order ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Sales Order ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Sales Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Sales Order"
+      },
+      "fileName": "File Name",
+      "poNumber": "Po Number",
+      "customerCode": "Customer Code",
+      "supplierCode": "Supplier Code",
+      "shipToCode": "Ship To Code",
+      "createdDate": "Created Date",
+      "poDate": "Po Date",
+      "requiredDate": "Required Date",
+      "preparedUser": "Prepared User",
+      "poRemark": "Po Remark",
+      "currency": "Currency",
+      "exchangeRate": "Exchange Rate",
+      "gst": "Gst",
+      "deliveryAddress": "Delivery Address",
+      "subTotal": "Sub Total",
+      "gstAmount": "Gst Amount",
+      "grandTotal": "Grand Total",
+      "itemCode": "Item Code",
+      "uom": "Uom",
+      "unitPrice": "Unit Price",
+      "deliveryQuantity": "Delivery Quantity",
+      "poStatus": "Po Status",
+      "logStatus": "Log Status",
+      "sftpConnectionId": "Sftp Connection Id"
+    }
+  }
+}

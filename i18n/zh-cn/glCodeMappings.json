@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "glCodeMappings" : {
+            "home": {
+                "title": "总账代码匹配",
+                "createLabel": "创建一个新的总账代码匹配",
+                "createOrEditLabel": "创建或修改一个总账代码匹配",
+                "search": "查找总账代码匹配"
+            },
+            "created": "一个识别码为{{ param }}的新的总账代码匹配被创建了",
+            "updated": "一个识别码为{{ param }}的总账代码匹配被更新了",
+            "deleted": "一个识别码为{{ param }}的总账代码匹配被删除了",
+            "delete": {
+                "question": "你确定要删除一个识别码为{{ id }}的总账代码匹配么?"
+            },
+            "detail": {
+                "title": "总账代码匹配"
+            },
+            "createdDate": "创建日期",
+            "modifiedDate": "修改日期",
+            "purchaseOrderTypes": "采购订单类型",
+            "glSpecificItemGroups": "总账特别项目分组",
+            "itemGroup": "项目分组",
+            "glCodes": "总账代码",
+            "processOrderType" : "流程订单类型"
+        }
+    }
+}

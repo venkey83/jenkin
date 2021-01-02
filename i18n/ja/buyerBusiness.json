@@ -1,0 +1,44 @@
+{
+  "buyerBusiness" : {
+    "home": {
+      "title": "Buyer Businesses",
+      "createLabel": "Create a new Buyer Business",
+      "createOrEditLabel": "Create or edit a Buyer Business",
+      "search": "Search for Buyer Business"
+    },
+    "created": "A new Buyer Business is created with identifier {{ param }}",
+    "updated": "A Buyer Business is updated with identifier {{ param }}",
+    "deleted": "A Buyer Business is deleted with identifier {{ param }}",
+    "delete": {
+      "question": "Are you sure you want to delete Buyer Business {{ id }}?"
+    },
+    "detail": {
+      "title": "Buyer Business"
+    },
+    "businessOutletName": "Business Outlet Name",
+    "brandName": "Brand Name",
+    "phoneNumber": "Phone Number",
+    "mobileNumber": "Mobile Number",
+    "billingAddress": "Billing Address",
+    "shippingAddress": "Shipping Address",
+    "contactPersonName": "Contact Person Name",
+    "contactPersonDesignation": "Contact Person Designation",
+    "email": "Email",
+    "createdDate": "Created Date",
+    "modifiedDate": "Modified Date",
+    "businessOutletCode": "Business Outlet Code",
+    "businessOutletLogo": "Business Outlet Logo",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "postalCode": "Postal Code",
+    "shippingPostalCode": "Shipping Postal Code",
+    "billingPostalCode": "Billing Postal Code",
+    "organizationNumber": "Organization Number",
+    "locationNumber": "Location Number",
+    "departmentCode": "Department Code",
+    "buyer": "Buyer",
+    "defaultPurchaseOrderType": "Default Purchase Order Type",
+    "companyRegistrationNumber": "Company Registration Number_JA"
+  }
+}

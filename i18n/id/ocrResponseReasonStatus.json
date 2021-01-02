@@ -1,0 +1,14 @@
+{
+    "ezyprocureApp": {
+        "OcrResponseReasonStatus" : {
+            "null": "",
+            "INVOICE_WITH_CREDIT_NOTE": "FAKTUR DENGAN CATATAN KREDIT",
+            "EZYPROCURE_INVOICE": "FAKTUR EZYPROCURE",
+            "BLURRED_IMAGE": "GAMBAR BURAM",
+            "GOODS_REJECTED": "BARANG DITOLAK",
+            "OTHER": "LAINNYA",
+            "PENDING":"TERTUNDA",
+            "ADDED":"DITAMBAHKAN"
+        }
+    }
+}

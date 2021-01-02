@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+        <property name="autoIncrement" value="true"/>
+
+    <!--
+        Added the entity TransferItems.
+    -->
+    <changeSet id="20191111055316-1" author="jhipster">
+        <createTable tableName="transfer_items">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="quantity" type="${floatType}">
+                <constraints nullable="false" />
+            </column>
+            <column name="remarks" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="created_date" type="datetime">
+                <constraints nullable="false" />
+            </column>
+            <column name="deletion_token" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="received_quantity" type="${floatType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="modified_date" type="datetime">
+                <constraints nullable="true" />
+            </column>
+            <column name="items_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+            <column name="uom_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+            <column name="transfer_request_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="transfer_items" columnName="created_date" columnDataType="datetime"/>
+        <dropDefaultValue tableName="transfer_items" columnName="modified_date" columnDataType="datetime"/>
+    </changeSet>
+
+    <changeSet id="20191111055316-1-relations" author="jhipster">
+
+    </changeSet>
+
+    <changeSet id="201912041032-3" author="jhipster">
+        <addColumn tableName="transfer_items">
+            <column name="uom" type="varchar(255)" defaultValue="KG">
+                <constraints nullable="false" />
+            </column>
+        </addColumn>
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+
+</databaseChangeLog>

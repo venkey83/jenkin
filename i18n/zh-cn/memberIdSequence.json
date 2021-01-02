@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "memberIdSequence" : {
+            "home": {
+                "title": "Member Id Sequences",
+                "createLabel": "创建新 Member Id Sequence",
+                "createOrEditLabel": "创建或编辑 Member Id Sequence"
+            },
+            "created": "Member Id Sequence {{ param }} 创建成功",
+            "updated": "Member Id Sequence {{ param }} 更新成功",
+            "deleted": "Member Id Sequence {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Member Id Sequence {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Member Id Sequence"
+            },
+            "sequenceNumber": "Sequence Number",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date"
+        }
+    }
+}

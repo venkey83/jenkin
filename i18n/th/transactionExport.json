@@ -1,0 +1,30 @@
+
+{
+    "ezyprocureApp": {
+        "transactionExport" : {
+            "home": {
+                "title": "Transaction Exports",
+                "createLabel": "สร้าง Transaction Export",
+                "createOrEditLabel": "สร้างหรือแก้ไข Transaction Export"
+            },
+            "created": "Transaction Export ถูกสร้างด้วย {{ param }}",
+            "updated": "Transaction Export ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Transaction Export ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Transaction Export {{ id }}?"
+            },
+            "detail": {
+                "title": "Transaction Export"
+            },
+            "companyType": "Company Type",
+            "deletionToken": "Deletion Token",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyer": "Buyer",
+            "supplier": "Supplier",
+            "purchaseRequest": "Purchase Request",
+            "purchaseOrder": "Purchase Order",
+            "invoice": "Invoice"
+        }
+    }
+}

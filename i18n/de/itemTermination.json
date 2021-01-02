@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "itemTermination": {
+      "created": "Ein neuer Artikelabschluss wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Artikelbeendigung {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Jobbeendigung wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Artikelbeendigung"
+      },
+      "endDate": "Endtermin",
+      "fromDate": "Ab Datum",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Artikelbeendigung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Artikelbeendigung",
+        "search": "Suche nach Artikelbeendigung",
+        "title": "Artikelkündigungen"
+      },
+      "itemBusinessMapping": "Artikel-Business-Mapping",
+      "items": "Artikel",
+      "reasonForTermination": "Grund für die Kündigung",
+      "updated": "Eine Artikelbeendigung wird mit dem Bezeichner {{param}} aktualisiert.",
+      "user": "Benutzer"
+    }
+  }
+}

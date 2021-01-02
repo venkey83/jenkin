@@ -1,0 +1,15 @@
+{
+    "ezyprocureApp": {
+        "adminDashboard" : {
+            "home": {
+                "dashboard": "信息中心"
+            },
+            "allPO": "采购订单汇总",
+            "totalBuyers": "买家总数",
+            "totalSuppliers": "供应商总数",
+            "totalInvoices": "发票总数",
+            "totalTransactionVolume": "Total Transaction Volume_CH",
+            "paymentTransactionVolume": "Payment Transaction Volume_CH"
+        }
+    }
+}

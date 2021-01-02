@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brandSupplierPaymentModelMapping" : {
+            "home": {
+                "title": "BrandSupplierPaymentModelMappings_JA",
+                "createLabel": "Brand Supplier Payment Model Mapping を追加_JA",
+                "createOrEditLabel": "Brand Supplier Payment Model Mappingを追加または編集_JA",
+                "search": "Search for Brand Supplier Payment Model Mapping_JA"
+            },
+            "created": "A new Brand Supplier Payment Model Mapping is created with identifier {{ param }}_JA",
+            "updated": "A Brand Supplier Payment Model Mapping is updated with identifier {{ param }}_JA",
+            "deleted": "A Brand Supplier Payment Model Mapping is deleted with identifier {{ param }}_JA",
+            "delete": {
+                "question": "Brand Supplier Payment Model Mapping {{ id }}を削除してもよろしいですか？_JA"
+            },
+            "detail": {
+                "title": "Brand Supplier Payment Model Mapping_JA"
+            },
+            "createdDate": "Created Date_JA",
+            "modifiedDate": "Modified Date_JA",
+            "paymentModel": "Payment Model_JA",
+            "creditTerms": "Credit Terms_JA",
+            "buyerBusinessServiceRate": "Buyer Business Service Rate_JA",
+            "supplierBusinessServiceRate": "Supplier Business Service Rate_JA",
+            "deletionToken": "Deletion Token",
+            "brand": "Brand_JA",
+            "supplier": "Supplier_JA",
+            "updatedBy": "Updated By_JA",
+            "epdApprovalRequest": "Epd Approval Request_JA"
+        }
+    }
+}

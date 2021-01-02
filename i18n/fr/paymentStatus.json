@@ -1,0 +1,13 @@
+{
+  "ezyprocureApp": {
+    "PaymentStatus": {
+      "CANCELLED": "ANNULÉ",
+      "FAILED": "ÉCHOUÉ",
+      "PAID": "PAYÉ",
+      "PENDING_APPROVAL": "EN ATTENTE DE VALIDATION",
+      "UNPAID": "NON PAYÉ",
+      "VOID": "NÉANT",
+      "null": ""
+    }
+  }
+}

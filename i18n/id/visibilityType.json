@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "VisibilityType" : {
+            "null": "",
+            "ALLOCATED": "ALOKASI",
+            "ADHOC": "ADHOC",
+            "PUBLIC": "PUBLIK",
+            "ADHOC_OFF_BOARD_SUPPLIER": "PEMASOK_ADHOC_OFF_BOARD ",
+            "CP_SG":"CP_SG"
+        }
+    }
+}

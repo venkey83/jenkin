@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "notification": {
+      "badgeCount": "Nombre de badges",
+      "created": "Une nouvelle notification est créée avec l'identifiant {{param}}",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la notification {{id}}?"
+      },
+      "deleted": "Une notification est supprimée avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Notification"
+      },
+      "deviceToken": "Jeton de périphérique",
+      "deviceType": "Type d'appareil",
+      "home": {
+        "createLabel": "Créer une nouvelle notification",
+        "createOrEditLabel": "Créer ou modifier une notification",
+        "search": "Rechercher une notification",
+        "title": "Notifications"
+      },
+      "updated": "Une notification est mise à jour avec l'identifiant {{param}}",
+      "user": "Utilisateur"
+    }
+  }
+}

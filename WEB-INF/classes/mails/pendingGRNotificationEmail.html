@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title th:text="email.pendingGRNotificationEmail.title"></title>
+</head>
+<body>
+<p th:text="#{email.pendingGRNotificationEmail.greeting}"/>
+<p th:text="#{email.pendingGRNotificationEmail.body}"/>
+<div th:if="${purchaseOrderList.size()>0}">
+<p th:text="#{email.pendingGRNotificationEmail.purchaseOrder}"/>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+        <td th:text="#{email.pendingGRNotificationEmail.purchaseOrderNumber}" style="width:100px" />
+        <td th:text="#{email.pendingGRNotificationEmail.supplier}" style="width:100px" />
+        <td th:text ="#{email.pendingGRNotificationEmail.businessOutlet}" style="width:200px"/>
+        <td th:text ="#{email.pendingGRNotificationEmail.deliveryDate}" style="width:200px"/>
+    </tr>
+    <tr th:each="purchaseOrder:${purchaseOrderList}" style="text-align:center">
+        <td th:text="${purchaseOrder.purchaseOrderNumber}"/>
+        <td th:text="${purchaseOrder.processOrder.items.supplier.companyName}"/>
+        <td th:text="${purchaseOrder.processOrder.buyerBusiness.businessOutletName}"/>
+        <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(purchaseOrder.processOrder.deliveryDate)}"/>
+    </tr>
+</table>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

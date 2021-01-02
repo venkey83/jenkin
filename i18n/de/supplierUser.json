@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "supplierUser": {
+      "created": "Ein neuer Lieferantenbenutzer wird mit der ID {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie den Lieferantenbenutzer {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Lieferantenbenutzer wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Lieferant Benutzer"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie einen neuen Lieferantenbenutzer",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie einen Lieferantenbenutzer",
+        "search": "Suche nach Lieferantenbenutzer",
+        "title": "Lieferantenbenutzer"
+      },
+      "mobileNumber": "Handynummer",
+      "parentId": "Eltern ID",
+      "phoneNumber": "Telefonnummer",
+      "secondaryEmail": "Alternative Email",
+      "supplier": "Lieferant",
+      "updated": "Ein Lieferantenbenutzer wird mit der Kennung {{param}} aktualisiert.",
+      "user": "Benutzer",
+      "userRoles": "Benutzerregeln"
+    }
+  }
+}

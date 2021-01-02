@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "supplierUserBusinessMapping": {
+      "buyerBusiness": "Käufergeschäft",
+      "created": "Ein neues Supplier User Business Mapping wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie das Supplier User Business Mapping {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Business Mapping-Benutzeranbieter wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Lieferant Benutzer Business Mapping"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie ein neues Supplier User Business Mapping",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie ein Supplier User Business Mapping",
+        "search": "Suchen Sie nach Supplier User Business Mapping",
+        "title": "Lieferant Benutzer Geschäftszuordnungen"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "supplierUser": "Lieferant Benutzer",
+      "updated": "Ein Supplier User Business Mapping wird mit der Kennung {{param}} aktualisiert."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "pickingList" : {
+            "home": {
+                "title": "Memilih Senarai",
+                "createLabel": "Mencipta Memilih Senarai Baru",
+                "createOrEditLabel": "Mencipta atau Menyunting Memilih Senarai",
+                "search": "Pencarian Memilih Senarai"
+            },
+            "created": "Memilih Senarai baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Memilih Senarai telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Memilih Senarai telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Memilih Senarai {{ id }}?"
+            },
+            "detail": {
+                "title": "Memilih Senarai"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "isDefault": "Ketetapan",
+            "name": "Nama",
+            "supplierUser": "Pengguna Pembekal",
+            "pickingListItemMapping": "Pemetaan Memilih Senarai Barang"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+  {
+      "1010": "Invalid Receiving Account Number",
+      "1041": "DDA has been terminated",
+      "1042": "Invalid Originating Account Number",
+      "1051": "Refer to receiving party",
+      "1161": "Refer to receiving party",
+      "1169": "Refer to receiving party",
+      "1170": "Refer to receiving party",
+      "1172": "Refer to receiving party",
+      "1202": "Refer to receiving party",
+      "1208": "Refer to receiving party",
+      "1209": "Refer to receiving party",
+      "1261": "Refer to receiving party",
+      "1267": "Refer to receiving party",
+      "1160": "Receiving account closed",
+      "1207": "Amount exceeded limit",
+      "1219": "Cancelled by receiving party",
+      "1237": "DDA expired",
+      "1243": "No such DDA",
+      "1252": "Duplicate DDA",
+      "1262": "Invalid BIC",
+      "Others": "Please contact bank for assistance"
+  }

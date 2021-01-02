@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "SalesOrderStatus": {
+      "CREATED": "ERSTELLT",
+      "FAILED": "GESCHEITERT",
+      "PENDING": "STEHT AUS",
+      "null": ""
+    }
+  }
+}

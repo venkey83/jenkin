@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "brandBuyerUserMapping" : {
+            "home": {
+                "title": "Brand Buyer User Mappings",
+                "createLabel": "Create a new Brand Buyer User Mapping",
+                "createOrEditLabel": "Create or edit a Brand Buyer User Mapping",
+                "search": "Search for Brand Buyer User Mapping"
+            },
+            "created": "A new Brand Buyer User Mapping is created with identifier {{ param }}",
+            "updated": "A Brand Buyer User Mapping is updated with identifier {{ param }}",
+            "deleted": "A Brand Buyer User Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Brand Buyer User Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Brand Buyer User Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "approvalLevel": "Approval Level",
+            "maximumAmount": "Maximum Amount",
+            "minimumAmount": "Minimum Amount",
+            "lastLevel": "Last Level",
+            "brand": "Brand",
+            "buyerUser": "Buyer User"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "Status Sesi untuk [<b>{{username}}</b>]",
+        "table": {
+            "ipaddress": "Alamat IP",
+            "useragent": "Ejen Pengguna",
+            "date": "Tarikh",
+            "button": "Tarikh Tidak Sah"
+        },
+        "messages": {
+            "success": "<strong>Sesi tidak sah bertarikh!</strong>",
+            "error": "<strong>Ralat telah berlaku!</strong> Sesi ini tidak boleh disahkan."
+        }
+    }
+}

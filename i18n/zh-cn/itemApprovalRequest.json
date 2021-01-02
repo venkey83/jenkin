@@ -1,0 +1,37 @@
+{
+    "ezyprocureApp": {
+        "itemApprovalRequest" : {
+            "home": {
+                "title": "商品审批请求",
+                "createLabel": "创建商品审批请求",
+                "createOrEditLabel": "创建或修改商品审批请求",
+                "search": "查找商品审批请求"
+            },
+            "created": "一个标识为{{ param }} 的新的商品审批请求被创建了",
+            "updated": "一个标识为{{ param }} 的新的商品审批请求被更新了",
+            "deleted": "一个标识为{{ param }} 的新的商品审批请求被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }} 的商品审批请求么?"
+            },
+            "detail": {
+                "title": "商品审批请求"
+            },
+            "approvalRequestNumber": "审批请求号码",
+            "quantity": "数量",
+            "deliveryDate": "送货日期",
+            "specialRequest": "特殊请求",
+            "createdDate": "创建日期",
+            "modifiedDate": "修改日期",
+            "approvalStatus": "审批状态",
+            "price": "价格",
+            "isFreeItem": "免费物品",
+            "buyerUser": "买家用户",
+            "items": "商品",
+            "buyerBusiness": "买家业务",
+            "approvalNeededFrom": "审批人",
+            "glCodeMappings": "总账代码匹配",
+            "prRemark": "PR Remark",
+            "deleteToken": "Delete Token"
+        }
+    }
+}

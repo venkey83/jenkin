@@ -1,0 +1,26 @@
+
+{
+    "ezyprocureApp": {
+        "orderTemplateUserMapping" : {
+            "home": {
+                "title": "Order Template User Mappings",
+                "createLabel": "สร้าง Order Template User Mapping",
+                "createOrEditLabel": "สร้างหรือแก้ไข Order Template User Mapping"
+            },
+            "created": "Order Template User Mapping ถูกสร้างด้วย {{ param }}",
+            "updated": "Order Template User Mapping ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Order Template User Mapping ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Order Template User Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Order Template User Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "deafultStatus": "Deafult Status",
+            "buyerUser": "Buyer User",
+            "orderTemplate": "Order Template"
+        }
+    }
+}

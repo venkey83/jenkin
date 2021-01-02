@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PriceUpdateStatus" : {
+            "null": "",
+            "PENDING": "待定",
+            "ACCEPTED": "接受",
+            "REJECTED": "拒绝",
+            "SUPPLIER_PRICE_UPDATE": "供货商价格更新"
+        }
+    }
+}

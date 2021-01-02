@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity ItemBusinessMapping.
+    -->
+    <changeSet id="20170124133551-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="items_id"
+                                 baseTableName="item_business_mapping"
+                                 constraintName="fk_item_business_mapping_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+
+        <addForeignKeyConstraint baseColumnNames="buyer_business_id"
+                                 baseTableName="item_business_mapping"
+                                 constraintName="fk_item_business_mapping_buyer_business_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_business"/>
+
+    </changeSet>
+    <changeSet id="20181102152021-3" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="approver_id"
+                                 baseTableName="item_business_mapping"
+                                 constraintName="fk_item_business_mapping_approver_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_user"/>
+    </changeSet>
+</databaseChangeLog>

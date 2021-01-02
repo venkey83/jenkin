@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "brandBuyerUserMapping": {
+      "approvalLevel": "Niveau d'approbation",
+      "brand": "Marque",
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Un nouveau mappage utilisateur d'acheteur de marque est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le mappage utilisateur de l'acheteur de marque {{id}}?"
+      },
+      "deleted": "Une correspondance entre l'utilisateur et l'acheteur est supprimée avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Mappage utilisateur acheteur de marque"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau mappage utilisateur d'acheteur de marque",
+        "createOrEditLabel": "Créer ou modifier un mappage utilisateur d'acheteur de marque",
+        "search": "Recherche de mappage utilisateur d'acheteur de marque",
+        "title": "Mappages utilisateur de l'acheteur de marque"
+      },
+      "lastLevel": "Dernier niveau",
+      "maximumAmount": "Quantité maximale",
+      "minimumAmount": "Montant minimal",
+      "modifiedDate": "Date modifiée",
+      "updated": "Un mappage utilisateur de l'acheteur de marque est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

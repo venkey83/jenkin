@@ -1,0 +1,124 @@
+[
+  {
+    "fieldId": "recordtype",
+    "type": "text",
+    "position": 1,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": 2
+  },
+  {
+    "fieldId": "receivingBicCode",
+    "type": "text",
+    "position": 2,
+    "length": 11,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "receivingBankAccountNumber",
+    "type": "text",
+    "position": 13,
+    "length": 34,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "receivingAccountName",
+    "type": "text",
+    "position": 47,
+    "length": 140,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "currency",
+    "type": "text",
+    "position": 187,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "SGD"
+  },
+  
+  {
+  
+    "fieldId": "amount",
+    "type": "text",
+    "position": 190,
+    "length": 18,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+ 
+  },
+  {
+    "fieldId": "endToendId",
+    "type": "text",
+    "position": 208,
+    "length": 35,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  
+   {
+    "fieldId": "mandateId",
+    "type": "text",
+    "position": 243,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "purposeCode",
+    "type": "text",
+    "position": 278,
+    "length": 4,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "SUPP"
+  },
+   {
+    "fieldId": "remittanceInformation",
+    "type": "text",
+    "position": 282,
+    "length": 140,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "UltimatePayer",
+    "type": "text",
+    "position": 422,
+    "length": 140,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  },
+   {
+    "fieldId": "customerReference",
+    "type": "text",
+    "position": 562,
+    "length": 16,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "filler",
+    "type": "text",
+    "position": 578,
+    "length": 38,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  }
+  
+]

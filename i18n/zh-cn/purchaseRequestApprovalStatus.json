@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PurchaseRequestApprovalStatus" : {
+            "null": "",
+            "PENDING": "待定",
+            "APPROVED": "已批准",
+            "REJECTED": "已拒绝",
+            "PROCESSING": "PROCESSING"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "invoiceSequence": {
+      "home": {
+        "title": "InvoiceSequences",
+        "createLabel": "Invoice Sequence を追加",
+        "createOrEditLabel": "Invoice Sequenceを追加または編集"
+      },
+      "created": "A new Invoice Sequence is created with identifier {{ param }}",
+      "updated": "A Invoice Sequence is updated with identifier {{ param }}",
+      "deleted": "A Invoice Sequence is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Invoice Sequence {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Invoice Sequence"
+      },
+      "createdDate": "Created Date",
+      "modifiedDate": "Modified Date",
+      "sequenceNumber": "Sequence Number",
+      "c": "C",
+      "supplier": "Supplier"
+    }
+  }
+}

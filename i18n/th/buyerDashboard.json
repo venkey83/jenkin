@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "buyerDashboard" : {
+            "home": {
+                "dashboard": "ข้อมูลและภาพรวม",
+                "businessSummary": "บทสรุปธุรกิจ",
+                "pendingApprovals": "Pending Approvals_TH"
+            },
+            "waitingSupplierReply": "กำลังรอคำตอบจากผู้จัดจำหน่าย",
+            "priceUpdates": "การบันทึกราคา",
+            "epdApprovals": "EPD Approvals_TH",
+            "paymentApprovals": "Payment Approvals_TH",
+            "supplierUnableToMeetDemands": "ผู้จัดจำหน่ายไม่สามารถดำเนินการตามที่ตกลงได้",
+            "receivingMyOrder": "ได้รับคำสั่งของคุณแล้ว",
+            "cancelPORequest":"ยกเลิกใบสั่งซื้อ",
+            "debitNotes": "ใบเพิ่มหนี้",
+            "adhocPo":"ใบสั่งซื้อเฉพาะคราว",
+            "adhocPoForm":"แบบฟอร์มใบสั่งซื้อเฉพาะคราว",
+            "uploadYourOrder":"Upload Your Order!_TH",
+            "uploadSalesOrder":"Upload Sales Order!_TH",
+            "pendingInvoicesForPayment": "Pending Invoices for Payment_TH"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "sgebizMailId" : {
+            "home": {
+                "title": "SgebizMailIds",
+                "createLabel": "Sgebiz Mail Id を追加",
+                "createOrEditLabel": "Sgebiz Mail Idを追加または編集"
+            },
+            "created": "A new Sgebiz Mail Id is created with identifier {{ param }}",
+            "updated": "A Sgebiz Mail Id is updated with identifier {{ param }}",
+            "deleted": "A Sgebiz Mail Id is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Sgebiz Mail Id {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Sgebiz Mail Id"
+            },
+            "name": "Name",
+            "mailId": "Mail Id",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "deletionToken": "Deleted Token"
+        }
+    }
+}

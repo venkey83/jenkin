@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "epdApprovalSequence" : {
+            "home": {
+                "title": "Urutan Persetujuan Epd",
+                "createLabel": "Buat Urutan Persetujuan Epd baru",
+                "createOrEditLabel": "Membuat atau mengedit Urutan Persetujuan Epd",
+                "search": "Cari Urutan Persetujuan Epd"
+            },
+            "created": "Urutan Persetujuan Epd baru dibuat dengan pengidentifikasi {{ param }}",
+            "updated": "Urutan Persetujuan Epd diperbarui dengan pengidentifikasi {{ param }}",
+            "deleted": "Urutan Persetujuan Epd dihapus dengan pengidentifikasi {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Urutan Persetujuan Epd {{ id }}?"
+            },
+            "detail": {
+                "title": "Urutan Persetujuan Epd"
+            },
+            "createdDate": "Tanggal dibuat",
+            "sequenceNumber": "Nomor Urutan"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "ezyprocureApp": {
+        "InvoiceStatus" : {
+            "null": "",
+            "INVOICED": "已开具发票",
+            "UNINVOICED": "未开具发票",
+            "PROCESSED": "被处理",
+            "PENDING": "待定",
+            "ALL": "全部",
+            "REJECTED": "被拒绝"
+        }
+    }
+}

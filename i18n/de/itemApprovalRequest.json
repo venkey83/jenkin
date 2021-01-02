@@ -1,0 +1,37 @@
+{
+  "ezyprocureApp": {
+    "itemApprovalRequest": {
+      "approvalNeededFrom": "Genehmigung erforderlich ab",
+      "approvalRequestNumber": "Genehmigungsanforderungsnummer",
+      "approvalStatus": "Freigabestand",
+      "buyerBusiness": "Käufergeschäft",
+      "buyerUser": "Käufer Benutzer",
+      "created": "Eine neue Artikelgenehmigungsanforderung wird mit der ID {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Artikelgenehmigungsanforderung {{id}} wirklich löschen?"
+      },
+      "deleteToken": "Token löschen",
+      "deleted": "Eine Artikelkaufanfrage wird mit der Kennung gelöscht {{ param }}",
+      "deliveryDate": "Lieferdatum",
+      "detail": {
+        "title": "Artikelgenehmigungsanforderung"
+      },
+      "glCodeMappings": "Gl-Code-Zuordnungen",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Artikelgenehmigungsanforderung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Artikelgenehmigungsanforderung",
+        "search": "Nach Artikelgenehmigungsanforderung suchen",
+        "title": "Artikelgenehmigungsanfragen"
+      },
+      "isFreeItem": "Ist freies Einzelteil",
+      "items": "Artikel",
+      "modifiedDate": "Änderungsdatum",
+      "prRemark": "PR Bemerkung",
+      "price": "Preis",
+      "quantity": "Menge",
+      "specialRequest": "Besondere Bitte",
+      "updated": "Eine Artikelgenehmigungsanforderung wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

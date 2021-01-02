@@ -1,0 +1,44 @@
+{
+  "ezyprocureApp": {
+    "salesOrder": {
+      "home": {
+        "title": "Sales Orders",
+        "createLabel": "Create a new Sales Order",
+        "createOrEditLabel": "Create or edit a Sales Order"
+      },
+      "created": "A new Sales Order is created with identifier {{ param }}",
+      "updated": "A Sales Order is updated with identifier {{ param }}",
+      "deleted": "A Sales Order is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sales Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Sales Order"
+      },
+      "fileName": "File Name",
+      "poNumber": "Po Number",
+      "customerCode": "Customer Code",
+      "supplierCode": "Supplier Code",
+      "shipToCode": "Ship To Code",
+      "createdDate": "Created Date",
+      "poDate": "Po Date",
+      "requiredDate": "Required Date",
+      "preparedUser": "Prepared User",
+      "poRemark": "Po Remark",
+      "currency": "Currency",
+      "exchangeRate": "Exchange Rate",
+      "gst": "Gst",
+      "deliveryAddress": "Delivery Address",
+      "subTotal": "Sub Total",
+      "gstAmount": "Gst Amount",
+      "grandTotal": "Grand Total",
+      "itemCode": "Item Code",
+      "uom": "Uom",
+      "unitPrice": "Unit Price",
+      "deliveryQuantity": "Delivery Quantity",
+      "poStatus": "Po Status",
+      "logStatus": "Log Status",
+      "sftpConnectionId": "Sftp Connection Id"
+    }
+  }
+}

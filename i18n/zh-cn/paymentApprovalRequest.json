@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "paymentApprovalRequest" : {
+            "home": {
+                "title": "Payment Approval Requests",
+                "createLabel": "Create a new Payment Approval Request",
+                "createOrEditLabel": "Create or edit a Payment Approval Request",
+                "search": "Search for Payment Approval Request"
+            },
+            "created": "A new Payment Approval Request is created with identifier {{ param }}",
+            "updated": "A Payment Approval Request is updated with identifier {{ param }}",
+            "deleted": "A Payment Approval Request is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Payment Approval Request {{ id }}?"
+            },
+            "detail": {
+                "title": "Payment Approval Request"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "approvedDate": "Approved Date_CH",
+            "deletionToken": "Deletion Token",
+            "paymentApprovalStatus": "Payment Approval Status",
+            "approvalLevel": "Approval Level",
+            "paymentApprovalRequestNumber": "Payment Approval Request Number",
+            "batchPaymentReferenceNumber": "Batch Payment Reference Number_CH",
+            "paymentType": "Payment Type",
+            "approvalNeededFrom": "Approval Needed From",
+            "buyerUser": "Buyer User",
+            "payment": "Payment"
+        }
+    }
+}

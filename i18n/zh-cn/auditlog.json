@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "auditlog" : {
+            "home": {
+                "title": "审计记录",
+                "createLabel": "创建一个新的审计记录",
+                "createOrEditLabel": "创建或修改审计记录",
+                "search": "查询审计记录"
+            },
+            "created": "一个识别码为{{ param }}的查询审计记录被创建了",
+            "updated": "一个识别码为{{ param }}的审计记录被更新了",
+            "deleted": "一个识别码为{{ param }}的审计记录被删除了",
+            "delete": {
+                "question": "您确定要删除识别码为{{ id }}的审计记录么"
+            },
+            "detail": {
+                "title": "审计记录"
+            },
+            "transactionid": "交易号",
+            "status": "状态",
+            "createddatetime": "被创建的日期和时间",
+            "createdby": "创建人",
+            "transactiontype": "交易类型",
+            "User": "用户"
+        }
+    }
+}

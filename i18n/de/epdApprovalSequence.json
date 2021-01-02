@@ -1,0 +1,23 @@
+{
+  "ezyprocureApp": {
+    "epdApprovalSequence": {
+      "created": "Eine neue Epd-Genehmigungssequenz wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Epd-Genehmigungssequenz {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Epd-Genehmigungssequenz wird mit dem Bezeichner {{param}} gelöscht.",
+      "detail": {
+        "title": "Epd-Genehmigungssequenz"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Epd-Genehmigungssequenz",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Epd-Genehmigungssequenz",
+        "search": "Suchen Sie nach der Reihenfolge der Epd-Genehmigung",
+        "title": "Epd-Genehmigungssequenzen"
+      },
+      "sequenceNumber": "Sequenznummer",
+      "updated": "Eine Epd-Genehmigungssequenz wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

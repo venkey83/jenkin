@@ -1,0 +1,44 @@
+{
+  "buyerBusiness" : {
+    "home": {
+      "title": "Perniagaan pembeli",
+      "createLabel": "Mencipta Perniagaan pembeli",
+      "createOrEditLabel": "Mencipta atau Menyunting Perniagaan pembeli",
+      "search": "Pencarian Perniagaan pembeli"
+    },
+    "created": "Perniagaan pembeli baru telah dicipta dengan pengecam {{ param }}",
+    "updated": "Perniagaan pembeli telah dikemas kini dengan pengecam {{ param }}",
+    "deleted": "Perniagaan pembeli telah dihapuskan dengan pengecam {{ param }}",
+    "delete": {
+      "question": "Adakah anda pasti ingin Menghapus Perniagaan pembeli {{ id }}?"
+    },
+    "detail": {
+      "title": "Perniagaan pembeli"
+    },
+    "businessOutletName": "Nama Kedai Perniagaan",
+    "brandName": "Nama Jenama",
+    "phoneNumber": "Nombor Telefon",
+    "mobileNumber": "Nombor Telefon Bimbit",
+    "billingAddress": "Alamat Pengebilan",
+    "shippingAddress": "Alamat Penghantaran",
+    "contactPersonName": "Nama Orang Yang Dihubungi",
+    "contactPersonDesignation": "Jawatan Orang Yang Dihubungi",
+    "email": "E-mel",
+    "createdDate": "Tarikh Penciptaan",
+    "modifiedDate": "Tarikh Diubah Suai",
+    "businessOutletCode": "Kod Kedai Perniagaan",
+    "businessOutletLogo": "Logo Kedai Perniagaan",
+    "address": "Alamat",
+    "city": "Bandar",
+    "country": "Negara",
+    "postalCode": "Poskod",
+    "shippingPostalCode": "Poskod Penghantaran",
+    "billingPostalCode": "Poskod Pengebilan",
+    "organizationNumber": "Nombor Organisasi",
+    "locationNumber": "Nombor Lokasi",
+    "departmentCode": "Kod Jabatan",
+    "buyer": "Pembeli",
+    "defaultPurchaseOrderType": "Jenis Pesanan Pembelian Tetap",
+    "companyRegistrationNumber": "Company Registration Number_MS"
+  }
+}

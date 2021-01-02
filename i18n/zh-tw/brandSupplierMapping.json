@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "brandSupplierMapping" : {
+            "home": {
+                "title": "商家公司/供應商配對",
+                "createLabel": "新增商家公司/供應商配對",
+                "createOrEditLabel": "編輯商家公司/供應商配對"
+            },
+            "created": "新增商家公司/供應商配對編碼 {{ param }}",
+            "updated": "更新商家公司/供應商配對編碼 {{ param }}",
+            "deleted": "刪除商家公司/供應商配對編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商家公司/供應商配對？"
+            },
+            "detail": {
+                "title": "商家公司/供應商配對"
+            },
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "brand": "商家公司",
+            "supplier": "供應商"
+        }
+    }
+}

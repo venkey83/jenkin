@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "supplierCalendar" : {
+            "home": {
+                "title": "Kalender Pemasok",
+                "tableListHeader": "Daftar Kalender",
+                "manageSupplierCalendars": "Pemasok - Manajemen Kalender",
+                "createLabel": "Buat kalender pemasok baru",
+                "editLabel": "Edit kalender pemasok",
+                "search": "Cari kalender pemasok"
+            },
+            "created": "Kalender Pemasok baru dibuat dengan identifier {{ param }}",
+            "updated": "Kalender Pemasok diperbarui dengan identifier {{ param }}",
+            "deleted": "Kalender Pemasok dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Apakah Anda yakin ingin menghapus Kalender Pemasok {{ id }}?"
+            },
+            "detail": {
+                "title": "Kalender Pemasok"
+            },
+            "date": "Tanggal",
+            "description": "Deskripsi",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal yang diubah",
+            "supplier": "Pemasok"
+        }
+    }
+}

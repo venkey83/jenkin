@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "buyerSupplierMapping" : {
+            "home": {
+                "title": "商家/供應商配對",
+                "createLabel": "新增商家/供應商配對",
+                "createOrEditLabel": "編輯商家/供應商配對",
+                "search": "查詢商家/供應商配對"
+            },
+            "created": "新增商家/供應商配對編碼 {{ param }}",
+            "updated": "更新商家/供應商配對編碼 {{ param }}",
+            "deleted": "刪除商家/供應商配對編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商家/供應商配對？"
+            },
+            "detail": {
+                "title": "商家/供應商配對"
+            },
+            "isActive": "使用中",
+            "updatorId": "更新使用者",
+            "supplierIdentificationCode": "供應商編碼",
+            "buyerIdentificationCode": "Buyer Identification Code_TW",
+            "supplierEmail": "Supplier Email_TW",
+            "buyer": "商家",
+            "supplier": "供應商",
+            "isContract":"Is Contract_TW"
+        }
+    }
+}

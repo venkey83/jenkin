@@ -1,0 +1,26 @@
+{
+  "ezyprocureApp": {
+    "purchaseExport": {
+      "home": {
+        "title": "PurchaseExports",
+        "createLabel": "Purchase Export を追加",
+        "createOrEditLabel": "Purchase Exportを追加または編集"
+      },
+      "created": "A new Purchase Export is created with identifier {{ param }}",
+      "updated": "A Purchase Export is updated with identifier {{ param }}",
+      "deleted": "A Purchase Export is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Purchase Export {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Purchase Export"
+      },
+      "exportType": "Export Type",
+      "exportTimestamp": "Export Timestamp",
+      "exported": "Exported",
+      "purchaseOrderNumber": "Purchase Order Number",
+      "deliveryDate": "Delivery Date",
+      "exportedBy": "Exported By"
+    }
+  }
+}

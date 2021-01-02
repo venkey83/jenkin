@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "itemBusinessMapping" : {
+            "home": {
+                "title": "商品/商家分店配對",
+                "createLabel": "新增商品/商家分店配對",
+                "createOrEditLabel": "編輯商品/商家分店配對",
+                "search": "查詢商品/商家分店配對"
+            },
+            "created": "新增商品/商家分店配對編碼 {{ param }}",
+            "updated": "更新商品/商家分店配對編碼 {{ param }}",
+            "deleted": "刪除商品/商家分店配對編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商品/商家分店配對？"
+            },
+            "detail": {
+                "title": "商品/商家分店配對"
+            },
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "supplierId": "供應商使用者",
+            "purchaseRequestApprovalStatus": "訂單審核狀態",
+            "items": "商品",
+            "buyerBusiness": "商家分店",
+            "approverId": "Approver Id_TW"
+        }
+    }
+}

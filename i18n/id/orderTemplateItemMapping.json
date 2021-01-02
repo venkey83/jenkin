@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "orderTemplateItemMapping" : {
+            "home": {
+                "title": "Pemetaan Item Template Pesanan",
+                "createLabel": "Buat Pemetaan Item Template Pesanan baru",
+                "createOrEditLabel": "Buat atau Edit Pemetaan Item Template Pesanan"
+            }	
+        }
+    }
+}

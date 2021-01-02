@@ -1,0 +1,38 @@
+{
+  "ezyprocureApp": {
+    "itemBuyerMapping": {
+      "addNewMaping": "Ajouter un nouveau mappage",
+      "buyer": "Acheteur",
+      "buyerItemCode": "Code d'article de l'acheteur",
+      "buyerItemGroup": "Groupe d'articles acheteur",
+      "buyerItemName": "Nom de l'article de l'acheteur",
+      "buyerLimited": "Acheteur limité",
+      "buyerUom": "UdM acheteur",
+      "created": "Un nouveau mappage d'acheteur d'article est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le mappage d'acheteur d'article {{id}}?"
+      },
+      "deleted": "Une correspondance des acheteurs d'articles est supprimée avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Cartographie d'acheteur"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau mappage d'acheteur d'article",
+        "createOrEditLabel": "Créer ou modifier un mappage d'acheteur d'article",
+        "search": "Recherche de mappage d'acheteur d'article",
+        "title": "Mappages d'acheteur"
+      },
+      "inventoryUOM": "UdM d'inventaire",
+      "items": "Articles",
+      "mappedItems": "Éléments mappés",
+      "maximumAllocation": "Allocation maximale",
+      "modifiedDate": "Date modifiée",
+      "price": "Prix",
+      "supplierId": "ID du fournisseur",
+      "updated": "Un mappage d'acheteur d'article est mis à jour avec l'identifiant {{param}}",
+      "parentItem": "Parent Item_FR",
+      "barcode": "Barcode_FR"
+    }
+  }
+}

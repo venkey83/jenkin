@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title  th:text="#{email.epdApprovalBuyerResponseEmail.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.epdApprovalBuyerResponseEmail.greeting(${user.firstName},${user.lastName})}">
+</p>
+<p th:text="#{email.epdApprovalBuyerResponseEmail.text(${epd.brand.name},${response},${epd.earlyPaymentDiscountRate},${epd.brand.name},${epd.creditTerms})}"></p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

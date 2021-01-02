@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql"/>
+
+    <!--
+        Added the entity ExternalPayment.
+    -->
+    <changeSet id="20180713095457-3" author="jhipster">
+        <createTable tableName="external_payment">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="invoice_amount" type="double">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="po_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="po_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="invoice_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="invoice_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="external_payment_status" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="payment_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="supplier_id" type="bigint">
+                <constraints nullable="false" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="external_payment" columnName="po_date" columnDataType="datetime"/>
+        <dropDefaultValue tableName="external_payment" columnName="invoice_date" columnDataType="datetime"/>
+
+    </changeSet>
+    <changeSet id="20180819095457-4" author="jhipster">
+        <addColumn tableName="external_payment">
+            <column name="original_payment_reference" type="varchar(255)">
+                <constraints nullable="true"></constraints>
+            </column>
+        </addColumn>
+        <addColumn tableName="external_payment">
+            <column name="card_token" type="varchar(255)">
+                <constraints nullable="true"></constraints>
+            </column>
+        </addColumn>
+        <addColumn tableName="external_payment">
+            <column name="brand_id" type="bigint">
+            </column>
+        </addColumn>
+        <dropNotNullConstraint tableName="external_payment" columnName="external_payment_status" columnDataType="varchar(255)"></dropNotNullConstraint>
+        <dropNotNullConstraint tableName="external_payment" columnName="payment_id" columnDataType="bigint"></dropNotNullConstraint>
+    </changeSet>
+    <changeSet id="20180821095457-5" author="jhipster">
+        <renameColumn 
+            columnDataType="varchar(255)"
+            newColumnName="cust_pay_ref_no"
+            oldColumnName="original_payment_reference"
+            tableName="external_payment"/>
+    </changeSet>
+    <changeSet id="20180904095457-6" author="jhipster">
+        <dropColumn
+            columnName="card_token"
+            tableName="external_payment">
+        </dropColumn>
+    </changeSet>
+    <changeSet id="20180910095457-7" author="jhipster">
+        <addColumn tableName="external_payment">
+            <column name="card_token" type="varchar(255)">
+                <constraints nullable="true"></constraints>
+            </column>
+        </addColumn>
+
+    </changeSet>
+    <changeSet id="20180910095457-8" author="jhipster">
+    <addColumn tableName="external_payment">
+        <column name="deletion_token" type="varchar(255)">
+            <constraints nullable="true"></constraints>
+        </column>
+    </addColumn>
+</changeSet>
+    <changeSet id="20180910095457-9" author="jhipster">
+        <addColumn tableName="external_payment">
+            <column name="creation_time" type="varchar(255)">
+                <constraints nullable="true"></constraints>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180910095457-10" author="jhipster">
+        <addColumn tableName="external_payment">
+            <column name="updated_time" type="varchar(255)">
+                <constraints nullable="true"></constraints>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180910095457-11" author="jhipster">
+        <addColumn tableName="external_payment">
+            <column name="invoice_type" type="varchar(255)">
+                <constraints nullable="true"></constraints>
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+</databaseChangeLog>

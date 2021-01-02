@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "promotionStatus" : {
+          "null": "",
+          "PROMOTION_ONGOING": "PROMOTION ONGOING",
+          "NO_PROMOTION": "NO PROMOTION",
+          "DELETED": "DELETED",
+          "FUTURE_PROMOTION": "FUTURE PROMOTION",
+          "EXPIRED_PROMOTION": "EXPIRED PROMOTION"
+        }
+    }
+}

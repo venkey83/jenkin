@@ -1,0 +1,13 @@
+{
+    "ezyprocureApp": {
+        "PurchaseOrderStatus" : {
+            "null": "",
+            "ALL": "SEMUA",
+            "PENDING": "YANG BELUM SELESAI",
+            "PO_CANCELLED": "PO DIBATALKAN",
+            "PROCESSED": "TELAH DI PROSES",
+            "REJECTED": "DITOLAK",
+            "PENDING_CANCELLATION": "PEMBATALAN YANG BELUM SELESAI"
+        }
+    }
+}

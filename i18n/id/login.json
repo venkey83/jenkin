@@ -1,0 +1,20 @@
+{
+    "login": {
+        "title": "Masuk",
+        "registernow":"Register Now_ID",
+        "form": {
+            "password": "Kata Sandi",
+            "password.placeholder": "Kata Sandi Anda",
+            "rememberme": "Ingat Saya",
+            "button": "Masuk"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>Gagal Masuk!</strong> Silahkan periksa kredensial Anda dan coba lagi."
+            }
+        },
+        "password" : {
+            "forgot": "Lupa Kata Sandi Anda?"
+        }	
+    }
+}

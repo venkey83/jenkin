@@ -1,0 +1,26 @@
+{
+  "ezyprocureApp": {
+    "purchaseExport": {
+      "home": {
+        "title": "Purchase Exports",
+        "createLabel": "创建新 Purchase Export",
+        "createOrEditLabel": "创建或编辑 Purchase Export"
+      },
+      "created": "Purchase Export {{ param }} 创建成功",
+      "updated": "Purchase Export {{ param }} 更新成功",
+      "deleted": "Purchase Export {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Purchase Export {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Purchase Export"
+      },
+      "exportType": "Export Type",
+      "exportTimestamp": "Export Timestamp",
+      "exported": "Exported",
+      "purchaseOrderNumber": "Purchase Order Number",
+      "deliveryDate": "Delivery Date",
+      "exportedBy": "Exported By"
+    }
+  }
+}

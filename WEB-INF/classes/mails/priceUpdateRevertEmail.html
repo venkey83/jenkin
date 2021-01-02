@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.priceUpdate.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.activation.greeting(${user.firstName},${user.lastName})}"> </p>
+<p th:text="#{email.priceUpdate.content.rollback(${priceUpdate.items.itemName})}"></p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

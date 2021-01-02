@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "CancelPoStatus" : {
+            "null": "",
+            "CANCEL_PO_REQUESTED": "BATALKAN PO YANG DIMINTA",
+            "CANCEL_PO_GENERATED": "BATALKAN PO YANG DIHASILKAN",
+            "CANCEL_PO_REJECTED": "BATALKAN PO YANG DITOLAK"
+        }
+    }
+}

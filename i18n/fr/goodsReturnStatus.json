@@ -1,0 +1,8 @@
+{
+  "ezyprocureApp": {
+    "GoodsReturnStatus": {
+      "RETURNED": "REVENU",
+      "null": ""
+    }
+  }
+}

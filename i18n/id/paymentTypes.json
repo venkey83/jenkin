@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "paymentTypes" : {
+            "null": "",
+            "BANK_TRANSFER": "TRANSFER BANK",
+            "PAYPAL": "PAYPAL",
+            "CHEQUE": "CEK",
+            "OTHER_PAYMENT": "PEMBAYARAN LAINNYA"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "memberIdSequence" : {
+            "home": {
+                "title": "Member Id Sequences_ID",
+                "createLabel": "Create a new Member Id Sequence_ID",
+                "createOrEditLabel": "Create or edit a Member Id Sequence_ID"
+            },
+            "created": "A new Member Id Sequence is created with identifier {{ param }}_ID",
+            "updated": "A Member Id Sequence is updated with identifier {{ param }}_ID",
+            "deleted": "A Member Id Sequence is deleted with identifier {{ param }}_ID",
+            "delete": {
+                "question": "Are you sure you want to delete Member Id Sequence {{ id }}?_ID"
+            },
+            "detail": {
+                "title": "Member Id Sequence_ID"
+            },
+            "sequenceNumber": "Sequence Number_ID",
+            "createdDate": "Created Date_ID",
+            "modifiedDate": "Modified Date_ID"
+        }
+    }
+}

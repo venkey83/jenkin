@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "priceUpdates": {
+      "buyer": "Käufer",
+      "buyerRemark": "Käufer Bemerkung",
+      "created": "Es wird eine neue Preisaktualisierung mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Preisaktualisierungen {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Aktualisierung der Kaufanfrage wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Preisupdates"
+      },
+      "effectiveEndDate": "Gültiges Enddatum",
+      "effectiveStartDate": "Gültiges Startdatum",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Preisaktualisierung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Preisaktualisierung",
+        "search": "Suchen Sie nach Preisaktualisierungen",
+        "title": "Preisupdates"
+      },
+      "isApprovalRequired": "Ist eine Genehmigung erforderlich",
+      "items": "Artikel",
+      "previousPrice": "Vorheriger Preis",
+      "priceUpdateStatus": "Preisaktualisierungsstatus",
+      "remark": "Anmerkung",
+      "updated": "Eine Preisaktualisierung wird mit dem Bezeichner {{param}} aktualisiert.",
+      "updatedDate": "Neues Datum",
+      "updatedPrice": "Aktualisierter Preis"
+    }
+  }
+}

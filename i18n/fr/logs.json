@@ -1,0 +1,11 @@
+{
+  "logs": {
+    "filter": "Filtre",
+    "nbloggers": "Il y a {{total}} enregistreurs.",
+    "table": {
+      "level": "Niveau",
+      "name": "Nom"
+    },
+    "title": "Journaux"
+  }
+}

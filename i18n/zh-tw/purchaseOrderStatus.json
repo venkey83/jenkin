@@ -1,0 +1,13 @@
+{
+    "ezyprocureApp": {
+        "PurchaseOrderStatus" : {
+            "null": "",
+            "ALL": "全部",
+            "PENDING": "待處理",
+            "PO_CANCELLED": "取消訂單",
+            "PROCESSED": "已處理",
+            "REJECTED": "已拒絕",
+            "PENDING_CANCELLATION": "未取消"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PriceUpdateStatus" : {
+            "null": "",
+            "PENDING": "TERTUNDA",
+            "ACCEPTED": "DITERIMA",
+            "REJECTED": "DITOLAK",
+            "SUPPLIER_PRICE_UPDATE": "PEMBARUAN HARGA PEMASOK"
+        }
+    }
+}

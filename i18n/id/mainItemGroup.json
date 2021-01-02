@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "mainItemGroup" : {
+            "home": {
+                "title": "Kelompok Item Utama",
+                "createLabel": "Buat Kelompok Item Utama baru",
+                "editLabel": "Edit Kelompok Item Utama",
+                "search": "Cari Kelompok Item Utama"
+            },
+            "created": "Kelompok Item Utama baru dibuat dengan Identifier {{param}}",
+            "updated": "Kelompok Item Utama diperbarui dengan Identifier {{param}}",
+            "deleted": "Kelompok Item Utama dihapus dengan identifier {{param}}",
+            "delete": {
+                "question": "Yakin ingin menghapus Kelompok Item Utama {{ id }}?"
+            },
+            "detail": {
+                "title": "Kelompok Item Utama"
+            },
+            "name": "Nama",
+            "description": "Deskripsi",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah"
+        }
+    }
+}

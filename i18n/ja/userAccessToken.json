@@ -1,0 +1,23 @@
+{
+  "ezyprocureApp": {
+    "userAccessToken": {
+      "home": {
+        "title": "UserAccessToken",
+        "createLabel": "Auth Tokens を追加",
+        "createOrEditLabel": "Auth Tokensを追加または編集"
+      },
+      "created": "A new Auth Tokens is created with identifier {{ param }}",
+      "updated": "A Auth Tokens is updated with identifier {{ param }}",
+      "deleted": "A Auth Tokens is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Auth Tokens {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Auth Tokens"
+      },
+      "token": "Token",
+      "createdDate": "Created Date",
+      "user": "User"
+    }
+  }
+}

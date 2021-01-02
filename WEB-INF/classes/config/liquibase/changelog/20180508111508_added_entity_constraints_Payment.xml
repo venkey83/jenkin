@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity payment.
+    -->
+   <changeSet id="20180508111508-3" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="buyer_user_id"
+                                 baseTableName="payment"
+                                 constraintName="fk_payment_buyer_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_user"/>
+
+    </changeSet>
+
+    <changeSet author="jhipster" id="20180731131508-5">
+        <addForeignKeyConstraint baseColumnNames="token_repo_id"
+                                 baseTableName="payment"
+                                 constraintName="fk_payment_token_repo_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="token_repo"/>
+    </changeSet>
+</databaseChangeLog>

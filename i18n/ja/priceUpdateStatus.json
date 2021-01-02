@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PriceUpdateStatus" : {
+            "null": "",
+            "PENDING": "PENDING",
+            "ACCEPTED": "ACCEPTED",
+            "REJECTED": "REJECTED",
+            "SUPPLIER_PRICE_UPDATE": "SUPPLIER PRICE UPDATE"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "ezyprocureApp": {
+    "externalPayment": {
+      "brand": "Marke",
+      "cardToken": "Karten-Token",
+      "created": "Eine neue externe Zahlung wird mit der ID {{param}} erstellt.",
+      "custPayRefNo": "Zahlungsreferenz des Kunden",
+      "delete": {
+        "question": "Möchten Sie die externe Zahlung {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine externe Zahlung wird mit der Kennung {{param}} gelöscht.",
+      "detail": {
+        "title": "Externe Zahlung"
+      },
+      "externalPaymentStatus": "Externer Zahlungsstatus",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue externe Zahlung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine externe Zahlung",
+        "title": "Externe Zahlungen"
+      },
+      "invoiceAmount": "Rechnungsbetrag",
+      "invoiceDate": "Rechnungsdatum",
+      "invoiceNumber": "Rechnungsnummer",
+      "payment": "Zahlung",
+      "poDate": "Po Date",
+      "poNumber": "Bestellnummer",
+      "supplier": "Lieferant",
+      "updated": "Eine externe Zahlung wird mit der Kennung {{param}} aktualisiert."
+    }
+  }
+}

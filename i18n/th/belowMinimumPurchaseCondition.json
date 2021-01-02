@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "BelowMinimumPurchaseCondition" : {
+            "null": "",
+            "PURCHASE_NOT_ACCEPTED": "การจัดซื้อไม่ประสบผลสำเร็จ",
+            "SELF_COLLECT_ITEMS": "สินค้าที่รับด้วยตนเอง",
+            "APPLY_DELIVERY_CHARGE": "มีค่าจัดส่งสินค้า"
+        }
+    }
+}

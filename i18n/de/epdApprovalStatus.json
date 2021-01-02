@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "EpdApprovalStatus": {
+      "APPROVED": "GENEHMIGT",
+      "PENDING": "STEHT AUS",
+      "REJECTED": "ABGELEHNT",
+      "null": ""
+    }
+  }
+}

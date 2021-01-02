@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{email.mapping.approval.wish}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.mapping.approval.greeting  (${user.firstName},${user.lastName})}"></p>
+
+<p th:text="#{email.mapping.approval.text (${sender.companyName})}"></p>
+
+<p>
+    <a th:href="@{|${baseUrl}${approvalLink}${sender.id}/approve-mapping/mapp|}"
+       th:text="|Click here to approve transactional Mapping|">Approve Link</a>
+</p>
+
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>
+

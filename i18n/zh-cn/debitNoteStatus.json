@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "DebitNoteStatus" : {
+            "null": "",
+            "ALL": "所有",
+            "DEBIT_NOTE_GENERATED": "借记票据被产生了",
+            "CREDIT_NOTE_GENERATED": "信用票据被产生了",
+            "CREDIT_NOTE_PENDING": "信用票据待批准",
+            "CREDIT_NOTE_REJECTED": "信用票据被拒绝了"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "ItemApprovalStatus" : {
+            "null": "",
+            "Pending": "待處理",
+            "Rejected": "已拒絕",
+            "Approved": "已審核"
+        }
+    }
+}

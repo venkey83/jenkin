@@ -1,0 +1,11 @@
+{
+    "logs": {
+        "title": "Catatan",
+        "nbloggers": "Terdapat penukar {{total}}.",
+        "filter": "Penapis",
+        "table": {
+            "name": "Nama",
+            "level": "Tahap"
+        }
+    }
+}

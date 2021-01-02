@@ -1,0 +1,35 @@
+{
+    "register": {
+        "title": "注册用户",
+        "form": {
+            "button": "注册"
+        },
+        "messages": {
+            "validate": {
+                "login": {
+                    "required": "用户名必填.",
+                    "minlength": "用户名至少需要一个字符",
+                    "maxlength": "用户名不能超过50个字符",
+                    "pattern": "用户名只能由小写字母和数字组成."
+                }
+            },
+            "success": "<strong>注册保存！</strong>请您查收确认电子邮件",
+            "error": {
+                "fail": "<strong>注册失败！</strong> 请您再次尝试",
+                "userexists": "<strong>用户名已经存在！</strong> 请您再想一个其他的用户名",
+                "emailexists": "<strong>电子邮箱已经存在！</strong> 请您使用其他电子邮箱注册"
+            }
+        },
+        "subscription": {
+            "selectPlan": "Select your plan_ZH-CN",
+            "domestic": "Domestic_ZH-CN",
+            "crossborder": "Cross Border_ZH-CN",
+            "subscribe": "Subscribe_ZH-CN",
+            "SUBSCRIPTION_BASED_MONTHLY":"Monthly_ZH-CN",
+            "SUBSCRIPTION_BASED_YEARLY":"Yearly_ZH-CN",
+            "GRANT":"Grant_ZH-CN",
+            "TRANSACTION_BASED":"Per Transaction_ZH-CN",
+            "check_mail_for_plan": "A verification mail is sent to the registered email_ZH-CN"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "ezyprocureApp": {
+    "approvalRequestSequence": {
+      "created": "Eine neue Genehmigungsanforderungssequenz wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Genehmigungsanforderungssequenz {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Genehmigungsanforderungssequenz wird mit dem Bezeichner {{param}} gelöscht.",
+      "detail": {
+        "title": "Reihenfolge der Genehmigungsanforderung"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Genehmigungsanforderungssequenz",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Genehmigungsanforderungssequenz",
+        "search": "Suchen Sie nach der Reihenfolge der Genehmigungsanfragen",
+        "title": "Genehmigungsanforderungssequenzen"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "sequenceNumber": "Sequenznummer",
+      "updated": "Eine Genehmigungsanforderungssequenz wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

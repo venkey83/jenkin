@@ -1,0 +1,32 @@
+
+{
+    "ezyprocureApp": {
+        "externalPayment" : {
+            "home": {
+                "title": "External Payments",
+                "createLabel": "Create a new External Payment",
+                "createOrEditLabel": "Create or edit a External Payment"
+            },
+            "created": "A new External Payment is created with identifier {{ param }}",
+            "updated": "A External Payment is updated with identifier {{ param }}",
+            "deleted": "A External Payment is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete External Payment {{ id }}?"
+            },
+            "detail": {
+                "title": "External Payment"
+            },
+            "invoiceAmount": "Invoice Amount",
+            "poDate": "Po Date",
+            "poNumber": "Po Number",
+            "invoiceNumber": "Invoice Number",
+            "invoiceDate": "Invoice Date",
+            "externalPaymentStatus": "External Payment Status",
+            "payment": "Payment",
+            "supplier": "Supplier",
+            "brand": "Brand",
+            "custPayRefNo": "Customer Payment Reference",
+            "cardToken": "Card Token"
+        }
+    }
+}

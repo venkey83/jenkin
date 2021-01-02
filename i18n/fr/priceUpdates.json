@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "priceUpdates": {
+      "buyer": "Acheteur",
+      "buyerRemark": "Remarque de l'acheteur",
+      "created": "Une nouvelle mise à jour des prix est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les mises à jour de prix {{id}}?"
+      },
+      "deleted": "Une mise à jour de la demande d'achat est supprimée avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Mises à jour des prix"
+      },
+      "effectiveEndDate": "Date de fin effective",
+      "effectiveStartDate": "Date de début effective",
+      "home": {
+        "createLabel": "Créer une nouvelle mise à jour des prix",
+        "createOrEditLabel": "Créer ou modifier une mise à jour des prix",
+        "search": "Rechercher des mises à jour de prix",
+        "title": "Mises à jour des prix"
+      },
+      "isApprovalRequired": "Une approbation est-elle requise",
+      "items": "Articles",
+      "previousPrice": "Prix précédent",
+      "priceUpdateStatus": "Statut de mise à jour des prix",
+      "remark": "Remarque",
+      "updated": "Une mise à jour des prix est mise à jour avec l'identifiant {{param}}",
+      "updatedDate": "Date de mise à jour",
+      "updatedPrice": "Prix mis à jour"
+    }
+  }
+}

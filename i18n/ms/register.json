@@ -1,0 +1,35 @@
+{
+    "register": {
+        "title": "Pendaftaran",
+        "form": {
+            "button": "Pendaftar"
+        },
+        "messages": {
+            "validate": {
+                "login": {
+                    "required": "Nama pengguna anda diperlukan.",
+                    "minlength": "Nama pengguna anda diperlukan sekurang-kurangnya 1 huruf.",
+                    "maxlength": "Nama pengguna anda tidak boleh melebihi 50 huruf.",
+                    "pattern": "Nama pengguna anda hanya boleh mengandungi huruf kecil dan nombor."
+                }
+            },
+            "success": "<strong>Pendaftaran Berjaya!</strong> Sila semak e-mel anda untuk pengesahan.",
+            "error": {
+                "fail": "<strong>Pendaftaran gagal!</strong> Sila cuba sebentar lagi.",
+                "userexists": "<strong>Nama masuk telah didaftarkan!</strong> Sila pilih yang lain.",
+                "emailexists": "<strong>E-mel telah digunakan!</strong> Sila pilih yang lain."
+            }
+        },
+        "subscription": {
+            "selectPlan": "Select your plan_MS",
+            "domestic": "Domestic_MS",
+            "crossborder": "Cross Border_MS",
+            "subscribe": "Subscribe_MS",
+            "SUBSCRIPTION_BASED_MONTHLY":"Monthly_MS",
+            "SUBSCRIPTION_BASED_YEARLY":"Yearly_MS",
+            "GRANT":"Grant_MS",
+            "TRANSACTION_BASED":"Per Transaction_MS",
+            "check_mail_for_plan": "A verification mail is sent to the registered email_MS"
+        }
+    }
+}

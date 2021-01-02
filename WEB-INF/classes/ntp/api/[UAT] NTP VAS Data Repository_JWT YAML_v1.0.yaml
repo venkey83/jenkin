@@ -1,0 +1,231 @@
+swagger: '2.0'
+info:
+  title: NTP JWT Access Token API
+  description: API to generate and refresh expired JWT Access Token
+  version: 1.0.0
+host: 'uat.ntp.gov.sg'
+schemes:
+  - https
+basePath: /api/oauth/v2
+consumes:
+  - application/x-www-form-urlencoded
+produces:
+  - application/json
+paths:
+  /token:
+    post:
+      summary: Generator of JWT Access Token
+      description: |
+        API to generate JWT Access Token
+      parameters:
+        - name: Authorization
+          in: header
+          description: >
+            Format is Bearer[space][jwt]
+          required: true
+          type: string
+        - name: client_id
+          in: header
+          description: API Key provided to third party application
+          required: true
+          type: string
+      tags:
+        - JWT Access Token
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              token:
+                type: string
+                description: NTP JWT Access Token generated
+              token_type:
+                type: string
+                description: NTP JWT Access Token Type
+              refresh_token:
+                type: string
+                description: NTP refresh token
+            required:
+              - token
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  /refreshToken:
+    post:
+      summary: Refresh JWT Access Token
+      description: |
+        API to refresh expired JWT Access Token
+      parameters:
+        - name: Authorization
+          in: header
+          description: 'The expired JWT. Format is Bearer[space][jwt]'
+          required: true
+          type: string
+        - name: client_id
+          in: header
+          description: API Key provided to third party application
+          required: true
+          type: string
+        - name: grant_type
+          in: formData
+          description: Grant Type for Refresh Token endpoint.
+          required: true
+          type: string
+          default: refresh_token
+        - name: refresh_token
+          in: formData
+          description: Refresh Token generated along with JWT from Access Token Endpoint.
+          required: true
+          type: string
+      tags:
+        - Refresh Token
+      responses:
+        '200':
+          description: POST response test successful
+          schema:
+            type: object
+            properties:
+              token:
+                type: string
+                description: NTP JWT Access Token generated
+              token_type:
+                type: string
+                description: NTP JWT Token Type
+            required:
+              - token
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+definitions:
+  Errors:
+    type: object
+    properties:
+      status:
+        type: string
+        description: Transaction status details
+      errors:
+        type: array
+        items:
+          properties:
+            userMessage:
+              description: Business error message for display at the Front End
+              type: string
+            developerMessage:
+              description: Error message for External Developers
+              type: string
+            supportMessage:
+              description: Internal error message for troubleshooting purposes
+              type: string
+            code:
+              description: Error Code
+              type: string
+            moreInfo:
+              description: Any custom value that might be required
+              type: string
+          required:
+            - code
+      result:
+        type: object
+    required:
+      - status
+      - errors
+      - result

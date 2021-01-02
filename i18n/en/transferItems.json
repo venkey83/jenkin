@@ -1,0 +1,30 @@
+{
+  "ezyprocureApp": {
+    "transferItems": {
+      "home": {
+        "title": "Transfer Items",
+        "createLabel": "Create a new Transfer Items",
+        "createOrEditLabel": "Create or edit a Transfer Items",
+        "notFound": "No Transfer Items found"
+      },
+      "created": "A new Transfer Items is created with identifier {{ param }}",
+      "updated": "A Transfer Items is updated with identifier {{ param }}",
+      "deleted": "A Transfer Items is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Transfer Items {{ id }}?"
+      },
+      "detail": {
+        "title": "Transfer Items"
+      },
+      "quantity": "Quantity",
+      "remarks": "Remarks",
+      "createdDate": "Created Date",
+      "deletionToken": "Deletion Token",
+      "receivedQuantity": "Received Quantity",
+      "modifiedDate": "Modified Date",
+      "items": "Items",
+      "uom": "Uom",
+      "transferRequest": "Transfer Request"
+    }
+  }
+}

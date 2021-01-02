@@ -1,0 +1,71 @@
+{
+    "ezyprocureApp": {
+        "supplier" : {
+            "home": {
+                "title": "供货商",
+                "createLabel": "创建一个新的供货商",
+                "createOrEditLabel": "创建或修改供货商",
+                "search": "查找供货商"
+            },
+            "created": "一个标识为{{ param }}的新的供货商被创建了",
+            "updated": "一个标识为{{ param }}的供货商被更新了",
+            "deleted": "一个标识为{{ param }}的供货商被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }} 的供货商么?"
+            },
+            "detail": {
+                "title": "供货商",
+                "companyName":"Company Name_ZH-CN",
+                "companyRegNo":"Company Registration Number_ZH-CN"
+            },
+            "companyName": "公司名称",
+            "companyAddress": "公司地址",
+            "companyPostalCode": "公司邮政编码",
+            "shippingAddress": "运送地址",
+            "shippingPostalCode": "运送邮政编码",
+            "supplierType": "供货商类别",
+            "visibilityType": "可见性类别",
+            "phone": "电话",
+            "mobile": "手机",
+            "contactPersonName": "联络人姓名",
+            "contactPersonDesignation": "联系人称位",
+            "typeOfBusiness": "业务类型",
+            "tax": "税",
+            "gst": "消费税（商品及服务税）%",
+            "deliveryTerms": "交货条款",
+            "paymentTerms": "付款条款",
+            "paymentDueDays": "付款到期日",
+            "paymentDiscountDays": "付款折扣日",
+            "paymentDiscountPercent": "付款折扣百分比",
+            "deliveryConditions": "交货条件",
+            "deliveryCharge": "送货费",
+            "companyLogo": "公司标志",
+            "createdDate": "创建日期",
+            "modifiedDate": "修改日期",
+            "supplierCode": "供货商代码",
+            "orderTimeForFriday": "星期五订购时间",
+            "orderTimeForSaturday": "星期六订购时间",
+            "minimumOrderForFreeDelivery": "免费送货的最低订单",
+            "belowMinimumPurchaseCondition": "低于最低供货急撒】",
+            "orderTimeForToday": "今天订购时间",
+            "noDeliveryOnHolidays": "假期不送货",
+            "noDeliveryOnSaturday": "星期六不送货",
+            "noDeliveryOnSunday": "星期天不送货",
+            "buyersLimit": "买家限额",
+            "noDeliveryOnMonday": "星期一不送货",
+            "companyRegistrationNumber": "公司注册号码",
+            "gstRegNo": "Gst/Vat 的注册号",
+            "createdUser": "创建用户",
+            "noDeliveryToday": "Apply Delivery Lead Time_CH",
+            "kycReport":"Kyc Report_CH",
+            "kycStatus":"Kyc Status_CH",
+            "kycTimestamp":"Kyc Time Stamp_CH",
+            "principleDirector":"Principle Director_CH",
+            "principleFinanceOfficer":"Principle Finance Officer_CH",
+            "ezypaymentOnly":"Ezypayment Only_CH",
+            "leadTime":"Lead Time_CH",
+            "companyCode": "Company Code_CH",
+            "currencyMapping": "Currency Mapping_ZH-CN"
+        }
+    }
+}

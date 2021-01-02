@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "glCodeMappings" : {
+            "home": {
+                "title": "GL Code Mappings",
+                "createLabel": "Create a new GL Code Mappings",
+                "createOrEditLabel": "Create or edit a GL Code Mappings",
+                "search": "Search for GL Code Mappings"
+            },
+            "created": "A new GL Code Mappings is created with identifier {{ param }}",
+            "updated": "A GL Code Mappings is updated with identifier {{ param }}",
+            "deleted": "A GL Code Mappings is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete GL Code Mappings {{ id }}?"
+            },
+            "detail": {
+                "title": "GL Code Mappings"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "purchaseOrderTypes": "Purchase Order Type",
+            "glSpecificItemGroups": "GL Specific Item Group",
+            "itemGroup": "Item Group",
+            "glCodes": "GL Code",
+            "processOrderType" : "Process Order Type"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "userScheduler": {
+      "home": {
+        "title": "UserSchedulers",
+        "createLabel": "User Scheduler を追加",
+        "createOrEditLabel": "User Schedulerを追加または編集",
+        "notFound": "No User Schedulers found"
+      },
+      "created": "A new User Scheduler is created with identifier {{ param }}",
+      "updated": "A User Scheduler is updated with identifier {{ param }}",
+      "deleted": "A User Scheduler is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "User Scheduler {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "User Scheduler"
+      },
+      "masterUserId": "Master User Id",
+      "companyType": "Company Type",
+      "userType": "User Type",
+      "status": "Status",
+      "createdDate": "Created Date",
+      "modifiedDate": "Modified Date",
+      "count": "Count"
+    }
+  }
+}

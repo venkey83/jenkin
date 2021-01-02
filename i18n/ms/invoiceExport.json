@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "invoiceExport": {
+      "home": {
+        "title": "Invoice Exports",
+        "createLabel": "Create a new Invoice Export",
+        "createOrEditLabel": "Create or edit a Invoice Export"
+      },
+      "created": "A new Invoice Export is created with identifier {{ param }}",
+      "updated": "A Invoice Export is updated with identifier {{ param }}",
+      "deleted": "A Invoice Export is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Invoice Export {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice Export"
+      },
+      "exportType": "Export Type",
+      "exportTimestamp": "Export Timestamp",
+      "exported": "Exported",
+      "invoice": "Invoice",
+      "exportedBy": "Exported By"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the entity TransferItems.
+    -->
+    <changeSet id="20200616021100-1" author="jhipster">
+        <createTable tableName="totp_user_key">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="user_key" type="varchar(512)">
+                <constraints nullable="false"/>
+            </column>
+         </createTable>
+    </changeSet>
+	<changeSet author="jhipster" id="20200630140000-2">
+	    <addAutoIncrement tableName="totp_user_key" columnName="id" columnDataType="bigint"/>
+		<addColumn
+            tableName="totp_user_key">
+            <column name="user_id" type="bigint"/>
+        </addColumn>
+        <addColumn
+            tableName="totp_user_key">
+            <column name="func_module" type="varchar(25)"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

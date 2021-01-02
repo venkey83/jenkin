@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "purchaseOrderTypes" : {
+            "home": {
+                "title": "Jenis Pesanan Pembelian",
+                "createLabel": "Buat Jenis Pesanan Pembelian baru",
+                "createOrEditLabel": "Buat atau edit Jenis Pesanan Pembelian",
+                "search": "Cari Jenis Pesanan Pembelian"
+            },
+            "created": "Jenis Pesanan Pembelian baru dibuat dengan identifier {{ param }}",
+            "updated": "Jenis Pesanan Pembelian diperbarui dengan identifier {{ param }}",
+            "deleted": "Jenis Pesanan Pembelian dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Jenis Pesanan Pembelian {{ id }}?"
+            },
+            "detail": {
+                "title": "Jenis Pesanan Pembelian"
+            },
+            "name": "Nama",
+            "code": "Kode",
+            "description": "Deskripsi",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah"
+        }
+    }
+}

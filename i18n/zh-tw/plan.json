@@ -1,0 +1,35 @@
+{
+	"ezyprocureApp": {
+		"plan": {
+			"home": {
+				"title": "Plans_ZH-TW",
+				"createLabel": "Create a new Plan_ZH-TW",
+				"createOrEditLabel": "Create or edit a Plan_ZH-TW",
+				"notFound": "No Plans found_ZH-TW"
+			},
+			"created": "A new Plan is created with identifier {{ param }}_ZH-TW",
+			"updated": "A Plan is updated with identifier {{ param }}_ZH-TW",
+			"deleted": "A Plan is deleted with identifier {{ param }}_ZH-TW",
+			"delete": {
+				"question": "Are you sure you want to delete Plan {{ id }}?_ZH-TW"
+			},
+			"detail": {
+				"title": "Plan_ZH-TW"
+			},
+			"name": "Name_ZH-TW",
+			"desc": "Desc_ZH-TW",
+			"type": "Type_ZH-TW",
+			"value": "Value_ZH-TW",
+			"myplans": {
+				"planType": "Plan Type_ZH-TW",
+				"planName": "Plan Name_ZH-TW",
+				"validFrom": "Valid From_ZH-TW",
+				"validTo": "Valid To_ZH-TW",
+				"cost": "Cost_ZH-TW",
+				"domestic": "Domestic_ZH-TW",
+				"crossborder": "Cross Border_ZH-TW"
+			},
+			"outlet_error":"Payment has already been done for the Current billing cycle so please select a New Plan from the plan selection page for the Next billing cycle_ZH-TW"
+		}
+	}
+}

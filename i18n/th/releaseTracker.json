@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "releaseTracker" : {
+            "home": {
+                "title": "Release Trackers",
+                "createLabel": "สร้าง Release Tracker",
+                "createOrEditLabel": "สร้างหรือแก้ไข Release Tracker"
+            },
+            "created": "Release Tracker ถูกสร้างด้วย {{ param }}",
+            "updated": "Release Tracker ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Release Tracker ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Release Tracker {{ id }}?"
+            },
+            "detail": {
+                "title": "Release Tracker"
+            },
+            "deviceType": "Device Type",
+            "version": "Version",
+            "createdDate": "Created Date"
+        }
+    }
+}

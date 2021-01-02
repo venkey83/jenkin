@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{email.buyersupplierunmap.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:if="${flag==null}" th:text="#{email.buyersupplierunmap.greeting(${SupplierName})}"></p>
+<p th:if="${flag=='1'}" th:text="#{email.buyersupplierunmap.greeting(${BuyerName})}"></p>
+
+<p th:if="${flag==null}" th:text="#{email.buyersupplierunmap.text1(${BuyerCompanyName},${SupplierCompanyName})}"></p>
+<p th:if="${flag=='1'}" th:text="#{email.buyersupplierunmap.text1(${SupplierCompanyName},${BuyerCompanyName})}"></p>
+
+<p th:text="#{email.buyersupplierunmap.text2}">
+
+</p>
+<p th:text="#{email.buyersupplierunmap.text3}">
+
+</p>
+
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

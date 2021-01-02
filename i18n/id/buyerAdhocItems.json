@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "buyerAdhocItems" : {
+            "home": {
+                "title": "Pembeli Item Adhoc",
+                "createLabel": "Buat Pembeli Item Adhoc baru",
+                "createOrEditLabel": "Buat atau Edit Pembeli Item Adhoc",
+                "search": "Cari Pembeli Item Adhoc"
+            },
+            "created": "Pembeli Item Adhoc baru dibuat dengan Identifier {{ param }}",
+            "updated": "Pembeli Item Adhoc diperbarui dengan Identifier {{ param }}",
+            "deleted": "Pembeli Item Adhoc dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pembeli Item Adhoc {{ id }}?"
+            },
+            "detail": {
+                "title": "Pembeli Item Adhoc"
+            },
+            "itemName": "Nmaa Item",
+            "itemDescription": "Deskripsi Item",
+            "quantity": "Kuantitas",
+            "unitPrice": "Harga Unit",
+            "itemType": "Tipe Item",
+            "createdDate": "Tanggal Dibuat",
+            "modifiedDate": "Tanggal Diubah"
+        }
+    }
+}

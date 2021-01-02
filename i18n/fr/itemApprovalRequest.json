@@ -1,0 +1,37 @@
+{
+  "ezyprocureApp": {
+    "itemApprovalRequest": {
+      "approvalNeededFrom": "Approbation requise de",
+      "approvalRequestNumber": "Numéro de demande d'approbation",
+      "approvalStatus": "Statut approuvé",
+      "buyerBusiness": "Acheteur Affaires",
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Une nouvelle demande d'approbation d'article est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la demande d'approbation d'article {{id}}?"
+      },
+      "deleteToken": "Supprimer le jeton",
+      "deleted": "Une demande d'achat d'article est supprimée avec l'identifiant {{ param }}",
+      "deliveryDate": "Date de livraison",
+      "detail": {
+        "title": "Demande d'approbation d'article"
+      },
+      "glCodeMappings": "Mappages de code Gl",
+      "home": {
+        "createLabel": "Créer une nouvelle demande d'approbation d'article",
+        "createOrEditLabel": "Créer ou modifier une demande d'approbation d'article",
+        "search": "Rechercher une demande d'approbation d'article",
+        "title": "Demandes d'approbation d'articles"
+      },
+      "isFreeItem": "Est un article gratuit",
+      "items": "Articles",
+      "modifiedDate": "Date modifiée",
+      "prRemark": "Remarque PR",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "specialRequest": "Demande spéciale",
+      "updated": "Une demande d'approbation d'article est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

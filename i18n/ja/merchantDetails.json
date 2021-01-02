@@ -1,0 +1,34 @@
+{
+    "ezyprocureApp": {
+        "merchantDetails" : {
+            "home": {
+                "title": "MerchantDetails",
+                "createLabel": "Merchant Details を追加",
+                "createOrEditLabel": "Merchant Detailsを追加または編集",
+                "search": "Search for Merchant Details"
+            },
+            "created": "A new Merchant Details is created with identifier {{ param }}",
+            "updated": "A Merchant Details is updated with identifier {{ param }}",
+            "deleted": "A Merchant Details is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Merchant Details {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Merchant Details"
+            },
+            "merchantId": "Merchant Id",
+            "userId": "User Id",
+            "password": "Password",
+            "requestedUrl": "Requested Url",
+            "gateWayType": "Gate Way Type",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "deletionToken": "Deletion Token",
+            "brand": "Brand",
+            "countryCurrency": "countryCurrency_JA",
+            "supplierId": "Supplier Id",
+            "transactionId": "TransactionId Id",
+            "securityId": "Security Id"
+        }
+    }
+}

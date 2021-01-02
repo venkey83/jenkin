@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "userRoles": {
+      "created": "Un nouveau rôle utilisateur est créé avec l'identifiant {{param}}",
+      "createdBy": "Créé par",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le rôle utilisateur {{id}}?"
+      },
+      "deleted": "Un rôle d'utilisateur est supprimé avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Rôles d'utilisateur"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau rôle d'utilisateur",
+        "createOrEditLabel": "Créer ou modifier un rôle d'utilisateur",
+        "search": "Rechercher des rôles d'utilisateur",
+        "title": "Rôles d'utilisateur"
+      },
+      "isActive": "C'est actif",
+      "level": "Niveau",
+      "modifiedDate": "Date modifiée",
+      "name": "Nom",
+      "updated": "Un rôle utilisateur est mis à jour avec l'identifiant {{param}}",
+      "userRole": "Rôle d'utilisateur"
+    }
+  }
+}

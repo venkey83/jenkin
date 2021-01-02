@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity PurchaseOrderSequence.
+    -->
+    <changeSet id="20170824060317-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="buyer_id"
+                                 baseTableName="purchase_order_sequence"
+                                 constraintName="fk_purchase_order_sequence_buyer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer"/>
+
+    </changeSet>
+
+    <changeSet id="20200814182900-3" author="sgebiz">
+        <sql>
+            CREATE unique INDEX idx_purchase_order_sequence_sqnc ON purchase_order_sequence (sequence,buyer_id)
+        </sql>
+    </changeSet>
+</databaseChangeLog>

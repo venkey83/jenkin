@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "releaseTracker" : {
+            "home": {
+                "title": "Pelacak Pelepasan",
+                "createLabel": "Buat Pelacak Pelepasan baru",
+                "createOrEditLabel": "Buat atau edit Pelacak Pelepasan"
+            },	
+            "created": "Pelacak Pelepasan baru dibuat dengan identifier {{ param }}",
+            "updated": "Pelacak Pelepasan diperbarui dengan identifier {{ param }}",
+            "deleted": "Pelacak Pelepasan dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pelacak Pelepasan {{ id }}?"
+            },
+            "detail": {
+                "title": "Pelacak Pelepasan"
+            },
+            "deviceType": "Jenis perangkat",
+            "version": "Versi",
+            "createdDate": "Tanggal dibuat"
+        }
+    }
+}

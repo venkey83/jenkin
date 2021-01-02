@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "releaseTracker" : {
+            "home": {
+                "title": "ReleaseTrackers",
+                "createLabel": "Release Tracker を追加",
+                "createOrEditLabel": "Release Trackerを追加または編集"
+            },
+            "created": "A new Release Tracker is created with identifier {{ param }}",
+            "updated": "A Release Tracker is updated with identifier {{ param }}",
+            "deleted": "A Release Tracker is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Release Tracker {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Release Tracker"
+            },
+            "deviceType": "Device Type",
+            "version": "Version",
+            "createdDate": "Created Date"
+        }
+    }
+}

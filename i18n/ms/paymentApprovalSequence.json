@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "paymentApprovalSequence" : {
+            "home": {
+                "title": "Urutan Kelulusan Pembayaran",
+                "createLabel": "Mencipta Urutan Kelulusan Pembayaran Baru",
+                "createOrEditLabel": "Mencipta atau Menyunting Urutan Kelulusan Pembayaran",
+                "search": "Pencarian Urutan Kelulusan Pembayaran"
+            },
+            "created": "Urutan Kelulusan Pembayaran baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Urutan Kelulusan Pembayaran telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Urutan Kelulusan Pembayaran telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Urutan Kelulusan Pembayaran {{ id }}?"
+            },
+            "detail": {
+                "title": "Urutan Kelulusan Pembayaran"
+            },
+            "sequenceNumber": "Nombor Urutan",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Yang Diubah Suai"
+        }
+    }
+}

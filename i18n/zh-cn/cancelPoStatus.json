@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "CancelPoStatus" : {
+            "null": "",
+            "CANCEL_PO_REQUESTED": "已经申请",
+            "CANCEL_PO_GENERATED": "已经生成",
+            "CANCEL_PO_REJECTED": "已经被拒绝"
+        }
+    }
+}

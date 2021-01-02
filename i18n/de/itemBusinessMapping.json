@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "itemBusinessMapping": {
+      "approverId": "Genehmiger-ID",
+      "buyerBusiness": "Käufergeschäft",
+      "created": "Ein neues Item Business Mapping wird mit dem Bezeichner {{param}} erstellt",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie Item Business Mapping {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Element der Geschäftszuordnung wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Artikel-Business-Mapping"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie ein neues Item Business Mapping",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie ein Item Business Mapping",
+        "search": "Suchen Sie nach Item Business Mapping",
+        "title": "Artikelgeschäftszuordnungen"
+      },
+      "items": "Artikel",
+      "modifiedDate": "Änderungsdatum",
+      "purchaseRequestApprovalStatus": "Genehmigungsstatus für Kaufanforderung",
+      "supplierId": "Lieferanten ID",
+      "updated": "Eine Artikel-Geschäftszuordnung wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

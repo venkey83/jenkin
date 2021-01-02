@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title  th:text="#{email.offBoardcheckoutemail.title(${outletName})}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="#{email.offBoardcheckoutemail.greeting(${firstName},${lastName})}">
+    </p>
+    <p th:text="#{email.offBoardcheckoutemail.text(${outletName},${poNumber})}"></p>
+    <table>
+        <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;">
+            <td th:text="#{email.offBoardcheckoutemail.itemcode}" style="width: 100px;"> </td>
+            <td th:text="#{email.offBoardcheckoutemail.itemname}" style="width:100px"> </td>
+            <td th:text="#{email.offBoardcheckoutemail.uom}" style="width:100px"> </td>
+            <td th:text="#{email.offBoardcheckoutemail.quantity}" style="width:100px"> </td>
+            <td th:text="#{email.offBoardcheckoutemail.price}" style="width:100px"> </td>
+            <td th:text="#{email.offBoardcheckoutemail.deliverydate}" style="width:150px"></td>
+            <td th:text="#{email.offBoardcheckoutemail.specialrequest}" style="width:150px"></td>
+        </tr>
+        <tr th:each="processOrder : ${processOrderList}">
+            <td th:text="${processOrder.items.itemCode}"> </td>
+            <td th:text="${processOrder.items.itemName}"> </td>
+            <td th:text="${processOrder.items.uom.name}"> </td>
+            <td th:text="${processOrder.quantity}"> </td>
+            <td th:text="${processOrder.freeItem}? #{email.offBoardcheckoutemail.freeItem} : ${#numbers.formatDecimal(processOrder.price, 0, 2)}"> </td>
+            <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(processOrder.deliveryDate)}"></td>
+            <td th:text="${processOrder.specialRequest}"> </td>
+        </tr>
+    </table>
+    <p th:text="#{email.offBoardcheckoutemail.deliveryAddress(${buyerAddress})}"></p>
+    <p></p>
+    <p th:text="#{email.offBoardcheckoutemail.outletemail(${outletEmail})}"></p>
+    <p th:text="#{email.offBoardcheckoutemail.outletcontact(${outletContact})}"></p>
+    <div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

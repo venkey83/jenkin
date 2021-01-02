@@ -1,0 +1,40 @@
+{
+  "ezyprocureApp": {
+    "cart": {
+      "buyerBusiness": "Acheteur Affaires",
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Un nouveau panier est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le panier {{id}}?"
+      },
+      "deleted": "Un panier est supprimé avec l'identifiant {{param}}",
+      "deliveryDate": "Date de livraison",
+      "detail": {
+        "title": "Chariot"
+      },
+      "duplicatePR": {
+        "inPendingPO": "Duplicated in pending PO for Req. Number(s) '{{ no }}'_FR",
+        "inApproval": "Duplicated in pending Approvals for Approval Request Number(s) '{{ no }}'_FR",
+        "message": "Une demande d'achat similaire avait déjà été présentée auparavant. Voulez-vous confirmer la commande ?",
+        "title": "Duplication de PR"
+      },
+      "confirmOrder": {
+        "title": "Confirm Order_FR",
+        "message" : "Are you sure to confirm the order?_FR"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau panier",
+        "createOrEditLabel": "Créer ou modifier un panier",
+        "search": "Rechercher un panier",
+        "title": "Chariots"
+      },
+      "items": "Articles",
+      "modifiedDate": "Date modifiée",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "specialRequest": "Demande spéciale",
+      "updated": "Un panier est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "countryCurrency" : {
+            "home": {
+                "title": "Country Currencies",
+                "createLabel": "สร้าง Country Currency",
+                "createOrEditLabel": "สร้างหรือแก้ไข Country Currency"
+            },
+            "created": "Country Currency ถูกสร้างด้วย {{ param }}",
+            "updated": "Country Currency ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Country Currency ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Country Currency {{ id }}?"
+            },
+            "detail": {
+                "title": "Country Currency"
+            },
+            "currency": "Currency",
+            "currencyCode": "Currency Code",
+            "country": "Country",
+            "countryCode": "Country Code",
+            "deletionToken": "Deletion Token",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date"
+        }
+    }
+}

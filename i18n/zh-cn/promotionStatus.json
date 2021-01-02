@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "promotionStatus" : {
+          "null": "",
+          "PROMOTION_ONGOING": "促销活动进行中",
+          "NO_PROMOTION": "没有促销活动",
+          "DELETED": "已删除",
+          "FUTURE_PROMOTION": "未来的促销活动",
+          "EXPIRED_PROMOTION": "促销活动过期了"
+        }
+    }
+}

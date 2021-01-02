@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brand" : {
+            "home": {
+                "title": "Merek",
+                "createLabel": "Buat merek baru",
+                "createOrEditLabel": "Buat atau Edit Merek"
+            },
+            "created": "Merek baru dibuat dengan Identifier {{ param }}",
+            "updated": "Merek diperbarui dengan Identifier {{ param }}",
+            "deleted": "Merek dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Merek {{ id }}?"
+            },
+            "detail": {
+                "title": "Merek"
+            },
+            "acraNumber": "Nomor Acra",
+            "businessServiceRate": "Tingkat Layanan Bisnis",
+            "deletionToken": "Token Penghapusan",
+            "createdDate": "Tanggal Dibuat",
+            "modifiedDate": "Tanggal Diubah",
+            "buyer": "Pembeli",
+            "contactPersonName": "Nama Kontak Pribadi",
+            "contactPersonDesignation": "Penunjukan Kontak Pribadi",
+            "phone": "Telepon",
+            "tax": "PAJAK",
+            "gstRegNo": "No Reg GST/VAT",
+            "name": "Nama"
+        }
+    }
+}

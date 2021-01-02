@@ -1,0 +1,9 @@
+{
+  "ezyprocureApp": {
+    "ExportRequestType": {
+      "POST": "PUBLIER",
+      "PUT": "METTRE",
+      "null": ""
+    }
+  }
+}

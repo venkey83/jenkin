@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "invoice" : {
+            "home": {
+                "title": "發票",
+                "createLabel": "開立發票",
+                "createOrEditLabel": "修改發票",
+                "search": "查詢發票"
+            },
+            "created": "新增發票編碼 {{ param }}",
+            "updated": "更新發票編碼 {{ param }}",
+            "deleted": "刪除發票編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是要要刪除發票？"
+            },
+            "detail": {
+                "title": "發票"
+            },
+            "invoiceNumber": "交易明細編號",
+            "invoiceDate": "發票日期",
+            "invoiceComment": "發票說明",
+            "deliveryCharge": "運費",
+            "discount": "折扣",
+            "hardcopyInvoiceNumber": "出貨明細號碼",
+            "invoiceSubTotal": "合計",
+            "invoiceTotal": "交易金額",
+            "addedGst": "稅",
+            "grandTotal": "總金額",
+            "debitNoteStatus": "應收票據狀態",
+            "debitNoteAmount": "應收票據金額"
+        }
+    }
+}

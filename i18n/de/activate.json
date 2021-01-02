@@ -1,0 +1,9 @@
+{
+  "activate": {
+    "messages": {
+      "error": "<strong> Ihr Nutzer konnte nicht aktiviert werden. </ strong> Bitte verwenden Sie das Registrierungsformular, um sich anzumelden.",
+      "success": "<strong> Ihr Nutzer wurde aktiviert. </ strong> Bitte <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\"> melden Sie sich an </a>."
+    },
+    "title": "Aktivierung"
+  }
+}

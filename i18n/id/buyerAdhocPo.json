@@ -1,0 +1,31 @@
+{
+    "ezyprocureApp": {
+        "buyerAdhocPo" : {
+            "home": {
+                "title": "Pembeli Adhoc Pos",
+                "createLabel": "Buat Pembeli Adhoc Po baru",
+                "createOrEditLabel": "Buat atau Eidt Pembeli Adhoc Po",
+                "search": "Cari Pembeli Adhoc Po"
+            },
+            "created": "Pembeli Adhoc Po baru dibuat dengan Identifier {{ param }}",
+            "updated": "Pembeli Adhoc Po diperbarui dengan Identifier {{ param }}",
+            "deleted": "Pembeli Adhoc Po dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pembeli Adhoc Po {{ id }}?"
+            },
+            "detail": {
+                "title": "Pembeli Adhoc Po"
+            },
+            "supplierEmail": "Email Pemasok",
+            "deliveryDate": "Tanggal Pengiriman",
+            "orderNumber": "Nomor Pesanan",
+            "currency": "Mata Uang",
+            "deliveryAddress": "Alamat Pengiriman",
+            "phoneNumber": "Nomor Telepon",
+            "createdDate": "Tanggal Dibuat",
+            "modifiedDate": "Tanggal Diubah",
+            "buyerAdhocItems": "Pembeli Item Adhoc",
+            "buyer": "Pembeli"
+        }
+    }
+}

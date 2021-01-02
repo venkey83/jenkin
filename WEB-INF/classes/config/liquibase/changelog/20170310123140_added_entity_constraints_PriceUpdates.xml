@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity PriceUpdates.
+    -->
+    <changeSet id="20170310123140-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="items_id"
+                                 baseTableName="price_updates"
+                                 constraintName="fk_price_updates_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+
+        <addForeignKeyConstraint baseColumnNames="buyer_id"
+                                 baseTableName="price_updates"
+                                 constraintName="fk_price_updates_buyer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer"/>
+
+    </changeSet>
+
+    <changeSet id="20200302153500-3" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="buyer_business_id"
+                                 baseTableName="price_updates"
+                                 constraintName="fk_price_updates_buyer_business_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_business"/>
+
+    </changeSet>
+</databaseChangeLog>

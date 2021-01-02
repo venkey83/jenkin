@@ -1,0 +1,26 @@
+{
+  "ezyprocureApp": {
+    "purchaseExport": {
+      "home": {
+        "title": "Purchase Exports",
+        "createLabel": "สร้าง Purchase Export",
+        "createOrEditLabel": "สร้างหรือแก้ไข Purchase Export"
+      },
+      "created": "Purchase Export ถูกสร้างด้วย {{ param }}",
+      "updated": "Purchase Export ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Purchase Export ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Purchase Export {{ id }}?"
+      },
+      "detail": {
+        "title": "Purchase Export"
+      },
+      "exportType": "Export Type",
+      "exportTimestamp": "Export Timestamp",
+      "exported": "Exported",
+      "purchaseOrderNumber": "Purchase Order Number",
+      "deliveryDate": "Delivery Date",
+      "exportedBy": "Exported By"
+    }
+  }
+}

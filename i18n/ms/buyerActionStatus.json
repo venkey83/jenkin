@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "BuyerActionStatus" : {
+            "null": "",
+            "ACCEPT": "DITERIMA",
+            "REJECT": "DITOLAK",
+            "PENDING": "YANG BELUM SELESAI"
+        }
+    }
+}

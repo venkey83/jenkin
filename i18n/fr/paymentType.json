@@ -1,0 +1,9 @@
+{
+  "ezyprocureApp": {
+    "PaymentType": {
+      "EXTERNAL": "EXTERNE",
+      "INTERNAL": "INTERNE",
+      "null": ""
+    }
+  }
+}

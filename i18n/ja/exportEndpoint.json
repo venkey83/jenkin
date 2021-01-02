@@ -1,0 +1,29 @@
+
+{
+    "ezyprocureApp": {
+        "exportEndpoint" : {
+            "home": {
+                "title": "ExportEndpoints",
+                "createLabel": "Export Endpoint を追加",
+                "createOrEditLabel": "Export Endpointを追加または編集"
+            },
+            "created": "A new Export Endpoint is created with identifier {{ param }}",
+            "updated": "A Export Endpoint is updated with identifier {{ param }}",
+            "deleted": "A Export Endpoint is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Export Endpoint {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Export Endpoint"
+            },
+            "endPoint": "End Point",
+            "authHeaderName": "Auth Header Name",
+            "apiKey": "Api Key",
+            "userName": "User Name",
+            "password": "Password",
+            "authType": "Auth Type",
+            "requestType": "Request Type",
+            "authEndpoint": "Auth Endpoint"
+        }
+    }
+}

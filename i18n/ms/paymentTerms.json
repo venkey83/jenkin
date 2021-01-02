@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "paymentTerms" : {
+            "home": {
+                "title": "Terma Pembayaran",
+                "createLabel": "Mencipta Terma Pembayaran Baru",
+                "createOrEditLabel": "Mencipta atau Menyunting Terma Pembayaran",
+                "search": "Pencarian Terma Pembayaran"
+            },
+            "created": "Terma Pembayaran baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Terma Pembayaran telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Terma Pembayaran telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Terma Pembayaran {{ id }}?"
+            },
+            "detail": {
+                "title": "Terma Pembayaran"
+            },
+            "paymentType": "Jenis Bayaran",
+            "accountName": "Nama Akaun",
+            "accountNumber": "Nombor Akaun",
+            "accountType": "Jenis Akaun",
+            "accountBank": "Akaun Bank",
+            "bankName": "Nama Bank",
+            "bankCode": "Kod Bank",
+            "branchCode": "Kod Cawangan",
+            "description": "Penerangan Bayaran Lain",
+            "supplier": "Pembekal",
+            "bank": "Bank"
+        }
+    }
+}

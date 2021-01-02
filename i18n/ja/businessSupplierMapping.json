@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "businessSupplierMapping" : {
+            "home": {
+                "title": "Business Supplier Mappings",
+                "createLabel": "Create a new Business Supplier Mapping",
+                "createOrEditLabel": "Create or edit a Business Supplier Mapping",
+                "search": "Search for Business Supplier Mapping"
+            },
+            "created": "A new Business Supplier Mapping is created with identifier {{ param }}",
+            "updated": "A Business Supplier Mapping is updated with identifier {{ param }}",
+            "deleted": "A Business Supplier Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Business Supplier Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Business Supplier Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyerBusiness": "Buyer Business",
+            "supplier": "Supplier"
+        }
+    }
+}

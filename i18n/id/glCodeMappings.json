@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "glCodeMappings" : {
+            "home": {
+                "title": "Pemetaan Kode GL",
+                "createLabel": "Buat Pemetaan Kode GL baru",
+                "createOrEditLabel": "Buat atau Edit Pemetaan Kode GL",
+                "search": "Cari Pemetaan Kode GL"
+            },
+            "created": "Pemetaan Kode GL baru dibuat dengan Identifier {{ param }}",
+            "updated": "Pemetaan Kode GL diperbarui dengan Identifier {{ param }}",
+            "deleted": "Pemetaan Kode GL dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus pemetaan kode GL {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Kode GL"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal Diubah",
+            "purchaseOrderTypes": "Jenis Pembelian Pesanan ",
+            "glSpecificItemGroups": "Kelompok Barang Spesifik",
+            "itemGroup": "Kelompok Barang",
+            "glCodes": "Kode GL",
+            "processOrderType" : "Jenis Proses Pesanan"
+        }
+    }
+}

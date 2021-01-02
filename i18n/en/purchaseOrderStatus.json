@@ -1,0 +1,13 @@
+{
+    "ezyprocureApp": {
+        "PurchaseOrderStatus" : {
+            "null": "",
+            "ALL": "ALL",
+            "PENDING": "PENDING",
+            "PO_CANCELLED": "PO CANCELLED",
+            "PROCESSED": "PROCESSED",
+            "REJECTED": "REJECTED",
+            "PENDING_CANCELLATION": "PENDING CANCELLATION"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "TransferRequestStatus": {
+      "EXPORTED": "EXPORTE",
+      "NEW": "NOUVEAU",
+      "PROCESSED": "TRAITÉ",
+      "null": ""
+    }
+  }
+}

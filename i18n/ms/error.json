@@ -1,0 +1,17 @@
+{
+    "error": {
+        "401": {
+            "code": "401",
+            "title": "Akses dinafikan",
+            "message": "Anda tidak dibenarkan mengakses halaman tersebut.!"
+        },
+        "contact": {
+            "title": "Contact Support_MS",
+            "message": "Please contact your company administrator to continue using the application!_MS"
+        },
+        "kycsupport": {
+            "title": "Contact Support_MS",
+            "message": "Your KYC is not verified, Ezyprocure will contact you for further proceedings_MS"
+        }
+    }
+}

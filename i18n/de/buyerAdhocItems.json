@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "buyerAdhocItems": {
+      "created": "Ein neuer Käufer-Ad-hoc-Artikel wird mit der ID {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie Buyer Adhoc Items {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Käufer von Ad-hoc-Artikeln wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Ad-hoc-Artikel des Käufers"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie einen neuen Käufer Ad-hoc-Artikel",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie Ad-hoc-Artikel eines Käufers",
+        "search": "Suche nach Buyer Adhoc Items",
+        "title": "Ad-hoc-Artikel des Käufers"
+      },
+      "itemDescription": "Artikelbeschreibung",
+      "itemName": "Artikelname",
+      "itemType": "Gegenstandsart",
+      "modifiedDate": "Änderungsdatum",
+      "quantity": "Menge",
+      "unitPrice": "Stückpreis",
+      "updated": "Ad-hoc-Artikel eines Käufers werden mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

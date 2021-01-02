@@ -1,0 +1,11 @@
+{
+    "logs": {
+        "title": "日誌紀錄",
+        "nbloggers": "共有 {{ total }} 個。",
+        "filter": "篩選",
+        "table": {
+            "name": "名稱",
+            "level": "層級"
+        }
+    }
+}

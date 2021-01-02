@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "sequence" : {
+            "home": {
+                "title": "Urutan",
+                "createLabel": "Buat Urutan baru",
+                "createOrEditLabel": "Buat atau edit Urutan",
+                "search": "Cari Urutan"
+            },
+            "created": "Urutan baru dibuat dengan identifier {{ param }}",
+            "updated": "Urutan diperbarui dengan identifier {{ param }}",
+            "deleted": "Urutan dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Urutan {{ id }}?"
+            },
+            "detail": {
+                "title": "Urutan"
+            },
+            "invoiceNumber": "Nomor faktur",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "supplier": "Pemasok"
+        }
+    }
+}

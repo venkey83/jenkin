@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "ItemApprovalStatus": {
+      "Approved": "Approuvé",
+      "Pending": "En attente",
+      "Rejected": "Rejeté",
+      "null": ""
+    }
+  }
+}

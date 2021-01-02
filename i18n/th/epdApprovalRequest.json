@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "epdApprovalRequest" : {
+            "home": {
+                "title": "EPD Approval Requests_TH",
+                "createLabel": "Create a new Epd Approval Request_TH",
+                "createOrEditLabel": "Create or edit a Epd Approval Request_TH",
+                "search": "Search for Epd Approval Request_TH"
+            },
+            "created": "A new Epd Approval Request is created with identifier {{ param }}_TH",
+            "updated": "A Epd Approval Request is updated with identifier {{ param }}_TH",
+            "deleted": "A Epd Approval Request is deleted with identifier {{ param }}_TH",
+            "delete": {
+                "question": "Are you sure you want to delete Epd Approval Request {{ id }}?_TH"
+            },
+            "detail": {
+                "title": "EPD Approval Request_TH"
+            },
+            "createdDate": "Created Date_TH",
+            "modifiedDate": "Modified Date_TH",
+            "epdApprovalSequenceNumber": "EPD Approval Sequence Number_TH",
+            "earlyPaymentDiscountRate": "Early Payment Discount Rate_TH",
+            "epdApprovalStatus": "EPD Approval Status_TH",
+            "deletionToken": "Deletion Token_TH",
+            "buyerResponse": "Buyer Response_TH",
+            "brand": "Brand_TH",
+            "supplier": "Supplier_TH",
+            "requestedSupplierUser": "Requested Supplier User_TH",
+            "acceptedBuyerUser": "Accepted Buyer User_TH"
+        }
+    }
+}

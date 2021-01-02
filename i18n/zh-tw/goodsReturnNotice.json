@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "goodsReturnNotice" : {
+            "home": {
+                "title": "退貨通知",
+                "createLabel": "新增退貨通知",
+                "createOrEditLabel": "編輯退貨通知",
+                "search": "查詢退貨通知"
+            },
+            "created": "新增退貨通知編碼 {{ param }}",
+            "updated": "更新退貨通知編碼 {{ param }}",
+            "deleted": "刪除退貨通知編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除退貨通知？"
+            },
+            "detail": {
+                "title": "退貨通知"
+            },
+            "buyerRemark": "商家備註",
+            "rejectedQuantity": "拒絕數量",
+            "debitNoteAmount": "應收票據金額",
+            "debitNoteStatus": "應收票據狀態",
+            "debitNoteNumber": "應收票據編號",
+            "goodsReturnDate": "退貨日期",
+            "goodsReturnNumber": "退貨編號",
+            "creditNoteAmount": "應付票據金額",
+            "creditNoteWeight": "應付票據重量",
+            "creditNoteQuantity": "應付票據數量",
+            "creditNoteRejectReason": "拒絕應付票據原因",
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "hardcopyInvoiceNumber": "出貨明細號碼"
+        }
+    }
+}

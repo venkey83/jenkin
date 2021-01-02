@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "promotion": {
+      "applicablePromotionQuantity": "Anwendbare Menge",
+      "created": "Eine neue Promotion wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie Promotion {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Promotion wird mit dem Bezeichner {{param}} gelöscht",
+      "detail": {
+        "title": "Beförderung"
+      },
+      "effectiveEndDate": "Gültiges Enddatum",
+      "effectiveStartDate": "Gültiges Startdatum",
+      "freeItem": "Kostenlose Artikel",
+      "freeItemId": "Kostenlose Artikel-ID",
+      "freeQuantity": "Freie Menge",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Promotion",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Promotion",
+        "search": "Nach Promotion suchen",
+        "title": "Förderungen"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "promotionItem": "Werbeartikel",
+      "promotionItemId": "ID des Werbeartikels",
+      "promotionStatus": "Promotionsstatus",
+      "status": "Status",
+      "updated": "Eine Promotion wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

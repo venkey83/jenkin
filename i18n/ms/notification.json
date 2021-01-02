@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "notification" : {
+            "home": {
+                "title": "Pemberitahuan",
+                "createLabel": "Mencipta Pemberitahuan",
+                "createOrEditLabel": "Mencipta atau Menyunting Pemberitahuan",
+                "search": "Pencarian Pemberitahuan"
+            },
+            "created": "Pemberitahuan baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Pemberitahuan telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Pemberitahuan telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Pemberitahuan {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemberitahuan"
+            },
+            "deviceType": "Jenis alat",
+            "deviceToken": "Alat Token",
+            "badgeCount": "Kiraan Lencana",
+            "user": "Pengguna"
+        }
+    }
+}

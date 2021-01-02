@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{email.creditNote.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.adHocPo.greeting}">
+</p>
+<p th:text="#{email.adHocPo.declaration(${buyerCompanyName},${deliveryDate},${orderNumber})}">
+</p>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;"><th>ITEM NAME</th><th>DESCRIPTION</th><th>QUANTITY</th><th>UNIT PRICE</th></tr>
+    <tr th:each="prod : ${items}">
+        <td th:text="${prod.itemName}"> </td>
+        <td th:text="${prod.itemDescription}"> </td>
+        <td th:text="${prod.quantity}"> </td>
+        <td th:text="${prod.unitPrice}"></td>
+    </tr>
+</table>
+<p th:text="#{email.adHocPo.phoneNumber(${contactNumber})}">
+</p>
+<p th:text="#{email.adHocPo.deliveryaddress(${deliveryAddress})}">
+</p>
+<p>
+    <span th:text="#{email.activation.text2}"> </span>
+    <br/>
+    <b><em th:text="#{email.signature}"></em></b>
+</p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

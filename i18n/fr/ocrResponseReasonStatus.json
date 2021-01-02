@@ -1,0 +1,14 @@
+{
+  "ezyprocureApp": {
+    "OcrResponseReasonStatus": {
+      "ADDED": "AJOUTÉE",
+      "BLURRED_IMAGE": "IMAGE FLOUÉE",
+      "EZYPROCURE_INVOICE": "FACTURE EZYPROCURE",
+      "GOODS_REJECTED": "MARCHANDISES REJETÉES",
+      "INVOICE_WITH_CREDIT_NOTE": "FACTURE AVEC NOTE DE CRÉDIT",
+      "OTHER": "AUTRE",
+      "PENDING": "EN ATTENTE",
+      "null": ""
+    }
+  }
+}

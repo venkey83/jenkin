@@ -1,0 +1,11 @@
+{
+  "ezyprocureApp": {
+    "orderTemplateItemMapping": {
+      "home": {
+        "createLabel": "Créer un nouveau mappage d'éléments de modèle de commande",
+        "createOrEditLabel": "Créer ou modifier un mappage d'éléments de modèle de commande",
+        "title": "Mappages d'éléments de modèle de commande"
+      }
+    }
+  }
+}

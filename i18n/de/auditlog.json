@@ -1,0 +1,27 @@
+{
+  "ezyprocureApp": {
+    "auditlog": {
+      "User": "Benutzer",
+      "created": "Ein neues Auditlog wird mit dem Bezeichner {{param}} erstellt",
+      "createdby": "Erstellt von",
+      "createddatetime": "Erstellungszeit",
+      "delete": {
+        "question": "Möchten Sie das Überwachungsprotokoll {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Auditlog wird mit dem Bezeichner {{param}} gelöscht",
+      "detail": {
+        "title": "Audit-Log"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie ein neues Auditlog",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie ein Auditlog",
+        "search": "Suchen Sie nach Auditlog",
+        "title": "Auditlogs"
+      },
+      "status": "Status",
+      "transactionid": "Transaktions-ID",
+      "transactiontype": "Art der Transaktion",
+      "updated": "Ein Auditlog wird mit dem Bezeichner {{param}} aktualisiert"
+    }
+  }
+}

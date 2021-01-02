@@ -1,0 +1,28 @@
+<div th:fragment="footer">
+    <div style="width: 100%;">
+        <div  style=" height: 400px; width: 75%; text-align:center; margin-left:auto; margin-right:auto; display:block;">
+            <a th:href="@{https://v2.ezyprocure.com/}">
+                <img th:src="${ezyprocureLogo}"/>
+            </a>
+
+            <p th:text="#{email.welcome.text1}">
+            </p>
+
+            <a th:href="@{https://www.sgebiz.com/}">
+                <img th:src="${sgebizLogo}"/>
+            </a>
+            <p>All rights reserved © Singapore-E-Business Pte.Ltd.201409838G
+            </p>
+        </div>
+    </div>
+</div>
+<div th:fragment="footertw">
+    <div style="width: 100%;">
+        <div  style=" height: 400px; width: 75%; text-align:center; margin-left:auto; margin-right:auto; display:block;">
+            <a th:href="@{https://v2.ezyprocure.com/}">
+                <img th:src="${ezyprocureLogo}"/>
+            </a>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.payment.approval.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.acceptprocessorder.greeting(${approvalNeededFrom})}">
+</p>
+<p th:text="#{email.payment.approval.text(${approvalNumber},${firstName},${lastName},${cutOffTime})}"></p>
+
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

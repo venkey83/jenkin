@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "orderTemplate": {
+      "buyerBusiness": "Acheteur Affaires",
+      "company": "Entreprise",
+      "created": "Un nouveau modèle de commande est créé avec l'identifiant {{param}}",
+      "createdBy": "Créé par",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le modèle de commande {{id}}?"
+      },
+      "deleted": "Un modèle de commande est supprimé avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Modèle de commande"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau modèle de commande",
+        "createOrEditLabel": "Créer ou modifier un modèle de commande",
+        "title": "Modèles de commande"
+      },
+      "modifiedBy": "Modifié par",
+      "modifiedDate": "Date modifiée",
+      "name": "Nom",
+      "purchaseOrderType": "Type de bon de commande",
+      "updated": "Un modèle de commande est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "userRoles" : {
+            "home": {
+                "title": "Peranan Pengguna",
+                "createLabel": "Mencipta Peranan Pengguna Baru",
+                "createOrEditLabel": "Mencipta atau menyunting Peranan Pengguna",
+                "search": "Pencarian Peranan Pengguna"
+            },
+            "created": "Peranan Pengguna Baru telah diciptakan dengan Pengecam {{ param }}",
+            "updated": "Peranan Pengguna telah diubah suai dengan Pengecam {{ param }}",
+            "deleted": "Peranan Pengguna telah Dihabuskan dengan Pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin menghabus Peranan Pengguna {{ id }}?"
+            },
+            "detail": {
+                "title": "Peranan Pengguna"
+            },
+            "userRole": "Peranan Pengguna",
+            "name": "Nama",
+            "level": "Tahap",
+            "createdBy": "Dicipta Oleh",
+            "isActive": "Telah Actif",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "buyerBusiness" : {
+    "home": {
+      "title": "Bisnis Pembeli",
+      "createLabel": "Buat Bisnis Pembeli baru",
+      "createOrEditLabel": "Buat atau Edit Bisnis Pembeli",
+      "search": "Cari Bisnis Pembeli"
+    },
+    "created": "Bisnis Pembeli baru dibuat dengan Identifier {{ param }}",
+    "updated": "Bisnis Pembeli diperbarui dengan Identifier {{ param }}",
+    "deleted": "Bisnis Pembeli dihapus dengan Identifier {{ param }}",
+    "delete": {
+      "question": "Anda yakin ingin menghapus Bisnis Pembeli{{ id }}?"
+    },
+    "detail": {
+      "title": "Bisnis Pembeli"
+    },
+    "businessOutletName": "Nama toko bisnis",
+    "brandName": "Nama Merek",
+    "phoneNumber": "Nomor Telepon",
+    "mobileNumber": "Nomor Ponsel",
+    "billingAddress": "Alamat Penagihan",
+    "shippingAddress": "Alamat Pengiriman",
+    "contactPersonName": "Nama Kontak Pribadi",
+    "contactPersonDesignation": "Sebutan Kontak Pribadi",
+    "email": "Email",
+    "createdDate": "Tanggal Dibuat",
+    "modifiedDate": "Tanggal Diubah",
+    "businessOutletCode": "Kode Toko Bisnis",
+    "businessOutletLogo": "Logo Toko Bisnis",
+    "address": "Alamat",
+    "city": "Kota",
+    "country": "Negara",
+    "postalCode": "Kode Pos",
+    "shippingPostalCode": "Kode Pos Pengiriman",
+    "billingPostalCode": "Kode Pos Penagihan",
+    "organizationNumber": "Nomor Organisasi",
+    "locationNumber": "Nomor Lokasi",
+    "departmentCode": "Kode Departemen",
+    "buyer": "Pembeli",
+    "defaultPurchaseOrderType": "Standar Jenis Pembelian Pesanan",
+    "companyRegistrationNumber": "Company Registration Number"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title th:text="email.pendingProcessNotificationEmail.title"></title>
+</head>
+<body>
+<p th:text="#{email.pendingProcessNotificationEmail.greeting}"/>
+<p th:text="#{email.pendingProcessNotificationEmail.body}"/>
+<div th:if="${processOrderList.size()>0}">
+<p th:text="#{email.pendingProcessNotificationEmail.processorder}"/>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+        <td th:text="#{email.pendingProcessNotificationEmail.requirementNumber}" style="width:100px" />
+        <td th:text ="#{email.pendingProcessNotificationEmail.buyer}" style="width:200px"/>
+    </tr>
+    <tr th:each="processOrder:${processOrderList}" style="text-align:center">
+        <td th:text="${processOrder.requirementNumber}"/>
+        <td th:text="${processOrder.buyerUser.buyer.companyName}"/>
+    </tr>
+</table>
+</div>
+<div th:if="${purchaseOrderList.size()>0}">
+<p th:text="#{email.pendingProcessNotificationEmail.invoicePending}"/>
+<table >
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center">
+        <td th:text="#{email.pendingProcessNotificationEmail.purchaseOrderNumber}" style="width:100px" />
+        <td th:text ="#{email.pendingProcessNotificationEmail.buyer}" style="width:200px"/>
+    </tr>
+    <tr th:each="purchaseOrder:${purchaseOrderList}" style="text-align:center">
+        <td th:text="${purchaseOrder.purchaseOrderNumber}"/>
+        <td th:text="${purchaseOrder.processOrder.buyerUser.buyer.companyName}"/>
+    </tr>
+</table>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

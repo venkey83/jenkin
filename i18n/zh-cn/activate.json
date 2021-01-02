@@ -1,0 +1,9 @@
+{
+    "activate": {
+        "title": "激活",
+        "messages": {
+            "success": "<strong>您的用户已被激活.</strong> 请 <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">登录</a>.",
+            "error": "<strong>您的用户无法激活.</strong> 请前往注册页面完成注册。"
+        }
+    }
+}

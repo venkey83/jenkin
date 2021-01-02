@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "businessUserMapping": {
+      "approvalLevel": "Genehmigungsstufe",
+      "buyerBusiness": "Käufergeschäft",
+      "buyerUser": "Käufer Benutzer",
+      "created": "Eine neue Geschäftsbenutzerzuordnung wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie das Business User Mapping {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Korrespondenz von professionellen Benutzern wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Zuordnung von Geschäftsbenutzern"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Geschäftsbenutzerzuordnung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Geschäftsbenutzerzuordnung",
+        "search": "Suche nach Business User Mapping",
+        "title": "Zuordnungen von Geschäftsbenutzern"
+      },
+      "isLastLevel": "Ist das letzte Level",
+      "maximumAmount": "Höchstbetrag",
+      "minimumAmount": "Mindestbetrag",
+      "modifiedDate": "Änderungsdatum",
+      "updated": "Eine Geschäftsbenutzerzuordnung wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

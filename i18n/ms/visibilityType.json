@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "VisibilityType" : {
+            "null": "",
+            "ALLOCATED": "DIPERUNTUKKAN",
+            "ADHOC": "ADHOC",
+            "PUBLIC": "AWAM",
+            "ADHOC_OFF_BOARD_SUPPLIER": "PEMBEKAL_OFF_BOARD_ADHOC",
+            "CP_SG":"CP_SG"
+        }
+    }
+}

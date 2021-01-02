@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "exportEndpoint": {
+      "apiKey": "Clé API",
+      "authEndpoint": "Auth Endpoint",
+      "authHeaderName": "Nom d'en-tête d'authentification",
+      "authType": "Type d'authentification",
+      "created": "Un nouveau point de terminaison d'exportation est créé avec l'identifiant {{param}}",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer Export Endpoint {{id}}?"
+      },
+      "deleted": "Un point de terminaison d'exportation est supprimé avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Exporter le point de terminaison"
+      },
+      "endPoint": "Point final",
+      "home": {
+        "createLabel": "Créer un nouveau point de terminaison d'exportation",
+        "createOrEditLabel": "Créer ou modifier un point de terminaison d'exportation",
+        "title": "Exporter les points de terminaison"
+      },
+      "password": "Mot de passe",
+      "requestType": "type de demande",
+      "updated": "Un point de terminaison d'exportation est mis à jour avec l'identifiant {{param}}",
+      "userName": "Nom d'utilisateur"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "CancelPoStatus": {
+      "CANCEL_PO_GENERATED": "ANNULER PO GÉNÉRÉ",
+      "CANCEL_PO_REJECTED": "CANCEL PO REJECTED",
+      "CANCEL_PO_REQUESTED": "ANNULER PO DEMANDÉ",
+      "null": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "supplierCalendar": {
+      "created": "Un nouveau calendrier fournisseur est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "date": "Date",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le calendrier des fournisseurs {{id}}?"
+      },
+      "deleted": "Un calendrier des fournisseurs est supprimé avec l'identifiant {{ param }}",
+      "description": "La description",
+      "detail": {
+        "title": "Calendrier des fournisseurs"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau calendrier fournisseur",
+        "editLabel": "Modifier un calendrier fournisseur",
+        "manageSupplierCalendars": "Fournisseur - Gestion du calendrier",
+        "search": "Rechercher le calendrier des fournisseurs",
+        "tableListHeader": "Liste du calendrier",
+        "title": "Calendriers fournisseurs"
+      },
+      "modifiedDate": "Date modifiée",
+      "supplier": "Fournisseur",
+      "updated": "Un calendrier fournisseur est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

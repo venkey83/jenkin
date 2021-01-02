@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "sgebizMailId" : {
+            "home": {
+                "title": "Sgebiz Mail Ids",
+                "createLabel": "建立一筆新的 Sgebiz Mail Id",
+                "createOrEditLabel": "建立或編輯 Sgebiz Mail Id"
+            },
+            "created": "新的 Sgebiz Mail Id 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Sgebiz Mail Id 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Sgebiz Mail Id 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Sgebiz Mail Id {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Sgebiz Mail Id"
+            },
+            "name": "Name",
+            "mailId": "Mail Id",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "deletionToken": "Deleted Token"
+        }
+    }
+}

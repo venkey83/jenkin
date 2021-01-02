@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "brandBuyerUserMapping" : {
+            "home": {
+                "title": "BrandBuyerUserMappings",
+                "createLabel": "Brand Buyer User Mapping を追加",
+                "createOrEditLabel": "Brand Buyer User Mappingを追加または編集",
+                "search": "Search for Brand Buyer User Mapping"
+            },
+            "created": "A new Brand Buyer User Mapping is created with identifier {{ param }}",
+            "updated": "A Brand Buyer User Mapping is updated with identifier {{ param }}",
+            "deleted": "A Brand Buyer User Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Brand Buyer User Mapping {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Brand Buyer User Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "approvalLevel": "Approval Level",
+            "maximumAmount": "Maximum Amount",
+            "minimumAmount": "Minimum Amount",
+            "lastLevel": "Last Level",
+            "brand": "Brand",
+            "buyerUser": "Buyer User"
+        }
+    }
+}

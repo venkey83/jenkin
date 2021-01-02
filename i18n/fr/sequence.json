@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "sequence": {
+      "created": "Une nouvelle séquence est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la séquence {{id}}?"
+      },
+      "deleted": "Une séquence est supprimée avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Séquence"
+      },
+      "home": {
+        "createLabel": "Créer une nouvelle séquence",
+        "createOrEditLabel": "Créer ou modifier une séquence",
+        "search": "Rechercher une séquence",
+        "title": "Les séquences"
+      },
+      "invoiceNumber": "Numéro de facture",
+      "modifiedDate": "Date modifiée",
+      "supplier": "Fournisseur",
+      "updated": "Une séquence est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "paymentApprovalRequest" : {
+            "home": {
+                "title": "Permintaan Persetujuan Pembayaran",
+                "createLabel": "Buat Pemintaan Persetujuan Pembayaran baru",
+                "createOrEditLabel": "Buat atau edit Permintaan Persetujuan Pembayaran",
+                "search": "Cari Permintaan Persetujuan Pembayaran"
+            },
+            "created": "Permintaan Persetujuan Pembayaran baru dibuat dengan identifier {{ param }}",
+            "updated": "Permintaan Persetujuan Pembayaran diperbarui dengan identifier {{ param }}",
+            "deleted": "Permintaan Persetujuan Pembayaran dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Permintaan Persetujuan Pembayaran {{ id }}?"
+            },
+            "detail": {
+                "title": "Permintaan Persetujuan Pembayaran"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal Diubah",
+            "approvedDate": "Approved Date_ID",
+            "deletionToken": "Token Penghapusan",
+            "paymentApprovalStatus": "Status Persetujuan Pembayaran",
+            "approvalLevel": "Tingkat Persetujuan",
+            "paymentApprovalRequestNumber": "Nomor Permintaan Persetujuan Pembayaran",
+            "batchPaymentReferenceNumber": "Batch Payment Reference Number_ID",
+            "paymentType": "Jenis Pembayaran",
+            "approvalNeededFrom": "Diperlukan Persetujuan dari",
+            "buyerUser": "Pengguna Pembeli",
+            "payment": "Pembayaran"
+        }
+    }
+}

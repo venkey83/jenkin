@@ -1,0 +1,13 @@
+{
+  "ezyprocureApp": {
+    "InvoiceStatus": {
+      "ALL": "TOUT",
+      "INVOICED": "FACTURÉ",
+      "PENDING": "EN ATTENTE",
+      "PROCESSED": "TRAITÉ",
+      "REJECTED": "REJETÉ",
+      "UNINVOICED": "NON INVISÉ",
+      "null": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ezyprocureApp": {
+    "PaymentApprovalStatus": {
+      "APPROVED": "GENEHMIGT",
+      "PENDING": "STEHT AUS",
+      "REJECTED": "ABGELEHNT",
+      "null": "",
+      "NA": "NA_DE"
+    }
+  }
+}

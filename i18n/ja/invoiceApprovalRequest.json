@@ -1,0 +1,31 @@
+{
+  "ezyprocureApp": {
+    "invoiceApprovalRequest": {
+      "home": {
+        "title": "InvoiceApprovalRequests",
+        "createLabel": "Invoice Approval Request を追加",
+        "createOrEditLabel": "Invoice Approval Requestを追加または編集",
+        "notFound": "No Invoice Approval Requests found"
+      },
+      "created": "A new Invoice Approval Request is created with identifier {{ param }}",
+      "updated": "A Invoice Approval Request is updated with identifier {{ param }}",
+      "deleted": "A Invoice Approval Request is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Invoice Approval Request {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Invoice Approval Request"
+      },
+      "approvalRequestNumber": "Approval Request Number",
+      "approvalStatus": "Approval Status",
+      "createdDate": "Created Date",
+      "modifiedDate": "Modified Date",
+      "deletionToken": "Deletion Token",
+      "modifiedBy": "Modified By",
+      "approvalNeededFrom": "Approval Needed From",
+      "supplier": "Supplier",
+      "createdBy": "Created By",
+      "invoice": "Invoice"
+    }
+  }
+}

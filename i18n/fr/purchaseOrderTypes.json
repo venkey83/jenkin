@@ -1,0 +1,26 @@
+{
+  "ezyprocureApp": {
+    "purchaseOrderTypes": {
+      "code": "Code",
+      "created": "Un nouveau type de bon de commande est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les types de bons de commande {{id}}?"
+      },
+      "deleted": "Un type de bon de commande est supprimé avec l'identifiant {{ param }}",
+      "description": "La description",
+      "detail": {
+        "title": "Types de bons de commande"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau type de bon de commande",
+        "createOrEditLabel": "Créer ou modifier un type de bon de commande",
+        "search": "Rechercher des types de bons de commande",
+        "title": "Types de bons de commande"
+      },
+      "modifiedDate": "Date modifiée",
+      "name": "Nom",
+      "updated": "Un type de bon de commande est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

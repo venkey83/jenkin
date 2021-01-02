@@ -1,0 +1,32 @@
+{
+  "ezyprocureApp": {
+    "paymentTerms": {
+      "accountBank": "Compte bancaire",
+      "accountName": "Nom du compte",
+      "accountNumber": "Numéro de compte",
+      "accountType": "Type de compte",
+      "bank": "Banque",
+      "bankCode": "Code bancaire",
+      "bankName": "Nom de banque",
+      "branchCode": "Code de succursale",
+      "created": "De nouvelles conditions de paiement sont créées avec l'identifiant {{param}}",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les conditions de paiement {{id}}?"
+      },
+      "deleted": "Les conditions de paiement sont supprimées avec l'identifiant {{param}}",
+      "description": "Autre description de paiement",
+      "detail": {
+        "title": "Modalités de paiement"
+      },
+      "home": {
+        "createLabel": "Créer de nouvelles conditions de paiement",
+        "createOrEditLabel": "Créer ou modifier des conditions de paiement",
+        "search": "Rechercher les conditions de paiement",
+        "title": "Modalités de paiement"
+      },
+      "paymentType": "Type de paiement",
+      "supplier": "Fournisseur",
+      "updated": "Les conditions de paiement sont mises à jour avec l'identifiant {{param}}"
+    }
+  }
+}

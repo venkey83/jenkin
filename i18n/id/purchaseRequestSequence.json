@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "purchaseRequestSequence" : {
+            "home": {
+                "title": "Urutan Permintaan Pembelian",
+                "createLabel": "Buat Urutan Permintaan Pembelian baru",
+                "createOrEditLabel": "Buat atau edit Urutan Permintaan Pembelian",
+                "search": "Cari Urutan Permintaan Pembelian"
+            },
+            "created": "Urutan Permintaan Pembelian baru dibuat dengan identifier {{ param }}",
+            "updated": "Urutan Permintaan Pembelian diperbarui dengan identifier {{ param }}",
+            "deleted": "Urutan Permintaan Pembelian dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Urutan Permintaan Pembelian {{ id }}?"
+            },
+            "detail": {
+                "title": "Urutan Permintaan Pembelian"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "sequenceNumber": "Nomor Urutan"
+        }
+    }
+}

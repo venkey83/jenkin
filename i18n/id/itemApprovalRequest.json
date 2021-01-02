@@ -1,0 +1,37 @@
+{
+    "ezyprocureApp": {
+        "itemApprovalRequest" : {
+            "home": {
+                "title": "Permintaan Persetujuan Item",
+                "createLabel": "Buat Permintaan Persetujuan Item baru",
+                "createOrEditLabel": "Buat atau edit Permintaan Persetujuan Item",
+                "search": "Cari Permintaan Persetujuan Item"
+            },
+            "created": "Permintaan Persetujuan Item baru dibuat dengan Identifier {{param}}",
+            "updated": "Permintaan Persetujuan Item diperbarui dengan Identifier {{param}}",
+            "deleted": "Permintaan Persetujuan Item dihapus dengan identifier {{param}}",
+            "delete": {
+                "question": "Yakin ingin menghapus Permintaan Persetujuan Item {{ id }}?"
+            },
+            "detail": {
+                "title": "Permintaan Persetujuan Item"
+            },
+            "approvalRequestNumber": "Nomor Permintaan Persetujuan",
+            "quantity": "Kuantitas",
+            "deliveryDate": "Tanggal pengiriman",
+            "specialRequest": "Permintaan khusus",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "approvalStatus": "Status Persetujuan",
+            "price": "Harga",
+            "isFreeItem": "Barang Gratis",
+            "buyerUser": "Pengguna Pembeli",
+            "items": "Item_ID",
+            "buyerBusiness": "Bisnis Pembeli",
+            "approvalNeededFrom": "Diperlukan Persetujuan Dari",
+            "glCodeMappings": "Pemetaan Kode Gl",
+            "prRemark": "PR Remark_ID",
+            "deleteToken": "Delete Token_ID"
+        }
+    }
+}

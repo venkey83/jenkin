@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "memberIdSequence" : {
+            "home": {
+                "title": "MemberIdSequences",
+                "createLabel": "Member Id Sequence を追加",
+                "createOrEditLabel": "Member Id Sequenceを追加または編集"
+            },
+            "created": "A new Member Id Sequence is created with identifier {{ param }}",
+            "updated": "A Member Id Sequence is updated with identifier {{ param }}",
+            "deleted": "A Member Id Sequence is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Member Id Sequence {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Member Id Sequence"
+            },
+            "sequenceNumber": "Sequence Number",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date"
+        }
+    }
+}

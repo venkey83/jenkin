@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "pickingList" : {
+            "home": {
+                "title": "出貨單",
+                "createLabel": "新增出貨單",
+                "createOrEditLabel": "編輯出貨單",
+                "search": "查詢出貨單"
+            },
+            "created": "新增出貨單編碼 {{ param }}",
+            "updated": "更新出貨單編碼 {{ param }}",
+            "deleted": "刪除出貨單編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除出貨單？"
+            },
+            "detail": {
+                "title": "出貨單"
+            },
+            "createdDate": "新增日期",
+            "modifiedDate": "修改日期",
+            "isDefault": "預設值",
+            "name": "名稱",
+            "supplierUser": "供應商",
+            "pickingListItemMapping": "出貨單商品配對"
+        }
+    }
+}

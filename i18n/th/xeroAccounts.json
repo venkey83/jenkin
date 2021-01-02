@@ -1,0 +1,24 @@
+{
+  "ezyprocureApp": {
+    "xeroAccounts": {
+      "home": {
+        "title": "Xero Accounts",
+        "createLabel": "สร้าง Xero Accounts",
+        "createOrEditLabel": "สร้างหรือแก้ไข Xero Accounts"
+      },
+      "created": "Xero Accounts ถูกสร้างด้วย {{ param }}",
+      "updated": "Xero Accounts ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Xero Accounts ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Xero Accounts {{ id }}?"
+      },
+      "detail": {
+        "title": "Xero Accounts"
+      },
+      "name": "Name",
+      "code": "Code",
+      "type": "Type",
+      "accountId": "Account Id"
+    }
+  }
+}

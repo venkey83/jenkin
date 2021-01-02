@@ -1,0 +1,30 @@
+{
+  "ezyprocureApp": {
+    "transferItems": {
+      "home": {
+        "title": "Transfer Items",
+        "createLabel": "建立一筆新的 Transfer Items",
+        "createOrEditLabel": "建立或編輯 Transfer Items",
+        "notFound": "No Transfer Items found"
+      },
+      "created": "新的 Transfer Items 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Transfer Items 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Transfer Items 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Transfer Items {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Transfer Items"
+      },
+      "quantity": "Quantity",
+      "remarks": "Remarks",
+      "createdDate": "Created Date",
+      "deletionToken": "Deletion Token",
+      "receivedQuantity": "Received Quantity",
+      "modifiedDate": "Modified Date",
+      "items": "Items",
+      "uom": "Uom",
+      "transferRequest": "Transfer Request"
+    }
+  }
+}

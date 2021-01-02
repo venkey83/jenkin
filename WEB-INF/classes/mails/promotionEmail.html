@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title th:text="#{email.promotion.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+    <p th:text="#{email.promotion.greeting(${firstName},${lastName})}">
+    </p>
+    <p th:text="#{email.text1(${companyName})}"></p>
+    <p>
+        <span th:text="#{email.promotion.item}"> </span>
+        <span th:text="(${promotionitemname})"> </span>
+    </p>
+    <p th:if="${promotionitemprice!=null}">
+        <span th:text="#{email.promotion.price}"> </span>
+        <span th:text="(${promotionitemprice})"> </span>
+        <span th:text="#{email.promotion.priceText}"></span>
+    </p>
+    <div th:if="${promotionitemimage !=null}">
+        <p> <img th:src="(${promotionitemimage})" style="width: 100px; height:100px" /></p>
+    </div>
+    <p>
+        <span th:text="#{email.free.item}"> </span>
+        <span th:text="(${freeitemname})"> </span>
+    </p>
+    <p>
+        <span th:text="#{email.promotion.startdate}"> </span>
+        <span th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(startdate)}"> </span>
+    </p>
+    <p>
+        <span th:text="#{email.promotion.enddate}"> </span>
+        <span th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(enddate)}"> </span>
+    </p>
+    <div th:if="${freeitemimage != null}">
+        <p> <img th:src="(${freeitemimage})" style="width: 100px; height:100px" /></p>
+    </div>
+    <p>
+        <span th:text="#{email.text2}"> </span>
+        <br />
+        <b> <em th:text="#{email.signature}"></em></b>
+    </p>
+    <div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+
+</html>

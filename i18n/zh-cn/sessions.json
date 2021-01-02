@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "[<b>{{username}}</b>] 的活跃的会话",
+        "table": {
+            "ipaddress": "IP地址",
+            "useragent": "用户代理",
+            "date": "日期",
+            "button": "无效"
+        },
+        "messages": {
+            "success": "<strong>会话无效!</strong>",
+            "error": "<strong>错误发生！</strong>会话依旧有效."
+        }
+    }
+}

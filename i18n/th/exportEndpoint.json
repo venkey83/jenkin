@@ -1,0 +1,29 @@
+
+{
+    "ezyprocureApp": {
+        "exportEndpoint" : {
+            "home": {
+                "title": "Export Endpoints",
+                "createLabel": "สร้าง Export Endpoint",
+                "createOrEditLabel": "สร้างหรือแก้ไข Export Endpoint"
+            },
+            "created": "Export Endpoint ถูกสร้างด้วย {{ param }}",
+            "updated": "Export Endpoint ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Export Endpoint ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Export Endpoint {{ id }}?"
+            },
+            "detail": {
+                "title": "Export Endpoint"
+            },
+            "endPoint": "End Point",
+            "authHeaderName": "Auth Header Name",
+            "apiKey": "Api Key",
+            "userName": "User Name",
+            "password": "Password",
+            "authType": "Auth Type",
+            "requestType": "Request Type",
+            "authEndpoint": "Auth Endpoint"
+        }
+    }
+}

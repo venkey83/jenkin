@@ -1,0 +1,26 @@
+{
+  "ezyprocureApp": {
+    "purchaseOrderTypes": {
+      "code": "Code",
+      "created": "Es wird eine neue Bestellart mit dem Bezeichner {{param}} angelegt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Bestellarten {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Bestellart wird mit der Kennung gelöscht {{ param }}",
+      "description": "Beschreibung",
+      "detail": {
+        "title": "Bestellungsarten"
+      },
+      "home": {
+        "createLabel": "Legen Sie eine neue Bestellart an",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Bestellart",
+        "search": "Suche nach Bestellarten",
+        "title": "Bestellungsarten"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "name": "Name",
+      "updated": "Eine Bestellart wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

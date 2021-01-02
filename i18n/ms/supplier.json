@@ -1,0 +1,71 @@
+{
+    "ezyprocureApp": {
+        "supplier" : {
+            "home": {
+                "title": "Pembekal",
+                "createLabel": "Mencipta pembekal baru",
+                "createOrEditLabel": "Mencipta atau Menyunting pembekal",
+                "search": "Pencarian pembekal"
+            },
+            "created": "Pembekal telah dicipta dengan pengecam{{ param }}",
+            "updated": "Pembekal telah dikemas kini dengan pengecam{{ param }}",
+            "deleted": "Pembekal telah dihapuskan dengan pengecam{{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus pembekal{{ id }}?"
+            },
+            "detail": {
+                "title": "Pembekal",
+                "companyName":"Company Name_MS",
+                "companyRegNo":"Company Registration Number_MS"
+            },
+            "companyName": "Nama Syarikat",
+            "companyAddress": "Alamat Syarikat",
+            "companyPostalCode": "Poskod Syarikat",
+            "shippingAddress": "Alamat Penghantaran",
+            "shippingPostalCode": "Poskod Penghantaran",
+            "supplierType": "Jenis Pembekal",
+            "visibilityType": "Jenis Keterlihatan",
+            "phone": "Telefon",
+            "mobile": "Telefon Bimbit",
+            "contactPersonName": "Nama Orang Yang Dihubungi",
+            "contactPersonDesignation": "Jawatan Orang yang DiHubungi",
+            "typeOfBusiness": "Jenis perniagaan",
+            "tax": "CUKAI",
+            "sst": "SST (Sales & Services Tax) %",
+            "deliveryTerms": "Terma Penghantaran",
+            "paymentTerms": "Terma pembayaran",
+            "paymentDueDays": "Tempoh Hari Pembayaran",
+            "paymentDiscountDays": "Tempoh Hari Bayaran Diskaun",
+            "paymentDiscountPercent": "Peratusan Bayaran Diskaun",
+            "deliveryConditions": "Syarat Penghantaran",
+            "deliveryCharge": "Caj penghantaran",
+            "companyLogo": "Logo syarikat",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "supplierCode": "Kod Pembekal",
+            "orderTimeForFriday": "Masa Pesanan Untuk Jumaat",
+            "orderTimeForSaturday": "Masa Pesanan Untuk Sabtu",
+            "minimumOrderForFreeDelivery": "Pesanan Minima Untuk Penghantaran Percuma",
+            "belowMinimumPurchaseCondition": "Syarat Belian Minima",
+            "orderTimeForToday": "Masa Pesanan Untuk Hari ini",
+            "noDeliveryOnHolidays": "Tiada Penghantaran Pada Hari Cuti",
+            "noDeliveryOnSaturday": "Tiada Penghantaran Pada Hari Sabtu",
+            "noDeliveryOnSunday": "Tiada Penghantaran Pada Hari Ahad",
+            "buyersLimit": "Had Pembeli",
+            "noDeliveryOnMonday": "Tiada Penghantaran Pada hari Isnin",
+            "companyRegistrationNumber": "Nombor pendaftaran syarikat",
+            "sstRegNo": "No Pendaftaran SST",
+            "createdUser": "Pengguna yang Dicipta",
+            "noDeliveryToday": "Apply Delivery Lead Time_MS",
+            "kycReport":"Laporan Kyc",
+            "kycStatus":"Status Kyc",
+            "kycTimestamp":"Chop masa Kyc",
+            "principleDirector":"Pengarah Utama",
+            "principleFinanceOfficer":"Pegawai Kewangan Utama",
+            "ezypaymentOnly":"Ezypayment Sahaja",
+            "leadTime":"Lead Time_MS",
+            "companyCode": "Company Code_MS",
+            "currencyMapping": "Currency Mapping_MS"
+        }
+    }
+}

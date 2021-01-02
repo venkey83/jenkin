@@ -1,0 +1,44 @@
+{
+  "ezyprocureApp": {
+    "salesOrder": {
+      "created": "Ein neuer Kundenauftrag wird mit der ID {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "currency": "Währung",
+      "customerCode": "Kundennummer",
+      "delete": {
+        "question": "Möchten Sie den Kundenauftrag {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Kundenauftrag wird mit der Kennung gelöscht {{ param }}",
+      "deliveryAddress": "Lieferadresse",
+      "deliveryQuantity": "Liefermenge",
+      "detail": {
+        "title": "Kundenauftrag"
+      },
+      "exchangeRate": "Tauschrate",
+      "fileName": "Dateiname",
+      "grandTotal": "Gesamtsumme",
+      "gst": "Gst",
+      "gstAmount": "Gst Betrag",
+      "home": {
+        "createLabel": "Legen Sie einen neuen Kundenauftrag an",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie einen Kundenauftrag",
+        "title": "Kundenaufträge"
+      },
+      "itemCode": "Produktcode",
+      "logStatus": "Protokollstatus",
+      "poDate": "Po Date",
+      "poNumber": "Bestellnummer",
+      "poRemark": "Po Bemerkung",
+      "poStatus": "Po Status",
+      "preparedUser": "Vorbereiteter Benutzer",
+      "requiredDate": "Erforderliches Datum",
+      "sftpConnectionId": "Sftp-Verbindungs-ID",
+      "shipToCode": "Versand an Code",
+      "subTotal": "Zwischensumme",
+      "supplierCode": "Lieferantencode",
+      "unitPrice": "Stückpreis",
+      "uom": "Uom",
+      "updated": "Ein Kundenauftrag wird mit der ID {{param}} aktualisiert."
+    }
+  }
+}

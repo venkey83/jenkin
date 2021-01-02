@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "FileUpdateStatus": {
+      "null": "",
+      "PENDING": "PENDING",
+      "PROCESSED": "PROCESSED",
+      "FAILED": "FAILED"
+    }
+  }
+}

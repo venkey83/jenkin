@@ -1,0 +1,448 @@
+swagger: '2.0'
+info:
+  title: NTP External APIs for key exhange purpose
+  description: NTP External APIs for key exhange purpose
+  version: 1.0.0
+host: uat.ntp.gov.sg
+schemes:
+  - https
+basePath: /api/keyexchange/v1
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /eccurve:
+    post:
+      summary: Curve Name selection
+      description: |
+        API to select curve name for ECDH encryption
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: selectedCurve
+          in: body
+          description: Details of the selected curve id
+          required: true
+          schema:
+            properties:
+              curveNameId:
+                type: number
+                description: ID retrieved from curve name list in /keyexchange/eccurve GET
+            required:
+              - curveNameId
+      tags:
+        - Payload Encryption Key Exchange
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TransactionMessage'
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+    get:
+      summary: List Curve Names
+      description: |
+        API to list all available curve name for NTP encrypted file download/upload
+      consumes:
+        - application/json
+      produces:
+        - application/octet-stream
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+      tags:
+        - Payload Encryption Key Exchange
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              status:
+                type: string
+                description: Transaction status details
+              errors:
+                type: array
+                items:
+                  properties:
+                    userMessage:
+                      description: Business error message for display at Client
+                      type: string
+                    developerMessage:
+                      description: Error message for Developers
+                      type: string
+                    supportMessage:
+                      description: Internal error message for troubleshooting purposes
+                      type: string
+                    code:
+                      description: Error Code
+                      type: string
+                    moreInfo:
+                      description: Any custom value that might be required
+                      type: string
+              result:
+                type: array
+                items:
+                  properties:
+                    curveNameId:
+                      description: Curve Name ID
+                      type: number
+                    curveNameDesc:
+                      description: Elliptic Curve Name used in generating elliptic-curve public–private key pair,
+                      type: string
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+  /ecpubkey:
+    post:
+      summary: Key Exchange
+      description: |
+        API to exchange elliptic curve public key with NTP
+      parameters:
+        - name: Authorization
+          in: header
+          description: Holder of the ouath token
+          required: true
+          type: string
+        - name: transactionId
+          in: header
+          description: Id used to track the end to end journey of the message
+          required: true
+          type: string
+        - name: sessionId
+          in: header
+          description: Provided key used for logging framework
+          required: false
+          type: string
+        - name: client_id
+          in: header
+          description: API Key associated with the calling application
+          required: true
+          type: string
+        - name: grant_type
+          in: header
+          description: Grant type associated to the authentication mechanism
+          required: true
+          type: string
+          default: jwt-bearer
+        - name: publicKey
+          in: body
+          description: Details of the public key
+          required: true
+          schema:
+            properties:
+              publicKey:
+                type: string
+                description: Elliptic Curve public key generated using the selected curve during /keyexchange/eccurve call. The public key should be in base64 format. 
+            required:
+              - publicKey
+      tags:
+        - Payload Encryption Key Exchange
+      responses:
+        '200':
+          description: Transaction toast
+          schema:
+            type: object
+            properties:
+              status:
+                type: string
+                description: Transaction status details
+              errors:
+                type: array
+                items:
+                  properties:
+                    userMessage:
+                      description: Business error message for display at Client
+                      type: string
+                    developerMessage:
+                      description: Error message for Developers
+                      type: string
+                    supportMessage:
+                      description: Internal error message for troubleshooting purposes
+                      type: string
+                    code:
+                      description: Error Code
+                      type: string
+                    moreInfo:
+                      description: Any custom value that might be required
+                      type: string
+              result:
+                type: object
+                properties:
+                  ntpPublicKey:
+                    description: NTP Elliptic Curve public key generated using the selected curve during /keyexchange/eccurve call. The public key is in base64 format. 
+                    type: string
+            required:
+              - status
+              - errors
+              - result
+        '209':
+          description: Business Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '210':
+          description: Technical Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '304':
+          description: Not Modified
+          schema:
+            $ref: '#/definitions/Errors'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Errors'
+        '401':
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/Errors'
+        '403':
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/Errors'
+        '404':
+          description: Not found
+          schema:
+            $ref: '#/definitions/Errors'
+        '405':
+          description: Method not allowed
+          schema:
+            $ref: '#/definitions/Errors'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Errors'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Errors'
+        '502':
+          description: Bad Gateway
+          schema:
+            $ref: '#/definitions/Errors'
+        '503':
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/Errors'
+        '504':
+          description: Gateway Timeout
+          schema:
+            $ref: '#/definitions/Errors'
+definitions:
+  TransactionMessage:
+    description: Transaction toast
+    type: object
+    properties:
+      status:
+        type: string
+        description: Transaction status details
+      errors:
+        type: array
+        items:
+          properties:
+            userMessage:
+              description: Business error message for display at Client
+              type: string
+            developerMessage:
+              description: Error message for Developers
+              type: string
+            supportMessage:
+              description: Internal error message for troubleshooting purposes
+              type: string
+            code:
+              description: Error Code
+              type: string
+            moreInfo:
+              description: Any custom value that might be required
+              type: string
+      result:
+        type: object
+        properties:
+          transactionMessage:
+            description: Transaction toast message
+            type: string
+    required:
+      - status
+      - errors
+      - result
+  Errors:
+    type: object
+    properties:
+      status:
+        type: string
+        description: Transaction status details
+      errors:
+        type: array
+        items:
+          properties:
+            userMessage:
+              description: Business error message for display at Front End
+              type: string
+            developerMessage:
+              description: Error message for External Developers
+              type: string
+            supportMessage:
+              description: Internal error message for troubleshooting purposes
+              type: string
+            code:
+              description: Error Code
+              type: string
+            moreInfo:
+              description: Any custom value that might be required
+              type: string
+          required:
+            - code
+      result:
+        type: object
+    required:
+      - status
+      - errors
+      - result

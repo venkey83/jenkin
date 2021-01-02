@@ -1,0 +1,34 @@
+{
+  "ezyprocureApp": {
+    "itemGroup": {
+      "created": "Eine neue Artikelgruppe wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Artikelgruppe {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Gruppe von Artikeln wird mit der Kennung gelöscht {{ param }}",
+      "description": "Beschreibung",
+      "detail": {
+        "title": "Artikelgruppe"
+      },
+      "forms": {
+        "title": {
+          "add": "Artikelgruppe hinzufügen",
+          "edit": "Artikelgruppe bearbeiten"
+        }
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Artikelgruppe",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Artikelgruppe",
+        "search": "Nach Artikelgruppe suchen",
+        "tableTitle": "Objektgruppenliste",
+        "title": "Artikelgruppen"
+      },
+      "itemGroupName": "Artikelgruppenname",
+      "mainItemGroup": "Hauptartikelgruppe",
+      "modifiedDate": "Änderungsdatum",
+      "name": "Name",
+      "updated": "Eine Artikelgruppe wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

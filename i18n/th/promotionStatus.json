@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "promotionStatus" : {
+          "null": "",
+          "PROMOTION_ONGOING": "การส่งเสริมการขายที่ดำเนินอยู่",
+          "NO_PROMOTION": "ไม่มีการส่งเสริมการขาย",
+          "DELETED": "ลบ",
+          "FUTURE_PROMOTION": "การส่งเสริมการขายในอนาคต",
+          "EXPIRED_PROMOTION": "การส่งเสริมการขายสิ้นสุดแล้ว"
+        }
+    }
+}

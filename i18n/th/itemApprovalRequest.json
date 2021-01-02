@@ -1,0 +1,37 @@
+{
+    "ezyprocureApp": {
+        "itemApprovalRequest" : {
+            "home": {
+                "title": "คำขออนุมัติรายการ",
+                "createLabel": "สร้างคำขออนุมัติรายการใหม่",
+                "createOrEditLabel": "สร้างหรือแก้ไขคำขออนุมัติรายการ",
+                "search": "ค้นหาคำขออนุมัติรายการ"
+            },
+            "created": "คำขออนุมัติรายการใหม่ได้ถูกสร้างขึ้นด้วยค่าที่ระบุ {{ param }}",
+            "updated": "คำขออนุมัติรายการได้ถูกบันทึกด้วยค่าที่ระบุ {{ param }}",
+            "deleted": "คำขออนุมัติรายการได้ถูกลบด้วยค่าที่ระบุ {{ param }}",
+            "delete": {
+                "question": "คุณต้องการลบคำขออนุมัติรายการใช่หรือไม่ {{ id }}?"
+            },
+            "detail": {
+                "title": "คำขออนุมัติรายการ"
+            },
+            "approvalRequestNumber": "หมายเลขคำขออนุมัติรายการ",
+            "quantity": "จำนวน",
+            "deliveryDate": "วันจัดส่งสินค้า",
+            "specialRequest": "คำขอพิเศษ",
+            "createdDate": "วันที่สร้าง",
+            "modifiedDate": "วันที่แก้ไข",
+            "approvalStatus": "สถานะการขออนุมัติ",
+            "price": "ราคา",
+            "isFreeItem": "รายการนี้ฟรี",
+            "buyerUser": "ผู้ใช้ที่เป็นผู้จัดซื้อ",
+            "items": "รายการ",
+            "buyerBusiness": "ธุรกิจของผู้จัดซื้อ",
+            "approvalNeededFrom": "จำเป็นต้องได้รับการอนุมัติจาก",
+            "glCodeMappings": "แผนที่รหัสบัญชีแยกประเภท",
+            "prRemark": "PR Remark",
+            "deleteToken": "Delete Token"
+        }
+    }
+}

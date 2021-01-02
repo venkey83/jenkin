@@ -1,0 +1,38 @@
+{
+  "ezyprocureApp": {
+    "itemBuyerMapping": {
+      "addNewMaping": "Neue Zuordnung hinzufügen",
+      "buyer": "Käufer",
+      "buyerItemCode": "Artikelcode des Käufers",
+      "buyerItemGroup": "Käufer Artikelgruppe",
+      "buyerItemName": "Name des Käuferartikels",
+      "buyerLimited": "Käufer begrenzt",
+      "buyerUom": "Käufer UOM",
+      "created": "Eine neue Artikelkäuferzuordnung wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Artikelkäuferzuordnung {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Korrespondenz der Käufer von Artikeln wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Eine Korrespondenz zwischen den Käufern und Artikeln"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Artikelkäuferzuordnung",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Artikelkäuferzuordnung",
+        "search": "Suche nach Artikelkäuferzuordnung",
+        "title": "Artikelkäufer-Zuordnungen"
+      },
+      "inventoryUOM": "Inventareinheit",
+      "items": "Artikel",
+      "mappedItems": "Zugeordnete Elemente",
+      "maximumAllocation": "Maximale Zuteilung",
+      "modifiedDate": "Änderungsdatum",
+      "price": "Preis",
+      "supplierId": "Lieferanten ID",
+      "updated": "Eine Artikelkäuferzuordnung wird mit dem Bezeichner {{param}} aktualisiert.",
+      "parentItem": "Parent Item_DE",
+      "barcode": "Barcode_DE"
+    }
+  }
+}

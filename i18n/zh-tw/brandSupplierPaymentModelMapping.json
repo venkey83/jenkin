@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brandSupplierPaymentModelMapping" : {
+            "home": {
+                "title": "商家公司/供應商付款方式配對",
+                "createLabel": "新增商家公司/供應商付款方式配對",
+                "createOrEditLabel": "編輯商家公司/供應商付款方式配對",
+                "search": "查詢商家公司/供應商付款方式配對"
+            },
+            "created": "新增商家公司/供應商付款方式配對編碼 {{ param }}",
+            "updated": "更新商家公司/供應商付款方式配對編碼 {{ param }}",
+            "deleted": "刪除商家公司/供應商付款方式配對編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商家公司/供應商付款方式配對？"
+            },
+            "detail": {
+                "title": "商家公司/供應商付款方式配對"
+            },
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "paymentModel": "付款方式",
+            "creditTerms": "付款期限",
+            "buyerBusinessServiceRate": "Buyer Business Service Rate_TW",
+            "supplierBusinessServiceRate": "Supplier Business Service Rate_TW",
+            "deletionToken": "Deletion Token_TW",
+            "brand": "商家公司",
+            "supplier": "供應商",
+            "updatedBy": "編輯者",
+            "epdApprovalRequest": "Epd Approval Request_TW"
+        }
+    }
+}

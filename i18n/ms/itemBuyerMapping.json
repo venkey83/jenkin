@@ -1,0 +1,38 @@
+{
+    "ezyprocureApp": {
+        "itemBuyerMapping" : {
+            "home": {
+                "title": "Pemetaan Barang Pembeli",
+                "createLabel": "Mencipta Pemetaan Barang Pembeli",
+                "createOrEditLabel": "Mencipta atau Menyunting Pemetaan Barang Pembeli",
+                "search": "Pencarian Pemetaan Barang Pembeli"
+            },
+            "created": "Pemetaan Barang Pembeli baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Pemetaan Barang Pembeli telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Pemetaan Barang Pembeli telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Pemetaan Barang Pembeli {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Barang Pembeli"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "buyerLimited": "Pembeli terhad",
+            "maximumAllocation": "Peruntukan Maksimum",
+            "price": "Harga",
+            "supplierId": "Id pembekal",
+            "buyerItemCode": "Kod Barang Pembeli",
+            "buyerUom": "Buyer UOM_MS",
+            "inventoryUOM": "Inventory UOM_MS",
+            "buyerItemName": "Nama Barang Pembeli",
+            "items": "Barang",
+            "buyer": "Pembeli",
+            "buyerItemGroup": "Kumpulan Barang Pembeli",
+            "addNewMaping": "Tambah Pemetaan Baru",
+            "mappedItems": "Barang Yang telah Dipeta",
+            "parentItem": "Parent Item_MS",
+            "barcode": "Barcode_MS"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "glSpecificItemGroups" : {
+            "home": {
+                "title": "GL Specific Item Groups",
+                "createLabel": "Create a new GL Specific Item Groups",
+                "createOrEditLabel": "Create or edit a GL Specific Item Groups",
+                "search": "Search for GL Specific Item Groups"
+            },
+            "created": "A new GL Specific Item Groups is created with identifier {{ param }}",
+            "updated": "A GL Specific Item Groups is updated with identifier {{ param }}",
+            "deleted": "A GL Specific Item Groups is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete GL Specific Item Groups {{ id }}?"
+            },
+            "detail": {
+                "title": "GL Specific Item Groups"
+            },
+            "name": "Name",
+            "description": "Description",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyer": "Buyer"
+        }
+    }
+}

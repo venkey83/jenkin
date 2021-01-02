@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "userRoles" : {
+            "home": {
+                "title": "用户角色",
+                "createLabel": "创建一个新的用户角色",
+                "createOrEditLabel": "创建或编辑用户角色",
+                "search": "查找用户角色"
+            },
+            "created": "一个标识为 {{ param }} 的新的用户角色被创建了",
+            "updated": "一个标识为 {{ param }} 的用户角色被更新了",
+            "deleted": "一个标识为 {{ param }} 的用户角色被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }}的用户角色么?"
+            },
+            "detail": {
+                "title": "用户角色"
+            },
+            "userRole": "用户角色",
+            "name": "名称",
+            "level": "级别",
+            "createdBy": "创建者",
+            "isActive": "是否激活",
+            "createdDate": "创建日期",
+            "modifiedDate": "修改日期"
+        }
+    }
+}

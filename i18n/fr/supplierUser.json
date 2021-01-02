@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "supplierUser": {
+      "created": "Un nouvel utilisateur fournisseur est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer l'utilisateur fournisseur {{id}}?"
+      },
+      "deleted": "Un utilisateur fournisseur est supprimé avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Utilisateur fournisseur"
+      },
+      "home": {
+        "createLabel": "Créer un nouvel utilisateur fournisseur",
+        "createOrEditLabel": "Créer ou modifier un utilisateur fournisseur",
+        "search": "Rechercher un utilisateur fournisseur",
+        "title": "Utilisateurs fournisseurs"
+      },
+      "mobileNumber": "Numéro de portable",
+      "parentId": "ID parent",
+      "phoneNumber": "Numéro de téléphone",
+      "secondaryEmail": "Email secondaire",
+      "supplier": "Fournisseur",
+      "updated": "Un utilisateur fournisseur est mis à jour avec l'identifiant {{param}}",
+      "user": "Utilisateur",
+      "userRoles": "Rôles d'utilisateur"
+    }
+  }
+}

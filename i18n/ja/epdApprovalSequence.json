@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "epdApprovalSequence" : {
+            "home": {
+                "title": "EpdApprovalSequences",
+                "createLabel": "Epd Approval Sequence を追加",
+                "createOrEditLabel": "Epd Approval Sequenceを追加または編集",
+                "search": "Search for Epd Approval Sequence"
+            },
+            "created": "A new Epd Approval Sequence is created with identifier {{ param }}",
+            "updated": "A Epd Approval Sequence is updated with identifier {{ param }}",
+            "deleted": "A Epd Approval Sequence is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Epd Approval Sequence {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Epd Approval Sequence"
+            },
+            "createdDate": "Created Date",
+            "sequenceNumber": "Sequence Number"
+        }
+    }
+}

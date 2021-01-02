@@ -1,0 +1,19 @@
+{
+  "ezyprocureApp": {
+    "supplierDashboard": {
+      "adhocPo": "Adhoc PO",
+      "cancelPORequest": "Annuler la demande de bon de commande",
+      "debitNotes": "Notes de débit",
+      "generateCreditNote": "Générer une note de crédit",
+      "home": {
+        "dashboard": "Tableau de bord",
+        "transactionSummary": "récapitulatif des transactions"
+      },
+      "invoicePendingProcess": "Processus de facturation en attente",
+      "priceApprovalPendingAcceptedView": "Approbation des prix en attente / vue acceptée",
+      "processOrder": "Ordre de process",
+      "requirementPendingPO": "Exigence PO en attente",
+      "uploadSIPInvoices": "Télécharger des factures SIP"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "auditlog" : {
+            "home": {
+                "title": "Auditlogs",
+                "createLabel": "Buat Auditlog baru",
+                "createOrEditLabel": "Membuat atau mengedit Auditlog",
+                "search": "Mencari Auditlog"
+            },
+            "created": "Auditlog baru dibuat dengan Identifier {{ param }}",
+            "updated": " Auditlog baru diperbarui dengan Identifier {{ param }}",
+            "deleted": " Auditlog baru dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Auditlog {{ id }}?"
+            },
+            "detail": {
+                "title": "Auditlog"
+            },
+            "transactionid": "ID transaksi",
+            "status": "Status",
+            "createddatetime": "Tanggal waktu dibuat",
+            "createdby": "Dibuat oleh",
+            "transactiontype": "Tipe transaksi",
+            "User": "Pengguna"
+        }
+    }
+}

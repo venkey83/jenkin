@@ -1,0 +1,71 @@
+{
+  "ezyprocureApp": {
+    "supplier": {
+      "belowMinimumPurchaseCondition": "Unter dem Mindestbestellwert",
+      "buyersLimit": "Käuferlimit",
+      "companyAddress": "Firmenanschrift",
+      "companyCode": "Buchungskreis",
+      "companyLogo": "Firmenlogo",
+      "companyName": "Name der Firma",
+      "companyPostalCode": "Postleitzahl des Unternehmens",
+      "companyRegistrationNumber": "Handelsregisternummer",
+      "contactPersonDesignation": "Bezeichnung der Kontaktperson",
+      "contactPersonName": "Kontaktperson Name",
+      "created": "Ein neuer Lieferant wird mit der Kennung {{param}} angelegt.",
+      "createdDate": "Erstellungsdatum",
+      "createdUser": "Erstellter Benutzer",
+      "delete": {
+        "question": "Möchten Sie den Lieferanten {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Lieferant wird mit der Kennung gelöscht {{ param }}",
+      "deliveryCharge": "Zustellgebühr",
+      "deliveryConditions": "Lieferbedingungen",
+      "deliveryTerms": "Lieferbedingungen",
+      "detail": {
+        "title": "Lieferant",
+        "companyName":"Company Name_DE",
+        "companyRegNo":"Company Registration Number_DE"
+      },
+      "ezypaymentOnly": "Nur Ezypayment",
+      "gst": "MwSt (Waren- und Dienstleistungssteuer) %",
+      "gstRegNo": "MwSt Reg No",
+      "home": {
+        "createLabel": "Legen Sie einen neuen Lieferanten an",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie einen Lieferanten",
+        "search": "Suche nach Lieferanten",
+        "title": "Lieferanten"
+      },
+      "kycReport": "Kyc-Bericht",
+      "kycStatus": "Kyc-Status",
+      "kycTimestamp": "Kyc Zeitstempel",
+      "leadTime": "Vorlaufzeit",
+      "minimumOrderForFreeDelivery": "Mindestbestellmenge für kostenlose Lieferung",
+      "mobile": "Handy, Mobiltelefon",
+      "modifiedDate": "Änderungsdatum",
+      "noDeliveryOnHolidays": "Keine Lieferung an Feiertagen",
+      "noDeliveryOnMonday": "Keine Lieferung am Montag",
+      "noDeliveryOnSaturday": "Keine Lieferung am Samstag",
+      "noDeliveryOnSunday": "Kein Versand am Sonntag",
+      "noDeliveryToday": "Apply Delivery Lead Time_DE",
+      "orderTimeForFriday": "Bestellzeit für Freitag",
+      "orderTimeForSaturday": "Bestellzeit für Samstag",
+      "orderTimeForToday": "Bestellzeit für heute",
+      "paymentDiscountDays": "Zahlungsrabatttage",
+      "paymentDiscountPercent": "Zahlungsrabatt in Prozent",
+      "paymentDueDays": "Zahlung fällige Tage",
+      "paymentTerms": "Zahlungsbedingungen",
+      "phone": "Telefon",
+      "principleDirector": "Hauptgeschäftsführer",
+      "principleFinanceOfficer": "Principle Finance Officer",
+      "shippingAddress": "Lieferanschrift",
+      "shippingPostalCode": "Versand Postleitzahl",
+      "supplierCode": "Lieferantencode",
+      "supplierType": "Lieferantentyp",
+      "tax": "MwSt",
+      "typeOfBusiness": "Geschäftsart",
+      "updated": "Ein Lieferant wird mit der Kennung {{param}} aktualisiert.",
+      "visibilityType": "Sichtbarkeitstyp",
+      "currencyMapping": "Currency Mapping_DE"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "ezyprocureApp": {
+        "OcrInvoiceStatus" : {
+            "null": "",
+            "ACCEPTED": "接受",
+            "ADDED": "新增",
+            "AMOUNT_MATCH": "金額符合",
+            "AMOUNT_MISMATCH": "金額不符",
+            "INVALID_IMAGE": "圖片錯誤",
+            "NO_INVOICE_UPLOADED": "無簽收明細",
+            "OCR_ERROR": "圖片錯誤",
+            "REJECTED": "已拒絕",
+            "PROCESSING": "處理中",
+            "INVALID_INVOICE_FILE": "明細錯誤",
+            "PENDING": "待處理"
+        }
+    }
+}

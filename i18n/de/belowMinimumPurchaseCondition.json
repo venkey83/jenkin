@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "BelowMinimumPurchaseCondition": {
+      "APPLY_DELIVERY_CHARGE": "APPLY_DELIVERY_CHARGE",
+      "PURCHASE_NOT_ACCEPTED": "PURCHASE_NOT_ACCEPTED",
+      "SELF_COLLECT_ITEMS": "SELF_COLLECT_ITEMS",
+      "null": ""
+    }
+  }
+}

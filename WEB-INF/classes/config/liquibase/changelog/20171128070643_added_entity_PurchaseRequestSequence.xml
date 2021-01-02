@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="now" value="sysdate" dbms="oracle"/>
+
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle"/>
+
+    <!--
+        Added the entity PurchaseRequestSequence.
+    -->
+    <changeSet id="20171128070643-1" author="jhipster">
+        <createTable tableName="purchase_request_sequence">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="created_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="modified_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="purchase_request_sequence" columnName="created_date" columnDataType="datetime"/>
+        <dropDefaultValue tableName="purchase_request_sequence" columnName="modified_date" columnDataType="datetime"/>
+
+    </changeSet>
+    <changeSet author="jhipster" id="20171128070643-2">
+    <addColumn
+        tableName="purchase_request_sequence">
+        <column name="sequence_number" type="bigint"/>
+    </addColumn>
+    </changeSet>
+
+    <changeSet id="20200814182400-3" author="sgebiz">
+        <sql>
+            CREATE unique INDEX idx_purchase_request_sequence_sqnc ON purchase_request_sequence (sequence_number)
+        </sql>
+    </changeSet>
+</databaseChangeLog>

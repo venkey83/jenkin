@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "[<b>{{username}}</b>] 權限",
+        "table": {
+            "ipaddress": "IP位置",
+            "useragent": "使用者",
+            "date": "日期",
+            "button": "結束"
+        },
+        "messages": {
+            "success": "<strong>權限無效！</strong>",
+            "error": "<strong>錯誤！</strong> 權限無法停效。"
+        }
+    }
+}

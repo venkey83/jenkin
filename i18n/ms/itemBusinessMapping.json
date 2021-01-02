@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "itemBusinessMapping" : {
+            "home": {
+                "title": "Pemetaan Barang Perniagaan",
+                "createLabel": "Mencipta Pemetaan Barang Perniagaan",
+                "createOrEditLabel": "Mencipta atau Menyunting Pemetaan Barang Perniagaan",
+                "search": "Pencarian Pemetaan Barang Perniagaan"
+            },
+            "created": "Pemetaan Barang Perniagaan baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Pemetaan Barang Perniagaan telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Pemetaan Barang Perniagaan telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Pemetaan Barang Perniagaan {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Barang Perniagaan"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "supplierId": "ID Pembekal",
+            "purchaseRequestApprovalStatus": "Status Kelulusan Permintaan Pembelian",
+            "items": "Barang-Barang",
+            "buyerBusiness": "Perniagaan pembeli",
+            "approverId": "ID Pelulus"
+        }
+    }
+}

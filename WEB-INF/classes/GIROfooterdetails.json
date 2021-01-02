@@ -1,0 +1,49 @@
+[
+  {
+    "fieldId": "recordtype",
+    "type": "text",
+    "position": 1,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": 9
+  },
+  {
+    "fieldId": "totalpaymentAmount",
+    "type": "text",
+    "position": 2,
+    "length": 18,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "totalNumberofTransactions",
+    "type": "text",
+    "position": 20,
+    "length": 7,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "hashTotal",
+    "type": "text",
+    "position": 27,
+    "length": 16,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+   {
+    "fieldId": "filler",
+    "type": "text",
+    "position": 43,
+    "length": 573,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  }
+  
+  
+]

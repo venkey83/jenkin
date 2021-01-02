@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "mainItemGroup": {
+      "created": "Eine neue Hauptartikelgruppe wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Hauptartikelgruppe {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Gruppe von Hauptpunkten wird mit der Kennung gelöscht {{ param }}",
+      "description": "Beschreibung",
+      "detail": {
+        "title": "Hauptartikelgruppe"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Hauptelementgruppe",
+        "editLabel": "Hauptelementgruppe bearbeiten",
+        "search": "Suche nach Hauptartikelgruppe",
+        "title": "Hauptgegenstandsgruppen"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "name": "Name",
+      "updated": "Eine Hauptgegenstandsgruppe wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

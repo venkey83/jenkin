@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.invoiceApprovalRequest.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p th:text="#{email.invoiceApprovalRequest.greeting(${receiver})}">
+</p>
+<div th:if="${status=='PENDING'}">
+    <p th:text="#{email.invoiceApprovalRequest.generated(${hardcopyInvoiceNumber},${sender})}"></p>
+</div>
+<div th:if="${status=='REJECTED'}">
+    <p th:text="#{email.invoiceApprovalRequest.rejected(${hardcopyInvoiceNumber},${sender})}"></p>
+</div>
+<div th:if="${status=='APPROVED'}">
+    <p th:text="#{email.invoiceApprovalRequest.approved(${hardcopyInvoiceNumber},${sender})}"></p>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"></div>
+</body>
+</html>

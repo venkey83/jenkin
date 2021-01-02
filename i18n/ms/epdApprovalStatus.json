@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "EpdApprovalStatus" : {
+            "null": "",
+            "PENDING": "YANG BELUM SELESAI",
+            "APPROVED": "DILULUSKAN",
+            "REJECTED": "DITOLAK"
+        }
+    }
+}

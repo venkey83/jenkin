@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "glCodes" : {
+            "home": {
+                "title": "總帳代碼",
+                "createLabel": "新建總帳代碼",
+                "createOrEditLabel": "編輯總帳代碼",
+                "search": "查詢總帳代碼"
+            },
+            "created": "新增總帳代碼編碼 {{ param }}",
+            "updated": "更新總帳代碼編碼 {{ param }}",
+            "deleted": "刪除總帳代碼編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除總帳代碼？"
+            },
+            "detail": {
+                "title": "總帳代碼"
+            },
+            "code": "代碼",
+            "description": "內容",
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "buyer": "商家"
+        }
+    }
+}

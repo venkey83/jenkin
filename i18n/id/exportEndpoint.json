@@ -1,0 +1,29 @@
+
+{
+    "ezyprocureApp": {
+        "exportEndpoint" : {
+            "home": {
+                "title": "Export Endpoints",
+                "createLabel": "Buat Export Endpoint baru",
+                "createOrEditLabel": "Buat atau edit Export Endpoint"
+            },
+            "created": "Export Endpoint dengan id {{ param }} telah dibuat",
+            "updated": "Export Endpoint dengan id {{ param }} telah diperbaharui",
+            "deleted": "Export Endpoint dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Export Endpoint {{ id }}?"
+            },
+            "detail": {
+                "title": "Export Endpoint"
+            },
+            "endPoint": "End Point",
+            "authHeaderName": "Auth Header Name",
+            "apiKey": "Api Key",
+            "userName": "User Name",
+            "password": "Password",
+            "authType": "Auth Type",
+            "requestType": "Request Type",
+            "authEndpoint": "Auth Endpoint"
+        }
+    }
+}

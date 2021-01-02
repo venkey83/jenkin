@@ -1,0 +1,29 @@
+
+{
+    "ezyprocureApp": {
+        "orderTemplate" : {
+            "home": {
+                "title": "OrderTemplates",
+                "createLabel": "Order Template を追加",
+                "createOrEditLabel": "Order Templateを追加または編集"
+            },
+            "created": "A new Order Template is created with identifier {{ param }}",
+            "updated": "A Order Template is updated with identifier {{ param }}",
+            "deleted": "A Order Template is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Order Template {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Order Template"
+            },
+            "name": "Name",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "createdBy": "Created By",
+            "modifiedBy": "Modified By",
+            "company": "Company",
+            "buyerBusiness": "Buyer Business",
+            "purchaseOrderType": "Purchase Order Type"
+        }
+    }
+}

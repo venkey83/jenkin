@@ -1,0 +1,13 @@
+{
+    "ezyprocureApp": {
+        "InvoiceStatus" : {
+            "null": "",
+            "INVOICED": "DIFAKTUR",
+            "UNINVOICED": "TIDAK DIFAKTUR",
+            "PROCESSED": "DIPROSES",
+            "PENDING": "TERTUNDA",
+            "ALL": "SEMUA",
+            "REJECTED": "DITOLAK"
+        }
+    }
+}

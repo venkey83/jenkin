@@ -1,0 +1,9 @@
+{
+    "ezyprocureApp": {
+        "PaymentType" : {
+            "null": "",
+            "INTERNAL": "DALAMAN",
+            "EXTERNAL": "LUARAN"
+        }
+    }
+}

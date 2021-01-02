@@ -1,0 +1,27 @@
+{
+  "ezyprocureApp": {
+    "countryCurrency": {
+      "country": "Pays",
+      "countryCode": "Code postal",
+      "created": "Une nouvelle devise du pays est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "currency": "Devise",
+      "currencyCode": "Code de devise",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la devise du pays {{id}}?"
+      },
+      "deleted": "Une devise de pays est supprimée avec l'identifiant {{param}}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Devise du pays"
+      },
+      "home": {
+        "createLabel": "Créer une nouvelle devise pays",
+        "createOrEditLabel": "Créer ou modifier une devise de pays",
+        "title": "Devises du pays"
+      },
+      "modifiedDate": "Date modifiée",
+      "updated": "Une devise de pays est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

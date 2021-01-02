@@ -1,0 +1,27 @@
+{
+  "ezyprocureApp": {
+    "itemsForApproval": {
+      "approvalRequired": "Approbation exigée",
+      "buyer": "Acheteur",
+      "created": "Un nouvel élément à approuver est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer les éléments à approuver {{id}}?"
+      },
+      "deleted": "Un article pour une demande d'achat est supprimé avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Articles pour approbation"
+      },
+      "home": {
+        "createLabel": "Créer de nouveaux éléments pour approbation",
+        "createOrEditLabel": "Créer ou modifier un élément pour approbation",
+        "search": "Rechercher des articles pour approbation",
+        "title": "Articles pour approbations"
+      },
+      "items": "Articles",
+      "modifiedDate": "Date modifiée",
+      "price": "Prix",
+      "updated": "Un élément à approuver est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

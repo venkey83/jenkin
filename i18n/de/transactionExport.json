@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "transactionExport": {
+      "buyer": "Käufer",
+      "companyType": "Unternehmensart",
+      "created": "Ein neuer Transaktionsexport wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie den Transaktionsexport {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Transaktionsexport wird mit dem Bezeichner {{param}} gelöscht.",
+      "deletionToken": "Löschtoken",
+      "detail": {
+        "title": "Transaktionsexport"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie einen neuen Transaktionsexport",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie einen Transaktionsexport",
+        "title": "Transaktionsexporte"
+      },
+      "invoice": "Rechnung",
+      "modifiedDate": "Änderungsdatum",
+      "purchaseOrder": "Bestellung",
+      "purchaseRequest": "Kaufanfrage",
+      "supplier": "Lieferant",
+      "updated": "Ein Transaktionsexport wird mit dem Bezeichner {{param}} aktualisiert."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "adHocCreditNotes" : {
+            "home": {
+                "title": "Nota Kredit Ad Hoc",
+                "createLabel": "Mencipta Nota Kredit Ad Hoc Baru",
+                "createOrEditLabel": "Mencipta atau menyunting Nota Kredit Ad Hoc",
+                "search": "Carian untuk Nota Kredit Ad Hoc"
+            },
+            "created": "Nota Kredit Ad Hoc baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Nota Kredit Ad Hoc telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Nota Kredit Ad Hoc telah Dihapuskan dengan pengecam{{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin menghapus Nota Kredit Ad Hoc {{ id }}?"
+            },
+            "detail": {
+                "title": "Nota Kredit Ad Hoc"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh mengubah suai",
+            "quantity": "Kuantiti",
+            "weight": "Berat",
+            "amount": "Jumlah"
+        }
+    }
+}

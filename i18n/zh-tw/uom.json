@@ -1,0 +1,36 @@
+{
+    "ezyprocureApp": {
+        "uom" : {
+            "home": {
+                "title": "計量單位",
+                "uomManage":"計量單位管理",
+                "tableTitle": "計量單位",
+                "createLabel": "新增計量單位",
+                "createOrEditLabel": "編輯計量單位",
+                "search": "查詢計量單位"
+            },
+            "created": "新增計量單位編碼 {{param}}",
+            "updated": "更新計量單位編碼 {{param}}",
+            "deleted": "刪除計量單位編碼 {{param}}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除計量單位？"
+            },
+            "detail": {
+                "title": "計量單位"
+            },
+            "forms": {
+              "title": {
+                "add": "新增計量單位",
+                "edit": "編輯計量單位"
+              }
+            },
+            "name": "名稱",
+            "uomName": "計量單位",
+            "modifiedDate": "修改日期",
+            "descripton": "內容",
+            "createdDate": "建立日期",
+            "weightRequired": "重量計價",
+            "moqPrice": "重量計價之價格"
+        }
+    }
+}

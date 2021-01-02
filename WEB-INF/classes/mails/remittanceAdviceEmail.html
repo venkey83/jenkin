@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title  th:text="#{email.remittanceAdviceEmail.title}"></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+<body>
+<p th:text="#{email.remittanceAdviceEmail.greeting(${user.firstName})}">
+    </p>
+<p th:text="#{email.remittanceAdviceEmail.text(${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(date)})}"></p>
+<div th:if="${remittanceAdviseDTO!=null}">
+    <p th:text="#{email.remittanceAdviceEmail.supplierName(${remittanceAdviseDTO.supplierName})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.supplierAddress(${remittanceAdviseDTO.supplierAddress})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.bankName(${remittanceAdviseDTO.bankName})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.bankCode(${remittanceAdviseDTO.bankCode})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.branchCode(${remittanceAdviseDTO.branchCode})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.accountName(${remittanceAdviseDTO.accountName})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.accountNumber(${remittanceAdviseDTO.accountNumber})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.bic(${remittanceAdviseDTO.bic})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.companyName(${remittanceAdviseDTO.companyName})}"/>
+    <p th:text="#{email.remittanceAdviceEmail.brandName(${brandName})}"/>
+
+    <table>
+        <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+            <td th:text="#{email.remittanceAdviceEmail.referenceNumber}" style="100px"/>
+            <td th:text="#{email.remittanceAdviceEmail.invoiceNumber}" style="100px"/>
+            <td th:text="#{email.remittanceAdviceEmail.invoiceType}" style="100px"/>
+            <td th:text="#{email.remittanceAdviceEmail.supplier}" style="100px"/>
+            <td th:text="#{email.remittanceAdviceEmail.brand}" style="100px"/>
+        </tr>
+        <tr th:each="advise:${remittanceAdviseDTO.invoiceDetails}" style="text-align:center">
+            <td th:text="${advise.referenceNumber}"/>
+            <td th:text="${advise.invoiceNumber}"/>
+            <td th:text="${advise.invoiceType}"/>
+            <td th:text="${advise.supplier.companyName}"/>
+            <td th:text="${advise.buyer}"/>
+
+        </tr>
+    </table>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>
+

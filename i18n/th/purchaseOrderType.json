@@ -1,0 +1,8 @@
+{
+    "ezyprocureApp": {
+        "PurchaseOrderType" : {
+            "null": "",
+            "REQUIREMENT": "ข้อกำหนด"
+        }
+    }
+}

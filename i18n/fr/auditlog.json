@@ -1,0 +1,27 @@
+{
+  "ezyprocureApp": {
+    "auditlog": {
+      "User": "Utilisateur",
+      "created": "Un nouveau journal d'audit est créé avec l'identifiant {{param}}",
+      "createdby": "Créé par",
+      "createddatetime": "Createddatetime",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer Auditlog {{id}}?"
+      },
+      "deleted": "Un journal d'audit est supprimé avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Journal d'audit"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau journal d'audit",
+        "createOrEditLabel": "Créer ou modifier un journal d'audit",
+        "search": "Rechercher Auditlog",
+        "title": "Journaux d'audit"
+      },
+      "status": "Statut",
+      "transactionid": "Identifiant de transaction",
+      "transactiontype": "Type de transaction",
+      "updated": "Un Auditlog est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

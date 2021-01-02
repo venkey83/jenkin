@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "supplierCalendar": {
+      "created": "Ein neuer Lieferantenkalender wird mit der ID {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "date": "Datum",
+      "delete": {
+        "question": "Möchten Sie den Lieferantenkalender {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Lieferantenkalender wird mit der Kennung gelöscht {{ param }}",
+      "description": "Beschreibung",
+      "detail": {
+        "title": "Lieferantenkalender"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie einen neuen Lieferantenkalender",
+        "editLabel": "Bearbeiten Sie einen Lieferantenkalender",
+        "manageSupplierCalendars": "Lieferanten - Kalenderverwaltung",
+        "search": "Nach Lieferantenkalender suchen",
+        "tableListHeader": "Kalenderliste",
+        "title": "Lieferantenkalender"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "supplier": "Lieferant",
+      "updated": "Ein Lieferantenkalender wird mit der Kennung {{param}} aktualisiert."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "orderTemplateUserMapping": {
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Un nouveau mappage utilisateur de modèle de commande est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "deafultStatus": "Statut de sourd",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le mappage utilisateur du modèle de commande {{id}}?"
+      },
+      "deleted": "Un modèle de commande La cartographie des utilisateurs est supprimée avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Mappage utilisateur du modèle de commande"
+      },
+      "home": {
+        "createLabel": "Créer un nouveau mappage utilisateur de modèle de commande",
+        "createOrEditLabel": "Créer ou modifier un mappage utilisateur de modèle de commande",
+        "title": "Mappages utilisateur du modèle de commande"
+      },
+      "modifiedDate": "Date modifiée",
+      "orderTemplate": "Modèle de commande",
+      "updated": "Un mappage utilisateur de modèle de commande est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

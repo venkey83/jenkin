@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "CancelPoStatus" : {
+            "null": "",
+            "CANCEL_PO_REQUESTED": "要求取消訂單",
+            "CANCEL_PO_GENERATED": "確認取消訂單",
+            "CANCEL_PO_REJECTED": "拒絕取消訂單"
+        }
+    }
+}

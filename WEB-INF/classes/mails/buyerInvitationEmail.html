@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+            body {
+                margin: 0;
+                display: flex;
+            }
+            p
+            {
+            text-align: justify;
+            }
+            hr {
+                line-height: 1em;
+                position: relative;
+                outline: 0;
+                border: 0;
+                color: black;
+                text-align: center;
+                height: 1.5em;
+                opacity: .5;
+            }
+            hr:before {
+                content: '';
+                background: linear-gradient(to right, transparent, #818078, transparent);
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 1px;
+            }
+            hr:after {
+                content: attr(data-content);
+                position: relative;
+                display: inline-block;
+                color: black;
+                padding: 0 .5em;
+                line-height: 1.5em;
+                color: #818078;
+                background-color: #fcfcfa;
+            }
+            .container {
+                width: 100%;
+                height: 100%;
+                background: #F5F5F5;
+            }
+            .wrapper {
+                max-width: 500px;
+                margin: 10px auto;
+            }
+            .content {
+                background: #FFFFFF;
+                box-shadow: 0px 0px 10px 0px #cfd3d7;
+                padding: 10px 50px 50px;
+                border-radius: 4px;
+                font-family: sans-serif;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 20px;
+                border-radius: 5px;
+                border: none;
+            }
+            .subtitle {
+                line-height: 23px;
+            }
+            .accept-btn {
+                background: #00ACC1;
+                color: #FFFFFF;
+            }
+            .decline {
+                color: #dd1b1b;
+                cursor: pointer;
+                text-decoration-line: underline;
+            }
+            .logo {
+                padding: 24px 0;
+                max-width: 100px;
+            }
+            .logo-text {
+                height: 20px;
+            }
+            .text-center {
+                text-align: center;
+            }
+            .light {
+                color: rgb(89, 89, 89);
+            }
+        </style>
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        ​
+        <div class="content">
+            <h1 class="light text-center">You've been invited to Join EzyProcure</h1>
+            <p class="light subtitle" >
+                <span th:text="${supplier.companyName}"></span> is pleased to invite you to be their empanelled Buyer on EzyProcure - B2B, Procure 2 Pay,
+                e-commerce platform.
+
+                We engage in our entire procurement journey through this platform.
+            </p>
+            ​
+            <br/>
+            <hr class="text-center"/>
+            <div align="center">
+                <a th:href="@{|${baseUrl}/#/register/user-info/buyer/${buyerId}|}"> <button class="accept-btn btn" ><span >Join now to continue business transaction with  <strong th:text="${supplier.companyName}"></strong></span></button></a>
+                ​
+            </div>
+            <br/>
+            ​
+            <p class="subtitle" >
+                <img th:src="@{|${ezyprocureLogo}|}"  class="logo-text"/>
+                <strong>EzyProcure</strong> is the leading procurement to payment platform for that connects
+                buyers with suppliers seamlessly. EzyProcure automates the processes like Order Creation, PO Generation, Electronic Goods Receiving, Invoice Reconciliation &amp; Payment. Payment is also made seamless with EzyPayment.
+                EzyProcure is designed to integrate with the existing systems ensuring seamless data flow, provides dashboards with real time data analytics &amp; insights. EzyProcure transforms the Procure to Pay process enabling  clients to achieve greater cost savings &amp; improve their productivity &amp; efficiency.
+            </p>
+            ​
+            <p class="subtitle" >
+                May we request you to please register yourself on EzyProcure platform for a seamless
+                experience to enhance real time transparency &amp; process efficiencies.
+            </p>
+            ​
+            <br/>
+            <div>
+                <p>Thanks &amp; Regards</p>
+                <p th:text="${supplier.companyName}" ></p>
+                <p th:text="${supplier.companyAddress}" ></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

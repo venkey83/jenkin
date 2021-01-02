@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title th:text="#{email.terminationItemsNotificationEmail.title(${companyName})}"></title>
+</head>
+<body>
+<p th:text="#{email.terminationItemsNotificationEmail.greeting(${firstName},${lastName})}"/>
+<p th:text="#{email.terminationItemsNotificationEmail.body(${companyName})}"/>
+<div th:if="${itemTerminationList.size()>0}">
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+        <td th:text="#{email.terminationItemsNotificationEmail.businessOutlet}" style="width:100px" />
+        <td th:text="#{email.terminationItemsNotificationEmail.itemCode}" style="width:100px" />
+        <td th:text ="#{email.terminationItemsNotificationEmail.itemName}" style="width:200px"/>
+        <td th:text ="#{email.terminationItemsNotificationEmail.price}" style="width:200px"/>
+        <td th:text ="#{email.terminationItemsNotificationEmail.startDate}" style="width:200px"/>
+        <td th:text ="#{email.terminationItemsNotificationEmail.endDate}" style="width:200px"/>
+        <td th:text ="#{email.terminationItemsNotificationEmail.reason}" style="width:200px"/>
+    </tr>
+    <tr th:each="item:${itemTerminationList}" style="text-align:center">
+        <td th:text="${item.itemBusinessMapping.buyerBusiness.businessOutletName}"/>
+        <td th:text="${item.items.itemCode}"/>
+        <td th:text="${item.items.itemName}"/>
+        <td th:text="${item.items.price}"/>
+        <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(item.fromDate)}"/>
+        <td th:text="${item.endDate!=null?T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(item.endDate):'N/A'}"/>
+        <td th:text="${item.reasonForTermination}"/>
+    </tr>
+</table>
+</div>
+<p th:text="#{email.terminationItemsNotificationEmail.contact}"/>
+<p th:text="#{email.terminationItemsNotificationEmail.thank}"/>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

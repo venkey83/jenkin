@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity TransactionExport.
+    -->
+    <changeSet id="20190516122117-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="buyer_id"
+                                 baseTableName="transaction_export"
+                                 constraintName="fk_transaction_export_buyer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer"/>
+
+        <addForeignKeyConstraint baseColumnNames="supplier_id"
+                                 baseTableName="transaction_export"
+                                 constraintName="fk_transaction_export_supplier_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="supplier"/>
+
+        <addForeignKeyConstraint baseColumnNames="purchase_request_id"
+                                 baseTableName="transaction_export"
+                                 constraintName="fk_transaction_export_purchase_request_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="export_endpoint"/>
+
+        <addForeignKeyConstraint baseColumnNames="purchase_order_id"
+                                 baseTableName="transaction_export"
+                                 constraintName="fk_transaction_export_purchase_order_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="export_endpoint"/>
+
+        <addForeignKeyConstraint baseColumnNames="invoice_id"
+                                 baseTableName="transaction_export"
+                                 constraintName="fk_transaction_export_invoice_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="export_endpoint"/>
+
+    </changeSet>
+    <changeSet id="20190516122117-3" author="jhipster">
+        <addUniqueConstraint columnNames="company_type, supplier_id, buyer_id, deletion_token"
+                             constraintName="export_end_point_per_user"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="transaction_export"/>
+    </changeSet>
+    <changeSet id="20190516122117-4" author="jhipster">
+        <dropUniqueConstraint constraintName="export_end_point_per_user" tableName="transaction_export"/>
+        <addUniqueConstraint columnNames="company_type, supplier_id, deletion_token"
+                             constraintName="export_end_point_per_supplier"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="transaction_export"/>
+        <addUniqueConstraint columnNames="company_type, buyer_id, deletion_token"
+                             constraintName="export_end_point_per_buyer"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="transaction_export"/>
+    </changeSet>
+
+</databaseChangeLog>

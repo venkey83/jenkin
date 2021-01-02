@@ -1,0 +1,38 @@
+{
+    "ezyprocureApp": {
+        "itemBuyerMapping" : {
+            "home": {
+                "title": "Item Buyer Mappings",
+                "createLabel": "Create a new Item Buyer Mapping",
+                "createOrEditLabel": "Create or edit a Item Buyer Mapping",
+                "search": "Search for Item Buyer Mapping"
+            },
+            "created": "A new Item Buyer Mapping is created with identifier {{ param }}",
+            "updated": "A Item Buyer Mapping is updated with identifier {{ param }}",
+            "deleted": "A Item Buyer Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Item Buyer Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Item Buyer Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyerLimited": "Buyer Limited",
+            "maximumAllocation": "Maximum Allocation",
+            "price": "Price",
+            "supplierId": "Supplier Id",
+            "buyerItemCode": "Buyer Item Code",
+            "buyerUom": "Buyer UOM",
+            "inventoryUOM": "Inventory UOM",
+            "buyerItemName": "Buyer Item Name",
+            "items": "Items",
+            "buyer": "Buyer",
+            "buyerItemGroup": "Buyer Item Group",
+            "addNewMaping": "Add New Mapping",
+            "mappedItems": "Mapped Items",
+            "parentItem": "Parent Item",
+            "barcode": "Barcode"
+        }
+    }
+}

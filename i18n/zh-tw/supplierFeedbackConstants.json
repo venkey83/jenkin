@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "SupplierFeedbackConstants" : {
+            "null": "",
+            "QUALITY_DOES_NOT_MATCH": "商品不符合",
+            "QUANTITY_DOES_NOT_MATCH": "數量不符合",
+            "DELIVERY_DATE_DOES_NOT_MATCH": "送貨日期不符合",
+            "QUANTITY_AND_DELIVERY_DATE_DOES_NOT_MATCH": "數量和送貨日期不符合",
+            "SUPPLIER_ADDED_ITEM": "供應商新增商品"
+        }
+    }
+}

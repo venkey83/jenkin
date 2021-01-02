@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "auditlogTransactionTypes" : {
+           "EXPORT_TO_XERO":"EXPORT TO XERO",
+           "TAX_INVOICE":"TAX INVOICE",
+           "PURCHASE_REQUEST":"PURCHASE REQUEST",
+           "PURCHASE_ORDER":"PURCHASE ORDER",
+           "PURCHASE_REQUEST_FOR_APPROVAL":"PURCHASE REQUEST FOR APPROVAL",
+           "CREDIT_NOTE":"CREDIT NOTE",
+           "SALES_ORDER":"SALES ORDER",
+           "E_INVOICE":"E INVOICE",
+           "GOOD_RECIEPT_NOTE":"GOOD RECIEPT NOTE",
+           "ORDER_TEMPLATE" : "ORDER TEMPLATE",
+           "GRN":"GRN",
+           "E_AUTHORIZATION_REQUEST":"E_AUTHORIZATION_REQUEST",
+           "INVOICE":"INVOICE",
+           "OCR_GRN_EDIT":"OCR GRN EDIT",
+           "OCR_ACCEPTANCE":"OCR Acceptance",
+           "PROCESS_ORDER":"PROCESS ORDER",
+           "ADHOC_SUPPLIER_MAPPING":"ADHOC SUPPLIER MAPPING",
+           "EXPORT_TRANSACTION_DETAILS":"EXPORT TRANSACTION DETAILS",
+           "SIP_INVOICE_APPROVAL_REQUEST": "SIP INVOICE APPROVAL REQUEST",
+           "SIP_INVOICE": "SIP INVOICE",
+           "PURCHASE_JURNAL": "PURCHASE JURNAL",
+           "SALES_JURNAL": "SALES JURNAL",
+           "MILLION_EXPORT": "MILLION EXPORT",
+           "AP_EXPORT": "AP EXPORT",
+           "OCI_EXPORT": "OCI EXPORT",
+           "ITEM_BUSINESS_MAPPING":"Item Business Mapping",
+           "PAYMENT": "Payment",
+           "MANAGE_CARDS":"MANAGE CARDS",
+           "EXTERNAL_PAYMENT_FILE_UPLOAD":"External Payment"
+        }
+    }
+}

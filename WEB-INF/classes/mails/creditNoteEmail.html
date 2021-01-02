@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{email.creditNote.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.activation.greeting(${user.firstName},${user.lastName})}">
+    Dear
+</p>
+<p th:text="#{email.creditNote.content(${sender},${createddate})}"></p>
+
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;">
+        <td th:text="#{email.creditNote.grnnumber}" style="width: 100px;"> </td>
+        <td th:text="#{email.creditNote.subtotal}" style="width:100px"> </td>
+        <td th:text="#{email.creditNote.gsttotal}" style="width: 100px;"> </td>
+        <td th:text="#{email.creditNote.totalcredit}" style="width:100px"> </td>
+        <td th:text="#{email.creditNote.hardcopyinvoicenumber}" style="width:200px"> </td>
+    </tr>
+    <tr style="font-size: 12px;">
+        <td th:text="${grnnumber}"> </td>
+        <td th:text="${subtotal}"> </td>
+        <td th:text="${gst}"></td>
+        <td th:text="${totalCredit}"></td>
+        <td th:text="${hardcopyinvoicenumber}"></td>
+    </tr>
+</table>
+<p>
+    <span th:text="#{email.activation.text2}"> </span>
+    <br/>
+    <b><em th:text="#{email.signature}"></em></b>
+</p>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

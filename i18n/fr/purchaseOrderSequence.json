@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "purchaseOrderSequence": {
+      "buyer": "Acheteur",
+      "created": "Une nouvelle séquence de bons de commande est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la séquence de bons de commande {{id}}?"
+      },
+      "deleted": "Une séquence de bon de commande est supprimée avec l'identifiant {{param}}",
+      "detail": {
+        "title": "Séquence de bons de commande"
+      },
+      "home": {
+        "createLabel": "Créer une nouvelle séquence de commande d'achat",
+        "createOrEditLabel": "Créer ou modifier une séquence de commande d'achat",
+        "search": "Recherche de séquence de commande d'achat",
+        "title": "Séquences de bons de commande"
+      },
+      "modifiedDate": "Date modifiée",
+      "sequence": "Séquence",
+      "updated": "Une séquence de bons de commande est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "ezyprocureApp": {
+        "buyerAdhocPo" : {
+            "home": {
+                "title": "买家特别采购订单",
+                "createLabel": "创建一个新的买家特别采购订单",
+                "createOrEditLabel": "创建或修改一个买家特别采购订单",
+                "search": "查找买家特别采购订单"
+            },
+            "created": "一个识别码为{{ param }}的新的买家特别采购订单被创建了",
+            "updated": "一个识别码为{{ param }}的买家特别采购订单被更新了",
+            "deleted": "一个识别码为{{ param }}的买家特别采购订单被删除了",
+            "delete": {
+                "question": "你确定要删除一个识别码为{{ id }}的买家特别采购订单么?"
+            },
+            "detail": {
+                "title": "买家特别采购订单"
+            },
+            "supplierEmail": "供货商电子邮件",
+            "deliveryDate": "送货日期",
+            "orderNumber": "订单号码",
+            "currency": "交易货币",
+            "deliveryAddress": "送货地址",
+            "phoneNumber": "电话号码",
+            "createdDate": "创建日期",
+            "modifiedDate": "修改日期",
+            "buyerAdhocItems": "买家特别商品",
+            "buyer": "买家"
+        }
+    }
+}

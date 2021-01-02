@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "buyerUser" : {
+            "home": {
+                "title": "商家使用者",
+                "createLabel": "新增商家使用者",
+                "editLabel": "編輯商家使用者",
+                "search": "查詢商家使用者"
+            },
+            "created": "新增商家使用者編碼 {{ param }}",
+            "updated": "更新商家使用者編碼 {{ param }}",
+            "deleted": "刪除商家使用者編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商家使用者？"
+            },
+            "detail": {
+                "title": "商家使用者"
+            },
+            "parentId": "使用者代號",
+            "createdDate": "新增日期",
+            "budget": "預算",
+            "secondaryEmail": "備用電子信箱",
+            "favoriteView": "瀏覽收藏商品",
+            "budgetForAutoOrder": "自動訂單額度",
+            "phoneNumber": "室內電話",
+            "mobileNumber": "行動電話",
+            "minAmount": "最低金額",
+            "maxAmount": "最高金額",
+            "level": "層級",
+            "user": "使用者",
+            "buyer": "商家",
+            "userRoles": "使用者職位"
+        }
+    }
+}

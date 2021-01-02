@@ -1,0 +1,15 @@
+{
+  "ezyprocureApp": {
+    "adminDashboard": {
+      "allPO": "Alle PO",
+      "home": {
+        "dashboard": "Instrumententafel"
+      },
+      "paymentTransactionVolume": "Zahlungsverkehrsvolumen",
+      "totalBuyers": "Käufer insgesamt",
+      "totalInvoices": "Gesamtrechnungen",
+      "totalSuppliers": "Lieferanten insgesamt",
+      "totalTransactionVolume": "Gesamttransaktionsvolumen"
+    }
+  }
+}

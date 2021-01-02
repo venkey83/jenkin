@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "priceUpdates" : {
+            "home": {
+                "title": "价格更新",
+                "createLabel": "创建一个新的价格更新",
+                "createOrEditLabel": "创建或修改价格更新",
+                "search": "查找价格更新"
+            },
+            "created": "一个标识为{{ param }}的新的价格更新被创建了",
+            "updated": "一个标识为{{ param }}的新的价格更新被更新了",
+            "deleted": "一个标识为{{ param }}的新的价格更新被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }} 的价格更新么?"
+            },
+            "detail": {
+                "title": "价格更新"
+            },
+            "priceUpdateStatus": "价格更新状态",
+            "updatedPrice": "已更新的价格",
+            "createdDate": "创建日期",
+            "updatedDate": "更新日期",
+            "remark": "备注",
+            "effectiveStartDate": "有效开始日期",
+            "effectiveEndDate": "有效结束日期",
+            "isApprovalRequired": "需要审批么",
+            "previousPrice": "之前的价格",
+            "buyerRemark": "买家备注",
+            "items": "商品",
+            "buyer": "买家"
+        }
+    }
+}

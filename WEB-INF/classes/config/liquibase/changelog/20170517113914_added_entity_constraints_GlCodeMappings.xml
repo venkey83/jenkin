@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity GlCodeMappings.
+    -->
+    <changeSet id="20170517113914-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="purchase_order_types_id"
+                                 baseTableName="gl_code_mappings"
+                                 constraintName="fk_gl_code_mappings_purchase_order_types_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="purchase_order_types"/>
+
+        <addForeignKeyConstraint baseColumnNames="gl_specific_item_groups_id"
+                                 baseTableName="gl_code_mappings"
+                                 constraintName="fk_gl_code_mappings_gl_specific_item_groups_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gl_specific_item_groups"/>
+
+        <addForeignKeyConstraint baseColumnNames="item_group_id"
+                                 baseTableName="gl_code_mappings"
+                                 constraintName="fk_gl_code_mappings_item_group_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="item_group"/>
+
+        <addForeignKeyConstraint baseColumnNames="gl_codes_id"
+                                 baseTableName="gl_code_mappings"
+                                 constraintName="fk_gl_code_mappings_gl_codes_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="gl_codes"/>
+
+    </changeSet>
+    <changeSet id="20170517113914-4" author="jhipster">
+        <addForeignKeyConstraint baseTableName="gl_code_mappings"
+                                 baseColumnNames="xero_accounts_id"
+                                 constraintName="fk_gl_code_mappings_xero_accounts_id"
+                                 referencedTableName="xero_accounts"
+                                 referencedColumnNames="id"/>
+    </changeSet>
+</databaseChangeLog>

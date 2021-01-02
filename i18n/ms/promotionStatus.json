@@ -1,0 +1,12 @@
+{
+    "ezyprocureApp": {
+        "promotionStatus" : {
+          "null": "",
+          "PROMOTION_ONGOING": "PROMOSI YANG SEDIA ADA",
+          "NO_PROMOTION": "TIADA PROMOSI",
+          "DELETED": "DIHAPUSKAN",
+          "FUTURE_PROMOTION": "PROMOSI MASA DEPAN",
+          "EXPIRED_PROMOTION": "PROMOSI TELAH TAMAT"
+        }
+    }
+}

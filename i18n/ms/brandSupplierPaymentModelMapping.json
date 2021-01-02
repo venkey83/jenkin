@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brandSupplierPaymentModelMapping" : {
+            "home": {
+                "title": "Pemetaan Model Pembayaran Pembekal Jenama",
+                "createLabel": "Mencipta Pemetaan Model Pembayaran Pembekal Jenama",
+                "createOrEditLabel": "Mencipta atau Menyunting Pemetaan Model Pembayaran Pembekal Jenama",
+                "search": "Pencarian Pemetaan Model Pembayaran Pembekal Jenama"
+            },
+            "created": "Pemetaan Model Pembayaran Pembekal Jenama baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Pemetaan Model Pembayaran Pembekal Jenama telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Pemetaan Model Pembayaran Pembekal Jenama telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Pemetaan Model Pembayaran Pembekal Jenama {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Model Pembayaran Pembekal Jenama"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "paymentModel": "Model Pembayaran",
+            "creditTerms": "Terma Kredit",
+            "buyerBusinessServiceRate": "Kadar Perkhidmatan Perniagaan Pembeli",
+            "supplierBusinessServiceRate": "Kadar Perkhidmatan Perniagaan Pembekal",
+            "deletionToken": "Token Pemadaman",
+            "brand": "Jenama",
+            "supplier": "Pembekal",
+            "updatedBy": "Dikemaskini Oleh",
+            "epdApprovalRequest": "Permintaan Kelulusan Epd"
+        }
+    }
+}

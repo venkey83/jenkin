@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "mainItemGroup" : {
+            "home": {
+                "title": "Main Item Groups_CH",
+                "createLabel": "Create a new Main Item Group_CH",
+                "editLabel": "Edit Main Item Group_CH",
+                "search": "Search for Main Item Group_CH"
+            },
+            "created": "A new Main Item Group is created with identifier {{ param }}_CH",
+            "updated": "A Main Item Group is updated with identifier {{ param }}_CH",
+            "deleted": "A Main Item Group is deleted with identifier {{ param }}_CH",
+            "delete": {
+                "question": "Are you sure you want to delete Main Item Group {{ id }}?_CH"
+            },
+            "detail": {
+                "title": "Main Item Group_CH"
+            },
+            "name": "Name_CH",
+            "description": "Description_CH",
+            "createdDate": "Created Date_CH",
+            "modifiedDate": "Modified Date_CH"
+        }
+    }
+}

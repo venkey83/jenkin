@@ -1,0 +1,40 @@
+{
+    "ezyprocureApp": {
+        "cart" : {
+            "home": {
+                "title": "Keranjang",
+                "createLabel": "Buat Keranjang baru",
+                "createOrEditLabel": "Buat atau Edit keranjang baru",
+                "search": "Cari keranjang"
+            },
+            "created": "Keranjang baru dibuat dengan Identifier {{ param }}",
+            "updated": "Keranjang diperbarui dengan Identifier {{ param }}",
+            "deleted": "Keranjang dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus keranjang {{ id }}?"
+            },
+            "detail": {
+                "title": "Keranjang"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "deliveryDate": "Tanggal Pengiriman",
+            "specialRequest": "Permintaan Khusus",
+            "quantity": "Kuantitas",
+            "price": "Harga",
+            "buyerUser": "Pengguna Pembeli",
+            "items": "Barang",
+            "buyerBusiness": "Bisnis Pembeli",
+            "duplicatePR": {
+                "title": "Duplication of PR_ID",
+                "inPendingPO": "Duplicated in pending PO for Req. Number(s) '{{ no }}'_ID",
+                "inApproval": "Duplicated in pending Approvals for Approval Request Number(s) '{{ no }}'_ID",
+                "message": "A similar PR had been raised before, Do you want to confirm the order?_ID"
+            },
+            "confirmOrder": {
+                "title": "Confirm Order_ID",
+                "message" : "Are you sure to confirm the order?_ID"
+            }
+        }
+    }
+}

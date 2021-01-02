@@ -1,0 +1,71 @@
+{
+    "ezyprocureApp": {
+        "supplier" : {
+            "home": {
+                "title": "Pemasok",
+                "createLabel": "Buat Pemasok baru",
+                "createOrEditLabel": "Buat atau edit Pemasok",
+                "search": "Cari Pemasok"
+            },
+            "created": "Pemasok baru dibuat dengan identifier {{ param }}",
+            "updated": "Pemasok diperbarui dengan identifier {{ param }}",
+            "deleted": "Pemasok dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pemasok {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemasok",
+                "companyName":"Company Name_ID",
+                "companyRegNo":"Company Registration Number_ID"
+            },
+            "companyName": "Nama Perusahaan",
+            "companyAddress": "Alamat perusahaan",
+            "companyPostalCode": "Kode Pos Perusahaan",
+            "shippingAddress": "Alamat Pengiriman",
+            "shippingPostalCode": "Kode Pos Pengiriman",
+            "supplierType": "Jenis Pemasok",
+            "visibilityType": "Jenis Visibilitas",
+            "phone": "Telepon",
+            "mobile": "Ponsel",
+            "contactPersonName": "Nama Kontak Pribadi",
+            "contactPersonDesignation": "Penunjukan Kontak Pribadi",
+            "typeOfBusiness": "Jenis bisnis",
+            "tax": "Pajak",
+            "gst": "GST/VAT (Pajak Barang & Jasa) %",
+            "deliveryTerms": "Syarat pengiriman",
+            "paymentTerms": "Syarat pembayaran",
+            "paymentDueDays": "Batas Waktu Pembayaran",
+            "paymentDiscountDays": "Hari Diskon Pembayaran",
+            "paymentDiscountPercent": "Persen Diskon Pembayaran",
+            "deliveryConditions": "Kondisi pengiriman",
+            "deliveryCharge": "Biaya pengiriman",
+            "companyLogo": "Logo perusahaan",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "supplierCode": "Kode Pemasok",
+            "orderTimeForFriday": "Waktu Pemesanan Untuk Jumat",
+            "orderTimeForSaturday": "Waktu Pemesanan Untuk Hari Sabtu",
+            "minimumOrderForFreeDelivery": "Minimum Order Untuk Pengiriman Gratis",
+            "belowMinimumPurchaseCondition": "Dibawah Kondisi Pembelian Minimum",
+            "orderTimeForToday": "Pesan Waktu Untuk Hari Ini",
+            "noDeliveryOnHolidays": "Tidak Ada Pengiriman Saat Liburan",
+            "noDeliveryOnSaturday": "Tidak ada pengiriman pada hari Sabtu",
+            "noDeliveryOnSunday": "Tidak ada pengiriman pada hari Minggu",
+            "buyersLimit": "Batas Pembeli",
+            "noDeliveryOnMonday": "Tidak ada pengiriman pada hari Senin",
+            "companyRegistrationNumber": "Nomor registrasi perusahaan",
+            "gstRegNo": "Reg Gst/Vat No",
+            "createdUser": "Pengguna Dibuat",
+            "noDeliveryToday": "Apply Delivery Lead Time_ID",
+            "kycReport":"Laporan Kyc",
+            "kycStatus":"Status Kyc",
+            "kycTimestamp":"Stempel Waktu Kyc",
+            "principleDirector":"Prinsip Pemimpin",
+            "principleFinanceOfficer":"Petugas Dasar Keuangan",
+            "ezypaymentOnly":"Hanya Ezypayment",	
+            "leadTime":"Lead Time_ID",
+            "companyCode": "Company Code_ID",
+            "currencyMapping": "Currency Mapping_ID"
+        }
+    }
+}

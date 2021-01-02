@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "DeviceType" : {
+            "null": "",
+            "ANDROID": "ANDROID",
+            "IOS": "IOS",
+            "WEB": "WEB"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "ezyprocureApp": {
+    "processOrder": {
+      "buyerBusiness": "Acheteur Affaires",
+      "buyerUser": "Utilisateur acheteur",
+      "created": "Un nouvel ordre de process est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer l'ordre de traitement {{id}}?"
+      },
+      "deleted": "Une demande d'achat est supprimée avec l'identifiant {{ param }}",
+      "deliveryDate": "Date de livraison",
+      "detail": {
+        "title": "Ordre de process"
+      },
+      "glCodeMappings": "Mappages de code Gl",
+      "home": {
+        "createLabel": "Créer un nouvel ordre de process",
+        "createOrEditLabel": "Créer ou modifier un ordre de process",
+        "search": "Rechercher un ordre de process",
+        "title": "Traiter les commandes"
+      },
+      "isFreeItem": "Est un article gratuit",
+      "items": "Articles",
+      "modifiedDate": "Date modifiée",
+      "pickingListPrinted": "Liste de prélèvement imprimée",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "requirementNumber": "Numéro d'exigence",
+      "specialRequest": "Demande spéciale",
+      "supplierFeedback": "Commentaires des fournisseurs",
+      "supplierResponse": "Réponse du fournisseur",
+      "updated": "Un ordre de process est mis à jour avec l'identifiant {{param}}",
+      "weight": "Poids"
+    }
+  }
+}

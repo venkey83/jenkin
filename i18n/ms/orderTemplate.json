@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "orderTemplate" : {
+            "home": {
+                "title": "Order Templates",
+                "createLabel": "Create a new Order Template",
+                "createOrEditLabel": "Create or edit a Order Template"
+            }
+        }
+    }
+}

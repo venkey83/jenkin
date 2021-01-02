@@ -1,0 +1,32 @@
+
+{
+    "ezyprocureApp": {
+        "externalPayment" : {
+            "home": {
+                "title": "External Payments",
+                "createLabel": "创建新 External Payment",
+                "createOrEditLabel": "创建或编辑 External Payment"
+            },
+            "created": "External Payment {{ param }} 创建成功",
+            "updated": "External Payment {{ param }} 更新成功",
+            "deleted": "External Payment {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 External Payment {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "External Payment"
+            },
+            "invoiceAmount": "Invoice Amount",
+            "poDate": "Po Date",
+            "poNumber": "Po Number",
+            "invoiceNumber": "Invoice Number",
+            "invoiceDate": "Invoice Date",
+            "externalPaymentStatus": "External Payment Status",
+            "payment": "Payment",
+            "supplier": "Supplier",
+            "brand": "Brand",
+            "custPayRefNo": "Customer Payment Reference",
+            "cardToken": "Card Token"
+        }
+    }
+}

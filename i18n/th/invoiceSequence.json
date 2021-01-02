@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "invoiceSequence": {
+      "home": {
+        "title": "Invoice Sequences",
+        "createLabel": "สร้าง Invoice Sequence",
+        "createOrEditLabel": "สร้างหรือแก้ไข Invoice Sequence"
+      },
+      "created": "Invoice Sequence ถูกสร้างด้วย {{ param }}",
+      "updated": "Invoice Sequence ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Invoice Sequence ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Invoice Sequence {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice Sequence"
+      },
+      "createdDate": "Created Date",
+      "modifiedDate": "Modified Date",
+      "sequenceNumber": "Sequence Number",
+      "c": "C",
+      "supplier": "Supplier"
+    }
+  }
+}

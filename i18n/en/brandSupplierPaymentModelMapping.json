@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brandSupplierPaymentModelMapping" : {
+            "home": {
+                "title": "Brand Supplier Payment Model Mappings",
+                "createLabel": "Create a new Brand Supplier Payment Model Mapping",
+                "createOrEditLabel": "Create or edit a Brand Supplier Payment Model Mapping",
+                "search": "Search for Brand Supplier Payment Model Mapping"
+            },
+            "created": "A new Brand Supplier Payment Model Mapping is created with identifier {{ param }}",
+            "updated": "A Brand Supplier Payment Model Mapping is updated with identifier {{ param }}",
+            "deleted": "A Brand Supplier Payment Model Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Brand Supplier Payment Model Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Brand Supplier Payment Model Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "paymentModel": "Payment Model",
+            "creditTerms": "Credit Terms",
+            "buyerBusinessServiceRate": "Buyer Business Service Rate",
+            "supplierBusinessServiceRate": "Supplier Business Service Rate",
+            "deletionToken": "Deletion Token",
+            "brand": "Brand",
+            "supplier": "Supplier",
+            "updatedBy": "Updated By",
+            "epdApprovalRequest": "Epd Approval Request"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "approvalRequestSequence" : {
+            "home": {
+                "title": "ApprovalRequestSequences_JA",
+                "createLabel": "Approval Request Sequence を追加_JA",
+                "createOrEditLabel": "Approval Request Sequenceを追加または編集_JA",
+                "search": "Search for Approval Request Sequence_JA"
+            },
+            "created": "A new Approval Request Sequence is created with identifier {{ param }}_JA",
+            "updated": "A Approval Request Sequence is updated with identifier {{ param }}_JA",
+            "deleted": "A Approval Request Sequence is deleted with identifier {{ param }}_JA",
+            "delete": {
+                "question": "Approval Request Sequence {{ id }}を削除してもよろしいですか？_JA"
+            },
+            "detail": {
+                "title": "Approval Request Sequence_JA"
+            },
+            "sequenceNumber": "Sequence Number_JA",
+            "createdDate": "Created Date_JA",
+            "modifiedDate": "Modified Date_JA"
+        }
+    }
+}

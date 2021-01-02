@@ -1,0 +1,150 @@
+[
+  {
+    "fieldId": "recordtype",
+    "type": "text",
+    "position": 1,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": 1
+  },
+  {
+    "fieldId": "fileName",
+    "type": "text",
+    "position": 2,
+    "length": 10,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "paymenttype",
+    "type": "text",
+    "position": 12,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "P"
+  },
+  {
+    "fieldId": "servicetype",
+    "type": "text",
+    "position": 13,
+    "length": 10,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "processingMode",
+    "type": "text",
+    "position": 23,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "B"
+  },
+
+  {
+
+    "fieldId": "companyId",
+    "type": "text",
+    "position": 24,
+    "length": 12,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "RC201409838G"
+
+  },
+  {
+    "fieldId": "originatingBICcode",
+    "type": "text",
+    "position": 36,
+    "length": 11,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "UOVBSGSGXXX"
+  },
+  {
+    "fieldId": "originatingACNOCurrency",
+    "type": "text",
+    "position": 47,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "SGD"
+  },
+  {
+    "fieldId": "originatingACNO",
+    "type": "text",
+    "position": 50,
+    "length": 34,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "6313057434"
+  },
+  {
+    "fieldId": "originatingACName",
+    "type": "text",
+    "position": 84,
+    "length": 140,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "SINGAPORE E-BUSINESS PTE LTD"
+  },
+  {
+    "fieldId": "fileCreationDate",
+    "type": "date",
+    "position": 224,
+    "length": 8,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "valueDate",
+    "type": "date",
+    "position": 232,
+    "length": 8,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+     "fieldId": "ultimatingOriginatingCustomer",
+    "type": "date",
+    "position": 240,
+    "length": 140,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+
+  },
+  {
+    "fieldId": "bulkCustomerReference",
+    "type": "text",
+    "position": 380,
+    "length": 16,
+    "mandatoryFlag": "Y",
+    "active": "Y",
+    "defaultValue": "SGEBUSINESS"
+  },
+  {
+    "fieldId": "softwareLabel",
+    "type": "text",
+    "position": 396,
+    "length": 10,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  },
+  {
+    "fieldId": "filler",
+    "type": "text",
+    "position": 406,
+    "length": 210,
+    "mandatoryFlag": "N",
+    "active": "Y",
+    "defaultValue": ""
+  }
+]

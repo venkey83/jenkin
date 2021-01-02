@@ -1,0 +1,37 @@
+{
+  "ezyprocureApp": {
+    "processOrder": {
+      "buyerBusiness": "Käufergeschäft",
+      "buyerUser": "Käufer Benutzer",
+      "created": "Ein neuer Prozessauftrag wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie den Prozessauftrag {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Kaufanfrage wird mit der Kennung gelöscht {{ param }}",
+      "deliveryDate": "Lieferdatum",
+      "detail": {
+        "title": "Prozessauftrag"
+      },
+      "glCodeMappings": "Gl-Code-Zuordnungen",
+      "home": {
+        "createLabel": "Erstellen Sie einen neuen Prozessauftrag",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie einen Prozessauftrag",
+        "search": "Suche nach Prozessauftrag",
+        "title": "Bestellungen bearbeiten"
+      },
+      "isFreeItem": "Ist freies Einzelteil",
+      "items": "Artikel",
+      "modifiedDate": "Änderungsdatum",
+      "pickingListPrinted": "Kommissionierliste gedruckt",
+      "price": "Preis",
+      "quantity": "Menge",
+      "requirementNumber": "Anforderungsnummer",
+      "specialRequest": "Besondere Bitte",
+      "supplierFeedback": "Lieferanten-Feedback",
+      "supplierResponse": "Antwort des Lieferanten",
+      "updated": "Ein Prozessauftrag wird mit dem Bezeichner {{param}} aktualisiert.",
+      "weight": "Gewicht"
+    }
+  }
+}

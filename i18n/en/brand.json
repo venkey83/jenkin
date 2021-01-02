@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brand" : {
+            "home": {
+                "title": "Brands",
+                "createLabel": "Create a new Brand",
+                "createOrEditLabel": "Create or edit a Brand"
+            },
+            "created": "A new Brand is created with identifier {{ param }}",
+            "updated": "A Brand is updated with identifier {{ param }}",
+            "deleted": "A Brand is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Brand {{ id }}?"
+            },
+            "detail": {
+                "title": "Brand"
+            },
+            "acraNumber": "Acra Number",
+            "businessServiceRate": "Business Service Rate",
+            "deletionToken": "Deletion Token",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "buyer": "Buyer",
+            "contactPersonName": "Contact Person Name",
+            "contactPersonDesignation": "Contact Person Designation",
+            "phone": "Phone",
+            "tax": "TAX",
+            "gstRegNo": "GST/VAT Reg No",
+            "name": "Name"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity BusinessUserMapping.
+    -->
+    <changeSet id="20170120042734-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="business_user_mapping"
+                                 constraintName="fk_business_user_mapping_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="user"/>
+
+        <addForeignKeyConstraint baseColumnNames="buyer_business_id"
+                                 baseTableName="business_user_mapping"
+                                 constraintName="fk_business_user_mapping_buyer_business_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_business"/>
+
+    </changeSet>
+    <changeSet id="20170120042734-3" author="jhipster">
+            <dropForeignKeyConstraint baseTableName="business_user_mapping" constraintName="fk_business_user_mapping_user_id"/>
+    </changeSet>
+    <changeSet author="liquibase-docs" id="20170120042734-4">
+        <renameColumn columnDataType="bigint"
+                      newColumnName="buyer_user"
+                      oldColumnName="user_id"
+                      tableName="business_user_mapping"/>
+    </changeSet>
+    <changeSet id="20170120042734-5" author="jhipster">
+        <renameColumn columnDataType="bigint"
+                      newColumnName="buyer_user_id"
+                      oldColumnName="buyer_user"
+                      tableName="business_user_mapping"/>
+        <addForeignKeyConstraint baseColumnNames="buyer_user_id"
+                                 baseTableName="business_user_mapping"
+                                 constraintName="fk_business_user_mapping_buyer_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_user"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "brandSupplierMapping" : {
+            "home": {
+                "title": "Brand Supplier Mappings",
+                "createLabel": "Create a new Brand Supplier Mapping",
+                "createOrEditLabel": "Create or edit a Brand Supplier Mapping"
+            },
+            "created": "A new Brand Supplier Mapping is created with identifier {{ param }}",
+            "updated": "A Brand Supplier Mapping is updated with identifier {{ param }}",
+            "deleted": "A BCand Supplier Mapping is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Brand Supplier Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Brand Supplier Mapping"
+            },
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "brand": "Brand",
+            "supplier": "Supplier"
+        }
+    }
+}

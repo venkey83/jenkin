@@ -1,0 +1,20 @@
+{
+  "login": {
+    "form": {
+      "button": "Einloggen",
+      "password": "Passwort",
+      "password.placeholder": "Ihr Passwort",
+      "rememberme": "Erinnere dich an mich"
+    },
+    "messages": {
+      "error": {
+        "authentication": "<strong> Anmeldung fehlgeschlagen! </ strong> Überprüfen Sie Ihre Anmeldeinformationen und versuchen Sie es erneut."
+      }
+    },
+    "password": {
+      "forgot": "Haben Sie Ihr Passwort vergessen?"
+    },
+    "title": "Einloggen",
+    "registernow":"Register Now_DE"
+  }
+}

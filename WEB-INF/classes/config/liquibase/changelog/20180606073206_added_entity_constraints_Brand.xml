@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Brand.
+    -->
+    <changeSet id="20180606073206-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="buyer_id"
+                                 baseTableName="brand"
+                                 constraintName="fk_brand_buyer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer"/>
+
+    </changeSet>
+    <changeSet id="20180607153206-3" author="jhipster">
+        <addUniqueConstraint columnNames="buyer_id, name"
+                             constraintName="buyer_brand"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="brand"/>
+    </changeSet>
+    <changeSet id="20180629090806-4" author="jhipster">
+        <dropForeignKeyConstraint baseTableName="brand"
+                                 constraintName="fk_brand_buyer_id"/>
+        <dropUniqueConstraint constraintName="buyer_brand" tableName="brand"/>
+        <addForeignKeyConstraint baseColumnNames="buyer_id"
+                                 baseTableName="brand"
+                                 constraintName="fk_brand_buyer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer"/>
+        <addUniqueConstraint columnNames="buyer_id, name,deletion_token"
+                             constraintName="buyer_brand"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="brand"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,25 @@
+{
+  "ezyprocureApp": {
+    "businessSupplierMapping": {
+      "buyerBusiness": "Acheteur Affaires",
+      "created": "Un nouveau mappage de fournisseur d'entreprise est créé avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer le mappage des fournisseurs commerciaux {{id}}?"
+      },
+      "deleted": "Une correspondance entre entreprises et fournisseurs est supprimée avec l'identifiant {{ param }}",
+      "detail": {
+        "title": "Cartographie des fournisseurs commerciaux"
+      },
+      "home": {
+        "createLabel": "Créer une nouvelle cartographie des fournisseurs commerciaux",
+        "createOrEditLabel": "Créer ou modifier un mappage de fournisseur commercial",
+        "search": "Recherche de cartographie des fournisseurs commerciaux",
+        "title": "Mappages de fournisseurs commerciaux"
+      },
+      "modifiedDate": "Date modifiée",
+      "supplier": "Fournisseur",
+      "updated": "Un mappage de fournisseur commercial est mis à jour avec l'identifiant {{param}}"
+    }
+  }
+}

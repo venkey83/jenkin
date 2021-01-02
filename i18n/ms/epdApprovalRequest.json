@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "epdApprovalRequest" : {
+            "home": {
+                "title": "Permintaan Kelulusan EPD",
+                "createLabel": "Mencipta Permintaan Kelulusan EPD",
+                "createOrEditLabel": "Mencipta atau Menyunting Permintaan Kelulusan EPD",
+                "search": "Pencarian Permintaan Kelulusan EPD"
+            },
+            "created": "Permintaan Kelulusan EPD baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Permintaan Kelulusan EPD telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Permintaan Kelulusan EPD telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Permintaan Kelulusan EPD {{ id }}?"
+            },
+            "detail": {
+                "title": "Permintaan Kelulusan EPD"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "epdApprovalSequenceNumber": "Nombor Permintaan Kelulusan EPD",
+            "earlyPaymentDiscountRate": "Kadar Diskaun Bayaran Awal",
+            "epdApprovalStatus": "Status Kelulusan EPD",
+            "buyerResponse": "Maklum balas Pembeli",
+            "deletionToken": "Token Pemadaman",
+            "creditTerms": "Terma kredit",
+            "brand": "Jenama",
+            "supplier": "Pembekal",
+            "requestedSupplierUser": "Pengguna Pembekal yang Diminta",
+            "acceptedBuyerUser": "Pengguna Pembeli yang Diterima"
+        }
+    }
+}

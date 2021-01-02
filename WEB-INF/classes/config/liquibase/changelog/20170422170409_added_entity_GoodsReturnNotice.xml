@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="now" value="sysdate" dbms="oracle"/>
+
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle"/>
+
+    <!--
+        Added the entity GoodsReturnNotice.
+    -->
+    <changeSet id="20170422170409-1" author="jhipster">
+        <createTable tableName="goods_return_notice">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="buyer_remark" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="rejected_quantity" type="${floatType}">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="debit_note_amount" type="decimal(10,2)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="debit_note_status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="debit_note_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
+        </createTable>
+
+    </changeSet>
+    <changeSet author="jhipster" id="20170422170409-2">
+    <addColumn
+        tableName="goods_return_notice">
+        <column name="goods_return_date" type="timestamp"/>
+    </addColumn>
+</changeSet>
+    <changeSet author="jhipster" id="20170422170409-3">
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="credit_note_weight" type="${floatType}"/>
+        </addColumn>
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="credit_note_quantity" type="${floatType}"/>
+        </addColumn>
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="credit_note_reject_reason" type="varchar(255)"/>
+        </addColumn>
+        <renameColumn
+            columnDataType="decimal(10,2)"
+            newColumnName="credit_note_amount"
+            oldColumnName="debit_note_amount"
+            tableName="goods_return_notice"/>
+        <renameColumn
+            columnDataType="varchar(255)"
+            newColumnName="goods_return_number"
+            oldColumnName="debit_note_number"
+            tableName="goods_return_notice"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20170422170409-4">
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="custom_invoice_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170422170409-5">
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="created_date" type="timestamp"/>
+        </addColumn>
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="modified_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20170422170409-6">
+        <renameColumn
+            columnDataType="varchar(255)"
+            newColumnName="hardcopy_invoice_number"
+            oldColumnName="custom_invoice_number"
+            tableName="goods_return_notice"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20200427183800-7">
+    <addColumn
+        tableName="goods_return_notice">
+        <column name="credit_note_tax_amount" type="decimal(10,2)"/>
+    </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20200429130700-8">
+        <addColumn
+            tableName="goods_return_notice">
+            <column name="credit_note_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+
+</databaseChangeLog>

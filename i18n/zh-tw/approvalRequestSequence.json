@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "approvalRequestSequence" : {
+            "home": {
+                "title": "特殊要求審核",
+                "createLabel": "新增特殊要求審核",
+                "createOrEditLabel": "編輯特殊要求審核",
+                "search": "查詢特殊要求審核"
+            },
+            "created": "新增特殊要求審核編碼 {{ param }}",
+            "updated": "更新特殊要求審核編碼 {{ param }}",
+            "deleted": "刪除特殊要求審核編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除特殊要求審核？"
+            },
+            "detail": {
+                "title": "特殊要求審核"
+            },
+            "sequenceNumber": "序號",
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期"
+        }
+    }
+}

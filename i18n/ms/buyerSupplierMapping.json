@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "buyerSupplierMapping" : {
+            "home": {
+                "title": "Pemetaan Pembekal Pembeli",
+                "createLabel": "Mencipta Pemetaan Pembekal Pembeli",
+                "createOrEditLabel": "Mencipta atau Menyunting Pemetaan Pembekal Pembeli",
+                "search": "Pencarian Pemetaan Pembekal Pembeli"
+            },
+            "created": "Pemetaan Pembekal Pembeli baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Pemetaan Pembekal Pembeli Mapping telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Pemetaan Pembekal Pembeli telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Pemetaan Pembekal Pembeli {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Pembekal Pembeli"
+            },
+            "isActive": "Aktif",
+            "updatorId": "Pengemas Id",
+            "supplierIdentificationCode": "Kod Pengenalan Pembekal",
+            "buyerIdentificationCode": "Buyer Identification Code_MS",
+            "supplierEmail": "Supplier Email_MS",
+            "buyer": "Pembeli",
+            "supplier": "Pembekal",
+            "isContract":"Is Contract_MS"
+        }
+    }
+}

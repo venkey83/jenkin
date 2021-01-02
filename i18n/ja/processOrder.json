@@ -1,0 +1,37 @@
+{
+    "ezyprocureApp": {
+        "processOrder" : {
+            "home": {
+                "title": "Process Orders",
+                "createLabel": "Create a new Process Order",
+                "createOrEditLabel": "Create or edit a Process Order",
+                "search": "Search for Process Order"
+            },
+            "created": "A new Process Order is created with identifier {{ param }}",
+            "updated": "A Process Order is updated with identifier {{ param }}",
+            "deleted": "A Process Order is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Process Order {{ id }}?"
+            },
+            "detail": {
+                "title": "Process Order"
+            },
+            "requirementNumber":"Requirement Number",
+            "deliveryDate": "Delivery Date",
+            "quantity": "Quantity",
+            "specialRequest": "Special Request",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "supplierResponse": "Supplier Response",
+            "supplierFeedback": "Supplier Feedback",
+            "weight": "Weight",
+            "isFreeItem": "Is Free Item",
+            "price": "Price",
+            "buyerUser": "Buyer User",
+            "buyerBusiness": "Buyer Business",
+            "glCodeMappings": "Gl Code Mappings",
+            "items": "Items",
+            "pickingListPrinted":"Picking List Printed"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "buyerBusiness": {
+    "address": "Adresse",
+    "billingAddress": "Rechnungsadresse",
+    "billingPostalCode": "Postleitzahl der Abrechnung",
+    "brandName": "Markenname",
+    "businessOutletCode": "Business Outlet-Code",
+    "businessOutletLogo": "Business Outlet-Logo",
+    "businessOutletName": "Name der Geschäftsstelle",
+    "buyer": "Käufer",
+    "city": "Stadt",
+    "companyRegistrationNumber": "Handelsregisternummer",
+    "contactPersonDesignation": "Bezeichnung der Kontaktperson",
+    "contactPersonName": "Kontaktperson Name",
+    "country": "Land",
+    "created": "Ein neues Käufergeschäft wird mit dem Bezeichner {{param}} erstellt.",
+    "createdDate": "Erstellungsdatum",
+    "defaultPurchaseOrderType": "Standardbestellungsart",
+    "delete": {
+      "question": "Möchten Sie Buyer Business {{id}} wirklich löschen?"
+    },
+    "deleted": "Ein einkaufendes Unternehmen wird mit einer Kennung gelöscht {{ param }}",
+    "departmentCode": "Abteilungscode",
+    "detail": {
+      "title": "Käufergeschäft"
+    },
+    "email": "Email",
+    "home": {
+      "createLabel": "Erstellen Sie ein neues Käufergeschäft",
+      "createOrEditLabel": "Erstellen oder bearbeiten Sie ein Käufergeschäft",
+      "search": "Suche nach Buyer Business",
+      "title": "Käufer Unternehmen"
+    },
+    "locationNumber": "Standortnummer",
+    "mobileNumber": "Handynummer",
+    "modifiedDate": "Änderungsdatum",
+    "organizationNumber": "Organisationsnummer",
+    "phoneNumber": "Telefonnummer",
+    "postalCode": "Postleitzahl",
+    "shippingAddress": "Lieferanschrift",
+    "shippingPostalCode": "Versand Postleitzahl",
+    "updated": "Ein Käufergeschäft wird mit dem Bezeichner {{param}} aktualisiert."
+  }
+}

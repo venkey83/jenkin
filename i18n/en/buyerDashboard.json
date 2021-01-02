@@ -1,0 +1,24 @@
+{
+    "ezyprocureApp": {
+        "buyerDashboard" : {
+            "home": {
+                "dashboard": "Dashboard",
+                "businessSummary": "Business Summary",
+                "pendingApprovals": "Pending Approvals"
+            },
+            "waitingSupplierReply": "Waiting supplier reply",
+            "priceUpdates": "Price updates",
+            "epdApprovals": "EPD Approvals",
+            "paymentApprovals": "Payment Approvals",
+            "supplierUnableToMeetDemands": "Supplier unable to meet demands",
+            "receivingMyOrder": "Receiving my order",
+            "cancelPORequest":"Cancel PO Request",
+            "debitNotes": "Debit Notes",
+            "adhocPo":"Adhoc PO",
+            "adhocPoForm":"Adhoc PO Form",
+            "uploadYourOrder":"Upload Your Order!",
+            "uploadSalesOrder":"Upload Sales Order!",
+            "pendingInvoicesForPayment": "Pending Invoices for Payment"
+        }
+    }
+}

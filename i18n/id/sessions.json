@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "Sesi aktif untuk [<b>{{nama pengguna}}</b>]",
+        "table": {
+            "ipaddress": "Alamat IP",
+            "useragent": "Agen pengguna",
+            "date": "Tanggal",
+            "button": "Tidak valid"
+        },
+        "messages": {
+            "success": "<strong>Sesi tidak valid!</strong>",
+            "error": "<strong>Sebuah kesalahan telah terjadi!</strong> Sesi tidak dapat dibatalkan."
+        }
+    }
+}

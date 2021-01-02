@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "itemBusinessMapping" : {
+            "home": {
+                "title": "Pemetaan Item Bisnis",
+                "createLabel": "Buat Pemetaan Item Bisnis baru",
+                "createOrEditLabel": "Buat atau edit Pemetaan Item Bisnis",
+                "search": "Cari Pemetaan Item Bisnis"
+            },
+            "created": "Pemetaan Item Bisnis baru dibuat dengan Identifier {{param}}",
+            "updated": "Pemetaan Item Bisnis diperbarui dengan Identifier {{param}}",
+            "deleted": "Pemetaan Item Bisnis dihapus dengan Identifier {{param}}",
+            "delete": {
+                "question": "Apakah Anda yakin ingin menghapus Pemetaan Item Bisnis {{id}}?"
+            },
+            "detail": {
+                "title": "Pemetaan Item Bisnis"
+            },
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "supplierId": "ID Pemasok",
+            "purchaseRequestApprovalStatus": "Status Persetujuan Permintaan Pembelian",
+            "items": "Item_ID",
+            "buyerBusiness": "Bisnis Pembeli",
+            "approverId": "Id Penyetuju"
+        }
+    }
+}

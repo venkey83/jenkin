@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "glSpecificItemGroups" : {
+            "home": {
+                "title": "Kelompok Item Spesifik GL",
+                "createLabel": "Buat Kelompok Item Spesifik GL baru",
+                "createOrEditLabel": "Buat atau edit Kelompok Item Spesifik GL",
+                "search": "Cari Kelompok Item Spesifik GL"
+            },
+            "created": "Kelompok Item Spesifik GL baru dibuat dengan Identifier {{param}}",
+            "updated": "Kelompok Item Spesifik GL diperbarui dengan Identifier {{param}}",
+            "deleted": "Grup Item Spesifik GL dihapus dengan Identifier {{param}}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Grup Item Tertentu GL {{id}}?"
+            },
+            "detail": {
+                "title": "Kelompok Item Spesifik GL"
+            },
+            "name": "Nama",
+            "description": "Deskripsi",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "buyer": "Pembeli"
+        }
+    }
+}

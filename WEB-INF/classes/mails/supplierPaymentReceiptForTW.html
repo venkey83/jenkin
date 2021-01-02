@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.paymentReceipt.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.activation.greeting(${user.firstName},${user.lastName})}"> </p>
+<p th:text="#{email.paymentReceipt.content.supplier(${buyer},${batchReferrenceNo},${date})}"></p>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;">
+        <td th:text="#{email.paymentReceipt.referrenceNo}" style="width:140px"> </td>
+        <td th:text="#{email.paymentReceipt.businessOutlet}" style="width:140px"> </td>
+        <td th:text="#{email.paymentReceipt.poNumber}" style="width:140px"> </td>
+        <td th:text="#{email.paymentReceipt.amount}" style="width: 200px;"> </td>
+        <td th:text="#{email.paymentReceipt.receivedDate}" style="width: 200px;"> </td>
+    </tr>
+    <tr th:each="paymentReceipt : ${supplierPOs}">
+        <td th:text="${paymentReceipt.orderId}"></td>
+        <td th:text="${paymentReceipt.businessOutletName}"></td>
+        <td th:text="${paymentReceipt.poNumber}"></td>
+        <td th:text="${paymentReceipt.totalGRsAmount}"></td>
+        <td th:text="${paymentReceipt.receivedDateStr!=null?paymentReceipt.receivedDateStr:'N/A'}"></td>
+    </tr>
+</table>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "purchaseOrderSequence" : {
+            "home": {
+                "title": "Urutan Perintah Pembelian",
+                "createLabel": "Mencipta Urutan Perintah Pembelian Baru",
+                "createOrEditLabel": "Mencipta atau Menyunting Urutan Perintah Pembelian",
+                "search": "Pencarian Urutan Perintah Pembelian"
+            },
+            "created": "Urutan Perintah Pembelian baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Urutan Perintah Pembelian telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Urutan Perintah Pembelian telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Urutan Perintah Pembelian {{ id }}?"
+            },
+            "detail": {
+                "title": "Urutan Perintah Pembelian"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "sequence": "Urutan",
+            "buyer": "Pembeli"
+        }
+    }
+}

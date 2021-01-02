@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity OrderTemplateUserMapping.
+    -->
+    <changeSet id="20181130054521-2" author="jhipster">
+        <comment> Foreign Keys for order_template_user_mapping</comment>
+        <addForeignKeyConstraint baseColumnNames="buyer_user_id"
+                                 baseTableName="order_template_user_mapping"
+                                 constraintName="fk_order_template_user_mapping_buyer_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="buyer_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="order_template_id"
+                                 baseTableName="order_template_user_mapping"
+                                 constraintName="fk_order_template_user_mapping_order_template_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="order_template"/>
+
+    </changeSet>
+
+    <changeSet id="20181130054521-3" author="jhipster">
+        <comment> Unique Constraints template_buyer_user, default_template_per_buyer_user</comment>
+        <addUniqueConstraint columnNames="order_template_id, buyer_user_id, deleted"
+                             constraintName="template_buyer_user"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="order_template_user_mapping"/>
+        <addUniqueConstraint columnNames="buyer_user_id, default_status, deleted"
+                             constraintName="default_template_per_buyer_user"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="order_template_user_mapping"/>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,11 @@
+{
+    "ezyprocureApp": {
+        "PaymentApprovalStatus" : {
+            "null": "",
+            "PENDING": "YANG BELUM SELESAI",
+            "APPROVED": "DILULUSKAN",
+            "REJECTED": "DITOLAK",
+            "NA": "NA_MS"
+        }
+    }
+}

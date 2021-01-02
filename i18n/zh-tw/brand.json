@@ -1,0 +1,32 @@
+{
+    "ezyprocureApp": {
+        "brand" : {
+            "home": {
+                "title": "商家公司",
+                "createLabel": "新增商家公司",
+                "createOrEditLabel": "編輯商家公司"
+            },
+            "created": "新增商家公司編碼 {{ param }}",
+            "updated": "更新商家公司編碼 {{ param }}",
+            "deleted": "刪除商家公司編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪除商家公司？"
+            },
+            "detail": {
+                "title": "商家公司"
+            },
+            "acraNumber": "Acra Number_TW",
+            "businessServiceRate": "Business Service Rate_TW",
+            "deletionToken": "Deletion Token_TW",
+            "createdDate": "建立日期",
+            "modifiedDate": "修改日期",
+            "buyer": "商家",
+            "contactPersonName": "聯絡人",
+            "contactPersonDesignation": "聯絡人職稱",
+            "phone": "電話",
+            "tax": "稅金",
+            "gstRegNo": "統一編號",
+            "name": "名稱"
+        }
+    }
+}

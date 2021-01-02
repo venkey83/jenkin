@@ -1,0 +1,26 @@
+{
+    "ezyprocureApp": {
+        "purchaseOrderTypes" : {
+            "home": {
+                "title": "採購訂單類型",
+                "createLabel": "新增採購訂單類型",
+                "createOrEditLabel": "編輯採購訂單類型",
+                "search": "查詢採購訂單類型"
+            },
+            "created": "新增採購訂單類型編碼 {{ param }}",
+            "updated": "更新採購訂單類型編碼 {{ param }}",
+            "deleted": "刪除採購訂單類型編碼 {{ param }}",
+            "delete": {
+                "question": "{{ id }} 是否要刪購採購訂單類型？"
+            },
+            "detail": {
+                "title": "採購訂單類型"
+            },
+            "name": "名稱",
+            "code": "代碼",
+            "description": "內容",
+            "createdDate": "建位日期",
+            "modifiedDate": "修改日期"
+        }
+    }
+}

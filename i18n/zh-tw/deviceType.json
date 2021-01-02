@@ -1,0 +1,10 @@
+{
+    "ezyprocureApp": {
+        "DeviceType" : {
+            "null": "",
+            "ANDROID": "安卓系統",
+            "IOS": "蘋果系統",
+            "WEB": "電腦版"
+        }
+    }
+}

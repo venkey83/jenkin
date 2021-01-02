@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="mysql,h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="now" value="sysdate" dbms="oracle"/>
+
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle"/>
+
+    <!--
+        Added the entity UserAccess.
+    -->
+    <changeSet id="20161227054416-1" author="jhipster">
+        <createTable tableName="user_access">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="access_for_reports" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_sms" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_approvals" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_email_service" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_invoice" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_master" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_invite_supplier" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_promotion" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_item_approval" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_budget_approval" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_budget_limited" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_adhoc_po" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_auto_ordering_approval" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_tools" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_status" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_buyer_only" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="access_for_consignment" type="bit">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="created_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="modified_date" type="timestamp">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="deleted" type="bit">
+                <constraints nullable="false" />
+            </column>
+                        <column name="user_id" type="bigint">
+                <constraints unique="true" nullable="true" />
+            </column>
+            <column name="user_roles_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="user_access" columnName="created_date" columnDataType="datetime"/>
+        <dropDefaultValue tableName="user_access" columnName="modified_date" columnDataType="datetime"/>
+
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-2">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_adhoc_invoice" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-3">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_manage_buyer" type="bit"/>
+        </addColumn>
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_manage_supplier" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-4">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_cancel_po" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-5">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_goods_return_notice" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-6">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_ocr" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-7">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_gl_code_management" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-8">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_gl_module" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-9">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_price_update" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-10">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_ocr_staff_interface" type="bit"/>
+        </addColumn>
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_ocr_collection_staff_interface" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-11">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_view_item_price" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-12">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_price_display" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-13">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_price_update_approval" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-14">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_approver" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-15">
+        <addColumn
+            tableName="user_access">
+            <column name="ax_integrate_access" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-16">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_ax_integration" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-17">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_grn_editable" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-18">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_business_charts" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-20">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_geo_export" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-21">
+        <dropColumn columnName="ax_integrate_access"
+                    tableName="user_access"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-22">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_adhoc_tools" type="bit"/>
+        </addColumn>
+    </changeSet>
+<changeSet author="jhipster" id="20161227054416-23">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_xero" type="bit"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-24">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_gr_mandatory" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-25">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_editing_pending_invoice" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-26">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_central_purchase" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-27">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_cp_mpgs_admin" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-28">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_cp_mpgs" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-29">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_pay_via_uobvps" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-30">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_picking_list" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20161227054416-31">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_manage_approval_level" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180504180216-32">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_quick_books_export" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180507113516-33">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_agh_item_change" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180604172116-34">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_mass_invoice_generation" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180627172116-35">
+         <addColumn
+             tableName="user_access">
+            <column name="access_for_receiving_order" type="bit" defaultValueComputed="false"/>
+         </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180507113516-35">
+        <renameColumn columnDataType="bit"
+                      newColumnName="access_for_payment_admin"
+                      oldColumnName="access_for_cp_mpgs_admin"
+                      tableName="user_access"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20180627172116-36">
+        <dropColumn
+            columnName="access_for_receiving_order"
+            tableName="user_access">
+        </dropColumn>
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_receiving_order" type="bit" defaultValueComputed="true"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180802124916-37">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_no_deviation_approval" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180802104200-37" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_item_buyer_mapping" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180802104200-38" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_payment_approval" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180802104200-39" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_upload_sales_order" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180917154500-40" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_skip_hard_copy_invoice_number" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20180919172600-41" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_mass_process_order" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180920154600-42">
+        <dropColumn columnName="access_for_skip_hard_copy_invoice_number"
+                    tableName="user_access"/>
+    </changeSet>
+    <changeSet author="jhipster" id="20180920153900-43">
+        <addColumn tableName="user_access">
+            <column name="access_for_mandatory_hard_copy_invoice_number" type="bit" defaultValueComputed="true"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180924124916-40">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_available_quantity" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180924124916-41">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_skip_pr_approval" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180924124916-42">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_export_to_acc_pac" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180924124916-43">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_export_to_myob" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20180924124916-44">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_contracted_suppliers" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="jhipster" id="20181206134416-45">
+        <comment>access control field to enable user for managing order template</comment>
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_manage_order_template" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet author="jhipster" id="20180924124916-46">
+        <addColumn
+            tableName="user_access">
+            <column name="access_for_adhoc_discount" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20190107183100-47" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_jurnal_export" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20190108093100-48" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_ezyprocure" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20190116165900-49" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_sftp" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20190117124300-50" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_sats" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20161227054416-51" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_peppol" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20161227054416-52" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_supplier_unable_to_meet_demands" type="bit" defaultValueComputed="true"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190319054416-52" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_ezysource" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190319054416-53" author="jhipster">
+    <addColumn tableName="user_access">
+        <column name="access_for_mass_accept_ocr" type="bit" defaultValueComputed="false"></column>
+    </addColumn>
+    </changeSet>
+    <changeSet id="20190430124416-54" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_instant_po" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190430124416-55" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_ocr_grn_edit" type="bit" defaultValueComputed="false"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190430124416-56" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_quick_books_line_export" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190430124416-57" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_million_export" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190430124416-58" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_ap_export" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190924104816-59" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_ocr_po_qty_price" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190924104816-60" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_whatsapp_po" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20190924104816-61" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_oci_export" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="201911221109-62" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_stock_transfer" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="202002121617-63" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_ezyinventory" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="202003091345-64" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_disableaudit_nonadmin" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="202003200245-65" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_edit_pr_item_price" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="202004232018-66" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_checkout_payment" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="202006181500-67" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="payment_otp_enabled" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20200623114500-67" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_barcode_search" type="bit" defaultValueComputed="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="202008071515-68" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_only_ezyap" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="202008251013-69" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_manage_adhoc" type="boolean" defaultValueBoolean="true"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="202009171431-70" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_amend_grn_delivery_date" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20201008114100-71" author="jhipster">
+        <addColumn tableName="user_access">
+        <column name="access_for_gr_add_buffer" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20201022152300-72" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_sage_export" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20201022152300-73" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_mandatory_grn" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20201022152300-74" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_buynow_compact_layout" type="boolean" defaultValueBoolean="false"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="20201124102400-01" author="jhipster">
+        <addColumn tableName="user_access">
+            <column name="access_for_cancel_pr" type="boolean" defaultValueBoolean="true"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

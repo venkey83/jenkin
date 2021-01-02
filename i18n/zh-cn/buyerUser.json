@@ -1,0 +1,35 @@
+{
+    "ezyprocureApp": {
+        "buyerUser" : {
+            "home": {
+                "title": "买家用户",
+                "createLabel": "创建一个新的买家用户",
+                "editLabel": "修改一个买家用户",
+                "search": "查找买家用户"
+            },
+            "created": "一个标识为{{ param }}的新的买家用户被创建了",
+            "updated": "一个标识为{{ param }}的买家用户被更新了",
+            "deleted": "一个标识为{{ param }}的买家用户被删除了",
+            "delete": {
+                "question": "你确定要删除标识为 {{ id }} 的买家用户么?"
+            },
+            "detail": {
+                "title": "买家用户"
+            },
+            "parentId": "主键",
+            "createdDate": "创建日期",
+            "budget": "预算",
+            "secondaryEmail": "备用电子邮件",
+            "favoriteView": "查看收藏商品",
+            "budgetForAutoOrder": "自动订单预算",
+            "phoneNumber": "电话号码",
+            "mobileNumber": "手机号码",
+            "minAmount": "Min Amount_CH",
+            "maxAmount": "Max Amount_CH",
+            "level": "Level_CH",
+            "user": "用户",
+            "buyer": "买家",
+            "userRoles": "用户角色"
+        }
+    }
+}

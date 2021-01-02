@@ -1,0 +1,27 @@
+{
+    "ezyprocureApp": {
+        "countryCurrency" : {
+            "home": {
+                "title": "CountryCurrencies",
+                "createLabel": "Country Currency を追加",
+                "createOrEditLabel": "Country Currencyを追加または編集"
+            },
+            "created": "A new Country Currency is created with identifier {{ param }}",
+            "updated": "A Country Currency is updated with identifier {{ param }}",
+            "deleted": "A Country Currency is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Country Currency {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Country Currency"
+            },
+            "currency": "Currency",
+            "currencyCode": "Currency Code",
+            "country": "Country",
+            "countryCode": "Country Code",
+            "deletionToken": "Deletion Token",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date"
+        }
+    }
+}

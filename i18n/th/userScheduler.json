@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "userScheduler": {
+      "home": {
+        "title": "User Schedulers",
+        "createLabel": "สร้าง User Scheduler",
+        "createOrEditLabel": "สร้างหรือแก้ไข User Scheduler",
+        "notFound": "No User Schedulers found"
+      },
+      "created": "User Scheduler ถูกสร้างด้วย {{ param }}",
+      "updated": "User Scheduler ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "User Scheduler ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ User Scheduler {{ id }}?"
+      },
+      "detail": {
+        "title": "User Scheduler"
+      },
+      "masterUserId": "Master User Id",
+      "companyType": "Company Type",
+      "userType": "User Type",
+      "status": "Status",
+      "createdDate": "Created Date",
+      "modifiedDate": "Modified Date",
+      "count": "Count"
+    }
+  }
+}

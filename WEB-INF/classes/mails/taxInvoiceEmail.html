@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div th:if="${currency=='MYR'}">
+        <title  th:text="#{email.taxInvoiceEmail.title.my}"></title>
+    </div>
+    <div th:if="${currency!='MYR'}">
+        <title  th:text="#{email.taxInvoiceEmail.title}"></title>
+    </div>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.taxInvoiceEmail.greeting(${user.firstName},${user.lastName})}"></p>
+
+<div th:if="${currency=='MYR'}">
+    <p th:text="#{email.taxInvoiceEmail.text.my(${referenceNumber},${date})}"></p>
+</div>
+<div th:if="${currency!='MYR'}">
+    <p th:text="#{email.taxInvoiceEmail.text(${referenceNumber},${date})}"></p>
+</div>
+<div th:if="${taxInvoiceDTO!=null}">
+    <p th:text="#{email.taxInvoiceEmail.customerBillinAddress(${taxInvoiceDTO.customerBillingAddress})}"></p>
+    <p th:text="#{email.taxInvoiceEmail.taxInvoiceNumber(${taxInvoiceDTO.batchPaymentReferenceNumber})}"></p>
+    <p th:text="#{email.taxInvoiceEmail.invoiceDate(${taxInvoiceDTO.invoiceDate})}"></p>
+    <p th:text="#{email.taxInvoiceEmail.currency(${taxInvoiceDTO.currency})}"></p>
+    <p th:text="#{email.taxInvoiceEmail.taxInvoiceDetails}"></p>
+    <table th:if="${!taxInvoiceDTO.invoiceDetails.isEmpty()}">
+        <tr style="background: #000000 ; color:#ffffff ; font-size: 12px; text-align:center ">
+            <td th:text="#{email.taxInvoiceEmail.referenceNumber}" style="width:200px" />
+            <td th:text="#{email.taxInvoiceEmail.description}" style="width:100px" />
+            <td th:text="#{email.taxInvoiceEmail.quantity}" style="width:100px" />
+            <td th:text="#{email.taxInvoiceEmail.unitPrice}" style="width:100px" />
+            <td th:text="#{email.taxInvoiceEmail.net}" style="width:100px" />
+            <td th:text="#{email.taxInvoiceEmail.gst}" style="width:100px" />
+            <td th:text="#{email.taxInvoiceEmail.gross}" style="width:100px" />
+        </tr>
+        <tr th:each="invoice:${taxInvoiceDTO.invoiceDetails}" style="text-align:center">
+            <td th:text="${invoice.referenceNumber}"/>
+            <td th:text="${invoice.description}"/>
+            <td th:text="${invoice.quantity}"/>
+            <td th:text="${invoice.unitPrice}"/>
+            <td th:text="${invoice.net}"/>
+            <td th:text="${new java.text.DecimalFormat('#,##0.00').format(invoice.gst)}"/>
+            <td th:text="${new java.text.DecimalFormat('#,##0.00').format(invoice.gross)}"/>
+        </tr>
+    </table>
+</div>
+<div lang="en" th:replace="fragments/footer :: ${footer}"></div>
+</body>
+</html>

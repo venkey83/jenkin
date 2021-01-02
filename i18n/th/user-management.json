@@ -1,0 +1,36 @@
+{
+    "userManagement": {
+        "home": {
+            "title": "ผู้ใช้งาน",
+            "createLabel": "สร้างผู้ใช้งานใหม่",
+            "createOrEditLabel": "สร้างหรือแก้ไขผู้ใช้งาน"
+        },
+        "created": "ผู้ใช้งานใหม่ได้ถูกสร้างขึ้นด้วยค่าที่ระบุ {{ param }}",
+        "updated": "ผู้ใช้งานได้ถูกบันทึกด้วยค่าที่ระบุ {{ param }}",
+        "deleted": "ผู้ใช้งานได้ถูกลบด้วยค่าที่ระบุ {{ param }}",
+        "delete": {
+            "question": "คุณต้องการลบแผนที่ผู้ใช้งานใช่หรือไม่ {{ login }}?"
+        },
+        "detail": {
+            "title": "ผู้ใช้งาน"
+        },
+        "userType": "ประเภทผู้ใช้งาน",
+        "login": "เข้าสู่ระบบ",
+        "name": "ชื่อ",
+        "username": "ชื่อผู้ใช้",
+        "firstName": "ชื่อ",
+        "lastName": "นามสกุล",
+        "role": "บทบาท",
+        "email": "อีเมล",
+        "activated": "เปิดใช้งาน",
+        "deactivated": "ยกเลิกการใช้งาน",
+        "profiles": "ข้อมูลส่วนตัว",
+        "langKey": "ภาษา",
+        "createdBy": "จัดทำโดย",
+        "createdDate": "วันที่สร้าง",
+        "lastModifiedBy": "แก้ไขโดย",
+        "lastModifiedDate": "วันที่แก้ไข",
+        "employeeId":"รหัสพนักงาน",
+        "contactName": "Contact Name_TH"
+    }
+}

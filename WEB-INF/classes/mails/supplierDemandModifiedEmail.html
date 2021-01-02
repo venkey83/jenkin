@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title th:text="#{email.supplierdemandmodified.title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="#{email.supplierdemandmodified.greeting(${buyerFirstName},${buyerLastName})}">
+</p>
+<p th:text="#{email.supplierdemandmodified.text(${companyName},${requirementNumber})}"></p>
+<table>
+    <tr style="background: #000000 ; color:#ffffff ; font-size: 12px;">
+        <td th:text="#{email.supplierdemandmodified.item}" style="width: 100px;"> </td>
+        <td th:text="#{email.supplierdemandmodified.quantity}" style="width:100px"> </td>
+        <td th:text="#{email.supplierdemandmodified.responsequantity}" style="width:100px"> </td>
+        <td th:text="#{email.supplierdemandmodified.price}" style="width:200px"> </td>
+        <td th:text="#{email.supplierdemandmodified.deliverydate}" style="width:200px"> </td>
+        <td th:text="#{email.supplierdemandmodified.responsedeliverydate}" style="width:200px"> </td>
+    </tr>
+    <tr th:each="processOrderNotificationDTO : ${processOrderNotificationDTOS}">
+        <td th:text="${processOrderNotificationDTO.itemName}"> </td>
+        <td th:text="${processOrderNotificationDTO.orderedQuantity}"> </td>
+        <td th:text="${processOrderNotificationDTO.splittedQuantity}"> </td>
+        <td th:text="${processOrderNotificationDTO.freeItem}? #{email.checkoutemail.freeItem} : ${#numbers.formatDecimal(processOrderNotificationDTO.itemPrice, 0, 2)}"> </td>
+        <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(processOrderNotificationDTO.deliveryDate)}"></td>
+        <td th:text="${T(com.sgebiz.ezyprocure.webapp.service.util.CommonUtil).formatToSGT(processOrderNotificationDTO.changedDeliveryDate)}"></td>
+    </tr>
+</table>
+<div lang="en" th:replace="fragments/footer :: ${footer}"> </div>
+</body>
+</html>

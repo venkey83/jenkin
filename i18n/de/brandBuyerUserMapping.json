@@ -1,0 +1,29 @@
+{
+  "ezyprocureApp": {
+    "brandBuyerUserMapping": {
+      "approvalLevel": "Genehmigungsstufe",
+      "brand": "Marke",
+      "buyerUser": "Käufer Benutzer",
+      "created": "Ein neues Brand Buyer User Mapping wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie das Brand Buyer User Mapping {{id}} wirklich löschen?"
+      },
+      "deleted": "Eine Korrespondenz zwischen dem Benutzer und dem Käufer wird mit der Kennung gelöscht {{ param }}",
+      "detail": {
+        "title": "Brand Buyer User Mapping"
+      },
+      "home": {
+        "createLabel": "Erstellen Sie ein neues Brand Buyer User Mapping",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie ein Brand Buyer User Mapping",
+        "search": "Suchen Sie nach Brand Buyer User Mapping",
+        "title": "Brand Buyer User Mappings"
+      },
+      "lastLevel": "Letztes Level",
+      "maximumAmount": "Höchstbetrag",
+      "minimumAmount": "Mindestbetrag",
+      "modifiedDate": "Änderungsdatum",
+      "updated": "Ein Brand Buyer User Mapping wird mit dem Bezeichner {{param}} aktualisiert"
+    }
+  }
+}

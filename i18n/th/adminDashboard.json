@@ -1,0 +1,15 @@
+{
+    "ezyprocureApp": {
+        "adminDashboard" : {
+            "home": {
+                "dashboard": "ข้อมูลและภาพรวม"
+            },
+            "allPO": "จำนวนใบสั่งซื้อทั้งหมด",
+            "totalBuyers": "จำนวนผู้จัดซื้อ",
+            "totalSuppliers": "จำนวนผู้จัดจำหน่าย",
+            "totalInvoices": "จำนวนใบกำกับสินค้า",
+            "totalTransactionVolume": "ผลรวมปริมาณการทำธุรกรรม",
+            "paymentTransactionVolume": "Payment Transaction Volume_TH"
+        }
+    }
+}

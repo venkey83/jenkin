@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity OrderTemplateItemMapping.
+    -->
+    <changeSet id="20181129060545-2" author="jhipster">
+        <comment>Add Foreign Key Constraints order_template_item_mapping</comment>
+        <addForeignKeyConstraint baseColumnNames="items_id"
+                                 baseTableName="order_template_item_mapping"
+                                 constraintName="fk_order_template_item_mapping_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+
+        <addForeignKeyConstraint baseColumnNames="order_template_id"
+                                 baseTableName="order_template_item_mapping"
+                                 constraintName="fk_order_template_item_mapping_order_template_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="order_template"/>
+
+    </changeSet>
+
+    <changeSet id="20181129060545-3" author="jhipster">
+        <comment> Unique Constraints item_per_order_template</comment>
+        <addUniqueConstraint columnNames="items_id, order_template_id, deleted"
+                             constraintName="item_per_order_template"
+                             deferrable="false"
+                             disabled="false"
+                             initiallyDeferred="false"
+                             tableName="order_template_item_mapping"/>
+    </changeSet>
+
+</databaseChangeLog>

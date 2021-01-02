@@ -1,0 +1,29 @@
+
+{
+    "ezyprocureApp": {
+        "orderTemplate" : {
+            "home": {
+                "title": "Order Templates",
+                "createLabel": "建立一筆新的 Order Template",
+                "createOrEditLabel": "建立或編輯 Order Template"
+            },
+            "created": "新的 Order Template 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Order Template 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Order Template 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Order Template {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "固定叫貨清單"
+            },
+            "name": "Name",
+            "createdDate": "Created Date",
+            "modifiedDate": "Modified Date",
+            "createdBy": "Created By",
+            "modifiedBy": "Modified By",
+            "company": "Company",
+            "buyerBusiness": "Buyer Business",
+            "purchaseOrderType": "Purchase Order Type"
+        }
+    }
+}

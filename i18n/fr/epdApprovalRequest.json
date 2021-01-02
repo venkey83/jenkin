@@ -1,0 +1,33 @@
+{
+  "ezyprocureApp": {
+    "epdApprovalRequest": {
+      "acceptedBuyerUser": "Utilisateur acheteur accepté",
+      "brand": "Marque",
+      "buyerResponse": "Réponse de l'acheteur",
+      "created": "Une nouvelle demande d'approbation Epd est créée avec l'identifiant {{param}}",
+      "createdDate": "Date de création",
+      "creditTerms": "Conditions de crédit",
+      "delete": {
+        "question": "Voulez-vous vraiment supprimer la demande d'approbation Epd {{id}}?"
+      },
+      "deleted": "Une demande d'approbation Epd est supprimée avec l'identifiant {{param}}",
+      "deletionToken": "Jeton de suppression",
+      "detail": {
+        "title": "Demande d'approbation EPD"
+      },
+      "earlyPaymentDiscountRate": "Taux d'escompte pour paiement anticipé",
+      "epdApprovalSequenceNumber": "Numéro de séquence d'approbation EPD",
+      "epdApprovalStatus": "Statut d'approbation EPD",
+      "home": {
+        "createLabel": "Créer une nouvelle demande d'approbation Epd",
+        "createOrEditLabel": "Créer ou modifier une demande d'approbation Epd",
+        "search": "Recherche de demande d'approbation Epd",
+        "title": "Demandes d'approbation EPD"
+      },
+      "modifiedDate": "Date modifiée",
+      "requestedSupplierUser": "Utilisateur fournisseur demandé",
+      "supplier": "Fournisseur",
+      "updated": "Une demande d'approbation Epd est mise à jour avec l'identifiant {{param}}"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "ezyprocureApp": {
+        "merchantDetails" : {
+            "home": {
+                "title": "Butiran Penjual",
+                "createLabel": "Mencipta Butiran Penjual",
+                "createOrEditLabel": "Mencipta atau Menyunting Butiran Penjual",
+                "search": "Pencarian Butiran Penjual"
+            },
+            "created": "Butiran Penjual baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Butiran Penjual telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Butiran Penjual telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Butiran Penjual {{ id }}?"
+            },
+            "detail": {
+                "title": "Butiran Penjual"
+            },
+            "merchantId": "ID Butiran Penjual",
+            "userId": "ID Pengguna",
+            "password": "Kata Laluan",
+            "requestedUrl": "Url yang diminta",
+            "gateWayType": "Jenis Gateway",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "deletionToken": "Token Pemadaman",
+            "brand": "Jenama",
+            "countryCurrency": "Mata Wang Negara",
+            "supplierId": "Supplier Id_MS",
+            "transactionId": "TransactionId Id_MS",
+            "securityId": "Security Id_MS"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "ezyprocureApp": {
+        "auditlogStatus" : {
+            "PENDING":"待處理",
+            "SUPPLIER_APPROVED":"供應商審核",
+            "PROCESSED":"已處理",
+            "REQUIREMENT_PENDING_PO":"待處理需求訂單",
+            "SUPPLIER_UNABLE_TO_MEET_DEMANDS":"供應商無法符合要求",
+            "SUPPLIER_DEMAND_MODIFIED":"供應商修改需求",
+            "BUYER_REJECTED":"BUYER_REJECTED_TW",
+            "Rejected":"REJECTED_TW",
+            "PENDING_CANCELLATION":"PENDING_CANCELLATION_TW",
+            "PO_CANCELLED":"PO_CANCELLED_TW",
+            "APPROVED":"已審核",
+            "ADHOC_PO_OFF_BOARD":"ADHOC_PO_OFF_BOARD_TW",
+            "BUYER_APPROVED":"BUYER_APPROVED_TW",
+            "SUPPLIER_REJECTED_PR":"SUPPLIER_REJECTED_PR_TW",
+            "CREDIT_NOTE_PENDING":"CREDIT_NOTE_PENDING_TW",
+            "CREDIT_NOTE_GENERATED":"CREDIT_NOTE_GENERATED_TW",
+            "CREDIT_NOTE_REJECTED":"折讓單已拒絕",
+            "BUYER_CANCELLED_PR":"商家取消訂單",
+            "PENDING_APPROVAL":"PENDING_APPROVAL_TW",
+            "EXPORT-FAILED":"EXPORT-FAILED_TW",
+            "EXPORT-SUCCESS":"EXPORT-SUCCESS_TW",
+            "CREATED":"CREATED_TW",
+            "MODIFIED":"MODIFIED_TW",
+            "USER_MAPPING":"USER_MAPPING_TW",
+            "DEFAULT_TEMPLATE":"DEFAULT_TEMPLATE_TW",
+            "USER_UNMAPPING":"USER_UNMAPPING_TW",
+            "DELETED":"DELETED_TW",
+            "FAILED":"FAILED_TW",
+            "UPDATED":"UPDATED_TW",
+            "SUCCESS":"SUCCESS_TW",
+            "REQUESTED_FOR_REPOST":"REQUESTED_FOR_REPOST_TW",
+            "PAID": "PAID_TW",
+            "UNPAID": "UNPAID_TW",
+            "VOID": "VOID_TW",
+            "CANCELLED": "CANCELLED_TW",
+            "DUPLICATED": "DUPLICATED_TW",
+            "EXTERNAL_PAYMENT_PROCESSED": "EXTERNAL_PAYMENT_PROCESSED_TW"
+        }
+    }
+}

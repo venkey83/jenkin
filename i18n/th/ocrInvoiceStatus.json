@@ -1,0 +1,18 @@
+{
+    "ezyprocureApp": {
+        "OcrInvoiceStatus" : {
+            "null": "",
+            "ACCEPTED": "ยอมรับ",
+            "ADDED": "เพิ่ม",
+            "AMOUNT_MATCH": "จำนวนตรงกัน",
+            "AMOUNT_MISMATCH": "จำนวนไม่ตรงกัน",
+            "INVALID_IMAGE": "ภาพที่ไม่ถูกต้อง",
+            "NO_INVOICE_UPLOADED": "ไม่มีใบกำกับสินค้าถูกอัพโหลด",
+            "OCR_ERROR": "ความผิดพลาดของโอซีอาร์",
+            "REJECTED": "ปฏิเสธ",
+            "PROCESSING": "การประมวลผล",
+            "INVALID_INVOICE_FILE": "ไฟล์ใบกำกับสินค้าไม่ถูกต้อง",
+            "PENDING": "Pending_TH"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "ezyprocureApp": {
+        "releaseTracker" : {
+            "home": {
+                "title": "Tracker Pelepas",
+                "createLabel": "Mencipta Tracker Pelepas baru",
+                "createOrEditLabel": "Mencipta atau Menyunting Tracker Pelepas baru"
+            },
+            "created": "Tracker Pelepas baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Tracker Pelepas telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Tracker Pelepas telah dikemas kini dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Tracker Pelepas {{ id }}?"
+            },
+            "detail": {
+                "title": "Tracker Pelepas"
+            },
+            "deviceType": "Jenis Alat",
+            "version": "Versi",
+            "createdDate": "Tarikh Dicipta"
+        }
+    }
+}

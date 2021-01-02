@@ -1,0 +1,10 @@
+{
+  "ezyprocureApp": {
+    "FileUpdateStatus": {
+      "FAILED": "ÉCHOUÉ",
+      "PENDING": "EN ATTENTE",
+      "PROCESSED": "TRAITÉ",
+      "null": ""
+    }
+  }
+}

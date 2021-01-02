@@ -1,0 +1,470 @@
+[{
+    "fieldId": "recordtype",
+    "type": "text",
+    "position": 1,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "defaultValue": 2
+},{
+    "fieldId": "paymentType",
+    "type": "text",
+    "position": 2,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "defaultValue": "TT"
+},{
+    "fieldId": "paymentCurrency",
+    "type": "text",
+    "position": 5,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "paymentAmount",
+    "type": "text",
+    "position": 8,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "valueDate",
+    "type": "text",
+    "position": 23,
+    "length": 8,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "paymentDetailLine1",
+    "type": "text",
+    "position": 31,
+    "length": 35,
+    "mandatoryFlag": "C",
+    "defaultValue": ""
+},{
+    "fieldId": "paymentDetailLine2",
+    "type": "text",
+    "position": 66,
+    "length": 35,
+    "mandatoryFlag": "C",
+    "defaultValue": ""
+},{
+    "fieldId": "paymentDetailLine3",
+    "type": "text",
+    "position": 101,
+    "length": 35,
+    "mandatoryFlag": "C",
+    "defaultValue": ""
+},{
+    "fieldId": "paymentDetailLine4",
+    "type": "text",
+    "position": 136,
+    "length": 35,
+    "mandatoryFlag": "C",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryNameAndAddress1",
+    "type": "text",
+    "position": 171,
+    "length": 35,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "filler1",
+    "type": "text",
+    "position": 206,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler2",
+    "type": "text",
+    "position": 241,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryNameAndAddress2",
+    "type": "text",
+    "position": 276,
+    "length": 35,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryNameAndAddress3",
+    "type": "text",
+    "position": 311,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryNameAndAddress4",
+    "type": "text",
+    "position": 346,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler3",
+    "type": "text",
+    "position": 381,
+    "length": 15,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryCountryCode",
+    "type": "text",
+    "position": 396,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "filler4",
+    "type": "text",
+    "position": 399,
+    "length": 3,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryAccountNo",
+    "type": "text",
+    "position": 402,
+    "length": 34,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankNameAndAddress1",
+    "type": "text",
+    "position": 436,
+    "length": 35,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankNameAndAddress2",
+    "type": "text",
+    "position": 471,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankNameAndAddress3",
+    "type": "text",
+    "position": 506,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankNameAndAddress4",
+    "type": "text",
+    "position": 541,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankCountryCode",
+    "type": "text",
+    "position": 576,
+    "length": 3,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler5",
+    "type": "text",
+    "position": 579,
+    "length": 3,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankSwiftCode",
+    "type": "text",
+    "position": 582,
+    "length": 12,
+    "mandatoryFlag": "Y",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankClearingCode",
+    "type": "text",
+    "position": 594,
+    "length": 30,
+    "mandatoryFlag": "C",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryBankClearingCodeType",
+    "type": "text",
+    "position": 624,
+    "length": 4,
+    "mandatoryFlag": "C",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankNameAndAddress1",
+    "type": "text",
+    "position": 628,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankNameAndAddress2",
+    "type": "text",
+    "position": 663,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankNameAndAddress3",
+    "type": "text",
+    "position": 698,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankNameAndAddress4",
+    "type": "text",
+    "position": 733,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankCountryCode",
+    "type": "text",
+    "position": 768,
+    "length": 3,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler6",
+    "type": "text",
+    "position": 771,
+    "length": 3,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankSwiftCode",
+    "type": "text",
+    "position": 774,
+    "length": 12,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankClearingCode",
+    "type": "text",
+    "position": 786,
+    "length": 30,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "intermediaryBankClearingCodeType",
+    "type": "text",
+    "position": 816,
+    "length": 4,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "senderToReceiverInfoLine1",
+    "type": "text",
+    "position": 820,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "senderToReceiverInfoLine2",
+    "type": "text",
+    "position": 855,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "senderToReceiverInfoLine3",
+    "type": "text",
+    "position": 890,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "senderToReceiverInfoLine4",
+    "type": "text",
+    "position": 925,
+    "length": 35,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "partyBearingBankCharges",
+    "type": "text",
+    "position": 960,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "defaultValue": "SHA"
+},{
+    "fieldId": "debitingAccountNo",
+    "type": "text",
+    "position": 963,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000004519092586"
+},{
+    "fieldId": "debitingAccountCurrency",
+    "type": "text",
+    "position": 983,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "defaultValue": "USD"
+},{
+    "fieldId": "fXContractReference1",
+    "type": "text",
+    "position": 986,
+    "length": 20,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler7",
+    "type": "text",
+    "position": 1006,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000000000000000"
+},{
+    "fieldId": "fXContractUtilizationAmount1",
+    "type": "text",
+    "position": 1026,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": "000000000000000"
+},{
+    "fieldId": "fXContractReference2",
+    "type": "text",
+    "position": 1041,
+    "length": 20,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler8",
+    "type": "text",
+    "position": 1061,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000000000000000"
+},{
+    "fieldId": "fXContractUtilizationAmount2",
+    "type": "text",
+    "position": 1081,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": "000000000000000"
+},{
+    "fieldId": "fXContractReference3",
+    "type": "text",
+    "position": 1096,
+    "length": 20,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler9",
+    "type": "text",
+    "position": 1116,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000000000000000"
+},{
+    "fieldId": "fXContractUtilizationAmount3",
+    "type": "text",
+    "position": 1136,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": "000000000000000"
+},{
+    "fieldId": "fXContractReference4",
+    "type": "text",
+    "position": 1151,
+    "length": 20,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler10",
+    "type": "text",
+    "position": 1171,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000000000000000"
+},{
+    "fieldId": "fXContractUtilizationAmount4",
+    "type": "text",
+    "position": 1191,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": "000000000000000"
+},{
+    "fieldId": "fXContractReference5",
+    "type": "text",
+    "position": 1206,
+    "length": 20,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler11",
+    "type": "text",
+    "position": 1226,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000000000000000"
+},{
+    "fieldId": "fXContractUtilizationAmount5",
+    "type": "text",
+    "position": 1246,
+    "length": 15,
+    "mandatoryFlag": "Y",
+    "defaultValue": "000000000000000"
+},{
+    "fieldId": "debitingAccountNoForCharges",
+    "type": "text",
+    "position": 1261,
+    "length": 20,
+    "mandatoryFlag": "Y",
+    "defaultValue": "00000000004519092586"
+},{
+    "fieldId": "debitingAccountCurrencyForCharges",
+    "type": "text",
+    "position": 1281,
+    "length": 3,
+    "mandatoryFlag": "Y",
+    "defaultValue": "USD"
+},{
+    "fieldId": "filler12",
+    "type": "text",
+    "position": 1284,
+    "length": 212,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "paymentAdviceIndicator",
+    "type": "text",
+    "position": 1496,
+    "length": 1,
+    "mandatoryFlag": "Y",
+    "defaultValue": "N"
+},{
+    "fieldId": "deliveryMode",
+    "type": "text",
+    "position": 1497,
+    "length": 1,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "adviceFormat",
+    "type": "text",
+    "position": 1498,
+    "length": 1,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "beneficiaryID",
+    "type": "text",
+    "position": 1499,
+    "length": 20,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+},{
+    "fieldId": "filler13",
+    "type": "text",
+    "position": 1519,
+    "length": 282,
+    "mandatoryFlag": "N",
+    "defaultValue": ""
+}]

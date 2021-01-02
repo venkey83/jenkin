@@ -1,0 +1,28 @@
+{
+    "ezyprocureApp": {
+        "buyerAdhocItems" : {
+            "home": {
+                "title": "Barang Pembeli Adhoc",
+                "createLabel": "Mencipta Barang Pembeli Adhoc",
+                "createOrEditLabel": "Mencipta atau Menyunting Barang Pembeli Adhoc",
+                "search": "Pencarian Barang Pembeli Adhoc"
+            },
+            "created": "Barang Pembeli Adhoc baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Barang Pembeli Adhoc telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Barang Pembeli Adhoc telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Barang Pembeli Adhoc {{ id }}?"
+            },
+            "detail": {
+                "title": "Barang Pembeli Adhoc"
+            },
+            "itemName": "Nama Barang",
+            "itemDescription": "Penerangan Barang",
+            "quantity": "Kuantiti",
+            "unitPrice": "Harga unit",
+            "itemType": "Jenis barang",
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai"
+        }
+    }
+}

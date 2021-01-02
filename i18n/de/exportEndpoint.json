@@ -1,0 +1,28 @@
+{
+  "ezyprocureApp": {
+    "exportEndpoint": {
+      "apiKey": "API-Schlüssel",
+      "authEndpoint": "Auth Endpoint",
+      "authHeaderName": "Auth Header Name",
+      "authType": "Authentifizierungstyp",
+      "created": "Ein neuer Export-Endpunkt wird mit dem Bezeichner {{param}} erstellt.",
+      "delete": {
+        "question": "Möchten Sie den Export-Endpunkt {{id}} wirklich löschen?"
+      },
+      "deleted": "Ein Export-Endpunkt wird mit dem Bezeichner {{param}} gelöscht.",
+      "detail": {
+        "title": "Endpunkt exportieren"
+      },
+      "endPoint": "Endpunkt",
+      "home": {
+        "createLabel": "Erstellen Sie einen neuen Exportendpunkt",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie einen Exportendpunkt",
+        "title": "Endpunkte exportieren"
+      },
+      "password": "Passwort",
+      "requestType": "Anfragetyp",
+      "updated": "Ein Export-Endpunkt wird mit dem Bezeichner {{param}} aktualisiert.",
+      "userName": "Nutzername"
+    }
+  }
+}

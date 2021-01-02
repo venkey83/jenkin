@@ -1,0 +1,27 @@
+{
+  "ezyprocureApp": {
+    "bank": {
+      "bankCode": "Bankleitzahl",
+      "bankName": "Bank Name",
+      "created": "Eine neue Bank wird mit dem Bezeichner {{param}} erstellt.",
+      "createdDate": "Erstellungsdatum",
+      "delete": {
+        "question": "Möchten Sie die Bank {{id}} wirklich löschen?"
+      },
+      "deleted": "A Bank is deleted with identifier {{ param }}_DE",
+      "detail": {
+        "title": "Bank"
+      },
+      "fastParticipatingBank": "Schnell teilnehmende Bank",
+      "home": {
+        "createLabel": "Erstellen Sie eine neue Bank",
+        "createOrEditLabel": "Erstellen oder bearbeiten Sie eine Bank",
+        "search": "Suche nach Bank",
+        "title": "Banken"
+      },
+      "modifiedDate": "Änderungsdatum",
+      "swiftCode": "SWIFT-Code",
+      "updated": "Eine Bank wird mit der Kennung {{param}} aktualisiert"
+    }
+  }
+}

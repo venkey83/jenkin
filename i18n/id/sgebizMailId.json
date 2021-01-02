@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "sgebizMailId" : {
+            "home": {
+                "title": "Id Email Sgebiz",
+                "createLabel": "Buat Id Email Sgebiz baru",
+                "createOrEditLabel": "Buat atau edit Id Email Sgebiz"
+            },
+            "created": "Id Email Sgebiz baru dibuat dengan identifier {{ param }}",
+            "updated": "Id Sgebiz Mail diperbarui dengan identifier {{ param }}",
+            "deleted": "Id Email Sgebiz dihapus dengan identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Id Email Sgebiz {{ id }}?"
+            },
+            "detail": {
+                "title": "Id Email Sgebiz"
+            },
+            "name": "Nama",
+            "mailId": "Id Email",
+            "createdDate": "Tanggal dibuat",
+            "modifiedDate": "Tanggal diubah",
+            "deletionToken": "Token Terhapus"
+        }
+    }
+}

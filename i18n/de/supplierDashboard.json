@@ -1,0 +1,19 @@
+{
+  "ezyprocureApp": {
+    "supplierDashboard": {
+      "adhocPo": "Adhoc PO",
+      "cancelPORequest": "Bestellung stornieren",
+      "debitNotes": "Lastschrift",
+      "generateCreditNote": "Gutschrift erstellen",
+      "home": {
+        "dashboard": "Instrumententafel",
+        "transactionSummary": "Transaktions zusammenfassung"
+      },
+      "invoicePendingProcess": "Rechnung ausstehend",
+      "priceApprovalPendingAcceptedView": "Preisgenehmigung ausstehend / akzeptierte Ansicht",
+      "processOrder": "Prozessauftrag",
+      "requirementPendingPO": "Anforderung ausstehende Bestellung",
+      "uploadSIPInvoices": "Laden Sie SIP-Rechnungen hoch"
+    }
+  }
+}

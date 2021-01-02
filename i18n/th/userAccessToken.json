@@ -1,0 +1,23 @@
+{
+  "ezyprocureApp": {
+    "userAccessToken": {
+      "home": {
+        "title": "Auth Tokens",
+        "createLabel": "สร้าง Auth Tokens",
+        "createOrEditLabel": "สร้างหรือแก้ไข Auth Tokens"
+      },
+      "created": "Auth Tokens ถูกสร้างด้วย {{ param }}",
+      "updated": "Auth Tokens ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Auth Tokens ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Auth Tokens {{ id }}?"
+      },
+      "detail": {
+        "title": "Auth Tokens"
+      },
+      "token": "Token",
+      "createdDate": "Created Date",
+      "user": "User"
+    }
+  }
+}

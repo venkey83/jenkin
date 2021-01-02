@@ -1,0 +1,33 @@
+{
+    "ezyprocureApp": {
+        "paymentApprovalRequest" : {
+            "home": {
+                "title": "Permintaan Kelulusan Pembayaran",
+                "createLabel": "Mencipta Permintaan Kelulusan Pembayaran",
+                "createOrEditLabel": "Mencipta atau Menyunting Permintaan Kelulusan Pembayaran",
+                "search": "Pencarian Permintaan Kelulusan Pembayaran"
+            },
+            "created": "Permintaan Kelulusan Pembayaran baru telah dicipta dengan pengecam {{ param }}",
+            "updated": "Permintaan Kelulusan Pembayaran telah dikemas kini dengan pengecam {{ param }}",
+            "deleted": "Permintaan Kelulusan Pembayaran telah dihapuskan dengan pengecam {{ param }}",
+            "delete": {
+                "question": "Adakah anda pasti ingin Menghapus Permintaan Kelulusan Pembayaran {{ id }}?"
+            },
+            "detail": {
+                "title": "Permintaan Kelulusan Pembayaran"
+            },
+            "createdDate": "Tarikh Penciptaan",
+            "modifiedDate": "Tarikh Diubah Suai",
+            "approvedDate": "Approved Date_MS",
+            "deletionToken": "Token Pemadaman",
+            "paymentApprovalStatus": "Status Kelulusan Pembayaran",
+            "approvalLevel": "Tahap Kelulusan",
+            "paymentApprovalRequestNumber": "Nombor Permintaan Kelulusan Pembayaran",
+            "batchPaymentReferenceNumber": "Batch Payment Reference Number_MS",
+            "paymentType": "Jenis Bayaran",
+            "approvalNeededFrom": "Kelulusan Diperlukan Dari",
+            "buyerUser": "Pengguna Pembeli",
+            "payment": "Bayaran"
+        }
+    }
+}

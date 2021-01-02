@@ -1,0 +1,29 @@
+{
+    "ezyprocureApp": {
+        "buyerSupplierMapping" : {
+            "home": {
+                "title": "Pemetaan Pemasok Pembeli",
+                "createLabel": "Buat Pemetaan Pemasok Pembeli baru",
+                "createOrEditLabel": "Buat atau edit Pemetaan Pemasok Pembeli ",
+                "search": "Cari Pemetaan Pemasok Pembeli "
+            },
+            "created": "Pemetaan Pemasok Pembeli baru dibuat dengan Identifier {{ param }}",
+            "updated": "Pemetaan Pemasok Pembeli diperbarui dengan Identifier {{ param }}",
+            "deleted": "Pemetaan Pemasok Pembeli dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pemetaan Pemasok Pembeli {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Pemasok Pembeli"
+            },
+            "isActive": "Aktif",
+            "updatorId": "Id Updator ",
+            "supplierIdentificationCode": "Kode Identifikasi Pemasok",
+            "buyerIdentificationCode": "Kode Identifikasi Pembeli",
+            "supplierEmail": "Email Pemasok",
+            "buyer": "Pembeli",
+            "supplier": "Pemasok",
+            "isContract":"Kontrak"
+        }
+    }
+}

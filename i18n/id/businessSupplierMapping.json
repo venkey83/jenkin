@@ -1,0 +1,25 @@
+{
+    "ezyprocureApp": {
+        "businessSupplierMapping" : {
+            "home": {
+                "title": "Pemetaan Pemasok Bisnis",
+                "createLabel": "Buat Pemetaan Pemasok Bisnis baru",
+                "createOrEditLabel": "Buat atau Edit Pemetaan Pemasok Bisnis ",
+                "search": "Mencari Pemetaan Pemasok Bisnis"
+            },
+            "created": "Pemetaan Pemasok Bisnis baru dibuat dengan Identifier {{ param }}",
+            "updated": "Pemetaan Pemasok Bisnis diperbarui dengan Identifier {{ param }}",
+            "deleted": "Pemetaan Pemasok Bisnis dihapus dengan Identifier {{ param }}",
+            "delete": {
+                "question": "Anda yakin ingin menghapus Pemetaan Pemasok Bisnis {{ id }}?"
+            },
+            "detail": {
+                "title": "Pemetaan Pemasok Bisnis"
+            },	
+            "createdDate": "Tanggal Dibuat",
+            "modifiedDate": "Tanggal Diubah",
+            "buyerBusiness": "Bisnis Pembeli",
+            "supplier": "Pemasok"
+        }
+    }
+}

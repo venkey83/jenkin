@@ -1,0 +1,21 @@
+{
+    "ezyprocureApp": {
+        "ProcessOrderStatus" : {
+            "null": "",
+            "ALL": "ALL",
+            "PENDING": "PENDING",
+            "SUPPLIER_APPROVED": "SUPPLIER APPROVED",
+            "SUPPLIER_DEMAND_MODIFIED": "SUPPLIER DEMAND MODIFIED",
+            "SUPPLIER_UNABLE_TO_MEET_DEMANDS": "SUPPLIER UNABLE TO MEET DEMANDS",
+            "BUYER_APPROVED": "BUYER APPROVED",
+            "BUYER_REJECTED": "BUYER REJECTED",
+            "REQUIREMENT_PENDING_PO": "REQUIREMENT PENDING PO",
+            "BUYER_CANCELLED_PR": "BUYER CANCELLED PR",
+            "SUPPLIER_REJECTED_PR": "SUPPLIER REJECTED PR",
+            "ADHOC_PO_ON_BOARD": "ADHOC PO ON BOARD",
+            "ADHOC_PO_OFF_BOARD": "ADHOC PO OFF BOARD",
+            "ADHOC_PO_ON_BOARD_PENDING": "ADHOC PO ON BOARD PENDING",
+            "PURCHASE_REQUEST": "PURCHASE REQUEST"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity Promotion.
+    -->
+    <changeSet author="jhipster" id="20170314172928-3">
+        <addForeignKeyConstraint baseColumnNames="free_item_id"
+                                 baseTableName="promotion"
+                                 constraintName="fk_free_item_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+    </changeSet>
+    <changeSet author="EzyProcure" id="20170314172928-4">
+        <addForeignKeyConstraint baseColumnNames="promotion_item_id"
+                                 baseTableName="promotion"
+                                 constraintName="fk_promotion_item_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="items"/>
+    </changeSet>
+</databaseChangeLog>
