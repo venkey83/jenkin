@@ -1,9 +1,0 @@
-{
-    "activate": {
-        "title": "啟用",
-        "messages": {
-            "success": "<strong>您的帳號已被啟用。</strong> 請 <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">登入</a>.",
-            "error": "<strong>查無此帳號，</strong> 請先完成完成帳號註冊。"
-        }
-    }
-}

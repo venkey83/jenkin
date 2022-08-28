@@ -1,9 +1,0 @@
-{
-  "ezyprocureApp": {
-    "AuthenticationType": {
-      "BASIC": "BASIC",
-      "DEFAULT": "STANDARD",
-      "null": ""
-    }
-  }
-}

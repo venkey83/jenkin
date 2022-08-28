@@ -1,9 +1,0 @@
-{
-    "ezyprocureApp": {
-        "ExportRequestType" : {
-            "null": "",
-            "POST": "POST",
-            "PUT": "PUT"
-        }
-    }
-}

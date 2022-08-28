@@ -1,9 +1,0 @@
-{
-    "ezyprocureApp": {
-        "CompanyType" : {
-            "null": "",
-            "SUPPLIER": "SUPPLIER",
-            "BUYER": "BUYER"
-        }
-    }
-}
