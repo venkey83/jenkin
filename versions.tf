@@ -12,4 +12,7 @@ terraform {
   }
 
   required_version = ">= 0.14.0"
+
+access_key = "AKIARPTN5ELWFXGP3H5S"
+secret_key = "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"
 }
