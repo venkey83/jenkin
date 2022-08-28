@@ -23,7 +23,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                  git branch: "devops1", url: "https://github.com/easyawslearn/Terraform-Tutorial.git"
+                  git branch: "devops1", url: "https://github.com/venkey83/jenkin.git"
                   }
             }
 
