@@ -1,4 +1,4 @@
-/*
+
 resource "aws_vpc" "vpc" {
 cidr_block = "${var.vpc_cidr}"
 enable_dns_hostnames = "${var.dnshostname}"
@@ -7,7 +7,7 @@ Name = "${var.vpc_name}"
 }
 }
 
-
+/*
 data "aws_availability_zones" "available" {
   state = "available"
 }
