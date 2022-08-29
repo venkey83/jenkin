@@ -46,7 +46,7 @@ pipeline {
                 sh """#!/bin/bash
                   terraform workspace show | grep ${environment} ; if [ "\$?" == 0 ];then echo "workspace already exists ";else terraform workspace new ${environment}; fi;
                 echo "INFO: Terraform -> Working for ${environment}";
-                terraform plan -var-file=dev.tfvars -var region=${region} -out tfplan;
+                terraform plan -var-file=dev.tfvars -out tfplan;
                 #terraform plan -destroy -var-file=dev.tfvars -out tfplan;
                 terraform show -no-color tfplan > tfplan.txt;
                 """
