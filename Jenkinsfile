@@ -24,7 +24,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                  git branch: "devops1", url: "https://github.com/venkey83/jenkin.git"
+                  git branch: "master", url: "https://github.com/venkey83/jenkin.git"
                   }
             }
 
@@ -44,7 +44,7 @@ pipeline {
                       -lock=true
                 '''
                 sh """#!/bin/bash
-                  cd Devops-project1 ; terraform workspace show | grep ${environment} ; if [ "\$?" == 0 ];then echo "workspace already exists ";else terraform workspace new ${environment}; fi;
+                  terraform workspace show | grep ${environment} ; if [ "\$?" == 0 ];then echo "workspace already exists ";else terraform workspace new ${environment}; fi;
                 echo "INFO: Terraform -> Working for ${environment}";
                 terraform plan -var region=${region} -var-file=${env}.tfvars -out tfplan -lock=true;
                 terraform show -no-color tfplan > tfplan.txt;
@@ -60,7 +60,7 @@ pipeline {
 
           steps {
               script {
-                    def plan = readFile 'Devops-project1/tfplan.txt'
+                    def plan = readFile 'tfplan.txt'
                     input message: "Do you want to apply the plan?",
                     parameters: [text(name: 'Plan', description: 'Please review the plan', defaultValue: plan)]
               }
@@ -69,7 +69,7 @@ pipeline {
 
         stage('Apply') {
             steps {
-                sh "cd Devops-project1 ; terraform apply -input=false tfplan "
+                sh "terraform apply -input=false tfplan "
             }
         }
       
