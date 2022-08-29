@@ -68,9 +68,9 @@ pipeline {
           }
       }
         
-         stage('Destroy') {
+         stage('Apply') {
             steps {
-                sh "terraform destroy tfplan "
+                sh "cd Devops-project1 ; terraform apply -input=false tfplan "
             }
         }
       
