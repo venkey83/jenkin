@@ -24,14 +24,13 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                  git branch: "devops1", url: "https://github.com/venkey83/Terraform-Tutorial.git"
+                  git branch: "devops1", url: "https://github.com/venkey83/jenkin.git"
                   }
             }
 
         stage('Plan') {
             steps {
                 sh '''
-                  cd Devops-project1 ;
                   terraform init \
                       -upgrade=true \
                       -get=true \
