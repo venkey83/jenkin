@@ -1,5 +1,5 @@
 provider "aws" {
-region = "ap-southeast-1"
+region = "ap-northeast-1"
 
 /*
 assume_role {
