@@ -1,0 +1,30 @@
+variable "vpc_cidr" {}
+variable "dnshostname" {} 
+variable "vpc_name" {}
+variable "public_subnet1_cidr" {}
+variable "public_subnet2_cidr" {}
+variable "auto_publicip_assign" {}
+variable "private_subnet1_cidr" {}
+variable "private_subnet2_cidr" {}
+variable "public_subnet1_name" {}
+variable "public_subnet2_name" {}
+variable "private_subnet1_name" {}
+variable "private_subnet2_name" {}
+variable "igw_name" {}
+variable "public_routetable_name" {}
+variable "private_routetable_name" {}
+
+#########server variable#########
+variable "instance_type" {}
+variable "ami" {}
+variable "keyname" {}
+variable "ec2_termination_protection" {}
+variable "detail_monitoring" {}
+variable "iam_role" {}
+variable "userdata" {}
+variable "root_volume_encryption" {}
+variable "root_volume_name" {}
+variable "root_volume_size" {}
+variable "root_volume_type" {}
+variable "ec2_name" {}
+#variable "ec2_subnet" {}
