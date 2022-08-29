@@ -7,7 +7,7 @@ Name = "${var.vpc_name}"
 }
 }
 
-/*
+
 data "aws_availability_zones" "available" {
   state = "available"
 }
@@ -116,4 +116,4 @@ count = "2"
 
 #resource "aws_security_group" "sg"
 
-*/
+
