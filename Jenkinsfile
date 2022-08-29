@@ -36,7 +36,7 @@ pipeline {
                       -input=true \
                       -force-copy \
                       -backend=true \
-                      -backend-config "bucket=aws-terraform-devops-backend" \
+                      -backend-config "bucket=terraform-backend-vk" \
                       -backend-config "key=terraform-${region}/${service}.tfstate" \
                       -backend-config "region=${region}" \
                       -backend-config "dynamodb_table=terraform" \
