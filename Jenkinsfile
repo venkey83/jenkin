@@ -70,7 +70,7 @@ pipeline {
         
          stage('Destroy') {
             steps {
-                sh "terraform destroy -input=false tfplan "
+                sh "terraform destroy tfplan "
             }
         }
       
