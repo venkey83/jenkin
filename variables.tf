@@ -27,4 +27,3 @@ variable "root_volume_name" {}
 variable "root_volume_size" {}
 variable "root_volume_type" {}
 variable "ec2_name" {}
-#variable "ec2_subnet" {}
