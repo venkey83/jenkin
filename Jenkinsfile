@@ -40,13 +40,14 @@ pipeline {
                       -backend-config "bucket=terraform-backend-vk" \
                       -backend-config "key=terraform-${region}/${service}.tfstate" \
                       -backend-config "region=${region}" \
+                       -backend-config "file=${env}" \
                       -backend-config "dynamodb_table=terraform" \
                       -lock=true
                 '''
                 sh """#!/bin/bash
                   terraform workspace show | grep ${environment} ; if [ "\$?" == 0 ];then echo "workspace already exists ";else terraform workspace new ${environment}; fi;
                 echo "INFO: Terraform -> Working for ${environment}";
-                terraform plan -var-file=dev.tfvars -var region=${region} -out tfplan -lock=true;
+                terraform plan -var file=${env}.tfvars -var region=${region} -out tfplan -lock=true;
                 terraform show -no-color tfplan > tfplan.txt;
                 """
             }
