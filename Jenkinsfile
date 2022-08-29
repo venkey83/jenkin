@@ -70,7 +70,7 @@ pipeline {
         
          stage('Apply') {
             steps {
-                sh "cd Devops-project1 ; terraform apply -input=false tfplan "
+                sh "terraform apply -input=false tfplan "
             }
         }
       
