@@ -57,6 +57,10 @@ pipeline {
               not {
                   equals expected: true, actual: params.autoApprove
               }
+            options {
+                timestamps ()
+             ansiColor('xterm')
+            }  
           }
 
           steps {
