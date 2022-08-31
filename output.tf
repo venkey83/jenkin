@@ -15,6 +15,12 @@ output "instance_private_ip" {
 }
 */
 
+
+output "security_group_id" {
+ description = "ID of the vpc-sg"
+  value = aws_security_group.allow_tls.id
+}
+
 output "vpc_id" {
   description = "ID of the vpc"
   value       = aws_vpc.vpc.id
