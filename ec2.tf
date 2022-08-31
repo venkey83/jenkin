@@ -1,7 +1,7 @@
 data "aws_subnets" "subnet" {
   filter {
     name   = "tag:Name"
-    values = ["dev-pubsub*"] # insert values here
+    values = ["dev-pubsub1"] # insert values here
   }
 }
 
@@ -9,13 +9,12 @@ data "aws_subnets" "subnet" {
 
 
 resource "aws_instance" "ec2" {
-  for_each      = toset(data.aws_subnets.subnet.ids)
   instance_type          = "${var.instance_type}"
   ami                    =  "${var.ami}"
   #key_name               = "${var.keyname}"
   #subnet_id              = "${var.ec2_subnet}"
   #subnet_id              = "${aws_subnet.public_subnet1.id}"
-  subnet_id              = "each.value"
+  subnet_id              = "data.aws_subnets.subnet.id"
   disable_api_termination = "${var.ec2_termination_protection}"
    #vpc_security_group_ids = "${[aws_security_group.primary-default.id]}"
   #monitoring		 = "${var.detail_monitoring}"
