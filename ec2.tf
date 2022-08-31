@@ -17,7 +17,7 @@ resource "aws_instance" "ec2" {
   #subnet_id              = "${aws_subnet.public_subnet1.id}"
   subnet_id              = "each.value"
   disable_api_termination = "${var.ec2_termination_protection}"
-   vpc_security_group_ids = "${[aws_security_group.primary-default.id]}"
+   #vpc_security_group_ids = "${[aws_security_group.primary-default.id]}"
   #monitoring		 = "${var.detail_monitoring}"
   iam_instance_profile   = "${var.iam_role}"
   #user_data		= "${file("${var.userdata}")}"
