@@ -17,7 +17,7 @@ private_routetable_name = "dev-prt-rt"
 
 #########server variable#########
 instance_type = "t3.small"
-ami = "ami-04ff9e9b51c1f62ca"
+ami = "ami-0f36dcfcc94112ea1"
 keyname = "innovative-dev"
 ec2_termination_protection = "true"
 detail_monitoring = "false"
