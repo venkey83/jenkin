@@ -49,6 +49,7 @@ pipeline {
                 terraform plan -var-file=dev.tfvars -out tfplan -lock=true;
                 #terraform plan -destroy -var-file=dev.tfvars -out tfplan;
                 terraform show -no-color tfplan > tfplan.txt;
+                             ansiColor('xterm')
                 """
             }
         }
@@ -57,10 +58,6 @@ pipeline {
               not {
                   equals expected: true, actual: params.autoApprove
               }
-            options {
-                timestamps ()
-             ansiColor('xterm')
-            }  
           }
 
           steps {
